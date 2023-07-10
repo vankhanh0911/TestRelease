@@ -3,22 +3,22 @@ Pod::Spec.new do |spec|
 
 
   spec.name         = "AntsomiFramework"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "A short description of AntsomiFramework."
 
   spec.description  = <<-DESC
               This is a framework created by Antsomi for using Antsomi CDP in app development
                    DESC
 
-  spec.homepage     = "http://EXAMPLE/AntsomiFramework"
+  spec.homepage     = "https://github.com/Hiuming/TestRelease"
 
 
 
-  spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  spec.license      = { :type => "MIT", :file => "LICENSE" }
 
   spec.author             = { "Hieu Huynh Minh" => "hieuhm@antsomi.com" }
 
-   spec.platform     = :ios
+   spec.platform     = :ios, "12.0"
   # spec.platform     = :ios, "5.0"
 
   #  When using multiple platforms
@@ -29,7 +29,7 @@ Pod::Spec.new do |spec|
 
 
 
-  spec.source       = { :git => "http://EXAMPLE/AntsomiFramework.git", :tag => "v{spec.version}" }
+  spec.source       = { :git => "https://github.com/Hiuming/TestRelease.git", :tag => "#{spec.version}" }
   spec.ios.vendored_frameworks = 'AntsomiFramework.framework'
 
 
