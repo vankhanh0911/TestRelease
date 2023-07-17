@@ -259,7 +259,6 @@ SWIFT_CLASS("_TtC16AntsomiFramework7Antsomi")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-
 @class UNNotificationRequest;
 @class UNNotificationContent;
 
@@ -282,11 +281,12 @@ SWIFT_CLASS("_TtC16AntsomiFramework31AntsomiUNUserNotificationCenter")
 @end
 
 
-SWIFT_CLASS("_TtC16AntsomiFramework15SocketIOManager")
-@interface SocketIOManager : NSObject
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+SWIFT_CLASS("_TtC16AntsomiFramework8AppInbox")
+@interface AppInbox : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
+
+
 
 
 
