@@ -3,7 +3,7 @@ Pod::Spec.new do |spec|
 
 
   spec.name         = "AntsomiFramework"
-  spec.version      = "0.0.3"
+  spec.version      = "0.0.4"
   spec.summary      = "A short description of AntsomiFramework."
 
   spec.description  = <<-DESC
@@ -18,7 +18,7 @@ Pod::Spec.new do |spec|
 
   spec.author             = { "Hieu Huynh Minh" => "hieuhm@antsomi.com" }
 
-   spec.platform     = :ios, "12.1"
+   spec.platform     = :ios, "12.0"
   # spec.platform     = :ios, "5.0"
 
   #  When using multiple platforms
@@ -30,7 +30,7 @@ Pod::Spec.new do |spec|
 
 
   spec.source       = { :git => "https://github.com/Hiuming/TestRelease.git", :tag => "#{spec.version}" }
-  spec.ios.vendored_frameworks = 'AntsomiFramework.framework'
+  spec.ios.vendored_frameworks = 'AntsomiFramework.xcframework'
 
 
   #spec.source_files  = "Classes", "Classes/**/*.{h,m}"

@@ -1,0 +1,95 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)
+// swift-module-flags: -target arm64-apple-ios12.1 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name AntsomiFramework
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+@_exported import AntsomiFramework
+import Foundation
+import SocketIO
+import Swift
+import UIKit
+import UserNotifications
+import _Concurrency
+import _StringProcessing
+@objc @_inheritsConvenienceInitializers open class AntsomiNotificationService : UserNotifications.UNNotificationServiceExtension, UserNotifications.UNUserNotificationCenterDelegate {
+  open var appGroupsId: Swift.String? {
+    get
+  }
+  @objc override dynamic open func didReceive(_ request: UserNotifications.UNNotificationRequest, withContentHandler contentHandler: @escaping (UserNotifications.UNNotificationContent) -> Swift.Void)
+  @objc override dynamic open func serviceExtensionTimeWillExpire()
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class AntsomiUNUserNotificationCenter : UIKit.UIResponder, UIKit.UIApplicationDelegate, UserNotifications.UNUserNotificationCenterDelegate {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init()
+  @objc deinit
+  @_Concurrency.MainActor(unsafe) open func setActionForUrl(_ actionForUrl: @escaping (Swift.String) -> Swift.Void)
+  @_Concurrency.MainActor(unsafe) open func setActionForDismiss(_ actionForDismiss: @escaping () -> Swift.Void)
+  @_Concurrency.MainActor(unsafe) open func setActionForDefault(_ actionForDefault: @escaping () -> Swift.Void)
+  @_Concurrency.MainActor(unsafe) open func setActionForCustomDefault(_ actionForCustomDefault: @escaping (Swift.String) -> Swift.Void)
+  @_Concurrency.MainActor(unsafe) @objc public func userNotificationCenter(_ center: UserNotifications.UNUserNotificationCenter, willPresent notification: UserNotifications.UNNotification, withCompletionHandler completionHandler: @escaping (UserNotifications.UNNotificationPresentationOptions) -> Swift.Void)
+  @_Concurrency.MainActor(unsafe) @objc public func userNotificationCenter(_ center: UserNotifications.UNUserNotificationCenter, didReceive response: UserNotifications.UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Swift.Void)
+}
+public protocol AppInboxDelegate : AnyObject {
+  func onNewMessage(_ newDataArray: [AntsomiFramework.InboxItem])
+}
+@objc @_inheritsConvenienceInitializers open class AppInbox : ObjectiveC.NSObject {
+  weak public var delegate: AntsomiFramework.AppInboxDelegate?
+  @objc override dynamic public init()
+  public enum ModifyAction : Swift.String {
+    case read
+    case delete
+    public init?(rawValue: Swift.String)
+    public typealias RawValue = Swift.String
+    public var rawValue: Swift.String {
+      get
+    }
+  }
+  public func establishConnection()
+  public func getMessage() -> [AntsomiFramework.InboxItem]
+  public func getLabels() -> [Swift.String]
+  public func countUnreadMessage(completion: @escaping ((Swift.Int) -> Swift.Void))
+  public func markAllAsRead()
+  public func modifyMessageStatus(_ messageID: Swift.String, action: AntsomiFramework.AppInbox.ModifyAction)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers public class Antsomi : ObjectiveC.NSObject {
+  public static let SDK_VERSION: Swift.String
+  public static let appInbox: AntsomiFramework.AppInbox
+  public struct Configuration {
+    public let portalId: Swift.String
+    public let propsId: Swift.String
+    public let appGroupId: Swift.String
+    public init(portalId: Swift.String, propsId: Swift.String, appGroupId: Swift.String)
+  }
+  public var debug: Swift.Bool
+  public var logger: ((Swift.String) -> Swift.Void)?
+  public func log(_ str: Swift.String)
+  public static var shared: AntsomiFramework.Antsomi
+  public func activate(with config: AntsomiFramework.Antsomi.Configuration)
+  public func getUid() -> Swift.String
+  public func trackAppLaunch()
+  public func registerForNotification(_ deviceToken: Foundation.Data)
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers public class UserDefaultsManager : ObjectiveC.NSObject {
+  public static var userDefaults: Foundation.UserDefaults?
+  @objc override dynamic public init()
+  @objc deinit
+}
+public struct InboxItem : Swift.Decodable {
+  public var messageId: Swift.String
+  public var heading: Swift.String
+  public var content: Swift.String
+  public var imageURL: Foundation.URL?
+  public var landingPage: Foundation.URL?
+  public var icon: Foundation.URL?
+  public var ctime: Swift.String
+  public var status: Swift.String
+  public var tags: [Swift.String]
+  public init?(json: [Swift.String : Any]) throws
+  public init(from decoder: Swift.Decoder) throws
+}
+extension AntsomiFramework.AppInbox.ModifyAction : Swift.Equatable {}
+extension AntsomiFramework.AppInbox.ModifyAction : Swift.Hashable {}
+extension AntsomiFramework.AppInbox.ModifyAction : Swift.RawRepresentable {}
