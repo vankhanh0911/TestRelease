@@ -13310,6 +13310,31 @@
                 "mangledName": "$ss8SendableP"
               }
             ]
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16AntsomiFramework9InboxItemV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s16AntsomiFramework9InboxItemV6encode2toys7Encoder_p_tKF",
+            "moduleName": "AntsomiFramework",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Struct",
@@ -13326,6 +13351,13 @@
             "printedName": "Decodable",
             "usr": "s:Se",
             "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
           }
         ]
       },
@@ -17409,777 +17441,777 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/minhhieu\/Flutter\/TestFR\/at.iossdkframework\/AntsomiFramework\/Antsomi\/AppInbox.swift",
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/AppInbox.swift",
       "kind": "StringLiteral",
       "offset": 297,
       "length": 24,
       "value": "\"appInbox_khanhhv_33167\""
     },
     {
-      "filePath": "\/Users\/minhhieu\/Flutter\/TestFR\/at.iossdkframework\/AntsomiFramework\/Antsomi\/AppInbox.swift",
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/AppInbox.swift",
       "kind": "StringLiteral",
       "offset": 382,
       "length": 7,
       "value": "\"33167\""
     },
     {
-      "filePath": "\/Users\/minhhieu\/Flutter\/TestFR\/at.iossdkframework\/AntsomiFramework\/Antsomi\/AppInbox.swift",
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/AppInbox.swift",
       "kind": "StringLiteral",
       "offset": 399,
       "length": 9,
       "value": "\"khanhhv\""
     },
     {
-      "filePath": "\/Users\/minhhieu\/Flutter\/TestFR\/at.iossdkframework\/AntsomiFramework\/Antsomi\/AppInbox.swift",
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/AppInbox.swift",
       "kind": "Array",
       "offset": 625,
       "length": 9,
       "value": "[\"tatca\"]"
     },
     {
-      "filePath": "\/Users\/minhhieu\/Flutter\/TestFR\/at.iossdkframework\/AntsomiFramework\/Antsomi\/AppInbox.swift",
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/AppInbox.swift",
       "kind": "StringLiteral",
       "offset": 982,
       "length": 6,
       "value": "\"read\""
     },
     {
-      "filePath": "\/Users\/minhhieu\/Flutter\/TestFR\/at.iossdkframework\/AntsomiFramework\/Antsomi\/AppInbox.swift",
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/AppInbox.swift",
       "kind": "StringLiteral",
       "offset": 1011,
       "length": 8,
       "value": "\"delete\""
     },
     {
-      "filePath": "\/Users\/minhhieu\/Flutter\/TestFR\/at.iossdkframework\/AntsomiFramework\/Antsomi\/AppInbox.swift",
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/AppInbox.swift",
       "kind": "StringLiteral",
       "offset": 982,
       "length": 6,
       "value": "\"read\""
     },
     {
-      "filePath": "\/Users\/minhhieu\/Flutter\/TestFR\/at.iossdkframework\/AntsomiFramework\/Antsomi\/AppInbox.swift",
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/AppInbox.swift",
       "kind": "StringLiteral",
       "offset": 1011,
       "length": 8,
       "value": "\"delete\""
     },
     {
-      "filePath": "\/Users\/minhhieu\/Flutter\/TestFR\/at.iossdkframework\/AntsomiFramework\/Antsomi\/AppInbox.swift",
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/AppInbox.swift",
       "kind": "IntegerLiteral",
       "offset": 2356,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/minhhieu\/Flutter\/TestFR\/at.iossdkframework\/AntsomiFramework\/Antsomi\/AppInbox.swift",
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/AppInbox.swift",
       "kind": "IntegerLiteral",
       "offset": 2372,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/minhhieu\/Flutter\/TestFR\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "StringLiteral",
       "offset": 120,
       "length": 7,
       "value": "\"1.0.0\""
     },
     {
-      "filePath": "\/Users\/minhhieu\/Flutter\/TestFR\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "StringLiteral",
       "offset": 169,
       "length": 24,
       "value": "\"AnstomiDeviceTokenFlag\""
     },
     {
-      "filePath": "\/Users\/minhhieu\/Flutter\/TestFR\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "StringLiteral",
       "offset": 236,
       "length": 25,
       "value": "\"AnstomiIsSubscribedFlag\""
     },
     {
-      "filePath": "\/Users\/minhhieu\/Flutter\/TestFR\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "StringLiteral",
       "offset": 303,
       "length": 18,
       "value": "\"AnstomiPortalKey\""
     },
     {
-      "filePath": "\/Users\/minhhieu\/Flutter\/TestFR\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "StringLiteral",
       "offset": 362,
       "length": 17,
       "value": "\"AnstomiPropsKey\""
     },
     {
-      "filePath": "\/Users\/minhhieu\/Flutter\/TestFR\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "StringLiteral",
       "offset": 409,
       "length": 12,
       "value": "\"AntsomiUid\""
     },
     {
-      "filePath": "\/Users\/minhhieu\/Flutter\/TestFR\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "BooleanLiteral",
       "offset": 881,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/minhhieu\/Flutter\/TestFR\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/RegisterDevice.swift",
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/RegisterDevice.swift",
       "kind": "StringLiteral",
       "offset": 292,
       "length": 5,
       "value": "\"apn\""
     },
     {
-      "filePath": "\/Users\/minhhieu\/Flutter\/TestFR\/at.iossdkframework\/AntsomiFramework\/Antsomi\/SocketIOManager.swift",
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/SocketIOManager.swift",
       "kind": "StringLiteral",
       "offset": 204,
       "length": 7,
       "value": "\"33167\""
     },
     {
-      "filePath": "\/Users\/minhhieu\/Flutter\/TestFR\/at.iossdkframework\/AntsomiFramework\/Antsomi\/SocketIOManager.swift",
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/SocketIOManager.swift",
       "kind": "StringLiteral",
       "offset": 236,
       "length": 9,
       "value": "\"khanhhv\""
     },
     {
-      "filePath": "\/Users\/minhhieu\/Flutter\/TestFR\/at.iossdkframework\/AntsomiFramework\/Antsomi\/SocketIOManager.swift",
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/SocketIOManager.swift",
       "kind": "StringLiteral",
       "offset": 314,
       "length": 28,
       "value": "\"wss:\/\/sandbox-ws.ants.tech\""
     },
     {
-      "filePath": "\/Users\/minhhieu\/Flutter\/TestFR\/at.iossdkframework\/AntsomiFramework\/Antsomi\/SocketIOManager.swift",
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/SocketIOManager.swift",
       "kind": "BooleanLiteral",
       "offset": 360,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/minhhieu\/Flutter\/TestFR\/at.iossdkframework\/AntsomiFramework\/Antsomi\/SocketIOManager.swift",
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/SocketIOManager.swift",
       "kind": "StringLiteral",
       "offset": 383,
       "length": 8,
       "value": "\"userId\""
     },
     {
-      "filePath": "\/Users\/minhhieu\/Flutter\/TestFR\/at.iossdkframework\/AntsomiFramework\/Antsomi\/SocketIOManager.swift",
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/SocketIOManager.swift",
       "kind": "StringLiteral",
       "offset": 399,
       "length": 10,
       "value": "\"portalId\""
     },
     {
-      "filePath": "\/Users\/minhhieu\/Flutter\/TestFR\/at.iossdkframework\/AntsomiFramework\/Antsomi\/SocketIOManager.swift",
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/SocketIOManager.swift",
       "kind": "StringLiteral",
       "offset": 419,
       "length": 5,
       "value": "\"EIO\""
     },
     {
-      "filePath": "\/Users\/minhhieu\/Flutter\/TestFR\/at.iossdkframework\/AntsomiFramework\/Antsomi\/SocketIOManager.swift",
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/SocketIOManager.swift",
       "kind": "StringLiteral",
       "offset": 425,
       "length": 3,
       "value": "\"4\""
     },
     {
-      "filePath": "\/Users\/minhhieu\/Flutter\/TestFR\/at.iossdkframework\/AntsomiFramework\/Antsomi\/SocketIOManager.swift",
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/SocketIOManager.swift",
       "kind": "BooleanLiteral",
       "offset": 449,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/minhhieu\/Flutter\/TestFR\/at.iossdkframework\/AntsomiFramework\/Antsomi\/SocketIOManager.swift",
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/SocketIOManager.swift",
       "kind": "BooleanLiteral",
       "offset": 467,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/minhhieu\/Flutter\/TestFR\/at.iossdkframework\/AntsomiFramework\/Antsomi\/SocketIOManager.swift",
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/SocketIOManager.swift",
       "kind": "BooleanLiteral",
       "offset": 481,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/minhhieu\/Flutter\/TestFR\/at.iossdkframework\/AntsomiFramework\/Antsomi\/SocketIOManager.swift",
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/SocketIOManager.swift",
       "kind": "BooleanLiteral",
       "offset": 501,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/minhhieu\/Flutter\/TestFR\/at.iossdkframework\/AntsomiFramework\/Antsomi\/SocketIOManager.swift",
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/SocketIOManager.swift",
       "kind": "StringLiteral",
       "offset": 116,
       "length": 15,
       "value": "\"AntsomiFramework.SocketIOManager\""
     },
     {
-      "filePath": "\/Users\/minhhieu\/Flutter\/TestFR\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/CDPEvent.swift",
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/CDPEvent.swift",
       "kind": "StringLiteral",
       "offset": 1379,
       "length": 6,
       "value": "\"json\""
     },
     {
-      "filePath": "\/Users\/minhhieu\/Flutter\/TestFR\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/CDPEvent.swift",
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/CDPEvent.swift",
       "kind": "StringLiteral",
       "offset": 2011,
       "length": 16,
       "value": "\"userproperties\""
     },
     {
-      "filePath": "\/Users\/minhhieu\/Flutter\/TestFR\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/CDPEvent.swift",
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/CDPEvent.swift",
       "kind": "StringLiteral",
       "offset": 2057,
       "length": 20,
       "value": "\"customerproperties\""
     },
     {
-      "filePath": "\/Users\/minhhieu\/Flutter\/TestFR\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/CDPEvent.swift",
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/CDPEvent.swift",
       "kind": "StringLiteral",
       "offset": 2011,
       "length": 16,
       "value": "\"userproperties\""
     },
     {
-      "filePath": "\/Users\/minhhieu\/Flutter\/TestFR\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/CDPEvent.swift",
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/CDPEvent.swift",
       "kind": "StringLiteral",
       "offset": 2057,
       "length": 20,
       "value": "\"customerproperties\""
     },
     {
-      "filePath": "\/Users\/minhhieu\/Flutter\/TestFR\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPClient.swift",
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPClient.swift",
       "kind": "StringLiteral",
       "offset": 149,
       "length": 51,
       "value": "\"https:\/\/sandbox-antalyser.antsomi.com\/webpush\/api\""
     },
     {
-      "filePath": "\/Users\/minhhieu\/Flutter\/TestFR\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPClient.swift",
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPClient.swift",
       "kind": "StringLiteral",
       "offset": 243,
       "length": 28,
       "value": "\"https:\/\/sandbox-a.cdp.asia\""
     },
     {
-      "filePath": "\/Users\/minhhieu\/Flutter\/TestFR\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPClient.swift",
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPClient.swift",
       "kind": "IntegerLiteral",
       "offset": 315,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/minhhieu\/Flutter\/TestFR\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPClient.swift",
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPClient.swift",
       "kind": "StringLiteral",
       "offset": 367,
       "length": 9,
       "value": "\"Antsomi\""
     },
     {
-      "filePath": "\/Users\/minhhieu\/Flutter\/TestFR\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/InboxItem.swift",
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/InboxItem.swift",
       "kind": "StringLiteral",
-      "offset": 167,
+      "offset": 165,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/minhhieu\/Flutter\/TestFR\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/InboxItem.swift",
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/InboxItem.swift",
       "kind": "StringLiteral",
-      "offset": 203,
+      "offset": 201,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/minhhieu\/Flutter\/TestFR\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/InboxItem.swift",
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/InboxItem.swift",
       "kind": "StringLiteral",
-      "offset": 239,
+      "offset": 237,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/minhhieu\/Flutter\/TestFR\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/InboxItem.swift",
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/InboxItem.swift",
       "kind": "StringLiteral",
-      "offset": 286,
+      "offset": 284,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/minhhieu\/Flutter\/TestFR\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/InboxItem.swift",
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/InboxItem.swift",
       "kind": "StringLiteral",
-      "offset": 337,
+      "offset": 335,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/minhhieu\/Flutter\/TestFR\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/InboxItem.swift",
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/InboxItem.swift",
       "kind": "StringLiteral",
-      "offset": 381,
+      "offset": 379,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/minhhieu\/Flutter\/TestFR\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/InboxItem.swift",
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/InboxItem.swift",
       "kind": "StringLiteral",
-      "offset": 416,
+      "offset": 414,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/minhhieu\/Flutter\/TestFR\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/InboxItem.swift",
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/InboxItem.swift",
       "kind": "StringLiteral",
-      "offset": 451,
+      "offset": 449,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/minhhieu\/Flutter\/TestFR\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/InboxItem.swift",
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/InboxItem.swift",
       "kind": "Array",
-      "offset": 486,
+      "offset": 484,
       "length": 4,
       "value": "[\"\"]"
     },
     {
-      "filePath": "\/Users\/minhhieu\/Flutter\/TestFR\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/InboxItem.swift",
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/InboxItem.swift",
       "kind": "StringLiteral",
-      "offset": 2178,
+      "offset": 2285,
       "length": 4,
       "value": "\"id\""
     },
     {
-      "filePath": "\/Users\/minhhieu\/Flutter\/TestFR\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/InboxItem.swift",
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/InboxItem.swift",
       "kind": "StringLiteral",
-      "offset": 2261,
+      "offset": 2368,
       "length": 11,
       "value": "\"image_url\""
     },
     {
-      "filePath": "\/Users\/minhhieu\/Flutter\/TestFR\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/InboxItem.swift",
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/InboxItem.swift",
       "kind": "StringLiteral",
-      "offset": 2327,
+      "offset": 2434,
       "length": 18,
       "value": "\"landing_page_url\""
     },
     {
-      "filePath": "\/Users\/minhhieu\/Flutter\/TestFR\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/InboxItem.swift",
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/InboxItem.swift",
       "kind": "StringLiteral",
-      "offset": 2370,
+      "offset": 2477,
       "length": 10,
       "value": "\"icon_url\""
     },
     {
-      "filePath": "\/Users\/minhhieu\/Flutter\/TestFR\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/InboxItem.swift",
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/InboxItem.swift",
       "kind": "StringLiteral",
-      "offset": 2178,
+      "offset": 2285,
       "length": 4,
       "value": "\"id\""
     },
     {
-      "filePath": "\/Users\/minhhieu\/Flutter\/TestFR\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/InboxItem.swift",
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/InboxItem.swift",
       "kind": "StringLiteral",
-      "offset": 2261,
+      "offset": 2368,
       "length": 11,
       "value": "\"image_url\""
     },
     {
-      "filePath": "\/Users\/minhhieu\/Flutter\/TestFR\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/InboxItem.swift",
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/InboxItem.swift",
       "kind": "StringLiteral",
-      "offset": 2327,
+      "offset": 2434,
       "length": 18,
       "value": "\"landing_page_url\""
     },
     {
-      "filePath": "\/Users\/minhhieu\/Flutter\/TestFR\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/InboxItem.swift",
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/InboxItem.swift",
       "kind": "StringLiteral",
-      "offset": 2370,
+      "offset": 2477,
       "length": 10,
       "value": "\"icon_url\""
     },
     {
-      "filePath": "\/Users\/minhhieu\/Flutter\/TestFR\/at.iossdkframework\/AntsomiFramework\/Antsomi\/BottomSheetView.swift",
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/BottomSheetView.swift",
       "kind": "StringLiteral",
       "offset": 374,
       "length": 749,
       "value": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sem fringilla ut morbi tincidunt augue interdum. \n\nUt morbi tincidunt augue interdum velit euismod in pellentesque massa. Pulvinar etiam non quam lacus suspendisse faucibus interdum posuere. Mi in nulla posuere sollicitudin aliquam ultrices sagittis orci a. Eget nullam non nisi est sit amet. Odio pellentesque diam volutpat commodo. Id eu nisl nunc mi ipsum faucibus vitae.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sem fringilla ut morbi tincidunt augue interdum. Ut morbi tincidunt augue interdum velit euismod in pellentesque massa.\""
     },
     {
-      "filePath": "\/Users\/minhhieu\/Flutter\/TestFR\/at.iossdkframework\/AntsomiFramework\/Antsomi\/BottomSheetView.swift",
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/BottomSheetView.swift",
       "kind": "IntegerLiteral",
       "offset": 1165,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/minhhieu\/Flutter\/TestFR\/at.iossdkframework\/AntsomiFramework\/Antsomi\/BottomSheetView.swift",
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/BottomSheetView.swift",
       "kind": "IntegerLiteral",
       "offset": 1235,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/minhhieu\/Flutter\/TestFR\/at.iossdkframework\/AntsomiFramework\/Antsomi\/BottomSheetView.swift",
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/BottomSheetView.swift",
       "kind": "StringLiteral",
       "offset": 1359,
       "length": 13,
       "value": "\"Get Started\""
     },
     {
-      "filePath": "\/Users\/minhhieu\/Flutter\/TestFR\/at.iossdkframework\/AntsomiFramework\/Antsomi\/BottomSheetView.swift",
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/BottomSheetView.swift",
       "kind": "IntegerLiteral",
       "offset": 1418,
       "length": 2,
       "value": "20"
     },
     {
-      "filePath": "\/Users\/minhhieu\/Flutter\/TestFR\/at.iossdkframework\/AntsomiFramework\/Antsomi\/BottomSheetView.swift",
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/BottomSheetView.swift",
       "kind": "FloatLiteral",
       "offset": 1684,
       "length": 4,
       "value": "12.0"
     },
     {
-      "filePath": "\/Users\/minhhieu\/Flutter\/TestFR\/at.iossdkframework\/AntsomiFramework\/Antsomi\/BottomSheetView.swift",
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/BottomSheetView.swift",
       "kind": "IntegerLiteral",
       "offset": 1866,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/minhhieu\/Flutter\/TestFR\/at.iossdkframework\/AntsomiFramework\/Antsomi\/BottomSheetView.swift",
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/BottomSheetView.swift",
       "kind": "BooleanLiteral",
       "offset": 1898,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/minhhieu\/Flutter\/TestFR\/at.iossdkframework\/AntsomiFramework\/Antsomi\/BottomSheetView.swift",
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/BottomSheetView.swift",
       "kind": "IntegerLiteral",
       "offset": 1986,
       "length": 3,
       "value": "300"
     },
     {
-      "filePath": "\/Users\/minhhieu\/Flutter\/TestFR\/at.iossdkframework\/AntsomiFramework\/Antsomi\/BottomSheetView.swift",
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/BottomSheetView.swift",
       "kind": "IntegerLiteral",
       "offset": 2027,
       "length": 3,
       "value": "200"
     },
     {
-      "filePath": "\/Users\/minhhieu\/Flutter\/TestFR\/at.iossdkframework\/AntsomiFramework\/Antsomi\/BottomSheetView.swift",
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/BottomSheetView.swift",
       "kind": "IntegerLiteral",
       "offset": 2103,
       "length": 2,
       "value": "64"
     },
     {
-      "filePath": "\/Users\/minhhieu\/Flutter\/TestFR\/at.iossdkframework\/AntsomiFramework\/Antsomi\/BottomSheetView.swift",
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/BottomSheetView.swift",
       "kind": "IntegerLiteral",
       "offset": 2206,
       "length": 3,
       "value": "300"
     },
     {
-      "filePath": "\/Users\/minhhieu\/Flutter\/TestFR\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/APIContants.swift",
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/APIContants.swift",
       "kind": "StringLiteral",
       "offset": 157,
       "length": 65,
       "value": "\"https:\/\/sandbox-api.ants.tech\/access\/api\/app-inbox\/list-message\""
     },
     {
-      "filePath": "\/Users\/minhhieu\/Flutter\/TestFR\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/APIContants.swift",
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/APIContants.swift",
       "kind": "StringLiteral",
       "offset": 260,
       "length": 97,
       "value": "\"https:\/\/sandbox-api.ants.tech\/access\/api\/app-inbox\/message\/408e14b6-2538-11ee-be56-0242ac120002\""
     },
     {
-      "filePath": "\/Users\/minhhieu\/Flutter\/TestFR\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/APIContants.swift",
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/APIContants.swift",
       "kind": "StringLiteral",
       "offset": 396,
       "length": 63,
       "value": "\"https:\/\/sandbox-api.ants.tech\/access\/api\/app-inbox\/list-label\""
     },
     {
-      "filePath": "\/Users\/minhhieu\/Flutter\/TestFR\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/APIContants.swift",
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/APIContants.swift",
       "kind": "StringLiteral",
       "offset": 507,
       "length": 73,
       "value": "\"https:\/\/sandbox-api.ants.tech\/access\/api\/app-inbox\/count-message-unread\""
     },
     {
-      "filePath": "\/Users\/minhhieu\/Flutter\/TestFR\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/APIContants.swift",
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/APIContants.swift",
       "kind": "StringLiteral",
       "offset": 623,
       "length": 69,
       "value": "\"https:\/\/sandbox-api.ants.tech\/access\/api\/app-inbox\/mark-all-as-read\""
     },
     {
-      "filePath": "\/Users\/minhhieu\/Flutter\/TestFR\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
       "kind": "IntegerLiteral",
       "offset": 175,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/minhhieu\/Flutter\/TestFR\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
       "kind": "IntegerLiteral",
       "offset": 200,
       "length": 3,
       "value": "200"
     },
     {
-      "filePath": "\/Users\/minhhieu\/Flutter\/TestFR\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
       "kind": "IntegerLiteral",
       "offset": 224,
       "length": 3,
       "value": "404"
     },
     {
-      "filePath": "\/Users\/minhhieu\/Flutter\/TestFR\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
       "kind": "IntegerLiteral",
       "offset": 249,
       "length": 3,
       "value": "403"
     },
     {
-      "filePath": "\/Users\/minhhieu\/Flutter\/TestFR\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
       "kind": "IntegerLiteral",
       "offset": 283,
       "length": 3,
       "value": "101"
     },
     {
-      "filePath": "\/Users\/minhhieu\/Flutter\/TestFR\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
       "kind": "IntegerLiteral",
       "offset": 309,
       "length": 3,
       "value": "102"
     },
     {
-      "filePath": "\/Users\/minhhieu\/Flutter\/TestFR\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
       "kind": "IntegerLiteral",
       "offset": 332,
       "length": 3,
       "value": "201"
     },
     {
-      "filePath": "\/Users\/minhhieu\/Flutter\/TestFR\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
       "kind": "IntegerLiteral",
       "offset": 356,
       "length": 3,
       "value": "202"
     },
     {
-      "filePath": "\/Users\/minhhieu\/Flutter\/TestFR\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
       "kind": "IntegerLiteral",
       "offset": 399,
       "length": 3,
       "value": "203"
     },
     {
-      "filePath": "\/Users\/minhhieu\/Flutter\/TestFR\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
       "kind": "IntegerLiteral",
       "offset": 424,
       "length": 3,
       "value": "204"
     },
     {
-      "filePath": "\/Users\/minhhieu\/Flutter\/TestFR\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
       "kind": "IntegerLiteral",
       "offset": 455,
       "length": 3,
       "value": "208"
     },
     {
-      "filePath": "\/Users\/minhhieu\/Flutter\/TestFR\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
       "kind": "IntegerLiteral",
       "offset": 482,
       "length": 3,
       "value": "207"
     },
     {
-      "filePath": "\/Users\/minhhieu\/Flutter\/TestFR\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
       "kind": "IntegerLiteral",
       "offset": 175,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/minhhieu\/Flutter\/TestFR\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
       "kind": "IntegerLiteral",
       "offset": 200,
       "length": 3,
       "value": "200"
     },
     {
-      "filePath": "\/Users\/minhhieu\/Flutter\/TestFR\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
       "kind": "IntegerLiteral",
       "offset": 224,
       "length": 3,
       "value": "404"
     },
     {
-      "filePath": "\/Users\/minhhieu\/Flutter\/TestFR\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
       "kind": "IntegerLiteral",
       "offset": 249,
       "length": 3,
       "value": "403"
     },
     {
-      "filePath": "\/Users\/minhhieu\/Flutter\/TestFR\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
       "kind": "IntegerLiteral",
       "offset": 283,
       "length": 3,
       "value": "101"
     },
     {
-      "filePath": "\/Users\/minhhieu\/Flutter\/TestFR\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
       "kind": "IntegerLiteral",
       "offset": 309,
       "length": 3,
       "value": "102"
     },
     {
-      "filePath": "\/Users\/minhhieu\/Flutter\/TestFR\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
       "kind": "IntegerLiteral",
       "offset": 332,
       "length": 3,
       "value": "201"
     },
     {
-      "filePath": "\/Users\/minhhieu\/Flutter\/TestFR\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
       "kind": "IntegerLiteral",
       "offset": 356,
       "length": 3,
       "value": "202"
     },
     {
-      "filePath": "\/Users\/minhhieu\/Flutter\/TestFR\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
       "kind": "IntegerLiteral",
       "offset": 399,
       "length": 3,
       "value": "203"
     },
     {
-      "filePath": "\/Users\/minhhieu\/Flutter\/TestFR\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
       "kind": "IntegerLiteral",
       "offset": 424,
       "length": 3,
       "value": "204"
     },
     {
-      "filePath": "\/Users\/minhhieu\/Flutter\/TestFR\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
       "kind": "IntegerLiteral",
       "offset": 455,
       "length": 3,
       "value": "208"
     },
     {
-      "filePath": "\/Users\/minhhieu\/Flutter\/TestFR\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
       "kind": "IntegerLiteral",
       "offset": 482,
       "length": 3,
       "value": "207"
     },
     {
-      "filePath": "\/Users\/minhhieu\/Flutter\/TestFR\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
       "kind": "IntegerLiteral",
       "offset": 175,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/minhhieu\/Flutter\/TestFR\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
       "kind": "IntegerLiteral",
       "offset": 200,
       "length": 3,
       "value": "200"
     },
     {
-      "filePath": "\/Users\/minhhieu\/Flutter\/TestFR\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
       "kind": "IntegerLiteral",
       "offset": 224,
       "length": 3,
       "value": "404"
     },
     {
-      "filePath": "\/Users\/minhhieu\/Flutter\/TestFR\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
       "kind": "IntegerLiteral",
       "offset": 249,
       "length": 3,
       "value": "403"
     },
     {
-      "filePath": "\/Users\/minhhieu\/Flutter\/TestFR\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
       "kind": "IntegerLiteral",
       "offset": 283,
       "length": 3,
       "value": "101"
     },
     {
-      "filePath": "\/Users\/minhhieu\/Flutter\/TestFR\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
       "kind": "IntegerLiteral",
       "offset": 309,
       "length": 3,
       "value": "102"
     },
     {
-      "filePath": "\/Users\/minhhieu\/Flutter\/TestFR\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
       "kind": "IntegerLiteral",
       "offset": 332,
       "length": 3,
       "value": "201"
     },
     {
-      "filePath": "\/Users\/minhhieu\/Flutter\/TestFR\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
       "kind": "IntegerLiteral",
       "offset": 356,
       "length": 3,
       "value": "202"
     },
     {
-      "filePath": "\/Users\/minhhieu\/Flutter\/TestFR\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
       "kind": "IntegerLiteral",
       "offset": 399,
       "length": 3,
       "value": "203"
     },
     {
-      "filePath": "\/Users\/minhhieu\/Flutter\/TestFR\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
       "kind": "IntegerLiteral",
       "offset": 424,
       "length": 3,
       "value": "204"
     },
     {
-      "filePath": "\/Users\/minhhieu\/Flutter\/TestFR\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
       "kind": "IntegerLiteral",
       "offset": 455,
       "length": 3,
       "value": "208"
     },
     {
-      "filePath": "\/Users\/minhhieu\/Flutter\/TestFR\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
       "kind": "IntegerLiteral",
       "offset": 482,
       "length": 3,
       "value": "207"
     },
     {
-      "filePath": "\/Users\/minhhieu\/Flutter\/TestFR\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/Category.swift",
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/Category.swift",
       "kind": "StringLiteral",
       "offset": 147,
       "length": 18,
