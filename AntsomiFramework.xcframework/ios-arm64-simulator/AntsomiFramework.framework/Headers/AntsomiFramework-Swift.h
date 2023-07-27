@@ -343,6 +343,7 @@ SWIFT_CLASS("_TtC16AntsomiFramework8AppInbox")
 - (void)establishConnection;
 - (NSArray<NSString *> * _Nonnull)getLabels SWIFT_WARN_UNUSED_RESULT;
 /// Count unread message, to show unread message on icon badge or app badge, use completion handler
+/// 202cb962ac59075b964b07152d234b70 for testing
 - (void)countUnreadMessageWithCompletion:(void (^ _Nonnull)(NSInteger))completion;
 - (void)markAllAsRead;
 @end
