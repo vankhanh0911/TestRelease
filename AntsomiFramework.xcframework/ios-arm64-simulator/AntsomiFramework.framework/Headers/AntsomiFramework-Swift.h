@@ -260,6 +260,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import Foundation;
 @import ObjectiveC;
 @import UIKit;
 @import UserNotifications;
@@ -283,9 +284,32 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 #if defined(__OBJC__)
+@class NSString;
+@class AppInbox;
+@class NSData;
 
 SWIFT_CLASS("_TtC16AntsomiFramework7Antsomi")
 @interface Antsomi : NSObject
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull SDK_VERSION;)
++ (NSString * _Nonnull)SDK_VERSION SWIFT_WARN_UNUSED_RESULT;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) AppInbox * _Nonnull appInbox;)
++ (AppInbox * _Nonnull)appInbox SWIFT_WARN_UNUSED_RESULT;
+/// FOR DEBUGGING AND LOGGING INFORMATION
+@property (nonatomic) BOOL debug;
+@property (nonatomic, copy) void (^ _Nullable logger)(NSString * _Nonnull);
+- (void)log:(NSString * _Nonnull)str;
+/// APP INBOX AND CONFIGURATION INSTANCE
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) Antsomi * _Nonnull shared;)
++ (Antsomi * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
++ (void)setShared:(Antsomi * _Nonnull)value;
+- (void)setCustomerPropertiesWithCustomerID:(NSString * _Nonnull)customerID customerProperties:(NSDictionary<NSString *, id> * _Nonnull)customerProperties;
+- (NSString * _Nullable)getCustomerID SWIFT_WARN_UNUSED_RESULT;
+- (NSDictionary<NSString *, id> * _Nullable)getCustomerProperties SWIFT_WARN_UNUSED_RESULT;
+- (NSString * _Nullable)getDeviceID SWIFT_WARN_UNUSED_RESULT;
+- (NSString * _Nullable)getPortalID SWIFT_WARN_UNUSED_RESULT;
+- (NSString * _Nullable)getUid SWIFT_WARN_UNUSED_RESULT;
+- (void)trackAppLaunch;
+- (void)registerForNotification:(NSData * _Nonnull)deviceToken;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -313,7 +337,14 @@ SWIFT_CLASS("_TtC16AntsomiFramework31AntsomiUNUserNotificationCenter")
 
 SWIFT_CLASS("_TtC16AntsomiFramework8AppInbox")
 @interface AppInbox : NSObject
+/// Init the app inbox class, fetch all app message when init
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+/// Establish the connection between the app and the socket
+- (void)establishConnection;
+- (NSArray<NSString *> * _Nonnull)getLabels SWIFT_WARN_UNUSED_RESULT;
+/// Count unread message, to show unread message on icon badge or app badge, use completion handler
+- (void)countUnreadMessageWithCompletion:(void (^ _Nonnull)(NSInteger))completion;
+- (void)markAllAsRead;
 @end
 
 
