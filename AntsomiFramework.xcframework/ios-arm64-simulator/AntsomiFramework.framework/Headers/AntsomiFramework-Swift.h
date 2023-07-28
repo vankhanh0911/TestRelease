@@ -292,8 +292,9 @@ SWIFT_CLASS("_TtC16AntsomiFramework7Antsomi")
 @interface Antsomi : NSObject
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull SDK_VERSION;)
 + (NSString * _Nonnull)SDK_VERSION SWIFT_WARN_UNUSED_RESULT;
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) AppInbox * _Nonnull appInbox;)
-+ (AppInbox * _Nonnull)appInbox SWIFT_WARN_UNUSED_RESULT;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) AppInbox * _Null_unspecified appInbox;)
++ (AppInbox * _Null_unspecified)appInbox SWIFT_WARN_UNUSED_RESULT;
++ (void)setAppInbox:(AppInbox * _Null_unspecified)value;
 /// FOR DEBUGGING AND LOGGING INFORMATION
 @property (nonatomic) BOOL debug;
 @property (nonatomic, copy) void (^ _Nullable logger)(NSString * _Nonnull);

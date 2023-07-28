@@ -5317,14 +5317,22 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "AppInbox",
-                "printedName": "AntsomiFramework.AppInbox",
-                "usr": "c:@M@AntsomiFramework@objc(cs)AppInbox"
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "AntsomiFramework.AppInbox?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AppInbox",
+                    "printedName": "AntsomiFramework.AppInbox",
+                    "usr": "c:@M@AntsomiFramework@objc(cs)AppInbox"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
             "usr": "c:@M@AntsomiFramework@objc(cs)Antsomi(cpy)appInbox",
-            "mangledName": "$s16AntsomiFramework0A0C8appInboxAA03AppD0CvpZ",
+            "mangledName": "$s16AntsomiFramework0A0C8appInboxAA03AppD0CSgvpZ",
             "moduleName": "AntsomiFramework",
             "static": true,
             "declAttributes": [
@@ -5334,7 +5342,6 @@
               "AccessControl",
               "ObjC"
             ],
-            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -5344,14 +5351,22 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "AppInbox",
-                    "printedName": "AntsomiFramework.AppInbox",
-                    "usr": "c:@M@AntsomiFramework@objc(cs)AppInbox"
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "AntsomiFramework.AppInbox?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AppInbox",
+                        "printedName": "AntsomiFramework.AppInbox",
+                        "usr": "c:@M@AntsomiFramework@objc(cs)AppInbox"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
                 "usr": "c:@M@AntsomiFramework@objc(cs)Antsomi(cm)appInbox",
-                "mangledName": "$s16AntsomiFramework0A0C8appInboxAA03AppD0CvgZ",
+                "mangledName": "$s16AntsomiFramework0A0C8appInboxAA03AppD0CSgvgZ",
                 "moduleName": "AntsomiFramework",
                 "static": true,
                 "implicit": true,
@@ -5360,6 +5375,65 @@
                   "ObjC"
                 ],
                 "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "AntsomiFramework.AppInbox?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AppInbox",
+                        "printedName": "AntsomiFramework.AppInbox",
+                        "usr": "c:@M@AntsomiFramework@objc(cs)AppInbox"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AntsomiFramework@objc(cs)Antsomi(cm)setAppInbox:",
+                "mangledName": "$s16AntsomiFramework0A0C8appInboxAA03AppD0CSgvsZ",
+                "moduleName": "AntsomiFramework",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16AntsomiFramework0A0C8appInboxAA03AppD0CSgvMZ",
+                "mangledName": "$s16AntsomiFramework0A0C8appInboxAA03AppD0CSgvMZ",
+                "moduleName": "AntsomiFramework",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
               }
             ]
           },
@@ -18035,35 +18109,35 @@
     {
       "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/AppInbox.swift",
       "kind": "IntegerLiteral",
-      "offset": 2681,
+      "offset": 2736,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/AppInbox.swift",
       "kind": "Array",
-      "offset": 2703,
+      "offset": 2758,
       "length": 9,
       "value": "[\"tatca\"]"
     },
     {
       "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/AppInbox.swift",
       "kind": "IntegerLiteral",
-      "offset": 2726,
+      "offset": 2781,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/AppInbox.swift",
       "kind": "IntegerLiteral",
-      "offset": 5914,
+      "offset": 5969,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/AppInbox.swift",
       "kind": "IntegerLiteral",
-      "offset": 5930,
+      "offset": 5985,
       "length": 2,
       "value": "10"
     },
@@ -18195,15 +18269,22 @@
     },
     {
       "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
+      "kind": "StringLiteral",
+      "offset": 1113,
+      "length": 14,
+      "value": "\"antsomi.lock\""
+    },
+    {
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "BooleanLiteral",
-      "offset": 1522,
+      "offset": 1699,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "Dictionary",
-      "offset": 1954,
+      "offset": 2131,
       "length": 3,
       "value": "[]"
     },

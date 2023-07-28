@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/AntsomiFramework-Swift.h</key>
 		<data>
-		hWg0PqiVN9Kx5IsUTzOZeKxwKok=
+		NlvZ0+FOyuNx+vdkiLnFuGryL/4=
 		</data>
 		<key>Headers/AntsomiFramework.h</key>
 		<data>
@@ -18,15 +18,15 @@
 		</data>
 		<key>Modules/AntsomiFramework.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		h7iZrV3Nqf81P3cbPIMQqfa9Ef4=
+		xjtY7ZK8bp9jtgtYpfALhsNiR8s=
 		</data>
 		<key>Modules/AntsomiFramework.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		ySIqY+Ww045/i3sAXB7n1Jn10wg=
+		h9tq1ue4PQKuTwiwZACNEhxWmg8=
 		</data>
 		<key>Modules/AntsomiFramework.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		AGG5GC/AL3JIzp8zR9qmTsIR9Ms=
+		P8qWo5xl6H+AlCpmJ1oSXBpMy9w=
 		</data>
 		<key>Modules/AntsomiFramework.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/AntsomiFramework.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		AGG5GC/AL3JIzp8zR9qmTsIR9Ms=
+		P8qWo5xl6H+AlCpmJ1oSXBpMy9w=
 		</data>
 		<key>Modules/AntsomiFramework.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		opd1fv0YKjbFfT/fxR2xuryJYdo=
+		evJSdVQ5tFdayEDXdYuH6xuxGwQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -51,7 +51,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			xi2LXQj+lxpgoUEhcJmfUKcg0HXC/qAhs9QMfJxPfWk=
+			ZSzxGdW4dRzw5WWZYles173ijB4b5//qoMY4DkeQyZ4=
 			</data>
 		</dict>
 		<key>Headers/AntsomiFramework.h</key>
@@ -65,21 +65,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BQbwt/aWxY0wvFtunKeVu+SljRae2dtIcAgrgZg+nQk=
+			qrdgAr4rpa5ub3ttNWgP12vyBjBQVly3WgJYato3jrM=
 			</data>
 		</dict>
 		<key>Modules/AntsomiFramework.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MzetL78PY/CA8BXwXcmI9A5eNnsubCEn+YMSPHlIa6g=
+			y8N/bcFXpm4NBvIkjrQOf0s+WG3YE2X0LbtR/7FfzH8=
 			</data>
 		</dict>
 		<key>Modules/AntsomiFramework.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			apQFlMgwIEahKn+wcn51osHqnjTQZWMaGIulYLxrOj8=
+			o7GHhEoCNVhQLV1ON+nlyoTPx1hMV/iVpVpVQcDlWLg=
 			</data>
 		</dict>
 		<key>Modules/AntsomiFramework.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -93,14 +93,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			apQFlMgwIEahKn+wcn51osHqnjTQZWMaGIulYLxrOj8=
+			o7GHhEoCNVhQLV1ON+nlyoTPx1hMV/iVpVpVQcDlWLg=
 			</data>
 		</dict>
 		<key>Modules/AntsomiFramework.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OTtofvNFyjspewA5D9ke2YYWCEhIf11nxjzsVD+EiRI=
+			xSdB23JA6p1iDN0cZ5a/4psQ75BpHRxItLuKaSdQMrU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

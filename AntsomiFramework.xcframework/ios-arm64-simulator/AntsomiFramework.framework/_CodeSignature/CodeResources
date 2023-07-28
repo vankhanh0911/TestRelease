@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/AntsomiFramework-Swift.h</key>
 		<data>
-		hWg0PqiVN9Kx5IsUTzOZeKxwKok=
+		NlvZ0+FOyuNx+vdkiLnFuGryL/4=
 		</data>
 		<key>Headers/AntsomiFramework.h</key>
 		<data>
@@ -18,15 +18,15 @@
 		</data>
 		<key>Modules/AntsomiFramework.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		FNs1BX2uOaWQ07Z7Go/urEpDg8w=
+		eZYsK0SvRGSEneuMricUheYCq9g=
 		</data>
 		<key>Modules/AntsomiFramework.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		ySIqY+Ww045/i3sAXB7n1Jn10wg=
+		h9tq1ue4PQKuTwiwZACNEhxWmg8=
 		</data>
 		<key>Modules/AntsomiFramework.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		iBwL6vhxLawPJMVZoTh3oB3xLoY=
+		AIWo9OPLr4efM4RghQz45UBUP5s=
 		</data>
 		<key>Modules/AntsomiFramework.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/AntsomiFramework.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		iBwL6vhxLawPJMVZoTh3oB3xLoY=
+		AIWo9OPLr4efM4RghQz45UBUP5s=
 		</data>
 		<key>Modules/AntsomiFramework.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		g8DvIA7MP2j2BCohdrgmDyz99UE=
+		8hA6qvTKwiZqasiWmgF4QPbbx5I=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -51,7 +51,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			xi2LXQj+lxpgoUEhcJmfUKcg0HXC/qAhs9QMfJxPfWk=
+			ZSzxGdW4dRzw5WWZYles173ijB4b5//qoMY4DkeQyZ4=
 			</data>
 		</dict>
 		<key>Headers/AntsomiFramework.h</key>
@@ -65,21 +65,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dMADamycabc/fRFUm+VZAuPRalfKX0GZ/EWAEYRsYH4=
+			H0HDpC4WfqGIpNpvNaYzVHZ/0ndMY6qy05WjfOPkBfA=
 			</data>
 		</dict>
 		<key>Modules/AntsomiFramework.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MzetL78PY/CA8BXwXcmI9A5eNnsubCEn+YMSPHlIa6g=
+			y8N/bcFXpm4NBvIkjrQOf0s+WG3YE2X0LbtR/7FfzH8=
 			</data>
 		</dict>
 		<key>Modules/AntsomiFramework.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ea28vsamovAJr4NGJZLUppgd8MLUxcYax4gTENv0et0=
+			yDq0E+WBTiNepEODxIXuRFiE5z7sROe07X8+g/9H+MU=
 			</data>
 		</dict>
 		<key>Modules/AntsomiFramework.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -93,14 +93,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ea28vsamovAJr4NGJZLUppgd8MLUxcYax4gTENv0et0=
+			yDq0E+WBTiNepEODxIXuRFiE5z7sROe07X8+g/9H+MU=
 			</data>
 		</dict>
 		<key>Modules/AntsomiFramework.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gzgl4HB9g01VZTmmp0021lGTTZASJJJamSkIPevkryU=
+			7xExVX3dCzs949oyl5bqbSMLyTYytKwWq6Oz7IHDdpU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
