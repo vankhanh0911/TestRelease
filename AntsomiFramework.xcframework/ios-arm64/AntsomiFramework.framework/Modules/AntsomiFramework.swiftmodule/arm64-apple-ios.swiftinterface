@@ -33,7 +33,7 @@ import _StringProcessing
 public protocol AppInboxDelegate : AnyObject {
   func onNewMessage(_ newDataArray: [AntsomiFramework.InboxItem])
 }
-@objc @_inheritsConvenienceInitializers @objcMembers open class AppInbox : ObjectiveC.NSObject {
+@objc @_inheritsConvenienceInitializers open class AppInbox : ObjectiveC.NSObject {
   weak public var delegate: (any AntsomiFramework.AppInboxDelegate)?
   public enum ModifyAction : Swift.String {
     case read
@@ -45,37 +45,37 @@ public protocol AppInboxDelegate : AnyObject {
     }
   }
   @objc override dynamic public init()
-  @objc public func establishConnection()
+  public func establishConnection()
   public func getMessage() -> [AntsomiFramework.InboxItem]
-  @objc public func getLabels() -> [Swift.String]
-  @objc public func countUnreadMessage(completion: @escaping ((Swift.Int) -> Swift.Void))
+  public func getLabels() -> [Swift.String]
+  public func countUnreadMessage(completion: @escaping ((Swift.Int) -> Swift.Void))
   public func forceFetchInboxItem(page: Swift.Int = 1, labels: [Swift.String] = ["tatca"], limit: Swift.Int = 10, completion: @escaping (([AntsomiFramework.InboxItem]) -> Swift.Void))
-  @objc public func markAllAsRead()
+  public func markAllAsRead()
   public func modifyMessageStatus(_ messageID: Swift.String, action: AntsomiFramework.AppInbox.ModifyAction)
   @objc deinit
 }
-@objc @_inheritsConvenienceInitializers @objcMembers public class Antsomi : ObjectiveC.NSObject {
-  @objc public static let SDK_VERSION: Swift.String
-  @objc public static var appInbox: AntsomiFramework.AppInbox!
+@objc @_inheritsConvenienceInitializers public class Antsomi : ObjectiveC.NSObject {
+  public static let SDK_VERSION: Swift.String
+  public static var appInbox: AntsomiFramework.AppInbox!
   public struct Configuration {
     public let portalId: Swift.String
     public let propsId: Swift.String
     public let appGroupId: Swift.String
     public init(portalId: Swift.String, propsId: Swift.String, appGroupId: Swift.String)
   }
-  @objc public var debug: Swift.Bool
-  @objc public var logger: ((Swift.String) -> Swift.Void)?
-  @objc public func log(_ str: Swift.String)
-  @objc public static var shared: AntsomiFramework.Antsomi
-  @objc public func setCustomerProperties(customerID: Swift.String, customerProperties: [Swift.String : Any] = [:])
-  @objc public func getCustomerID() -> Swift.String?
-  @objc public func getCustomerProperties() -> [Swift.String : Any]?
-  @objc public func getDeviceID() -> Swift.String?
-  @objc public func getPortalID() -> Swift.String?
+  public var debug: Swift.Bool
+  public var logger: ((Swift.String) -> Swift.Void)?
+  public func log(_ str: Swift.String)
+  public static var shared: AntsomiFramework.Antsomi
+  public func setCustomerProperties(customerID: Swift.String, customerProperties: [Swift.String : Any] = [:])
+  public func getCustomerID() -> Swift.String?
+  public func getCustomerProperties() -> [Swift.String : Any]?
+  public func getDeviceID() -> Swift.String?
+  public func getPortalID() -> Swift.String?
   public func activate(with config: AntsomiFramework.Antsomi.Configuration)
-  @objc public func getUid() -> Swift.String?
-  @objc public func trackAppLaunch()
-  @objc public func registerForNotification(_ deviceToken: Foundation.Data)
+  public func getUid() -> Swift.String?
+  public func trackAppLaunch()
+  public func registerForNotification(_ deviceToken: Foundation.Data)
   @objc override dynamic public init()
   @objc deinit
 }
