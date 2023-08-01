@@ -3462,6 +3462,7 @@
         "declAttributes": [
           "Custom",
           "AccessControl",
+          "RawDocComment",
           "ObjC"
         ],
         "superclassUsr": "c:objc(cs)UIResponder",
@@ -5401,6 +5402,153 @@
                 "declAttributes": [
                   "Final"
                 ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "exampleCallback",
+            "printedName": "exampleCallback",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16AntsomiFramework0A0C15exampleCallbackyycSgvp",
+            "mangledName": "$s16AntsomiFramework0A0C15exampleCallbackyycSgvp",
+            "moduleName": "AntsomiFramework",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16AntsomiFramework0A0C15exampleCallbackyycSgvg",
+                "mangledName": "$s16AntsomiFramework0A0C15exampleCallbackyycSgvg",
+                "moduleName": "AntsomiFramework",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16AntsomiFramework0A0C15exampleCallbackyycSgvs",
+                "mangledName": "$s16AntsomiFramework0A0C15exampleCallbackyycSgvs",
+                "moduleName": "AntsomiFramework",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16AntsomiFramework0A0C15exampleCallbackyycSgvM",
+                "mangledName": "$s16AntsomiFramework0A0C15exampleCallbackyycSgvM",
+                "moduleName": "AntsomiFramework",
+                "implicit": true,
+                "isOpen": true,
                 "accessorKind": "_modify"
               }
             ]
@@ -12450,6 +12598,92 @@
           },
           {
             "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16AntsomiFramework9InboxItemV4nameSSvp",
+            "mangledName": "$s16AntsomiFramework9InboxItemV4nameSSvp",
+            "moduleName": "AntsomiFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16AntsomiFramework9InboxItemV4nameSSvg",
+                "mangledName": "$s16AntsomiFramework9InboxItemV4nameSSvg",
+                "moduleName": "AntsomiFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16AntsomiFramework9InboxItemV4nameSSvs",
+                "mangledName": "$s16AntsomiFramework9InboxItemV4nameSSvs",
+                "moduleName": "AntsomiFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16AntsomiFramework9InboxItemV4nameSSvM",
+                "mangledName": "$s16AntsomiFramework9InboxItemV4nameSSvM",
+                "moduleName": "AntsomiFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "content",
             "printedName": "content",
             "children": [
@@ -13569,6 +13803,44 @@
                 "mangledName": "$s16AntsomiFramework9InboxItemV10CodingKeysO4tagsyA2EmF",
                 "moduleName": "AntsomiFramework",
                 "fixedbinaryorder": 8
+              },
+              {
+                "kind": "Var",
+                "name": "name",
+                "printedName": "name",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(AntsomiFramework.InboxItem.CodingKeys.Type) -> AntsomiFramework.InboxItem.CodingKeys",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CodingKeys",
+                        "printedName": "AntsomiFramework.InboxItem.CodingKeys",
+                        "usr": "s:16AntsomiFramework9InboxItemV10CodingKeysO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "AntsomiFramework.InboxItem.CodingKeys.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CodingKeys",
+                            "printedName": "AntsomiFramework.InboxItem.CodingKeys",
+                            "usr": "s:16AntsomiFramework9InboxItemV10CodingKeysO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:16AntsomiFramework9InboxItemV10CodingKeysO4nameyA2EmF",
+                "mangledName": "$s16AntsomiFramework9InboxItemV10CodingKeysO4nameyA2EmF",
+                "moduleName": "AntsomiFramework",
+                "fixedbinaryorder": 9
               },
               {
                 "kind": "Constructor",
@@ -18210,22 +18482,15 @@
     },
     {
       "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
-      "kind": "StringLiteral",
-      "offset": 1100,
-      "length": 14,
-      "value": "\"antsomi.lock\""
-    },
-    {
-      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "BooleanLiteral",
-      "offset": 1686,
+      "offset": 1555,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "Dictionary",
-      "offset": 2118,
+      "offset": 1987,
       "length": 3,
       "value": "[]"
     },
@@ -18316,105 +18581,112 @@
     {
       "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/InboxItem.swift",
       "kind": "StringLiteral",
-      "offset": 238,
+      "offset": 236,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/InboxItem.swift",
       "kind": "StringLiteral",
-      "offset": 285,
+      "offset": 272,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/InboxItem.swift",
       "kind": "StringLiteral",
-      "offset": 336,
+      "offset": 319,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/InboxItem.swift",
       "kind": "StringLiteral",
-      "offset": 380,
+      "offset": 370,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/InboxItem.swift",
       "kind": "StringLiteral",
-      "offset": 415,
+      "offset": 414,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/InboxItem.swift",
       "kind": "StringLiteral",
-      "offset": 450,
+      "offset": 449,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/InboxItem.swift",
+      "kind": "StringLiteral",
+      "offset": 484,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/InboxItem.swift",
       "kind": "Array",
-      "offset": 485,
+      "offset": 519,
       "length": 4,
       "value": "[\"\"]"
     },
     {
       "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/InboxItem.swift",
       "kind": "StringLiteral",
-      "offset": 2286,
+      "offset": 2458,
       "length": 4,
       "value": "\"id\""
     },
     {
       "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/InboxItem.swift",
       "kind": "StringLiteral",
-      "offset": 2369,
+      "offset": 2541,
       "length": 11,
       "value": "\"image_url\""
     },
     {
       "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/InboxItem.swift",
       "kind": "StringLiteral",
-      "offset": 2435,
+      "offset": 2607,
       "length": 18,
       "value": "\"landing_page_url\""
     },
     {
       "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/InboxItem.swift",
       "kind": "StringLiteral",
-      "offset": 2478,
+      "offset": 2650,
       "length": 10,
       "value": "\"icon_url\""
     },
     {
       "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/InboxItem.swift",
       "kind": "StringLiteral",
-      "offset": 2286,
+      "offset": 2458,
       "length": 4,
       "value": "\"id\""
     },
     {
       "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/InboxItem.swift",
       "kind": "StringLiteral",
-      "offset": 2369,
+      "offset": 2541,
       "length": 11,
       "value": "\"image_url\""
     },
     {
       "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/InboxItem.swift",
       "kind": "StringLiteral",
-      "offset": 2435,
+      "offset": 2607,
       "length": 18,
       "value": "\"landing_page_url\""
     },
     {
       "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/InboxItem.swift",
       "kind": "StringLiteral",
-      "offset": 2478,
+      "offset": 2650,
       "length": 10,
       "value": "\"icon_url\""
     },
