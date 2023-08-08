@@ -45,10 +45,10 @@ public protocol AppInboxDelegate : AnyObject {
     }
   }
   @objc override dynamic public init()
-  public func establishConnection()
   public func getMessage() -> [AntsomiFramework.InboxItem]
   public func getLabels() -> [Swift.String]
   public func countUnreadMessage(completion: @escaping ((Swift.Int) -> Swift.Void))
+  public func getMessageByID(messageID: Swift.String, completion: @escaping ((AntsomiFramework.InboxItem) -> Swift.Void))
   public func forceFetchInboxItem(page: Swift.Int = 1, labels: [Swift.String] = ["tatca"], limit: Swift.Int = 10, completion: @escaping (([AntsomiFramework.InboxItem]) -> Swift.Void))
   public func markAllAsRead()
   public func modifyMessageStatus(_ messageID: Swift.String, action: AntsomiFramework.AppInbox.ModifyAction)
