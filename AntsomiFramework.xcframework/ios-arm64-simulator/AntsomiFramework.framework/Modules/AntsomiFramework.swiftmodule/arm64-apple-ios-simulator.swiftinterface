@@ -33,7 +33,7 @@ import _StringProcessing
 public protocol AppInboxDelegate : AnyObject {
   func onNewMessage(_ newDataArray: [AntsomiFramework.InboxItem])
 }
-@objc @_inheritsConvenienceInitializers open class AppInbox : ObjectiveC.NSObject {
+@objc @_inheritsConvenienceInitializers public class AppInbox : ObjectiveC.NSObject {
   weak public var delegate: (any AntsomiFramework.AppInboxDelegate)?
   public enum ModifyAction : Swift.String {
     case read
@@ -73,6 +73,7 @@ public protocol AppInboxDelegate : AnyObject {
   public func getCustomerProperties() -> [Swift.String : Any]?
   public func getDeviceID() -> Swift.String?
   public func getPortalID() -> Swift.String?
+  public func appInboxInit()
   public func activate(with config: AntsomiFramework.Antsomi.Configuration)
   public func getUid() -> Swift.String?
   public func trackAppLaunch()
