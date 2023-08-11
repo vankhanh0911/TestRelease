@@ -319,6 +319,13 @@ SWIFT_CLASS("_TtC16AntsomiFramework8AppInbox")
 
 
 
+SWIFT_CLASS("_TtC16AntsomiFramework7Context")
+@interface Context : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+
 
 
 

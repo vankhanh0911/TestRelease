@@ -3,9 +3,11 @@
 // swift-module-flags: -target arm64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name AntsomiFramework
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 @_exported import AntsomiFramework
+import CoreLocation
 import Foundation
 import SocketIO
 import Swift
+import SystemConfiguration
 import UIKit
 import UserNotifications
 import WebKit
@@ -70,10 +72,12 @@ public protocol AppInboxDelegate : AnyObject {
   public static var shared: AntsomiFramework.Antsomi
   public func setCustomerProperties(customerID: Swift.String, customerProperties: [Swift.String : Any] = [:])
   public func getCustomerID() -> Swift.String?
+  public func getContext() -> [Swift.String : Swift.String]
   public func getCustomerProperties() -> [Swift.String : Any]?
   public func getDeviceID() -> Swift.String?
   public func getPortalID() -> Swift.String?
   public func appInboxInit()
+  public func openURL(_ url: Foundation.URL)
   public func activate(with config: AntsomiFramework.Antsomi.Configuration)
   public func getUid() -> Swift.String?
   public func trackAppLaunch()
@@ -84,6 +88,20 @@ public protocol AppInboxDelegate : AnyObject {
 @objc @_inheritsConvenienceInitializers public class UserDefaultsManager : ObjectiveC.NSObject {
   public static var userDefaults: Foundation.UserDefaults?
   @objc override dynamic public init()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers public class Context : ObjectiveC.NSObject {
+  public var deviceID: Swift.String?
+  public func execute() -> [Swift.String : Any]
+  @objc override dynamic public init()
+  @objc deinit
+}
+@propertyWrapper public class Atomic<T> {
+  public init(wrappedValue value: T)
+  public var wrappedValue: T {
+    get
+    set
+  }
   @objc deinit
 }
 public struct InboxItem : Swift.Codable {
@@ -100,6 +118,9 @@ public struct InboxItem : Swift.Codable {
   public init?(json: [Swift.String : Any]) throws
   public init(from decoder: any Swift.Decoder) throws
   public func encode(to encoder: any Swift.Encoder) throws
+}
+extension UIKit.UIDevice {
+  @_Concurrency.MainActor(unsafe) public static let modelName: Swift.String
 }
 extension AntsomiFramework.AppInbox.ModifyAction : Swift.Equatable {}
 extension AntsomiFramework.AppInbox.ModifyAction : Swift.Hashable {}
