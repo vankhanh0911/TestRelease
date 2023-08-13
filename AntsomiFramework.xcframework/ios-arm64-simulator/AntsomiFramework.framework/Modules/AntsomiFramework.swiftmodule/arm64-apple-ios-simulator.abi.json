@@ -8018,28 +8018,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Dictionary",
-                "printedName": "[Swift.String : Swift.String]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:SD"
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               }
             ],
             "declKind": "Func",
-            "usr": "s:16AntsomiFramework0A0C10getContextSDyS2SGyF",
-            "mangledName": "$s16AntsomiFramework0A0C10getContextSDyS2SGyF",
+            "usr": "s:16AntsomiFramework0A0C10getContextSSyF",
+            "mangledName": "$s16AntsomiFramework0A0C10getContextSSyF",
             "moduleName": "AntsomiFramework",
             "isOpen": true,
             "declAttributes": [
