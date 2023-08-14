@@ -106,6 +106,7 @@ public protocol AppInboxDelegate : AnyObject {
 }
 public struct CDPEvent : Swift.Encodable {
   public mutating func setEventAction(eventAction: Swift.String)
+  public mutating func setEventCategory(eventCategory: Swift.String)
   public mutating func setObjectProperties(objectProperties: [Swift.String : Any])
   public mutating func setEventProperties(eventProperties: [Swift.String : Any])
   public mutating func setItems(items: [Swift.String : Any])
