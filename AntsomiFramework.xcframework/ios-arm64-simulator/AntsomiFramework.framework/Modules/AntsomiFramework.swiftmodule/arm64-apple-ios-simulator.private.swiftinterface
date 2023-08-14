@@ -72,9 +72,10 @@ public protocol AppInboxDelegate : AnyObject {
   public static var shared: AntsomiFramework.Antsomi
   public func setCustomerProperties(customerID: Swift.String, customerProperties: [Swift.String : Any] = [:])
   public func getCustomerID() -> Swift.String?
+  public func getPropsID() -> Swift.String
   public func getContext() -> Swift.String
   public func getCustomerProperties() -> [Swift.String : Any]?
-  public func getDeviceID() -> Swift.String?
+  public func getDeviceID() -> Swift.String
   public func getPortalID() -> Swift.String?
   public func appInboxInit()
   public func openURL(_ url: Foundation.URL)

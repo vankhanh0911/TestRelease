@@ -8013,6 +8013,28 @@
           },
           {
             "kind": "Function",
+            "name": "getPropsID",
+            "printedName": "getPropsID()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16AntsomiFramework0A0C10getPropsIDSSyF",
+            "mangledName": "$s16AntsomiFramework0A0C10getPropsIDSSyF",
+            "moduleName": "AntsomiFramework",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "getContext",
             "printedName": "getContext()",
             "children": [
@@ -8083,22 +8105,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               }
             ],
             "declKind": "Func",
-            "usr": "s:16AntsomiFramework0A0C11getDeviceIDSSSgyF",
-            "mangledName": "$s16AntsomiFramework0A0C11getDeviceIDSSSgyF",
+            "usr": "s:16AntsomiFramework0A0C11getDeviceIDSSyF",
+            "mangledName": "$s16AntsomiFramework0A0C11getDeviceIDSSyF",
             "moduleName": "AntsomiFramework",
             "isOpen": true,
             "declAttributes": [
@@ -22686,28 +22700,28 @@
     {
       "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/CDPEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1951,
+      "offset": 1943,
       "length": 16,
       "value": "\"userproperties\""
     },
     {
       "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/CDPEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1997,
+      "offset": 1989,
       "length": 20,
       "value": "\"customerproperties\""
     },
     {
       "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/CDPEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1951,
+      "offset": 1943,
       "length": 16,
       "value": "\"userproperties\""
     },
     {
       "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/CDPEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1997,
+      "offset": 1989,
       "length": 20,
       "value": "\"customerproperties\""
     },
