@@ -5253,7 +5253,6 @@
         "declAttributes": [
           "Custom",
           "AccessControl",
-          "RawDocComment",
           "ObjC"
         ],
         "superclassUsr": "c:objc(cs)UIResponder",
@@ -22592,14 +22591,14 @@
     {
       "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "BooleanLiteral",
-      "offset": 1756,
+      "offset": 1814,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "Dictionary",
-      "offset": 2188,
+      "offset": 2246,
       "length": 3,
       "value": "[]"
     },
