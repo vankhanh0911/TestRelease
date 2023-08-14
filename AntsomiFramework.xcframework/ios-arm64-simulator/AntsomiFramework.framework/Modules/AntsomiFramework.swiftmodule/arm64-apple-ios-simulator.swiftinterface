@@ -73,7 +73,6 @@ public protocol AppInboxDelegate : AnyObject {
   public func setCustomerProperties(customerID: Swift.String, customerProperties: [Swift.String : Any] = [:])
   public func getCustomerID() -> Swift.String?
   public func getPropsID() -> Swift.String
-  public func getContext() -> Swift.String
   public func getCustomerProperties() -> [Swift.String : Any]?
   public func getDeviceID() -> Swift.String
   public func getPortalID() -> Swift.String?
@@ -104,6 +103,16 @@ public protocol AppInboxDelegate : AnyObject {
     set
   }
   @objc deinit
+}
+public struct CDPEvent : Swift.Encodable {
+  public mutating func setEventAction(eventAction: Swift.String)
+  public mutating func setObjectProperties(objectProperties: [Swift.String : Any])
+  public mutating func setEventProperties(eventProperties: [Swift.String : Any])
+  public mutating func setItems(items: [Swift.String : Any])
+  public mutating func setCustomerProperties(customerProperties: [Swift.String : Any])
+  public mutating func setUserPropperties(userPropperties: [Swift.String : Any])
+  public init(ec: Swift.String = "", ea: Swift.String = "", items: [Swift.String : Any] = [:], userProps: [Swift.String : Any] = [:], customerProps: [Swift.String : Any] = [:], objectProps: [Swift.String : Any] = [:], evetProps: [Swift.String : Any] = [:])
+  public func encode(to encoder: any Swift.Encoder) throws
 }
 public struct InboxItem : Swift.Codable {
   public var messageId: Swift.String

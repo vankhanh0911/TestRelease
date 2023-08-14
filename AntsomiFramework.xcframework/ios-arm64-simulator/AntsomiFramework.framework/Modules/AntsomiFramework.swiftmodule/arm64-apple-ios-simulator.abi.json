@@ -8035,28 +8035,6 @@
           },
           {
             "kind": "Function",
-            "name": "getContext",
-            "printedName": "getContext()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:16AntsomiFramework0A0C10getContextSSyF",
-            "mangledName": "$s16AntsomiFramework0A0C10getContextSSyF",
-            "moduleName": "AntsomiFramework",
-            "isOpen": true,
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
             "name": "getCustomerProperties",
             "printedName": "getCustomerProperties()",
             "children": [
@@ -12743,7 +12721,6 @@
             "declAttributes": [
               "HasStorage"
             ],
-            "fixedbinaryorder": 0,
             "hasStorage": true,
             "accessors": [
               {
@@ -12763,9 +12740,6 @@
                 "mangledName": "$s16AntsomiFramework8CDPEventV9portal_idSSvg",
                 "moduleName": "AntsomiFramework",
                 "implicit": true,
-                "declAttributes": [
-                  "Transparent"
-                ],
                 "accessorKind": "get"
               },
               {
@@ -12790,9 +12764,6 @@
                 "mangledName": "$s16AntsomiFramework8CDPEventV9portal_idSSvs",
                 "moduleName": "AntsomiFramework",
                 "implicit": true,
-                "declAttributes": [
-                  "Transparent"
-                ],
                 "accessorKind": "set"
               },
               {
@@ -12811,9 +12782,6 @@
                 "mangledName": "$s16AntsomiFramework8CDPEventV9portal_idSSvM",
                 "moduleName": "AntsomiFramework",
                 "implicit": true,
-                "declAttributes": [
-                  "Transparent"
-                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -12837,7 +12805,6 @@
             "declAttributes": [
               "HasStorage"
             ],
-            "fixedbinaryorder": 1,
             "hasStorage": true,
             "accessors": [
               {
@@ -12857,9 +12824,6 @@
                 "mangledName": "$s16AntsomiFramework8CDPEventV7prop_idSSvg",
                 "moduleName": "AntsomiFramework",
                 "implicit": true,
-                "declAttributes": [
-                  "Transparent"
-                ],
                 "accessorKind": "get"
               },
               {
@@ -12884,9 +12848,6 @@
                 "mangledName": "$s16AntsomiFramework8CDPEventV7prop_idSSvs",
                 "moduleName": "AntsomiFramework",
                 "implicit": true,
-                "declAttributes": [
-                  "Transparent"
-                ],
                 "accessorKind": "set"
               },
               {
@@ -12905,9 +12866,6 @@
                 "mangledName": "$s16AntsomiFramework8CDPEventV7prop_idSSvM",
                 "moduleName": "AntsomiFramework",
                 "implicit": true,
-                "declAttributes": [
-                  "Transparent"
-                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -12931,7 +12889,6 @@
             "declAttributes": [
               "HasStorage"
             ],
-            "fixedbinaryorder": 2,
             "hasStorage": true,
             "accessors": [
               {
@@ -12951,9 +12908,6 @@
                 "mangledName": "$s16AntsomiFramework8CDPEventV2ecSSvg",
                 "moduleName": "AntsomiFramework",
                 "implicit": true,
-                "declAttributes": [
-                  "Transparent"
-                ],
                 "accessorKind": "get"
               },
               {
@@ -12978,9 +12932,6 @@
                 "mangledName": "$s16AntsomiFramework8CDPEventV2ecSSvs",
                 "moduleName": "AntsomiFramework",
                 "implicit": true,
-                "declAttributes": [
-                  "Transparent"
-                ],
                 "accessorKind": "set"
               },
               {
@@ -12999,9 +12950,6 @@
                 "mangledName": "$s16AntsomiFramework8CDPEventV2ecSSvM",
                 "moduleName": "AntsomiFramework",
                 "implicit": true,
-                "declAttributes": [
-                  "Transparent"
-                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -13025,7 +12973,6 @@
             "declAttributes": [
               "HasStorage"
             ],
-            "fixedbinaryorder": 3,
             "hasStorage": true,
             "accessors": [
               {
@@ -13045,9 +12992,6 @@
                 "mangledName": "$s16AntsomiFramework8CDPEventV2eaSSvg",
                 "moduleName": "AntsomiFramework",
                 "implicit": true,
-                "declAttributes": [
-                  "Transparent"
-                ],
                 "accessorKind": "get"
               },
               {
@@ -13072,9 +13016,6 @@
                 "mangledName": "$s16AntsomiFramework8CDPEventV2eaSSvs",
                 "moduleName": "AntsomiFramework",
                 "implicit": true,
-                "declAttributes": [
-                  "Transparent"
-                ],
                 "accessorKind": "set"
               },
               {
@@ -13093,9 +13034,6 @@
                 "mangledName": "$s16AntsomiFramework8CDPEventV2eaSSvM",
                 "moduleName": "AntsomiFramework",
                 "implicit": true,
-                "declAttributes": [
-                  "Transparent"
-                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -13119,7 +13057,6 @@
             "declAttributes": [
               "HasStorage"
             ],
-            "fixedbinaryorder": 4,
             "hasStorage": true,
             "accessors": [
               {
@@ -13139,9 +13076,6 @@
                 "mangledName": "$s16AntsomiFramework8CDPEventV3uidSSvg",
                 "moduleName": "AntsomiFramework",
                 "implicit": true,
-                "declAttributes": [
-                  "Transparent"
-                ],
                 "accessorKind": "get"
               },
               {
@@ -13166,9 +13100,6 @@
                 "mangledName": "$s16AntsomiFramework8CDPEventV3uidSSvs",
                 "moduleName": "AntsomiFramework",
                 "implicit": true,
-                "declAttributes": [
-                  "Transparent"
-                ],
                 "accessorKind": "set"
               },
               {
@@ -13187,9 +13118,6 @@
                 "mangledName": "$s16AntsomiFramework8CDPEventV3uidSSvM",
                 "moduleName": "AntsomiFramework",
                 "implicit": true,
-                "declAttributes": [
-                  "Transparent"
-                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -13226,7 +13154,6 @@
             "declAttributes": [
               "HasStorage"
             ],
-            "fixedbinaryorder": 5,
             "hasStorage": true,
             "accessors": [
               {
@@ -13259,9 +13186,6 @@
                 "mangledName": "$s16AntsomiFramework8CDPEventV5itemsSDySSypGvg",
                 "moduleName": "AntsomiFramework",
                 "implicit": true,
-                "declAttributes": [
-                  "Transparent"
-                ],
                 "accessorKind": "get"
               },
               {
@@ -13299,9 +13223,6 @@
                 "mangledName": "$s16AntsomiFramework8CDPEventV5itemsSDySSypGvs",
                 "moduleName": "AntsomiFramework",
                 "implicit": true,
-                "declAttributes": [
-                  "Transparent"
-                ],
                 "accessorKind": "set"
               },
               {
@@ -13320,9 +13241,6 @@
                 "mangledName": "$s16AntsomiFramework8CDPEventV5itemsSDySSypGvM",
                 "moduleName": "AntsomiFramework",
                 "implicit": true,
-                "declAttributes": [
-                  "Transparent"
-                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -13359,7 +13277,6 @@
             "declAttributes": [
               "HasStorage"
             ],
-            "fixedbinaryorder": 6,
             "hasStorage": true,
             "accessors": [
               {
@@ -13392,9 +13309,6 @@
                 "mangledName": "$s16AntsomiFramework8CDPEventV13customerPropsSDySSypGvg",
                 "moduleName": "AntsomiFramework",
                 "implicit": true,
-                "declAttributes": [
-                  "Transparent"
-                ],
                 "accessorKind": "get"
               },
               {
@@ -13432,9 +13346,6 @@
                 "mangledName": "$s16AntsomiFramework8CDPEventV13customerPropsSDySSypGvs",
                 "moduleName": "AntsomiFramework",
                 "implicit": true,
-                "declAttributes": [
-                  "Transparent"
-                ],
                 "accessorKind": "set"
               },
               {
@@ -13453,9 +13364,6 @@
                 "mangledName": "$s16AntsomiFramework8CDPEventV13customerPropsSDySSypGvM",
                 "moduleName": "AntsomiFramework",
                 "implicit": true,
-                "declAttributes": [
-                  "Transparent"
-                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -13492,7 +13400,6 @@
             "declAttributes": [
               "HasStorage"
             ],
-            "fixedbinaryorder": 7,
             "hasStorage": true,
             "accessors": [
               {
@@ -13525,9 +13432,6 @@
                 "mangledName": "$s16AntsomiFramework8CDPEventV9userPropsSDySSypGvg",
                 "moduleName": "AntsomiFramework",
                 "implicit": true,
-                "declAttributes": [
-                  "Transparent"
-                ],
                 "accessorKind": "get"
               },
               {
@@ -13565,9 +13469,6 @@
                 "mangledName": "$s16AntsomiFramework8CDPEventV9userPropsSDySSypGvs",
                 "moduleName": "AntsomiFramework",
                 "implicit": true,
-                "declAttributes": [
-                  "Transparent"
-                ],
                 "accessorKind": "set"
               },
               {
@@ -13586,9 +13487,6 @@
                 "mangledName": "$s16AntsomiFramework8CDPEventV9userPropsSDySSypGvM",
                 "moduleName": "AntsomiFramework",
                 "implicit": true,
-                "declAttributes": [
-                  "Transparent"
-                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -13625,7 +13523,6 @@
             "declAttributes": [
               "HasStorage"
             ],
-            "fixedbinaryorder": 8,
             "hasStorage": true,
             "accessors": [
               {
@@ -13658,9 +13555,6 @@
                 "mangledName": "$s16AntsomiFramework8CDPEventV10eventPropsSDySSypGvg",
                 "moduleName": "AntsomiFramework",
                 "implicit": true,
-                "declAttributes": [
-                  "Transparent"
-                ],
                 "accessorKind": "get"
               },
               {
@@ -13698,9 +13592,6 @@
                 "mangledName": "$s16AntsomiFramework8CDPEventV10eventPropsSDySSypGvs",
                 "moduleName": "AntsomiFramework",
                 "implicit": true,
-                "declAttributes": [
-                  "Transparent"
-                ],
                 "accessorKind": "set"
               },
               {
@@ -13719,9 +13610,6 @@
                 "mangledName": "$s16AntsomiFramework8CDPEventV10eventPropsSDySSypGvM",
                 "moduleName": "AntsomiFramework",
                 "implicit": true,
-                "declAttributes": [
-                  "Transparent"
-                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -13758,7 +13646,6 @@
             "declAttributes": [
               "HasStorage"
             ],
-            "fixedbinaryorder": 9,
             "hasStorage": true,
             "accessors": [
               {
@@ -13791,9 +13678,6 @@
                 "mangledName": "$s16AntsomiFramework8CDPEventV11objectPropsSDySSypGvg",
                 "moduleName": "AntsomiFramework",
                 "implicit": true,
-                "declAttributes": [
-                  "Transparent"
-                ],
                 "accessorKind": "get"
               },
               {
@@ -13831,9 +13715,6 @@
                 "mangledName": "$s16AntsomiFramework8CDPEventV11objectPropsSDySSypGvs",
                 "moduleName": "AntsomiFramework",
                 "implicit": true,
-                "declAttributes": [
-                  "Transparent"
-                ],
                 "accessorKind": "set"
               },
               {
@@ -13852,9 +13733,6 @@
                 "mangledName": "$s16AntsomiFramework8CDPEventV11objectPropsSDySSypGvM",
                 "moduleName": "AntsomiFramework",
                 "implicit": true,
-                "declAttributes": [
-                  "Transparent"
-                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -14102,12 +13980,14 @@
                 "kind": "TypeNominal",
                 "name": "String",
                 "printedName": "Swift.String",
+                "hasDefaultArg": true,
                 "usr": "s:SS"
               },
               {
                 "kind": "TypeNominal",
                 "name": "String",
                 "printedName": "Swift.String",
+                "hasDefaultArg": true,
                 "usr": "s:SS"
               },
               {
@@ -14127,6 +14007,7 @@
                     "printedName": "Any"
                   }
                 ],
+                "hasDefaultArg": true,
                 "usr": "s:SD"
               },
               {
@@ -14146,6 +14027,7 @@
                     "printedName": "Any"
                   }
                 ],
+                "hasDefaultArg": true,
                 "usr": "s:SD"
               },
               {
@@ -14165,6 +14047,7 @@
                     "printedName": "Any"
                   }
                 ],
+                "hasDefaultArg": true,
                 "usr": "s:SD"
               },
               {
@@ -14184,6 +14067,7 @@
                     "printedName": "Any"
                   }
                 ],
+                "hasDefaultArg": true,
                 "usr": "s:SD"
               },
               {
@@ -14203,6 +14087,7 @@
                     "printedName": "Any"
                   }
                 ],
+                "hasDefaultArg": true,
                 "usr": "s:SD"
               }
             ],
@@ -14210,6 +14095,9 @@
             "usr": "s:16AntsomiFramework8CDPEventV2ec2ea5items9userProps08customerH006objectH004evetH0ACSS_SSSDySSypGA4Ktcfc",
             "mangledName": "$s16AntsomiFramework8CDPEventV2ec2ea5items9userProps08customerH006objectH004evetH0ACSS_SSSDySSypGA4Ktcfc",
             "moduleName": "AntsomiFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
             "init_kind": "Designated"
           },
           {
@@ -14962,6 +14850,9 @@
             "usr": "s:16AntsomiFramework8CDPEventV6encode2toys7Encoder_p_tKF",
             "mangledName": "$s16AntsomiFramework8CDPEventV6encode2toys7Encoder_p_tKF",
             "moduleName": "AntsomiFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
             "throwing": true,
             "funcSelfKind": "NonMutating"
           }
@@ -14970,6 +14861,9 @@
         "usr": "s:16AntsomiFramework8CDPEventV",
         "mangledName": "$s16AntsomiFramework8CDPEventV",
         "moduleName": "AntsomiFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
         "conformances": [
           {
             "kind": "Conformance",
@@ -14977,13 +14871,6 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -22700,28 +22587,77 @@
     {
       "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/CDPEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1943,
+      "offset": 1192,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/CDPEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 1209,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/CDPEvent.swift",
+      "kind": "Dictionary",
+      "offset": 1236,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/CDPEvent.swift",
+      "kind": "Dictionary",
+      "offset": 1266,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/CDPEvent.swift",
+      "kind": "Dictionary",
+      "offset": 1302,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/CDPEvent.swift",
+      "kind": "Dictionary",
+      "offset": 1334,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/CDPEvent.swift",
+      "kind": "Dictionary",
+      "offset": 1364,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/CDPEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 1997,
       "length": 16,
       "value": "\"userproperties\""
     },
     {
       "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/CDPEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1989,
+      "offset": 2043,
       "length": 20,
       "value": "\"customerproperties\""
     },
     {
       "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/CDPEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1943,
+      "offset": 1997,
       "length": 16,
       "value": "\"userproperties\""
     },
     {
       "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/CDPEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1989,
+      "offset": 2043,
       "length": 20,
       "value": "\"customerproperties\""
     },
