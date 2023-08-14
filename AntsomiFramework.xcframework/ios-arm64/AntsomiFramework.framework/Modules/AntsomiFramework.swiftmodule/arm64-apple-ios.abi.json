@@ -8151,6 +8151,33 @@
           },
           {
             "kind": "Function",
+            "name": "track",
+            "printedName": "track(event:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CDPEvent",
+                "printedName": "AntsomiFramework.CDPEvent",
+                "usr": "s:16AntsomiFramework8CDPEventV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16AntsomiFramework0A0C5track5eventyAA8CDPEventV_tF",
+            "mangledName": "$s16AntsomiFramework0A0C5track5eventyAA8CDPEventV_tF",
+            "moduleName": "AntsomiFramework",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "openURL",
             "printedName": "openURL(_:)",
             "children": [
