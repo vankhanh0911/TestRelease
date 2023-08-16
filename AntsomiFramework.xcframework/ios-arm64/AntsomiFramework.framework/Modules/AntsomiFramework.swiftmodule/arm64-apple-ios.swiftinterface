@@ -59,7 +59,6 @@ public protocol AppInboxDelegate : AnyObject {
 @objc @_inheritsConvenienceInitializers public class Antsomi : ObjectiveC.NSObject {
   public static let SDK_VERSION: Swift.String
   public static var appInbox: AntsomiFramework.AppInbox!
-  public var exampleCallback: (() -> ())?
   public struct Configuration {
     public let portalId: Swift.String
     public let propsId: Swift.String
