@@ -77,7 +77,7 @@ public protocol AppInboxDelegate : AnyObject {
   @objc public func getDeviceID() -> Swift.String
   @objc public func getPortalID() -> Swift.String?
   @objc public func appInboxInit()
-  public func track(event: AntsomiFramework.CDPEvent)
+  public func track(event: AntsomiFramework.CDPEvent, __FlutterScreenAttribute FlutterScreenAttribure: [Swift.String : Any] = [:])
   @objc public func handleDeeplinkURL(_ url: Foundation.URL)
   public func activate(with config: AntsomiFramework.Antsomi.Configuration)
   @objc public func getUid() -> Swift.String?

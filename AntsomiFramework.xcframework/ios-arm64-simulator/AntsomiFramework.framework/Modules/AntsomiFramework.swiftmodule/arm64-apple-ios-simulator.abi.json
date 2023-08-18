@@ -8131,7 +8131,7 @@
           {
             "kind": "Function",
             "name": "track",
-            "printedName": "track(event:)",
+            "printedName": "track(event:__FlutterScreenAttribute:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -8143,15 +8143,36 @@
                 "name": "CDPEvent",
                 "printedName": "AntsomiFramework.CDPEvent",
                 "usr": "s:16AntsomiFramework8CDPEventV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:SD"
               }
             ],
             "declKind": "Func",
-            "usr": "s:16AntsomiFramework0A0C5track5eventyAA8CDPEventV_tF",
-            "mangledName": "$s16AntsomiFramework0A0C5track5eventyAA8CDPEventV_tF",
+            "usr": "s:16AntsomiFramework0A0C5track5event24__FlutterScreenAttributeyAA8CDPEventV_SDySSypGtF",
+            "mangledName": "$s16AntsomiFramework0A0C5track5event24__FlutterScreenAttributeyAA8CDPEventV_SDySSypGtF",
             "moduleName": "AntsomiFramework",
             "isOpen": true,
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -23078,17 +23099,31 @@
     },
     {
       "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
+      "kind": "Dictionary",
+      "offset": 3775,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "StringLiteral",
-      "offset": 13489,
+      "offset": 13829,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "StringLiteral",
-      "offset": 13509,
+      "offset": 13849,
       "length": 2,
       "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
+      "kind": "Dictionary",
+      "offset": 17325,
+      "length": 3,
+      "value": "[]"
     },
     {
       "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/RegisterDevice.swift",
