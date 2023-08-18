@@ -260,6 +260,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import Foundation;
 @import ObjectiveC;
 @import UIKit;
 @import UserNotifications;
@@ -283,9 +284,39 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 #if defined(__OBJC__)
+@class NSString;
+@class AppInbox;
+@class NSURL;
+@class NSData;
 
 SWIFT_CLASS("_TtC16AntsomiFramework7Antsomi")
 @interface Antsomi : NSObject
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull SDK_VERSION;)
++ (NSString * _Nonnull)SDK_VERSION SWIFT_WARN_UNUSED_RESULT;
+@property (nonatomic) BOOL associatedUTM;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) AppInbox * _Null_unspecified appInbox;)
++ (AppInbox * _Null_unspecified)appInbox SWIFT_WARN_UNUSED_RESULT;
++ (void)setAppInbox:(AppInbox * _Null_unspecified)value;
+/// FOR DEBUGGING AND LOGGING INFORMATION
+@property (nonatomic) BOOL debug;
+@property (nonatomic, copy) void (^ _Nullable logger)(NSString * _Nonnull);
+- (void)log:(NSString * _Nonnull)str;
+/// APP INBOX AND CONFIGURATION INSTANCE
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) Antsomi * _Nonnull shared;)
++ (Antsomi * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
++ (void)setShared:(Antsomi * _Nonnull)value;
+- (void)setCustomerPropertiesWithCustomerID:(NSString * _Nonnull)customerID customerProperties:(NSDictionary<NSString *, id> * _Nonnull)customerProperties;
+- (NSString * _Nullable)getCustomerID SWIFT_WARN_UNUSED_RESULT;
+- (NSString * _Nonnull)getPropsID SWIFT_WARN_UNUSED_RESULT;
+- (NSDictionary<NSString *, id> * _Nullable)getCustomerProperties SWIFT_WARN_UNUSED_RESULT;
+- (NSString * _Nonnull)getDeviceID SWIFT_WARN_UNUSED_RESULT;
+- (NSString * _Nullable)getPortalID SWIFT_WARN_UNUSED_RESULT;
+- (void)appInboxInit;
+- (void)handleDeeplinkURL:(NSURL * _Nonnull)url;
+- (NSString * _Nullable)getUid SWIFT_WARN_UNUSED_RESULT;
+- (void)trackAppLaunch;
+- (void)registerForNotification:(NSData * _Nonnull)deviceToken;
+- (void)trackScreenWithTitle:(NSString * _Nonnull)title type:(NSString * _Nonnull)type;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 

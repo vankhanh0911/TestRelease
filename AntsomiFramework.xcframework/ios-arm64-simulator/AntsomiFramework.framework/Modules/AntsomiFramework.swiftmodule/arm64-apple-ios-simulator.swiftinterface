@@ -56,32 +56,34 @@ public protocol AppInboxDelegate : AnyObject {
   public func modifyMessageStatus(_ messageID: Swift.String, action: AntsomiFramework.AppInbox.ModifyAction)
   @objc deinit
 }
-@objc @_inheritsConvenienceInitializers public class Antsomi : ObjectiveC.NSObject {
-  public static let SDK_VERSION: Swift.String
-  public static var appInbox: AntsomiFramework.AppInbox!
+@objc @_inheritsConvenienceInitializers @objcMembers public class Antsomi : ObjectiveC.NSObject {
+  @objc public static let SDK_VERSION: Swift.String
+  @objc public var associatedUTM: Swift.Bool
+  @objc public static var appInbox: AntsomiFramework.AppInbox!
   public struct Configuration {
     public let portalId: Swift.String
     public let propsId: Swift.String
     public let appGroupId: Swift.String
     public init(portalId: Swift.String, propsId: Swift.String, appGroupId: Swift.String)
   }
-  public var debug: Swift.Bool
-  public var logger: ((Swift.String) -> Swift.Void)?
-  public func log(_ str: Swift.String)
-  public static var shared: AntsomiFramework.Antsomi
-  public func setCustomerProperties(customerID: Swift.String, customerProperties: [Swift.String : Any] = [:])
-  public func getCustomerID() -> Swift.String?
-  public func getPropsID() -> Swift.String
-  public func getCustomerProperties() -> [Swift.String : Any]?
-  public func getDeviceID() -> Swift.String
-  public func getPortalID() -> Swift.String?
-  public func appInboxInit()
+  @objc public var debug: Swift.Bool
+  @objc public var logger: ((Swift.String) -> Swift.Void)?
+  @objc public func log(_ str: Swift.String)
+  @objc public static var shared: AntsomiFramework.Antsomi
+  @objc public func setCustomerProperties(customerID: Swift.String, customerProperties: [Swift.String : Any] = [:])
+  @objc public func getCustomerID() -> Swift.String?
+  @objc public func getPropsID() -> Swift.String
+  @objc public func getCustomerProperties() -> [Swift.String : Any]?
+  @objc public func getDeviceID() -> Swift.String
+  @objc public func getPortalID() -> Swift.String?
+  @objc public func appInboxInit()
   public func track(event: AntsomiFramework.CDPEvent)
-  public func openURL(_ url: Foundation.URL)
+  @objc public func handleDeeplinkURL(_ url: Foundation.URL)
   public func activate(with config: AntsomiFramework.Antsomi.Configuration)
-  public func getUid() -> Swift.String?
-  public func trackAppLaunch()
-  public func registerForNotification(_ deviceToken: Foundation.Data)
+  @objc public func getUid() -> Swift.String?
+  @objc public func trackAppLaunch()
+  @objc public func registerForNotification(_ deviceToken: Foundation.Data)
+  @objc public func trackScreen(title: Swift.String = "", type: Swift.String = "")
   @objc override dynamic public init()
   @objc deinit
 }
@@ -110,9 +112,10 @@ public struct CDPEvent : Swift.Encodable {
   public mutating func setObjectProperties(objectProperties: [Swift.String : Any])
   public mutating func setEventProperties(eventProperties: [Swift.String : Any])
   public mutating func setItems(items: [Swift.String : Any])
+  public mutating func setScreenType(type: Swift.String)
   public mutating func setCustomerProperties(customerProperties: [Swift.String : Any])
   public mutating func setUserPropperties(userPropperties: [Swift.String : Any])
-  public init(ec: Swift.String = "", ea: Swift.String = "", items: [Swift.String : Any] = [:], userProps: [Swift.String : Any] = [:], customerProps: [Swift.String : Any] = [:], objectProps: [Swift.String : Any] = [:], evetProps: [Swift.String : Any] = [:])
+  public init(ec: Swift.String = "", ea: Swift.String = "", items: [Swift.String : Any] = [:], userProps: [Swift.String : Any] = [:], customerProps: [Swift.String : Any] = [:], objectProps: [Swift.String : Any] = [:], evetProps: [Swift.String : Any] = [:], screenType: Swift.String = "", screenLabel: Swift.String = "")
   public func encode(to encoder: any Swift.Encoder) throws
 }
 public struct InboxItem : Swift.Codable {
