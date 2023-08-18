@@ -316,7 +316,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) Antsomi * _Nonnull sha
 - (NSString * _Nullable)getUid SWIFT_WARN_UNUSED_RESULT;
 - (void)trackAppLaunch;
 - (void)registerForNotification:(NSData * _Nonnull)deviceToken;
-- (void)trackScreenWithTitle:(NSString * _Nonnull)title type:(NSString * _Nonnull)type;
+- (void)trackScreenWithName:(NSString * _Nonnull)name title:(NSString * _Nonnull)title type:(NSString * _Nonnull)type;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 

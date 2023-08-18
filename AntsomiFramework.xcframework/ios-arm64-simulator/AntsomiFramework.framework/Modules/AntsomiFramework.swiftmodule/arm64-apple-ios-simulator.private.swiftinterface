@@ -77,13 +77,13 @@ public protocol AppInboxDelegate : AnyObject {
   @objc public func getDeviceID() -> Swift.String
   @objc public func getPortalID() -> Swift.String?
   @objc public func appInboxInit()
-  public func track(event: AntsomiFramework.CDPEvent, __FlutterScreenAttribute FlutterScreenAttribure: [Swift.String : Any] = [:])
+  public func track(event: AntsomiFramework.CDPEvent)
   @objc public func handleDeeplinkURL(_ url: Foundation.URL)
   public func activate(with config: AntsomiFramework.Antsomi.Configuration)
   @objc public func getUid() -> Swift.String?
   @objc public func trackAppLaunch()
   @objc public func registerForNotification(_ deviceToken: Foundation.Data)
-  @objc public func trackScreen(title: Swift.String = "", type: Swift.String = "")
+  @objc public func trackScreen(name: Swift.String, title: Swift.String = "", type: Swift.String = "")
   @objc override dynamic public init()
   @objc deinit
 }
@@ -115,7 +115,8 @@ public struct CDPEvent : Swift.Encodable {
   public mutating func setScreenType(type: Swift.String)
   public mutating func setCustomerProperties(customerProperties: [Swift.String : Any])
   public mutating func setUserPropperties(userPropperties: [Swift.String : Any])
-  public init(ec: Swift.String = "", ea: Swift.String = "", items: [Swift.String : Any] = [:], userProps: [Swift.String : Any] = [:], customerProps: [Swift.String : Any] = [:], objectProps: [Swift.String : Any] = [:], evetProps: [Swift.String : Any] = [:], screenType: Swift.String = "", screenLabel: Swift.String = "")
+  public mutating func setScreenName(screenName: Swift.String)
+  public init(ec: Swift.String = "", ea: Swift.String = "", items: [Swift.String : Any] = [:], userProps: [Swift.String : Any] = [:], customerProps: [Swift.String : Any] = [:], objectProps: [Swift.String : Any] = [:], evetProps: [Swift.String : Any] = [:], screenType: Swift.String = "", screenLabel: Swift.String = "", screenName: Swift.String = "")
   public func encode(to encoder: any Swift.Encoder) throws
 }
 public struct InboxItem : Swift.Codable {
