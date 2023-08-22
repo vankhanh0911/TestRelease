@@ -26,6 +26,7 @@ import _StringProcessing
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init()
   @objc deinit
   @_Concurrency.MainActor(unsafe) open func setActionForUrl(_ actionForUrl: @escaping (Swift.String) -> Swift.Void)
+  @_Concurrency.MainActor(unsafe) open func onNotificationReceived(_ handler: @escaping (Swift.String, Swift.String, Foundation.URL, [Swift.String : Any]) -> ())
   @_Concurrency.MainActor(unsafe) open func setActionForDismiss(_ actionForDismiss: @escaping () -> Swift.Void)
   @_Concurrency.MainActor(unsafe) open func setActionForDefault(_ actionForDefault: @escaping () -> Swift.Void)
   @_Concurrency.MainActor(unsafe) open func setActionForCustomDefault(_ actionForCustomDefault: @escaping (Swift.String) -> Swift.Void)
@@ -63,8 +64,9 @@ public protocol AppInboxDelegate : AnyObject {
   public struct Configuration {
     public let portalId: Swift.String
     public let propsId: Swift.String
+    public let applicationId: Swift.String
     public let appGroupId: Swift.String
-    public init(portalId: Swift.String, propsId: Swift.String, appGroupId: Swift.String)
+    public init(portalId: Swift.String, propsId: Swift.String, appGroupId: Swift.String, applicationId: Swift.String)
   }
   @objc public var debug: Swift.Bool
   @objc public var logger: ((Swift.String) -> Swift.Void)?
