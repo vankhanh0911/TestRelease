@@ -76,5 +76,6 @@ Pod::Spec.new do |spec|
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   spec.dependency 'Socket.IO-Client-Swift', '~> 16.0.1'
+  spec.dependency 'Starscream', :git => 'https://github.com/daltoniam/Starscream.git', :tag => '4.0.4'
 
 end
