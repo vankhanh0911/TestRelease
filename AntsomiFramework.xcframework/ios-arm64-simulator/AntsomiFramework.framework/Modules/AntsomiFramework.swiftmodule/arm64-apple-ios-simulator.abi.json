@@ -744,24 +744,6 @@
           },
           {
             "kind": "Function",
-            "name": "incrementBadgeCount",
-            "printedName": "incrementBadgeCount()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:16AntsomiFramework0A19NotificationServiceC19incrementBadgeCountyyF",
-            "mangledName": "$s16AntsomiFramework0A19NotificationServiceC19incrementBadgeCountyyF",
-            "moduleName": "AntsomiFramework",
-            "isOpen": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
             "name": "didReceive",
             "printedName": "didReceive(_:withContentHandler:)",
             "children": [
@@ -5021,8 +5003,8 @@
           },
           {
             "kind": "Function",
-            "name": "onNotificationReceived",
-            "printedName": "onNotificationReceived(_:)",
+            "name": "onNotificationPressed",
+            "printedName": "onNotificationPressed(_:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -5032,7 +5014,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.String, Swift.String, Foundation.URL, [Swift.String : Any]) -> ()",
+                "printedName": "([Swift.String : Any]) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -5041,8 +5023,8 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "Tuple",
-                    "printedName": "(Swift.String, Swift.String, Foundation.URL, [Swift.String : Any])",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -5052,43 +5034,18 @@
                       },
                       {
                         "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "URL",
-                        "printedName": "Foundation.URL",
-                        "usr": "s:10Foundation3URLV"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Dictionary",
-                        "printedName": "[Swift.String : Any]",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "ProtocolComposition",
-                            "printedName": "Any"
-                          }
-                        ],
-                        "usr": "s:SD"
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
                       }
-                    ]
+                    ],
+                    "usr": "s:SD"
                   }
                 ]
               }
             ],
             "declKind": "Func",
-            "usr": "s:16AntsomiFramework0A24UNUserNotificationCenterC02onD8ReceivedyyySS_SS10Foundation3URLVSDySSypGtcF",
-            "mangledName": "$s16AntsomiFramework0A24UNUserNotificationCenterC02onD8ReceivedyyySS_SS10Foundation3URLVSDySSypGtcF",
+            "usr": "s:16AntsomiFramework0A24UNUserNotificationCenterC02onD7PressedyyySDySSypGcF",
+            "mangledName": "$s16AntsomiFramework0A24UNUserNotificationCenterC02onD7PressedyyySDySSypGcF",
             "moduleName": "AntsomiFramework",
             "isOpen": true,
             "declAttributes": [
@@ -7188,6 +7145,59 @@
           },
           {
             "kind": "Var",
+            "name": "antsomiKeyBadge",
+            "printedName": "antsomiKeyBadge",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AntsomiFramework@objc(cs)Antsomi(cpy)antsomiKeyBadge",
+            "mangledName": "$s16AntsomiFramework0A0C15antsomiKeyBadgeSSvpZ",
+            "moduleName": "AntsomiFramework",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AntsomiFramework@objc(cs)Antsomi(cm)antsomiKeyBadge",
+                "mangledName": "$s16AntsomiFramework0A0C15antsomiKeyBadgeSSvgZ",
+                "moduleName": "AntsomiFramework",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "associatedUTM",
             "printedName": "associatedUTM",
             "children": [
@@ -8286,8 +8296,8 @@
           },
           {
             "kind": "Function",
-            "name": "getClkBC",
-            "printedName": "getClkBC(_:completion:)",
+            "name": "handleTrackingURL",
+            "printedName": "handleTrackingURL(_:completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -8319,8 +8329,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@AntsomiFramework@objc(cs)Antsomi(im)getClkBC:completion:",
-            "mangledName": "$s16AntsomiFramework0A0C8getClkBC_10completiony10Foundation3URLV_yyctF",
+            "usr": "c:@M@AntsomiFramework@objc(cs)Antsomi(im)handleTrackingURL:completion:",
+            "mangledName": "$s16AntsomiFramework0A0C17handleTrackingURL_10completiony10Foundation0E0V_yyctF",
             "moduleName": "AntsomiFramework",
             "isOpen": true,
             "declAttributes": [
@@ -13099,8 +13109,8 @@
           },
           {
             "kind": "Var",
-            "name": "ec",
-            "printedName": "ec",
+            "name": "en",
+            "printedName": "en",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -13110,8 +13120,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:16AntsomiFramework8CDPEventV2ecSSvp",
-            "mangledName": "$s16AntsomiFramework8CDPEventV2ecSSvp",
+            "usr": "s:16AntsomiFramework8CDPEventV2enSSvp",
+            "mangledName": "$s16AntsomiFramework8CDPEventV2enSSvp",
             "moduleName": "AntsomiFramework",
             "declAttributes": [
               "HasStorage"
@@ -13131,8 +13141,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16AntsomiFramework8CDPEventV2ecSSvg",
-                "mangledName": "$s16AntsomiFramework8CDPEventV2ecSSvg",
+                "usr": "s:16AntsomiFramework8CDPEventV2enSSvg",
+                "mangledName": "$s16AntsomiFramework8CDPEventV2enSSvg",
                 "moduleName": "AntsomiFramework",
                 "implicit": true,
                 "accessorKind": "get"
@@ -13155,8 +13165,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16AntsomiFramework8CDPEventV2ecSSvs",
-                "mangledName": "$s16AntsomiFramework8CDPEventV2ecSSvs",
+                "usr": "s:16AntsomiFramework8CDPEventV2enSSvs",
+                "mangledName": "$s16AntsomiFramework8CDPEventV2enSSvs",
                 "moduleName": "AntsomiFramework",
                 "implicit": true,
                 "accessorKind": "set"
@@ -13173,92 +13183,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16AntsomiFramework8CDPEventV2ecSSvM",
-                "mangledName": "$s16AntsomiFramework8CDPEventV2ecSSvM",
-                "moduleName": "AntsomiFramework",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "ea",
-            "printedName": "ea",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:16AntsomiFramework8CDPEventV2eaSSvp",
-            "mangledName": "$s16AntsomiFramework8CDPEventV2eaSSvp",
-            "moduleName": "AntsomiFramework",
-            "declAttributes": [
-              "HasStorage"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:16AntsomiFramework8CDPEventV2eaSSvg",
-                "mangledName": "$s16AntsomiFramework8CDPEventV2eaSSvg",
-                "moduleName": "AntsomiFramework",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:16AntsomiFramework8CDPEventV2eaSSvs",
-                "mangledName": "$s16AntsomiFramework8CDPEventV2eaSSvs",
-                "moduleName": "AntsomiFramework",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:16AntsomiFramework8CDPEventV2eaSSvM",
-                "mangledName": "$s16AntsomiFramework8CDPEventV2eaSSvM",
+                "usr": "s:16AntsomiFramework8CDPEventV2enSSvM",
+                "mangledName": "$s16AntsomiFramework8CDPEventV2enSSvM",
                 "moduleName": "AntsomiFramework",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -14390,8 +14316,8 @@
           },
           {
             "kind": "Function",
-            "name": "setEventAction",
-            "printedName": "setEventAction(eventAction:)",
+            "name": "setEventName",
+            "printedName": "setEventName(eventName:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -14406,40 +14332,13 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:16AntsomiFramework8CDPEventV14setEventAction05eventF0ySS_tF",
-            "mangledName": "$s16AntsomiFramework8CDPEventV14setEventAction05eventF0ySS_tF",
+            "usr": "s:16AntsomiFramework8CDPEventV12setEventName05eventF0ySS_tF",
+            "mangledName": "$s16AntsomiFramework8CDPEventV12setEventName05eventF0ySS_tF",
             "moduleName": "AntsomiFramework",
             "declAttributes": [
               "Mutating",
               "AccessControl",
               "RawDocComment"
-            ],
-            "funcSelfKind": "Mutating"
-          },
-          {
-            "kind": "Function",
-            "name": "setEventCategory",
-            "printedName": "setEventCategory(eventCategory:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:16AntsomiFramework8CDPEventV16setEventCategory05eventF0ySS_tF",
-            "mangledName": "$s16AntsomiFramework8CDPEventV16setEventCategory05eventF0ySS_tF",
-            "moduleName": "AntsomiFramework",
-            "declAttributes": [
-              "Mutating",
-              "AccessControl"
             ],
             "funcSelfKind": "Mutating"
           },
@@ -14700,20 +14599,13 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(ec:ea:items:userProps:customerProps:objectProps:evetProps:screenType:screenLabel:screenName:)",
+            "printedName": "init(en:items:userProps:customerProps:objectProps:evetProps:screenType:screenLabel:screenName:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "CDPEvent",
                 "printedName": "AntsomiFramework.CDPEvent",
                 "usr": "s:16AntsomiFramework8CDPEventV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "hasDefaultArg": true,
-                "usr": "s:SS"
               },
               {
                 "kind": "TypeNominal",
@@ -14845,8 +14737,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:16AntsomiFramework8CDPEventV2ec2ea5items9userProps08customerH006objectH004evetH010screenType0L5Label0L4NameACSS_SSSDySSypGA4NS3Stcfc",
-            "mangledName": "$s16AntsomiFramework8CDPEventV2ec2ea5items9userProps08customerH006objectH004evetH010screenType0L5Label0L4NameACSS_SSSDySSypGA4NS3Stcfc",
+            "usr": "s:16AntsomiFramework8CDPEventV2en5items9userProps08customerG006objectG004evetG010screenType0K5Label0K4NameACSS_SDySSypGA4MS3Stcfc",
+            "mangledName": "$s16AntsomiFramework8CDPEventV2en5items9userProps08customerG006objectG004evetG010screenType0K5Label0K4NameACSS_SDySSypGA4MS3Stcfc",
             "moduleName": "AntsomiFramework",
             "declAttributes": [
               "AccessControl"
@@ -14936,8 +14828,8 @@
               },
               {
                 "kind": "Var",
-                "name": "ec",
-                "printedName": "ec",
+                "name": "en",
+                "printedName": "en",
                 "children": [
                   {
                     "kind": "TypeFunc",
@@ -14967,48 +14859,10 @@
                   }
                 ],
                 "declKind": "EnumElement",
-                "usr": "s:16AntsomiFramework8CDPEventV10CodingKeysO2ecyA2EmF",
-                "mangledName": "$s16AntsomiFramework8CDPEventV10CodingKeysO2ecyA2EmF",
+                "usr": "s:16AntsomiFramework8CDPEventV10CodingKeysO2enyA2EmF",
+                "mangledName": "$s16AntsomiFramework8CDPEventV10CodingKeysO2enyA2EmF",
                 "moduleName": "AntsomiFramework",
                 "fixedbinaryorder": 2
-              },
-              {
-                "kind": "Var",
-                "name": "ea",
-                "printedName": "ea",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(AntsomiFramework.CDPEvent.CodingKeys.Type) -> AntsomiFramework.CDPEvent.CodingKeys",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "CodingKeys",
-                        "printedName": "AntsomiFramework.CDPEvent.CodingKeys",
-                        "usr": "s:16AntsomiFramework8CDPEventV10CodingKeysO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "AntsomiFramework.CDPEvent.CodingKeys.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "CodingKeys",
-                            "printedName": "AntsomiFramework.CDPEvent.CodingKeys",
-                            "usr": "s:16AntsomiFramework8CDPEventV10CodingKeysO"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:16AntsomiFramework8CDPEventV10CodingKeysO2eayA2EmF",
-                "mangledName": "$s16AntsomiFramework8CDPEventV10CodingKeysO2eayA2EmF",
-                "moduleName": "AntsomiFramework",
-                "fixedbinaryorder": 3
               },
               {
                 "kind": "Var",
@@ -15046,7 +14900,7 @@
                 "usr": "s:16AntsomiFramework8CDPEventV10CodingKeysO3uidyA2EmF",
                 "mangledName": "$s16AntsomiFramework8CDPEventV10CodingKeysO3uidyA2EmF",
                 "moduleName": "AntsomiFramework",
-                "fixedbinaryorder": 4
+                "fixedbinaryorder": 3
               },
               {
                 "kind": "Var",
@@ -15084,7 +14938,7 @@
                 "usr": "s:16AntsomiFramework8CDPEventV10CodingKeysO4dimsyA2EmF",
                 "mangledName": "$s16AntsomiFramework8CDPEventV10CodingKeysO4dimsyA2EmF",
                 "moduleName": "AntsomiFramework",
-                "fixedbinaryorder": 5
+                "fixedbinaryorder": 4
               },
               {
                 "kind": "Var",
@@ -15122,7 +14976,7 @@
                 "usr": "s:16AntsomiFramework8CDPEventV10CodingKeysO5extrayA2EmF",
                 "mangledName": "$s16AntsomiFramework8CDPEventV10CodingKeysO5extrayA2EmF",
                 "moduleName": "AntsomiFramework",
-                "fixedbinaryorder": 6
+                "fixedbinaryorder": 5
               },
               {
                 "kind": "Var",
@@ -15160,7 +15014,7 @@
                 "usr": "s:16AntsomiFramework8CDPEventV10CodingKeysO5itemsyA2EmF",
                 "mangledName": "$s16AntsomiFramework8CDPEventV10CodingKeysO5itemsyA2EmF",
                 "moduleName": "AntsomiFramework",
-                "fixedbinaryorder": 7
+                "fixedbinaryorder": 6
               },
               {
                 "kind": "Var",
@@ -15198,7 +15052,7 @@
                 "usr": "s:16AntsomiFramework8CDPEventV10CodingKeysO9resp_typeyA2EmF",
                 "mangledName": "$s16AntsomiFramework8CDPEventV10CodingKeysO9resp_typeyA2EmF",
                 "moduleName": "AntsomiFramework",
-                "fixedbinaryorder": 8
+                "fixedbinaryorder": 7
               },
               {
                 "kind": "Var",
@@ -15236,7 +15090,7 @@
                 "usr": "s:16AntsomiFramework8CDPEventV10CodingKeysO9userPropsyA2EmF",
                 "mangledName": "$s16AntsomiFramework8CDPEventV10CodingKeysO9userPropsyA2EmF",
                 "moduleName": "AntsomiFramework",
-                "fixedbinaryorder": 9
+                "fixedbinaryorder": 8
               },
               {
                 "kind": "Var",
@@ -15274,7 +15128,7 @@
                 "usr": "s:16AntsomiFramework8CDPEventV10CodingKeysO13customerPropsyA2EmF",
                 "mangledName": "$s16AntsomiFramework8CDPEventV10CodingKeysO13customerPropsyA2EmF",
                 "moduleName": "AntsomiFramework",
-                "fixedbinaryorder": 10
+                "fixedbinaryorder": 9
               },
               {
                 "kind": "Constructor",
@@ -23353,36 +23207,50 @@
     },
     {
       "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
+      "kind": "StringLiteral",
+      "offset": 1577,
+      "length": 8,
+      "value": "\".badge\""
+    },
+    {
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
+      "kind": "StringLiteral",
+      "offset": 1630,
+      "length": 18,
+      "value": "\"AntsomiSDK.badge\""
+    },
+    {
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "BooleanLiteral",
-      "offset": 1716,
+      "offset": 1944,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "BooleanLiteral",
-      "offset": 2349,
+      "offset": 2577,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "Dictionary",
-      "offset": 2781,
+      "offset": 3009,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "StringLiteral",
-      "offset": 15047,
+      "offset": 15266,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "StringLiteral",
-      "offset": 15067,
+      "offset": 15286,
       "length": 2,
       "value": "\"\""
     },
@@ -23424,119 +23292,112 @@
     {
       "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/CDPEvent.swift",
       "kind": "StringLiteral",
-      "offset": 454,
+      "offset": 435,
       "length": 9,
       "value": "\"predict\""
     },
     {
       "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/CDPEvent.swift",
       "kind": "StringLiteral",
-      "offset": 524,
+      "offset": 505,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/CDPEvent.swift",
       "kind": "StringLiteral",
-      "offset": 548,
+      "offset": 529,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/CDPEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1645,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/CDPEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 1662,
+      "offset": 1515,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/CDPEvent.swift",
       "kind": "Dictionary",
-      "offset": 1689,
+      "offset": 1541,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/CDPEvent.swift",
       "kind": "Dictionary",
-      "offset": 1719,
+      "offset": 1571,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/CDPEvent.swift",
       "kind": "Dictionary",
-      "offset": 1755,
+      "offset": 1607,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/CDPEvent.swift",
       "kind": "Dictionary",
-      "offset": 1787,
+      "offset": 1639,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/CDPEvent.swift",
       "kind": "Dictionary",
-      "offset": 1817,
+      "offset": 1669,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/CDPEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1842,
+      "offset": 1694,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/CDPEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1868,
+      "offset": 1720,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/CDPEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1893,
+      "offset": 1745,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/CDPEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2664,
+      "offset": 2483,
       "length": 16,
       "value": "\"userproperties\""
     },
     {
       "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/CDPEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2710,
+      "offset": 2529,
       "length": 20,
       "value": "\"customerproperties\""
     },
     {
       "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/CDPEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2664,
+      "offset": 2483,
       "length": 16,
       "value": "\"userproperties\""
     },
     {
       "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/CDPEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2710,
+      "offset": 2529,
       "length": 20,
       "value": "\"customerproperties\""
     },
