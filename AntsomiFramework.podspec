@@ -3,7 +3,7 @@ Pod::Spec.new do |spec|
 
 
   spec.name         = "AntsomiFramework"
-  spec.version      = "0.0.10"
+  spec.version      = "0.0.11"
   spec.summary      = "A short description of AntsomiFramework."
 
   spec.description  = <<-DESC
@@ -76,5 +76,6 @@ Pod::Spec.new do |spec|
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   spec.dependency 'Socket.IO-Client-Swift', '~> 16.0.1'
+  spec.dependency 'Starscream','4.0.4'
 
 end
