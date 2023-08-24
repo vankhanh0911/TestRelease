@@ -112,12 +112,12 @@ public struct CDPEvent : Swift.Encodable {
   public mutating func setEventName(eventName: Swift.String)
   public mutating func setObjectProperties(objectProperties: [Swift.String : Any])
   public mutating func setEventProperties(eventProperties: [Swift.String : Any])
-  public mutating func setItems(items: [Swift.String : Any])
+  public mutating func setItems(items: [[Swift.String : Any]])
   public mutating func setScreenType(type: Swift.String)
   public mutating func setCustomerProperties(customerProperties: [Swift.String : Any])
   public mutating func setUserPropperties(userPropperties: [Swift.String : Any])
   public mutating func setScreenName(screenName: Swift.String)
-  public init(en: Swift.String = "", items: [Swift.String : Any] = [:], userProps: [Swift.String : Any] = [:], customerProps: [Swift.String : Any] = [:], objectProps: [Swift.String : Any] = [:], evetProps: [Swift.String : Any] = [:], screenType: Swift.String = "", screenLabel: Swift.String = "", screenName: Swift.String = "")
+  public init(en: Swift.String = "", items: [[Swift.String : Any]] = [], userProps: [Swift.String : Any] = [:], customerProps: [Swift.String : Any] = [:], objectProps: [Swift.String : Any] = [:], evetProps: [Swift.String : Any] = [:], screenType: Swift.String = "", screenLabel: Swift.String = "", screenName: Swift.String = "")
   public func encode(to encoder: any Swift.Encoder) throws
 }
 public struct InboxItem : Swift.Codable {

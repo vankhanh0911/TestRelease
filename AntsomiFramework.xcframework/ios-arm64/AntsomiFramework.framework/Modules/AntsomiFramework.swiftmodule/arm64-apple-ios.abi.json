@@ -13282,37 +13282,8 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Dictionary",
-                "printedName": "[Swift.String : Any]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ProtocolComposition",
-                    "printedName": "Any"
-                  }
-                ],
-                "usr": "s:SD"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:16AntsomiFramework8CDPEventV5itemsSDySSypGvp",
-            "mangledName": "$s16AntsomiFramework8CDPEventV5itemsSDySSypGvp",
-            "moduleName": "AntsomiFramework",
-            "declAttributes": [
-              "HasStorage"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
+                "name": "Array",
+                "printedName": "[[Swift.String : Any]]",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -13334,9 +13305,54 @@
                     "usr": "s:SD"
                   }
                 ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16AntsomiFramework8CDPEventV5itemsSaySDySSypGGvp",
+            "mangledName": "$s16AntsomiFramework8CDPEventV5itemsSaySDySSypGGvp",
+            "moduleName": "AntsomiFramework",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[[Swift.String : Any]]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Any]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
                 "declKind": "Accessor",
-                "usr": "s:16AntsomiFramework8CDPEventV5itemsSDySSypGvg",
-                "mangledName": "$s16AntsomiFramework8CDPEventV5itemsSDySSypGvg",
+                "usr": "s:16AntsomiFramework8CDPEventV5itemsSaySDySSypGGvg",
+                "mangledName": "$s16AntsomiFramework8CDPEventV5itemsSaySDySSypGGvg",
                 "moduleName": "AntsomiFramework",
                 "implicit": true,
                 "accessorKind": "get"
@@ -13353,27 +13369,35 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "Dictionary",
-                    "printedName": "[Swift.String : Any]",
+                    "name": "Array",
+                    "printedName": "[[Swift.String : Any]]",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ProtocolComposition",
-                        "printedName": "Any"
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Any]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:SD"
                       }
                     ],
-                    "usr": "s:SD"
+                    "usr": "s:Sa"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16AntsomiFramework8CDPEventV5itemsSDySSypGvs",
-                "mangledName": "$s16AntsomiFramework8CDPEventV5itemsSDySSypGvs",
+                "usr": "s:16AntsomiFramework8CDPEventV5itemsSaySDySSypGGvs",
+                "mangledName": "$s16AntsomiFramework8CDPEventV5itemsSaySDySSypGGvs",
                 "moduleName": "AntsomiFramework",
                 "implicit": true,
                 "accessorKind": "set"
@@ -13390,8 +13414,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16AntsomiFramework8CDPEventV5itemsSDySSypGvM",
-                "mangledName": "$s16AntsomiFramework8CDPEventV5itemsSDySSypGvM",
+                "usr": "s:16AntsomiFramework8CDPEventV5itemsSaySDySSypGGvM",
+                "mangledName": "$s16AntsomiFramework8CDPEventV5itemsSaySDySSypGGvM",
                 "moduleName": "AntsomiFramework",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -14434,27 +14458,35 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "Dictionary",
-                "printedName": "[Swift.String : Any]",
+                "name": "Array",
+                "printedName": "[[Swift.String : Any]]",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ProtocolComposition",
-                    "printedName": "Any"
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
                   }
                 ],
-                "usr": "s:SD"
+                "usr": "s:Sa"
               }
             ],
             "declKind": "Func",
-            "usr": "s:16AntsomiFramework8CDPEventV8setItems5itemsySDySSypG_tF",
-            "mangledName": "$s16AntsomiFramework8CDPEventV8setItems5itemsySDySSypG_tF",
+            "usr": "s:16AntsomiFramework8CDPEventV8setItems5itemsySaySDySSypGG_tF",
+            "mangledName": "$s16AntsomiFramework8CDPEventV8setItems5itemsySaySDySSypGG_tF",
             "moduleName": "AntsomiFramework",
             "declAttributes": [
               "Mutating",
@@ -14616,23 +14648,31 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "Dictionary",
-                "printedName": "[Swift.String : Any]",
+                "name": "Array",
+                "printedName": "[[Swift.String : Any]]",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ProtocolComposition",
-                    "printedName": "Any"
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
                   }
                 ],
                 "hasDefaultArg": true,
-                "usr": "s:SD"
+                "usr": "s:Sa"
               },
               {
                 "kind": "TypeNominal",
@@ -14737,8 +14777,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:16AntsomiFramework8CDPEventV2en5items9userProps08customerG006objectG004evetG010screenType0K5Label0K4NameACSS_SDySSypGA4MS3Stcfc",
-            "mangledName": "$s16AntsomiFramework8CDPEventV2en5items9userProps08customerG006objectG004evetG010screenType0K5Label0K4NameACSS_SDySSypGA4MS3Stcfc",
+            "usr": "s:16AntsomiFramework8CDPEventV2en5items9userProps08customerG006objectG004evetG010screenType0K5Label0K4NameACSS_SaySDySSypGGA4MS3Stcfc",
+            "mangledName": "$s16AntsomiFramework8CDPEventV2en5items9userProps08customerG006objectG004evetG010screenType0K5Label0K4NameACSS_SaySDySSypGGA4MS3Stcfc",
             "moduleName": "AntsomiFramework",
             "declAttributes": [
               "AccessControl"
@@ -23292,112 +23332,112 @@
     {
       "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/CDPEvent.swift",
       "kind": "StringLiteral",
-      "offset": 435,
+      "offset": 437,
       "length": 9,
       "value": "\"predict\""
     },
     {
       "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/CDPEvent.swift",
       "kind": "StringLiteral",
-      "offset": 505,
+      "offset": 507,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/CDPEvent.swift",
       "kind": "StringLiteral",
-      "offset": 529,
+      "offset": 531,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/CDPEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1515,
+      "offset": 1519,
       "length": 2,
       "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/CDPEvent.swift",
+      "kind": "Array",
+      "offset": 1547,
+      "length": 2,
+      "value": "[]"
     },
     {
       "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/CDPEvent.swift",
       "kind": "Dictionary",
-      "offset": 1541,
+      "offset": 1576,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/CDPEvent.swift",
       "kind": "Dictionary",
-      "offset": 1571,
+      "offset": 1612,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/CDPEvent.swift",
       "kind": "Dictionary",
-      "offset": 1607,
+      "offset": 1644,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/CDPEvent.swift",
       "kind": "Dictionary",
-      "offset": 1639,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/CDPEvent.swift",
-      "kind": "Dictionary",
-      "offset": 1669,
+      "offset": 1674,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/CDPEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1694,
+      "offset": 1699,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/CDPEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1720,
+      "offset": 1725,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/CDPEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1745,
+      "offset": 1750,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/CDPEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2483,
+      "offset": 2488,
       "length": 16,
       "value": "\"userproperties\""
     },
     {
       "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/CDPEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2529,
+      "offset": 2534,
       "length": 20,
       "value": "\"customerproperties\""
     },
     {
       "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/CDPEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2483,
+      "offset": 2488,
       "length": 16,
       "value": "\"userproperties\""
     },
     {
       "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/CDPEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2529,
+      "offset": 2534,
       "length": 20,
       "value": "\"customerproperties\""
     },

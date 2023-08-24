@@ -18,15 +18,15 @@
 		</data>
 		<key>Modules/AntsomiFramework.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		XcrBB0J23vKoGHBQGyZEWdfWAFk=
+		GbN1bS3wi6ncr9fWfc4rZC8hfVA=
 		</data>
 		<key>Modules/AntsomiFramework.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		UPRO3dncM0zQSgHRmqC4lBJL8yc=
+		aiqEhgcSZFRh6YZHQeXT/1viwBc=
 		</data>
 		<key>Modules/AntsomiFramework.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		4KlaFPph4rOdqd5O9nGm3j6m8Zg=
+		wgbVasSbGjjQFj3ch1Nqf8wDbgQ=
 		</data>
 		<key>Modules/AntsomiFramework.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/AntsomiFramework.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		4KlaFPph4rOdqd5O9nGm3j6m8Zg=
+		wgbVasSbGjjQFj3ch1Nqf8wDbgQ=
 		</data>
 		<key>Modules/AntsomiFramework.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		6/6vRpH1Se6RjmCnE2xkBSb8jXM=
+		44Y3UhPSVeBhZuprNWazS2u5e34=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -65,21 +65,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			rJuVJMU3Wm0g3EeKyyTWlMEF7GtxMZykt3FoGmI0Cow=
+			kH2ZbjSyQvvBFecbM7+LN8O1HBjLs8UZ6D8OZNjUFXE=
 			</data>
 		</dict>
 		<key>Modules/AntsomiFramework.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qbREJn6kfdfqYTwSwoHulnHIsf1i5sLEEKgiUnOmcP8=
+			5eumtK5vIf5LeRgbI/XvT/M2soQhg1qi2ubWRchwRJg=
 			</data>
 		</dict>
 		<key>Modules/AntsomiFramework.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yajiC+q8pJkBNeCUu7vKScV+5+7f5uMoGbqU83Cm/u0=
+			Ki713ghx5xJL7FXj+99Qgl224QCNdDoSp+PQYBmu/9E=
 			</data>
 		</dict>
 		<key>Modules/AntsomiFramework.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -93,14 +93,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			yajiC+q8pJkBNeCUu7vKScV+5+7f5uMoGbqU83Cm/u0=
+			Ki713ghx5xJL7FXj+99Qgl224QCNdDoSp+PQYBmu/9E=
 			</data>
 		</dict>
 		<key>Modules/AntsomiFramework.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ai7xpx7VjYYpVxQJZ4QxV+RMPk8lQxinBxD2bDIRZjo=
+			zn4rb0pySnTOzOw94QigJpeRFRRMqZaIBscQCDjvlDI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
