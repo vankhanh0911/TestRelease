@@ -6,11 +6,11 @@
 	<dict>
 		<key>Headers/AntsomiFramework-Swift.h</key>
 		<data>
-		/A73Ru4EgBjJ2/rDJA+a2YBRs9E=
+		hyWGF00yNOGFmFLP+CniLuNfPp4=
 		</data>
 		<key>Headers/AntsomiFramework.h</key>
 		<data>
-		T5CaUOc7QcUHz2/zZCCwAsRngBM=
+		EojvzinxDHn1HbKX5YhFPtvYPcM=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -18,15 +18,15 @@
 		</data>
 		<key>Modules/AntsomiFramework.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		+TtjChFmku1uEidQubAaW3kh3M4=
+		R6w1Ft8CIYkM/uvEKqRkJxjbr1U=
 		</data>
 		<key>Modules/AntsomiFramework.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		c2LzmlDxzaLhjzHK3r/0Wu6NSbA=
+		ZaJBvAe1imMzZDTdu7BmTanY1Lg=
 		</data>
 		<key>Modules/AntsomiFramework.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		wgbVasSbGjjQFj3ch1Nqf8wDbgQ=
+		xZQNuA5TNvyS9WfbLLS/YJTcBaY=
 		</data>
 		<key>Modules/AntsomiFramework.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/AntsomiFramework.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		wgbVasSbGjjQFj3ch1Nqf8wDbgQ=
+		xZQNuA5TNvyS9WfbLLS/YJTcBaY=
 		</data>
 		<key>Modules/AntsomiFramework.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		1cieI5vDnCSIPwxyGeUA9ApcbVI=
+		uKB/hZbyC2pw/MRVImkgkATOXe4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -51,35 +51,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			4W9f6+ABOqia8nN/tPSiIiSuvRZ+ujhNaK7Jgh2Q0X0=
+			Zf4ddDTmD8Cqp45wpQmj3s5tVFsvJA7bjK8z5uAwE/g=
 			</data>
 		</dict>
 		<key>Headers/AntsomiFramework.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jMVarDGxJKVAU9DDhdSV9mf8sOAH0tU5nv9U+Ip9tU8=
+			JdIs7wpPl50fAYjV4ewIm5c6LmQQnlRyksFdUuxf9Z4=
 			</data>
 		</dict>
 		<key>Modules/AntsomiFramework.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MAg/9s9BIewSRZ2TGw2QGcDMRAYTDl1bN8Gs2EsSil8=
+			8uHhlWeFQ4t6/5PZ8X5Cr0HOPpqSd7vymC5T+oahtHE=
 			</data>
 		</dict>
 		<key>Modules/AntsomiFramework.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			55uF17PG/0tgdbkxmk1UZpP0p0UsABwj0CUHedlFWag=
+			Pg5911JuKcr18skgpO+CGm785GXPKwxWoMHrSgSuZw8=
 			</data>
 		</dict>
 		<key>Modules/AntsomiFramework.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ki713ghx5xJL7FXj+99Qgl224QCNdDoSp+PQYBmu/9E=
+			TusKQE2hJY+oXgXhIGO53r9H6FkF8K9vgtJRBzbvj+Q=
 			</data>
 		</dict>
 		<key>Modules/AntsomiFramework.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -93,14 +93,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ki713ghx5xJL7FXj+99Qgl224QCNdDoSp+PQYBmu/9E=
+			TusKQE2hJY+oXgXhIGO53r9H6FkF8K9vgtJRBzbvj+Q=
 			</data>
 		</dict>
 		<key>Modules/AntsomiFramework.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XRz9DfjB68KTHwUA+pPh8IymO+xDhZ4q1F+YTom+iyQ=
+			CqezWpYx5x3AS8/xmXZEzamzNuqvHdIKYu8jUVA4CZs=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

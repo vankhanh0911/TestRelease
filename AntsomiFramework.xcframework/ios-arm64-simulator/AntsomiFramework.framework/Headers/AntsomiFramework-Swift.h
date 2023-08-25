@@ -306,7 +306,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) Antsomi * _Nonnull sha
 + (Antsomi * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
 + (void)setShared:(Antsomi * _Nonnull)value;
 - (void)setCustomerPropertiesWithCustomerID:(NSString * _Nonnull)customerID customerProperties:(NSDictionary<NSString *, id> * _Nonnull)customerProperties;
-- (NSString * _Nullable)getCustomerID SWIFT_WARN_UNUSED_RESULT;
+- (NSString * _Nonnull)getCustomerID SWIFT_WARN_UNUSED_RESULT;
 - (NSString * _Nonnull)getPropsID SWIFT_WARN_UNUSED_RESULT;
 - (NSDictionary<NSString *, id> * _Nullable)getCustomerProperties SWIFT_WARN_UNUSED_RESULT;
 - (NSString * _Nonnull)getDeviceID SWIFT_WARN_UNUSED_RESULT;
