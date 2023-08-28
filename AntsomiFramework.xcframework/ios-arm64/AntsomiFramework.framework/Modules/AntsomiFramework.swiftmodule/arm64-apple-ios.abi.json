@@ -23593,91 +23593,91 @@
     {
       "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/CDPEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2118,
+      "offset": 2076,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/CDPEvent.swift",
       "kind": "Array",
-      "offset": 2146,
+      "offset": 2104,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/CDPEvent.swift",
       "kind": "Dictionary",
-      "offset": 2175,
+      "offset": 2133,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/CDPEvent.swift",
       "kind": "Dictionary",
-      "offset": 2211,
+      "offset": 2169,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/CDPEvent.swift",
       "kind": "Dictionary",
-      "offset": 2243,
+      "offset": 2201,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/CDPEvent.swift",
       "kind": "Dictionary",
-      "offset": 2273,
+      "offset": 2231,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/CDPEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2298,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/CDPEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 2324,
+      "offset": 2256,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/CDPEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2349,
+      "offset": 2282,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/CDPEvent.swift",
       "kind": "StringLiteral",
-      "offset": 3087,
+      "offset": 2307,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/CDPEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 3045,
       "length": 16,
       "value": "\"userproperties\""
     },
     {
       "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/CDPEvent.swift",
       "kind": "StringLiteral",
-      "offset": 3133,
+      "offset": 3091,
       "length": 20,
       "value": "\"customerproperties\""
     },
     {
       "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/CDPEvent.swift",
       "kind": "StringLiteral",
-      "offset": 3087,
+      "offset": 3045,
       "length": 16,
       "value": "\"userproperties\""
     },
     {
       "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/CDPEvent.swift",
       "kind": "StringLiteral",
-      "offset": 3133,
+      "offset": 3091,
       "length": 20,
       "value": "\"customerproperties\""
     },
