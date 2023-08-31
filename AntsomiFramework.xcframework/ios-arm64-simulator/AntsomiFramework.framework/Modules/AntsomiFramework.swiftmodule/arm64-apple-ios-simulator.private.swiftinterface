@@ -62,7 +62,7 @@ public protocol AppInboxDelegate : AnyObject {
 }
 @objc @_inheritsConvenienceInitializers @objcMembers public class Antsomi : ObjectiveC.NSObject {
   @objc public static let SDK_VERSION: Swift.String
-  @objc public var associatedUTM: Swift.Bool
+  @objc public var isAssociatedUTM: Swift.Bool
   @objc public static var appInbox: AntsomiFramework.AppInbox!
   public struct Configuration {
     public let portalId: Swift.String
@@ -76,6 +76,7 @@ public protocol AppInboxDelegate : AnyObject {
   @objc public func log(_ str: Swift.String)
   @objc public static var shared: AntsomiFramework.Antsomi
   @objc public func setCustomerProperties(customerID: Swift.String, customerProperties: [Swift.String : Any] = [:])
+  @objc public func resetCustomer()
   @objc public func getCustomerID() -> Swift.String
   @objc public func getPropsID() -> Swift.String
   @objc public func getCustomerProperties() -> [Swift.String : Any]?

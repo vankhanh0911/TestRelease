@@ -291,9 +291,12 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 SWIFT_CLASS("_TtC16AntsomiFramework7Antsomi")
 @interface Antsomi : NSObject
+/// SDK Version
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull SDK_VERSION;)
 + (NSString * _Nonnull)SDK_VERSION SWIFT_WARN_UNUSED_RESULT;
-@property (nonatomic) BOOL associatedUTM;
+/// Tells that tracking URL is associated
+@property (nonatomic) BOOL isAssociatedUTM;
+/// An App Inbox Instance
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) AppInbox * _Null_unspecified appInbox;)
 + (AppInbox * _Null_unspecified)appInbox SWIFT_WARN_UNUSED_RESULT;
 + (void)setAppInbox:(AppInbox * _Null_unspecified)value;
@@ -306,6 +309,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) Antsomi * _Nonnull sha
 + (Antsomi * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
 + (void)setShared:(Antsomi * _Nonnull)value;
 - (void)setCustomerPropertiesWithCustomerID:(NSString * _Nonnull)customerID customerProperties:(NSDictionary<NSString *, id> * _Nonnull)customerProperties;
+- (void)resetCustomer;
 - (NSString * _Nonnull)getCustomerID SWIFT_WARN_UNUSED_RESULT;
 - (NSString * _Nonnull)getPropsID SWIFT_WARN_UNUSED_RESULT;
 - (NSDictionary<NSString *, id> * _Nullable)getCustomerProperties SWIFT_WARN_UNUSED_RESULT;
