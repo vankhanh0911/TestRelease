@@ -25,6 +25,9 @@ import _StringProcessing
   @objc override dynamic public init()
   @objc deinit
 }
+public struct Catalog : Swift.Decodable {
+  public init(from decoder: any Swift.Decoder) throws
+}
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class AntsomiUNUserNotificationCenter : UIKit.UIResponder, UIKit.UIApplicationDelegate, UserNotifications.UNUserNotificationCenterDelegate {
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init()
   @objc deinit
@@ -39,31 +42,38 @@ import _StringProcessing
 public protocol AppInboxDelegate : AnyObject {
   func onNewMessage(_ newDataArray: [AntsomiFramework.InboxItem])
 }
-@objc @_inheritsConvenienceInitializers public class AppInbox : ObjectiveC.NSObject {
+@objc public class AppInbox : ObjectiveC.NSObject {
   weak public var delegate: (any AntsomiFramework.AppInboxDelegate)?
-  public enum ModifyAction : Swift.String {
+  public var catalog: [AntsomiFramework.Catalog]
+  public enum ModifyAction : Swift.Int {
     case read
     case delete
-    public init?(rawValue: Swift.String)
-    public typealias RawValue = Swift.String
-    public var rawValue: Swift.String {
+    public init?(rawValue: Swift.Int)
+    public typealias RawValue = Swift.Int
+    public var rawValue: Swift.Int {
       get
     }
   }
-  @objc override dynamic public init()
+  public func setPageLimit(pageLimit: Swift.Int)
+  public init(destinationID: Swift.Int, audienceType: Swift.String)
   public func getMessage() -> [AntsomiFramework.InboxItem]
-  public func getLabels() -> [Swift.String]
+  public func getCatalogName() -> [Swift.String]
   public func countUnreadMessage(completion: @escaping ((Swift.Int) -> Swift.Void))
   public func getMessageByID(messageID: Swift.String, completion: @escaping ((AntsomiFramework.InboxItem) -> Swift.Void))
-  public func forceFetchInboxItem(page: Swift.Int = 1, labels: [Swift.String] = ["tatca"], limit: Swift.Int = 10, completion: @escaping (([AntsomiFramework.InboxItem]) -> Swift.Void))
+  public func forceFetchInboxItem(page: Swift.Int = 1, catalog: [AntsomiFramework.Catalog] = [], limit: Swift.Int = 10, completion: @escaping (([AntsomiFramework.InboxItem]) -> Swift.Void))
   public func markAllAsRead()
-  public func modifyMessageStatus(_ messageID: Swift.String, action: AntsomiFramework.AppInbox.ModifyAction)
+  public func modifyMessageStatus(_ messageID: [Swift.String], action: AntsomiFramework.AppInbox.ModifyAction)
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers @objcMembers public class Antsomi : ObjectiveC.NSObject {
   @objc public static let SDK_VERSION: Swift.String
   @objc public var isAssociatedUTM: Swift.Bool
   @objc public static var appInbox: AntsomiFramework.AppInbox!
+  @objc @AntsomiFramework.Atomic public var isDelivery: Swift.Bool {
+    @objc get
+    @objc set
+    _modify
+  }
   public struct Configuration {
     public let portalId: Swift.String
     public let propsId: Swift.String
@@ -76,13 +86,14 @@ public protocol AppInboxDelegate : AnyObject {
   @objc public func log(_ str: Swift.String)
   @objc public static var shared: AntsomiFramework.Antsomi
   @objc public func setCustomerProperties(customerID: Swift.String, customerProperties: [Swift.String : Any] = [:])
+  @objc public func setIsDelivery(newValue: Swift.Bool)
   @objc public func resetCustomer()
   @objc public func getCustomerID() -> Swift.String
   @objc public func getPropsID() -> Swift.String
   @objc public func getCustomerProperties() -> [Swift.String : Any]?
   @objc public func getDeviceID() -> Swift.String
   @objc public func getPortalID() -> Swift.String?
-  @objc public func appInboxInit()
+  @objc public func appInboxInit(destinationID: Swift.Int, audienceType: Swift.String)
   public func track(event: AntsomiFramework.CDPEvent)
   @objc public func handleDeeplinkURL(_ url: Foundation.URL)
   public func activate(with config: AntsomiFramework.Antsomi.Configuration)
@@ -125,17 +136,27 @@ public struct CDPEvent : Swift.Encodable {
   public func encode(to encoder: any Swift.Encoder) throws
 }
 public struct InboxItem : Swift.Codable {
-  public var messageId: Swift.String
+  public var itemId: Swift.String
+  public var itemType: Swift.String
+  public var lastUpdate: Swift.String
   public var heading: Swift.String
-  public var name: Swift.String
+  public var dateCreate: Swift.String
+  public var destinationID: Swift.Int
+  public var catalogID: [Swift.String]
+  public var isDeleted: Swift.Bool
+  public var expireDate: Swift.String
+  public var lauchURL: Foundation.URL?
+  public var webURL: Foundation.URL?
+  public var variantID: Swift.Int
+  public var lookupType: Swift.String
+  public var templateID: Swift.String
   public var content: Swift.String
+  public var campaignId: Swift.Int
+  public var appURL: Foundation.URL?
+  public var status: Swift.Int
   public var imageURL: Foundation.URL?
-  public var landingPage: Foundation.URL?
-  public var icon: Foundation.URL?
-  public var ctime: Swift.String
-  public var status: Swift.String
-  public var tags: [Swift.String]
-  public init?(json: [Swift.String : Any]) throws
+  public var channelID: Swift.Int
+  public var journeyID: Swift.Int
   public init(from decoder: any Swift.Decoder) throws
   public func encode(to encoder: any Swift.Encoder) throws
 }

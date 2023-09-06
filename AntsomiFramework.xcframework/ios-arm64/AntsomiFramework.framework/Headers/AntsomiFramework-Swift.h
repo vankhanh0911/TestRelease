@@ -300,6 +300,8 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _No
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) AppInbox * _Null_unspecified appInbox;)
 + (AppInbox * _Null_unspecified)appInbox SWIFT_WARN_UNUSED_RESULT;
 + (void)setAppInbox:(AppInbox * _Null_unspecified)value;
+/// delivery url ?
+@property (nonatomic) BOOL isDelivery;
 /// FOR DEBUGGING AND LOGGING INFORMATION
 @property (nonatomic) BOOL debug;
 @property (nonatomic, copy) void (^ _Nullable logger)(NSString * _Nonnull);
@@ -309,13 +311,14 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) Antsomi * _Nonnull sha
 + (Antsomi * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
 + (void)setShared:(Antsomi * _Nonnull)value;
 - (void)setCustomerPropertiesWithCustomerID:(NSString * _Nonnull)customerID customerProperties:(NSDictionary<NSString *, id> * _Nonnull)customerProperties;
+- (void)setIsDeliveryWithNewValue:(BOOL)newValue;
 - (void)resetCustomer;
 - (NSString * _Nonnull)getCustomerID SWIFT_WARN_UNUSED_RESULT;
 - (NSString * _Nonnull)getPropsID SWIFT_WARN_UNUSED_RESULT;
 - (NSDictionary<NSString *, id> * _Nullable)getCustomerProperties SWIFT_WARN_UNUSED_RESULT;
 - (NSString * _Nonnull)getDeviceID SWIFT_WARN_UNUSED_RESULT;
 - (NSString * _Nullable)getPortalID SWIFT_WARN_UNUSED_RESULT;
-- (void)appInboxInit;
+- (void)appInboxInitWithDestinationID:(NSInteger)destinationID audienceType:(NSString * _Nonnull)audienceType;
 - (void)handleDeeplinkURL:(NSURL * _Nonnull)url;
 - (NSString * _Nullable)getUid SWIFT_WARN_UNUSED_RESULT;
 - (void)trackAppLaunch;
@@ -348,8 +351,8 @@ SWIFT_CLASS("_TtC16AntsomiFramework31AntsomiUNUserNotificationCenter")
 
 SWIFT_CLASS("_TtC16AntsomiFramework8AppInbox")
 @interface AppInbox : NSObject
-/// Init the app inbox class, fetch all app message when init
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
 
