@@ -44,6 +44,9 @@ public protocol AppInboxDelegate : AnyObject {
 }
 @objc public class AppInbox : ObjectiveC.NSObject {
   weak public var delegate: (any AntsomiFramework.AppInboxDelegate)?
+  public var lookUpID: Swift.String
+  public var lookupType: Swift.String
+  public var pageLimit: Swift.Int
   public var catalog: [AntsomiFramework.Catalog]
   public enum ModifyAction : Swift.Int {
     case read
@@ -60,7 +63,7 @@ public protocol AppInboxDelegate : AnyObject {
   public func getCatalogName() -> [Swift.String]
   public func countUnreadMessage(completion: @escaping ((Swift.Int) -> Swift.Void))
   public func getMessageByID(messageID: Swift.String, completion: @escaping ((AntsomiFramework.InboxItem) -> Swift.Void))
-  public func forceFetchInboxItem(page: Swift.Int = 1, catalog: [AntsomiFramework.Catalog] = [], limit: Swift.Int = 10, completion: @escaping (([AntsomiFramework.InboxItem]) -> Swift.Void))
+  public func forceFetchInboxItem(catalogID: [Swift.String] = [], page: Swift.Int = 1, completion: @escaping (([AntsomiFramework.InboxItem]) -> Swift.Void))
   public func markAllAsRead()
   public func modifyMessageStatus(_ messageID: [Swift.String], action: AntsomiFramework.AppInbox.ModifyAction)
   @objc deinit
