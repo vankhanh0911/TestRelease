@@ -70,6 +70,10 @@ public struct Catalog : Swift.Codable {
   public init(from decoder: any Swift.Decoder) throws
   public func encode(to encoder: any Swift.Encoder) throws
 }
+extension AntsomiFramework.Catalog {
+  public func jsonData() throws -> Foundation.Data
+  public func jsonString(encoding: Swift.String.Encoding = .utf8) throws -> Swift.String?
+}
 @objc @_inheritsConvenienceInitializers @objcMembers public class Antsomi : ObjectiveC.NSObject {
   @objc public static let SDK_VERSION: Swift.String
   @objc public var isAssociatedUTM: Swift.Bool
@@ -164,6 +168,10 @@ public struct InboxItem : Swift.Codable {
   public var journeyID: Swift.Int
   public init(from decoder: any Swift.Decoder) throws
   public func encode(to encoder: any Swift.Encoder) throws
+}
+extension AntsomiFramework.InboxItem {
+  public func jsonData() throws -> Foundation.Data
+  public func jsonString(encoding: Swift.String.Encoding = .utf8) throws -> Swift.String?
 }
 extension UIKit.UIDevice {
   @_Concurrency.MainActor(unsafe) public static let modelName: Swift.String

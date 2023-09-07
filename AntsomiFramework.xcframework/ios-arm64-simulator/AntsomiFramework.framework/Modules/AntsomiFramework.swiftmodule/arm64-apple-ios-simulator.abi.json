@@ -9683,6 +9683,9 @@
             "usr": "s:16AntsomiFramework7CatalogV8jsonData10Foundation0E0VyKF",
             "mangledName": "$s16AntsomiFramework7CatalogV8jsonData10Foundation0E0VyKF",
             "moduleName": "AntsomiFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
             "isFromExtension": true,
             "throwing": true,
             "funcSelfKind": "NonMutating"
@@ -9718,6 +9721,9 @@
             "usr": "s:16AntsomiFramework7CatalogV10jsonString8encodingSSSgSS10FoundationE8EncodingV_tKF",
             "mangledName": "$s16AntsomiFramework7CatalogV10jsonString8encodingSSSgSS10FoundationE8EncodingV_tKF",
             "moduleName": "AntsomiFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
             "isFromExtension": true,
             "throwing": true,
             "funcSelfKind": "NonMutating"
@@ -23420,6 +23426,9 @@
             "usr": "s:16AntsomiFramework9InboxItemV8jsonData10Foundation0F0VyKF",
             "mangledName": "$s16AntsomiFramework9InboxItemV8jsonData10Foundation0F0VyKF",
             "moduleName": "AntsomiFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
             "isFromExtension": true,
             "throwing": true,
             "funcSelfKind": "NonMutating"
@@ -23455,6 +23464,9 @@
             "usr": "s:16AntsomiFramework9InboxItemV10jsonString8encodingSSSgSS10FoundationE8EncodingV_tKF",
             "mangledName": "$s16AntsomiFramework9InboxItemV10jsonString8encodingSSSgSS10FoundationE8EncodingV_tKF",
             "moduleName": "AntsomiFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
             "isFromExtension": true,
             "throwing": true,
             "funcSelfKind": "NonMutating"
