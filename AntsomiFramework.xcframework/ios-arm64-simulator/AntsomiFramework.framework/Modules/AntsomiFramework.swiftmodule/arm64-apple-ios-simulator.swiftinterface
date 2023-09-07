@@ -47,7 +47,6 @@ public protocol AppInboxDelegate : AnyObject {
   public var lookUpID: Swift.String
   public var lookupType: Swift.String
   public var pageLimit: Swift.Int
-  public var catalog: [AntsomiFramework.Catalog]
   public enum ModifyAction : Swift.Int {
     case read
     case delete
@@ -60,7 +59,7 @@ public protocol AppInboxDelegate : AnyObject {
   public func setPageLimit(pageLimit: Swift.Int)
   public init(destinationID: Swift.Int, audienceType: Swift.String)
   public func getMessage() -> [AntsomiFramework.InboxItem]
-  public func getCatalogName() -> [Swift.String]
+  public func getCatalog() -> [AntsomiFramework.Catalog]
   public func countUnreadMessage(completion: @escaping ((Swift.Int) -> Swift.Void))
   public func getMessageByID(messageID: Swift.String, completion: @escaping ((AntsomiFramework.InboxItem) -> Swift.Void))
   public func forceFetchInboxItem(catalogID: [Swift.String] = [], page: Swift.Int = 1, completion: @escaping (([AntsomiFramework.InboxItem]) -> Swift.Void))

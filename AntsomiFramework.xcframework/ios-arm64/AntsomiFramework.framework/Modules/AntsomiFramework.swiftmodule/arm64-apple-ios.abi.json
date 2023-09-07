@@ -8885,120 +8885,6 @@
             ]
           },
           {
-            "kind": "Var",
-            "name": "catalog",
-            "printedName": "catalog",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[AntsomiFramework.Catalog]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Catalog",
-                    "printedName": "AntsomiFramework.Catalog",
-                    "usr": "s:16AntsomiFramework7CatalogV"
-                  }
-                ],
-                "usr": "s:Sa"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:16AntsomiFramework8AppInboxC7catalogSayAA7CatalogVGvp",
-            "mangledName": "$s16AntsomiFramework8AppInboxC7catalogSayAA7CatalogVGvp",
-            "moduleName": "AntsomiFramework",
-            "isOpen": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[AntsomiFramework.Catalog]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Catalog",
-                        "printedName": "AntsomiFramework.Catalog",
-                        "usr": "s:16AntsomiFramework7CatalogV"
-                      }
-                    ],
-                    "usr": "s:Sa"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:16AntsomiFramework8AppInboxC7catalogSayAA7CatalogVGvg",
-                "mangledName": "$s16AntsomiFramework8AppInboxC7catalogSayAA7CatalogVGvg",
-                "moduleName": "AntsomiFramework",
-                "implicit": true,
-                "isOpen": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[AntsomiFramework.Catalog]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Catalog",
-                        "printedName": "AntsomiFramework.Catalog",
-                        "usr": "s:16AntsomiFramework7CatalogV"
-                      }
-                    ],
-                    "usr": "s:Sa"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:16AntsomiFramework8AppInboxC7catalogSayAA7CatalogVGvs",
-                "mangledName": "$s16AntsomiFramework8AppInboxC7catalogSayAA7CatalogVGvs",
-                "moduleName": "AntsomiFramework",
-                "implicit": true,
-                "isOpen": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:16AntsomiFramework8AppInboxC7catalogSayAA7CatalogVGvM",
-                "mangledName": "$s16AntsomiFramework8AppInboxC7catalogSayAA7CatalogVGvM",
-                "moduleName": "AntsomiFramework",
-                "implicit": true,
-                "isOpen": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
             "kind": "TypeDecl",
             "name": "ModifyAction",
             "printedName": "ModifyAction",
@@ -9291,27 +9177,27 @@
           },
           {
             "kind": "Function",
-            "name": "getCatalogName",
-            "printedName": "getCatalogName()",
+            "name": "getCatalog",
+            "printedName": "getCatalog()",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Array",
-                "printedName": "[Swift.String]",
+                "printedName": "[AntsomiFramework.Catalog]",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
+                    "name": "Catalog",
+                    "printedName": "AntsomiFramework.Catalog",
+                    "usr": "s:16AntsomiFramework7CatalogV"
                   }
                 ],
                 "usr": "s:Sa"
               }
             ],
             "declKind": "Func",
-            "usr": "s:16AntsomiFramework8AppInboxC14getCatalogNameSaySSGyF",
-            "mangledName": "$s16AntsomiFramework8AppInboxC14getCatalogNameSaySSGyF",
+            "usr": "s:16AntsomiFramework8AppInboxC10getCatalogSayAA0F0VGyF",
+            "mangledName": "$s16AntsomiFramework8AppInboxC10getCatalogSayAA0F0VGyF",
             "moduleName": "AntsomiFramework",
             "isOpen": true,
             "declAttributes": [
@@ -28573,56 +28459,56 @@
     {
       "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/AppInbox.swift",
       "kind": "IntegerLiteral",
-      "offset": 1006,
+      "offset": 1007,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/AppInbox.swift",
       "kind": "IntegerLiteral",
-      "offset": 1030,
+      "offset": 1031,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/AppInbox.swift",
       "kind": "IntegerLiteral",
-      "offset": 1006,
+      "offset": 1007,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/AppInbox.swift",
       "kind": "IntegerLiteral",
-      "offset": 1030,
+      "offset": 1031,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/AppInbox.swift",
       "kind": "IntegerLiteral",
-      "offset": 1006,
+      "offset": 1007,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/AppInbox.swift",
       "kind": "IntegerLiteral",
-      "offset": 1030,
+      "offset": 1031,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/AppInbox.swift",
       "kind": "Array",
-      "offset": 4644,
+      "offset": 4622,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/AppInbox.swift",
       "kind": "IntegerLiteral",
-      "offset": 4660,
+      "offset": 4638,
       "length": 1,
       "value": "1"
     },
