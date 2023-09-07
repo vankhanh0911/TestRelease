@@ -25,9 +25,6 @@ import _StringProcessing
   @objc override dynamic public init()
   @objc deinit
 }
-public struct Catalog : Swift.Decodable {
-  public init(from decoder: any Swift.Decoder) throws
-}
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class AntsomiUNUserNotificationCenter : UIKit.UIResponder, UIKit.UIApplicationDelegate, UserNotifications.UNUserNotificationCenterDelegate {
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init()
   @objc deinit
@@ -66,6 +63,12 @@ public protocol AppInboxDelegate : AnyObject {
   public func markAllAsRead()
   public func modifyMessageStatus(_ messageID: [Swift.String], action: AntsomiFramework.AppInbox.ModifyAction)
   @objc deinit
+}
+public struct Catalog : Swift.Codable {
+  public var catalogID: Swift.String
+  public var catalogName: Swift.String
+  public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
 }
 @objc @_inheritsConvenienceInitializers @objcMembers public class Antsomi : ObjectiveC.NSObject {
   @objc public static let SDK_VERSION: Swift.String
