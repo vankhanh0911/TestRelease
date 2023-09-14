@@ -25,6 +25,15 @@ import _StringProcessing
   @objc override dynamic public init()
   @objc deinit
 }
+public enum AdsType : Swift.String {
+  case slideIn
+  case fullScreen
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class AntsomiUNUserNotificationCenter : UIKit.UIResponder, UIKit.UIApplicationDelegate, UserNotifications.UNUserNotificationCenterDelegate {
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init()
   @objc deinit
@@ -43,17 +52,8 @@ public protocol AppInboxDelegate : AnyObject {
   weak public var delegate: (any AntsomiFramework.AppInboxDelegate)?
   public var lookUpID: Swift.String
   public var lookupType: Swift.String
-  public var pageLimit: Swift.Int
-  public enum ModifyAction : Swift.Int {
-    case read
-    case delete
-    public init?(rawValue: Swift.Int)
-    public typealias RawValue = Swift.Int
-    public var rawValue: Swift.Int {
-      get
-    }
-  }
-  public func setPageLimit(pageLimit: Swift.Int)
+  public static var pageLimit: Swift.Int
+  public static func setPageLimit(pageLimit: Swift.Int)
   public init(destinationID: Swift.Int, audienceType: Swift.String)
   public func getMessage() -> [AntsomiFramework.InboxItem]
   public func getCatalog() -> [AntsomiFramework.Catalog]
@@ -61,7 +61,7 @@ public protocol AppInboxDelegate : AnyObject {
   public func getMessageByID(messageID: Swift.String, completion: @escaping ((AntsomiFramework.InboxItem) -> Swift.Void))
   public func forceFetchInboxItem(catalogID: [Swift.String] = [], page: Swift.Int = 1, completion: @escaping (([AntsomiFramework.InboxItem]) -> Swift.Void))
   public func markAllAsRead()
-  public func modifyMessageStatus(_ messageID: [Swift.String], action: AntsomiFramework.AppInbox.ModifyAction)
+  public func modifyMessageStatus(_ messageID: [Swift.String], action: AntsomiFramework.ModifyAction)
   @objc deinit
 }
 public struct Catalog : Swift.Codable {
@@ -118,6 +118,19 @@ extension AntsomiFramework.Catalog {
   @objc override dynamic public init()
   @objc deinit
 }
+public enum ModifyAction : Swift.Int, Swift.CaseIterable, Swift.Codable {
+  case unread
+  case read
+  public init?(rawValue: Swift.Int)
+  public typealias AllCases = [AntsomiFramework.ModifyAction]
+  public typealias RawValue = Swift.Int
+  public static var allCases: [AntsomiFramework.ModifyAction] {
+    get
+  }
+  public var rawValue: Swift.Int {
+    get
+  }
+}
 @objc @_inheritsConvenienceInitializers public class Context : ObjectiveC.NSObject {
   public var deviceID: Swift.String?
   public func execute() -> [Swift.String : Any]
@@ -166,6 +179,11 @@ public struct InboxItem : Swift.Codable {
   public var imageURL: Foundation.URL?
   public var channelID: Swift.Int
   public var journeyID: Swift.Int
+  public var firstAppButtonURL: Foundation.URL?
+  public var secondAppButtonURL: Foundation.URL?
+  public var firstButtonLabel: Swift.String
+  public var secondButtonLabel: Swift.String
+  public var trackingURL: Foundation.URL?
   public init(from decoder: any Swift.Decoder) throws
   public func encode(to encoder: any Swift.Encoder) throws
 }
@@ -176,6 +194,9 @@ extension AntsomiFramework.InboxItem {
 extension UIKit.UIDevice {
   @_Concurrency.MainActor(unsafe) public static let modelName: Swift.String
 }
-extension AntsomiFramework.AppInbox.ModifyAction : Swift.Equatable {}
-extension AntsomiFramework.AppInbox.ModifyAction : Swift.Hashable {}
-extension AntsomiFramework.AppInbox.ModifyAction : Swift.RawRepresentable {}
+extension AntsomiFramework.AdsType : Swift.Equatable {}
+extension AntsomiFramework.AdsType : Swift.Hashable {}
+extension AntsomiFramework.AdsType : Swift.RawRepresentable {}
+extension AntsomiFramework.ModifyAction : Swift.Equatable {}
+extension AntsomiFramework.ModifyAction : Swift.Hashable {}
+extension AntsomiFramework.ModifyAction : Swift.RawRepresentable {}
