@@ -36,7 +36,6 @@ public enum AdsType : Swift.String {
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class AntsomiUNUserNotificationCenter : UIKit.UIResponder, UIKit.UIApplicationDelegate, UserNotifications.UNUserNotificationCenterDelegate {
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init()
-  @objc deinit
   @_Concurrency.MainActor(unsafe) open func setActionForUrl(_ actionForUrl: @escaping (Swift.String) -> Swift.Void)
   @_Concurrency.MainActor(unsafe) open func onNotificationPressed(_ completion: @escaping ([Swift.String : Any]) -> ())
   @_Concurrency.MainActor(unsafe) open func setActionForDismiss(_ actionForDismiss: @escaping () -> Swift.Void)
@@ -44,9 +43,10 @@ public enum AdsType : Swift.String {
   @_Concurrency.MainActor(unsafe) open func setActionForCustomDefault(_ actionForCustomDefault: @escaping (Swift.String) -> Swift.Void)
   @_Concurrency.MainActor(unsafe) @objc public func userNotificationCenter(_ center: UserNotifications.UNUserNotificationCenter, willPresent notification: UserNotifications.UNNotification, withCompletionHandler completionHandler: @escaping (UserNotifications.UNNotificationPresentationOptions) -> Swift.Void)
   @_Concurrency.MainActor(unsafe) @objc public func userNotificationCenter(_ center: UserNotifications.UNUserNotificationCenter, didReceive response: UserNotifications.UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Swift.Void)
+  @objc deinit
 }
 public protocol AppInboxDelegate : AnyObject {
-  func onNewMessage(_ newDataArray: [AntsomiFramework.InboxItem])
+  func onNewMessage(_ newMessageReceived: AntsomiFramework.InboxItem)
 }
 @objc public class AppInbox : ObjectiveC.NSObject {
   weak public var delegate: (any AntsomiFramework.AppInboxDelegate)?
@@ -54,12 +54,12 @@ public protocol AppInboxDelegate : AnyObject {
   public var lookupType: Swift.String
   public static var pageLimit: Swift.Int
   public static func setPageLimit(pageLimit: Swift.Int)
-  public init(destinationID: Swift.Int, audienceType: Swift.String)
+  public init(destinationID: Swift.Int, audienceType: Swift.String, log: Swift.Bool = false)
   public func getMessage() -> [AntsomiFramework.InboxItem]
   public func getCatalog() -> [AntsomiFramework.Catalog]
   public func countUnreadMessage(completion: @escaping ((Swift.Int) -> Swift.Void))
   public func getMessageByID(messageID: Swift.String, completion: @escaping ((AntsomiFramework.InboxItem) -> Swift.Void))
-  public func forceFetchInboxItem(catalogID: [Swift.String] = [], page: Swift.Int = 1, completion: @escaping (([AntsomiFramework.InboxItem]) -> Swift.Void))
+  public func forceFetchInboxItem(catalogID: [Swift.String] = [], page: Swift.Int, completion: @escaping (([AntsomiFramework.InboxItem]) -> Swift.Void))
   public func markAllAsRead()
   public func modifyMessageStatus(_ messageID: [Swift.String], action: AntsomiFramework.ModifyAction)
   @objc deinit

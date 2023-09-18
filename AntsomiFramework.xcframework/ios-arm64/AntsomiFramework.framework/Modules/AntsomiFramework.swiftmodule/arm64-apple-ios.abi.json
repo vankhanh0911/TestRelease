@@ -15,6 +15,220 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "ErrorOnReceiveMessage",
+        "printedName": "ErrorOnReceiveMessage",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "NIL",
+            "printedName": "NIL",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AntsomiFramework.ErrorOnReceiveMessage.Type) -> AntsomiFramework.ErrorOnReceiveMessage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ErrorOnReceiveMessage",
+                    "printedName": "AntsomiFramework.ErrorOnReceiveMessage",
+                    "usr": "s:16AntsomiFramework21ErrorOnReceiveMessageO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AntsomiFramework.ErrorOnReceiveMessage.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ErrorOnReceiveMessage",
+                        "printedName": "AntsomiFramework.ErrorOnReceiveMessage",
+                        "usr": "s:16AntsomiFramework21ErrorOnReceiveMessageO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16AntsomiFramework21ErrorOnReceiveMessageO3NILyA2CmF",
+            "mangledName": "$s16AntsomiFramework21ErrorOnReceiveMessageO3NILyA2CmF",
+            "moduleName": "AntsomiFramework",
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "NOT_RECEIVE",
+            "printedName": "NOT_RECEIVE",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AntsomiFramework.ErrorOnReceiveMessage.Type) -> AntsomiFramework.ErrorOnReceiveMessage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ErrorOnReceiveMessage",
+                    "printedName": "AntsomiFramework.ErrorOnReceiveMessage",
+                    "usr": "s:16AntsomiFramework21ErrorOnReceiveMessageO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AntsomiFramework.ErrorOnReceiveMessage.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ErrorOnReceiveMessage",
+                        "printedName": "AntsomiFramework.ErrorOnReceiveMessage",
+                        "usr": "s:16AntsomiFramework21ErrorOnReceiveMessageO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16AntsomiFramework21ErrorOnReceiveMessageO11NOT_RECEIVEyA2CmF",
+            "mangledName": "$s16AntsomiFramework21ErrorOnReceiveMessageO11NOT_RECEIVEyA2CmF",
+            "moduleName": "AntsomiFramework",
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ErrorOnReceiveMessage",
+                "printedName": "AntsomiFramework.ErrorOnReceiveMessage",
+                "usr": "s:16AntsomiFramework21ErrorOnReceiveMessageO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ErrorOnReceiveMessage",
+                "printedName": "AntsomiFramework.ErrorOnReceiveMessage",
+                "usr": "s:16AntsomiFramework21ErrorOnReceiveMessageO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16AntsomiFramework21ErrorOnReceiveMessageO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s16AntsomiFramework21ErrorOnReceiveMessageO2eeoiySbAC_ACtFZ",
+            "moduleName": "AntsomiFramework",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16AntsomiFramework21ErrorOnReceiveMessageO9hashValueSivp",
+            "mangledName": "$s16AntsomiFramework21ErrorOnReceiveMessageO9hashValueSivp",
+            "moduleName": "AntsomiFramework",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16AntsomiFramework21ErrorOnReceiveMessageO9hashValueSivg",
+                "mangledName": "$s16AntsomiFramework21ErrorOnReceiveMessageO9hashValueSivg",
+                "moduleName": "AntsomiFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16AntsomiFramework21ErrorOnReceiveMessageO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s16AntsomiFramework21ErrorOnReceiveMessageO4hash4intoys6HasherVz_tF",
+            "moduleName": "AntsomiFramework",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:16AntsomiFramework21ErrorOnReceiveMessageO",
+        "mangledName": "$s16AntsomiFramework21ErrorOnReceiveMessageO",
+        "moduleName": "AntsomiFramework",
+        "isEnumExhaustive": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -16155,22 +16369,14 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[AntsomiFramework.InboxItem]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "InboxItem",
-                    "printedName": "AntsomiFramework.InboxItem",
-                    "usr": "s:16AntsomiFramework9InboxItemV"
-                  }
-                ],
-                "usr": "s:Sa"
+                "name": "InboxItem",
+                "printedName": "AntsomiFramework.InboxItem",
+                "usr": "s:16AntsomiFramework9InboxItemV"
               }
             ],
             "declKind": "Func",
-            "usr": "s:16AntsomiFramework16AppInboxDelegateP12onNewMessageyySayAA0D4ItemVGF",
-            "mangledName": "$s16AntsomiFramework16AppInboxDelegateP12onNewMessageyySayAA0D4ItemVGF",
+            "usr": "s:16AntsomiFramework16AppInboxDelegateP12onNewMessageyyAA0D4ItemVF",
+            "mangledName": "$s16AntsomiFramework16AppInboxDelegateP12onNewMessageyyAA0D4ItemVF",
             "moduleName": "AntsomiFramework",
             "genericSig": "<τ_0_0 where τ_0_0 : AntsomiFramework.AppInboxDelegate>",
             "sugared_genericSig": "<Self where Self : AntsomiFramework.AppInboxDelegate>",
@@ -17426,7 +17632,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(destinationID:audienceType:)",
+            "printedName": "init(destinationID:audienceType:log:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -17445,11 +17651,18 @@
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:16AntsomiFramework8AppInboxC13destinationID12audienceTypeACSi_SStcfc",
-            "mangledName": "$s16AntsomiFramework8AppInboxC13destinationID12audienceTypeACSi_SStcfc",
+            "usr": "s:16AntsomiFramework8AppInboxC13destinationID12audienceType3logACSi_SSSbtcfc",
+            "mangledName": "$s16AntsomiFramework8AppInboxC13destinationID12audienceType3logACSi_SSSbtcfc",
             "moduleName": "AntsomiFramework",
             "declAttributes": [
               "AccessControl",
@@ -17632,7 +17845,6 @@
                 "kind": "TypeNominal",
                 "name": "Int",
                 "printedName": "Swift.Int",
-                "hasDefaultArg": true,
                 "usr": "s:Si"
               },
               {
@@ -17832,8 +18044,17 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
+                "name": "Optional",
+                "printedName": "AntsomiFramework.InboxItem?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "InboxItem",
+                    "printedName": "AntsomiFramework.InboxItem",
+                    "usr": "s:16AntsomiFramework9InboxItemV"
+                  }
+                ],
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeNominal",
@@ -17856,14 +18077,15 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:16AntsomiFramework8AppInboxC19decodeSocketMessage4fromySDySSypG_tF",
-            "mangledName": "$s16AntsomiFramework8AppInboxC19decodeSocketMessage4fromySDySSypG_tF",
+            "usr": "s:16AntsomiFramework8AppInboxC19decodeSocketMessage4fromAA0D4ItemVSgSDySSypG_tKF",
+            "mangledName": "$s16AntsomiFramework8AppInboxC19decodeSocketMessage4fromAA0D4ItemVSgSDySSypG_tKF",
             "moduleName": "AntsomiFramework",
             "isOpen": true,
             "declAttributes": [
               "AccessControl"
             ],
             "isFromExtension": true,
+            "throwing": true,
             "funcSelfKind": "NonMutating"
           },
           {
@@ -23069,15 +23291,180 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "connectParam",
+            "printedName": "connectParam",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16AntsomiFramework15SocketIOManagerC12connectParamSDySSypGSgvp",
+            "mangledName": "$s16AntsomiFramework15SocketIOManagerC12connectParamSDySSypGSgvp",
+            "moduleName": "AntsomiFramework",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String : Any]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Any]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16AntsomiFramework15SocketIOManagerC12connectParamSDySSypGSgvg",
+                "mangledName": "$s16AntsomiFramework15SocketIOManagerC12connectParamSDySSypGSgvg",
+                "moduleName": "AntsomiFramework",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String : Any]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Any]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16AntsomiFramework15SocketIOManagerC12connectParamSDySSypGSgvs",
+                "mangledName": "$s16AntsomiFramework15SocketIOManagerC12connectParamSDySSypGSgvs",
+                "moduleName": "AntsomiFramework",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16AntsomiFramework15SocketIOManagerC12connectParamSDySSypGSgvM",
+                "mangledName": "$s16AntsomiFramework15SocketIOManagerC12connectParamSDySSypGSgvM",
+                "moduleName": "AntsomiFramework",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(portalId:lookUpID:log:)",
+            "printedName": "init(portalId:destinationID:lookUpID:lookUpType:log:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "SocketIOManager",
                 "printedName": "AntsomiFramework.SocketIOManager",
                 "usr": "c:@M@AntsomiFramework@objc(cs)SocketIOManager"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
               },
               {
                 "kind": "TypeNominal",
@@ -23099,8 +23486,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:16AntsomiFramework15SocketIOManagerC8portalId8lookUpID3logACSS_SSSbtcfc",
-            "mangledName": "$s16AntsomiFramework15SocketIOManagerC8portalId8lookUpID3logACSS_SSSbtcfc",
+            "usr": "s:16AntsomiFramework15SocketIOManagerC8portalId13destinationID06lookUpH00iJ4Type3logACSS_SiS2SSbtcfc",
+            "mangledName": "$s16AntsomiFramework15SocketIOManagerC8portalId13destinationID06lookUpH00iJ4Type3logACSS_SiS2SSbtcfc",
             "moduleName": "AntsomiFramework",
             "init_kind": "Designated"
           },
@@ -23856,8 +24243,7 @@
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl",
-              "RawDocComment"
+              "AccessControl"
             ],
             "hasStorage": true,
             "accessors": [
@@ -24247,8 +24633,7 @@
             "moduleName": "AntsomiFramework",
             "isOpen": true,
             "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
+              "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -24284,8 +24669,7 @@
             "static": true,
             "declAttributes": [
               "Final",
-              "AccessControl",
-              "RawDocComment"
+              "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -35545,6 +35929,56 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "SocketURL",
+            "printedName": "SocketURL",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16AntsomiFramework12APIConstantsV9SocketURLSSvpZ",
+            "mangledName": "$s16AntsomiFramework12APIConstantsV9SocketURLSSvpZ",
+            "moduleName": "AntsomiFramework",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16AntsomiFramework12APIConstantsV9SocketURLSSvgZ",
+                "mangledName": "$s16AntsomiFramework12APIConstantsV9SocketURLSSvgZ",
+                "moduleName": "AntsomiFramework",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init()",
@@ -39025,56 +39459,56 @@
     {
       "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/AppInbox.swift",
       "kind": "Array",
-      "offset": 538,
+      "offset": 542,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/AppInbox.swift",
       "kind": "StringLiteral",
-      "offset": 697,
+      "offset": 701,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/AppInbox.swift",
       "kind": "StringLiteral",
-      "offset": 737,
+      "offset": 741,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/AppInbox.swift",
       "kind": "IntegerLiteral",
-      "offset": 780,
+      "offset": 784,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/AppInbox.swift",
       "kind": "IntegerLiteral",
-      "offset": 820,
+      "offset": 824,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/AppInbox.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1182,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/AppInbox.swift",
       "kind": "Array",
-      "offset": 4624,
+      "offset": 4977,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/AppInbox.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4640,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/AppInbox.swift",
       "kind": "StringLiteral",
-      "offset": 252,
+      "offset": 256,
       "length": 8,
       "value": "\"AntsomiFramework.AppInbox\""
     },
@@ -39487,7 +39921,7 @@
     {
       "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Context.swift",
       "kind": "BooleanLiteral",
-      "offset": 464,
+      "offset": 369,
       "length": 5,
       "value": "false"
     },
@@ -40362,9 +40796,16 @@
     {
       "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/APIContants.swift",
       "kind": "StringLiteral",
-      "offset": 1093,
+      "offset": 1095,
       "length": 42,
       "value": "\"https:\/\/delivery.cdp.asia\/interaction\/v2\""
+    },
+    {
+      "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/APIContants.swift",
+      "kind": "StringLiteral",
+      "offset": 1183,
+      "length": 28,
+      "value": "\"wss:\/\/sandbox-ws.ants.tech\""
     },
     {
       "filePath": "\/Users\/Swift\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
