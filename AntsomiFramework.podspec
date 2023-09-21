@@ -3,14 +3,14 @@ Pod::Spec.new do |spec|
 
 
   spec.name         = "AntsomiFramework"
-  spec.version      = "0.0.14-beta"
+  spec.version      = "0.0.15-beta"
   spec.summary      = "A short description of AntsomiFramework."
 
   spec.description  = <<-DESC
               This is a framework created by Antsomi for using Antsomi CDP in app development
                    DESC
 
-  spec.homepage     = "https://github.com/Hiuming/TestRelease"
+  spec.homepage     = "https://github.com/vankhanh0911/TestRelease"
 
 
 
@@ -29,7 +29,7 @@ Pod::Spec.new do |spec|
 
 
 
-  spec.source       = { :git => "https://github.com/Hiuming/TestRelease.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/vankhanh0911/TestRelease.git", :tag => "#{spec.version}" }
   spec.ios.vendored_frameworks = 'AntsomiFramework.xcframework'
 
 
