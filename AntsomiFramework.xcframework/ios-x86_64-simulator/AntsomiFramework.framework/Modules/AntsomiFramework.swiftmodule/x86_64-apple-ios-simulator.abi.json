@@ -29867,3192 +29867,3192 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/ViewController\/PopUpViewController.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/ViewController\/PopUpViewController.swift",
       "kind": "StringLiteral",
       "offset": 270,
       "length": 23,
       "value": "\"This is a pop-up view\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/ViewController\/PopUpViewController.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/ViewController\/PopUpViewController.swift",
       "kind": "StringLiteral",
       "offset": 542,
       "length": 19,
       "value": "\"xmark.circle.fill\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/ViewController\/PopUpViewController.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/ViewController\/PopUpViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 682,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/ViewController\/PopUpViewController.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/ViewController\/PopUpViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 688,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/ViewController\/PopUpViewController.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/ViewController\/PopUpViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 698,
       "length": 2,
       "value": "40"
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/ViewController\/PopUpViewController.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/ViewController\/PopUpViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 710,
       "length": 2,
       "value": "40"
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/ViewController\/PopUpViewController.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/ViewController\/PopUpViewController.swift",
       "kind": "StringLiteral",
       "offset": 156,
       "length": 9,
       "value": "\"AntsomiFramework.PopUpView\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/BaseHTTPResponse.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/BaseHTTPResponse.swift",
       "kind": "StringLiteral",
       "offset": 191,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/BaseHTTPResponse.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/BaseHTTPResponse.swift",
       "kind": "StringLiteral",
       "offset": 228,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/BaseHTTPResponse.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/BaseHTTPResponse.swift",
       "kind": "Dictionary",
       "offset": 268,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/AppInbox.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/AppInbox.swift",
       "kind": "Array",
       "offset": 542,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/AppInbox.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/AppInbox.swift",
       "kind": "StringLiteral",
       "offset": 701,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/AppInbox.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/AppInbox.swift",
       "kind": "StringLiteral",
       "offset": 741,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/AppInbox.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/AppInbox.swift",
       "kind": "IntegerLiteral",
       "offset": 784,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/AppInbox.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/AppInbox.swift",
       "kind": "IntegerLiteral",
       "offset": 824,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/AppInbox.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/AppInbox.swift",
       "kind": "BooleanLiteral",
       "offset": 1182,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/AppInbox.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/AppInbox.swift",
       "kind": "Array",
       "offset": 4977,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/AppInbox.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/AppInbox.swift",
       "kind": "StringLiteral",
       "offset": 256,
       "length": 8,
       "value": "\"AntsomiFramework.AppInbox\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/Catalog.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/Catalog.swift",
       "kind": "StringLiteral",
       "offset": 182,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/Catalog.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/Catalog.swift",
       "kind": "StringLiteral",
       "offset": 223,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/Catalog.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/Catalog.swift",
       "kind": "StringLiteral",
       "offset": 297,
       "length": 11,
       "value": "\"catalogId\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/Catalog.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/Catalog.swift",
       "kind": "StringLiteral",
       "offset": 336,
       "length": 13,
       "value": "\"catalogName\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/Catalog.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/Catalog.swift",
       "kind": "StringLiteral",
       "offset": 297,
       "length": 11,
       "value": "\"catalogId\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/Catalog.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/Catalog.swift",
       "kind": "StringLiteral",
       "offset": 336,
       "length": 13,
       "value": "\"catalogName\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "StringLiteral",
       "offset": 279,
       "length": 8,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "StringLiteral",
       "offset": 285,
       "length": 1,
       "value": "\".\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "StringLiteral",
       "offset": 332,
       "length": 10,
       "value": "\"default.\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "StringLiteral",
       "offset": 422,
       "length": 7,
       "value": "\"1.0.0\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "BooleanLiteral",
       "offset": 523,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "BooleanLiteral",
       "offset": 669,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "StringLiteral",
       "offset": 720,
       "length": 37,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "StringLiteral",
       "offset": 734,
       "length": 22,
       "value": "\"AnstomiDeviceTokenFlag\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "StringLiteral",
       "offset": 800,
       "length": 38,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "StringLiteral",
       "offset": 814,
       "length": 23,
       "value": "\"AnstomiIsSubscribedFlag\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "StringLiteral",
       "offset": 880,
       "length": 31,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "StringLiteral",
       "offset": 894,
       "length": 16,
       "value": "\"AnstomiPortalKey\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "StringLiteral",
       "offset": 952,
       "length": 30,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "StringLiteral",
       "offset": 966,
       "length": 15,
       "value": "\"AnstomiPropsKey\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "StringLiteral",
       "offset": 1012,
       "length": 25,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "StringLiteral",
       "offset": 1026,
       "length": 10,
       "value": "\"AntsomiUid\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "StringLiteral",
       "offset": 1084,
       "length": 26,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "StringLiteral",
       "offset": 1098,
       "length": 11,
       "value": "\"app_install\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "StringLiteral",
       "offset": 1146,
       "length": 28,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "StringLiteral",
       "offset": 1160,
       "length": 13,
       "value": "\"applicationID\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "StringLiteral",
       "offset": 1452,
       "length": 28,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "StringLiteral",
       "offset": 1466,
       "length": 13,
       "value": "\"operationTime\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "IntegerLiteral",
       "offset": 1520,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "FloatLiteral",
       "offset": 1522,
       "length": 4,
       "value": "60.0"
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "StringLiteral",
       "offset": 1576,
       "length": 24,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "StringLiteral",
       "offset": 1590,
       "length": 9,
       "value": "\"sessionID\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "StringLiteral",
       "offset": 1639,
       "length": 34,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "StringLiteral",
       "offset": 1661,
       "length": 11,
       "value": "\"visitorType\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "StringLiteral",
       "offset": 1711,
       "length": 32,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "StringLiteral",
       "offset": 1725,
       "length": 17,
       "value": "\"AntsomiCustomerId\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "StringLiteral",
       "offset": 1789,
       "length": 40,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "StringLiteral",
       "offset": 1803,
       "length": 25,
       "value": "\"AntsomiCustomerProperties\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "StringLiteral",
       "offset": 1863,
       "length": 18,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "StringLiteral",
       "offset": 1877,
       "length": 3,
       "value": "\"utm\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "StringLiteral",
       "offset": 1915,
       "length": 18,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "StringLiteral",
       "offset": 1929,
       "length": 3,
       "value": "\"atm\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "StringLiteral",
       "offset": 1966,
       "length": 20,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "StringLiteral",
       "offset": 1980,
       "length": 5,
       "value": "\"clkBc\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "StringLiteral",
       "offset": 2167,
       "length": 8,
       "value": "\".badge\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "StringLiteral",
       "offset": 2220,
       "length": 18,
       "value": "\"AntsomiSDK.badge\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "BooleanLiteral",
       "offset": 2843,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "Dictionary",
       "offset": 3275,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "StringLiteral",
       "offset": 15766,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "StringLiteral",
       "offset": 15786,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/RegisterDevice.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/RegisterDevice.swift",
       "kind": "StringLiteral",
       "offset": 292,
       "length": 5,
       "value": "\"apn\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/SocketIOManager.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/SocketIOManager.swift",
       "kind": "StringLiteral",
       "offset": 116,
       "length": 15,
       "value": "\"AntsomiFramework.SocketIOManager\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/ModifyActionEnum.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/ModifyActionEnum.swift",
       "kind": "IntegerLiteral",
       "offset": 215,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/ModifyActionEnum.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/ModifyActionEnum.swift",
       "kind": "IntegerLiteral",
       "offset": 233,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/ModifyActionEnum.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/ModifyActionEnum.swift",
       "kind": "IntegerLiteral",
       "offset": 215,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/ModifyActionEnum.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/ModifyActionEnum.swift",
       "kind": "IntegerLiteral",
       "offset": 233,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/ModifyActionEnum.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/ModifyActionEnum.swift",
       "kind": "IntegerLiteral",
       "offset": 215,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/ModifyActionEnum.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/ModifyActionEnum.swift",
       "kind": "IntegerLiteral",
       "offset": 233,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Context.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Context.swift",
       "kind": "BooleanLiteral",
       "offset": 369,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/Atomic.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/Atomic.swift",
       "kind": "StringLiteral",
       "offset": 623,
       "length": 41,
       "value": "\"com.antsomi.atomic.\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/Atomic.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/Atomic.swift",
       "kind": "StringLiteral",
       "offset": 663,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/CDPEvent.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/CDPEvent.swift",
       "kind": "StringLiteral",
       "offset": 162,
       "length": 13,
       "value": "\"app_install\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/CDPEvent.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/CDPEvent.swift",
       "kind": "StringLiteral",
       "offset": 218,
       "length": 17,
       "value": "\"view_screenview\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/CDPEvent.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/CDPEvent.swift",
       "kind": "StringLiteral",
       "offset": 282,
       "length": 20,
       "value": "\"app_push_subscribe\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/CDPEvent.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/CDPEvent.swift",
       "kind": "StringLiteral",
       "offset": 633,
       "length": 9,
       "value": "\"predict\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/CDPEvent.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/CDPEvent.swift",
       "kind": "StringLiteral",
       "offset": 703,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/CDPEvent.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/CDPEvent.swift",
       "kind": "StringLiteral",
       "offset": 727,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/CDPEvent.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/CDPEvent.swift",
       "kind": "StringLiteral",
       "offset": 1715,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/CDPEvent.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/CDPEvent.swift",
       "kind": "Array",
       "offset": 1743,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/CDPEvent.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/CDPEvent.swift",
       "kind": "Dictionary",
       "offset": 1772,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/CDPEvent.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/CDPEvent.swift",
       "kind": "Dictionary",
       "offset": 1808,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/CDPEvent.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/CDPEvent.swift",
       "kind": "Dictionary",
       "offset": 1840,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/CDPEvent.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/CDPEvent.swift",
       "kind": "Dictionary",
       "offset": 1870,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/CDPEvent.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/CDPEvent.swift",
       "kind": "StringLiteral",
       "offset": 1895,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/CDPEvent.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/CDPEvent.swift",
       "kind": "StringLiteral",
       "offset": 1921,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/CDPEvent.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/CDPEvent.swift",
       "kind": "StringLiteral",
       "offset": 1946,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/CDPEvent.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/CDPEvent.swift",
       "kind": "StringLiteral",
       "offset": 2684,
       "length": 16,
       "value": "\"userproperties\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/CDPEvent.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/CDPEvent.swift",
       "kind": "StringLiteral",
       "offset": 2730,
       "length": 20,
       "value": "\"customerproperties\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/CDPEvent.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/CDPEvent.swift",
       "kind": "StringLiteral",
       "offset": 2684,
       "length": 16,
       "value": "\"userproperties\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/CDPEvent.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/CDPEvent.swift",
       "kind": "StringLiteral",
       "offset": 2730,
       "length": 20,
       "value": "\"customerproperties\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPClient.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPClient.swift",
       "kind": "StringLiteral",
       "offset": 149,
       "length": 51,
       "value": "\"https:\/\/sandbox-antalyser.antsomi.com\/webpush\/api\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPClient.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPClient.swift",
       "kind": "StringLiteral",
       "offset": 243,
       "length": 20,
       "value": "\"https:\/\/a.cdp.asia\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPClient.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPClient.swift",
       "kind": "IntegerLiteral",
       "offset": 307,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPClient.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPClient.swift",
       "kind": "StringLiteral",
       "offset": 359,
       "length": 9,
       "value": "\"Antsomi\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
       "kind": "StringLiteral",
       "offset": 176,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
       "kind": "StringLiteral",
       "offset": 214,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
       "kind": "StringLiteral",
       "offset": 253,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
       "kind": "StringLiteral",
       "offset": 289,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
       "kind": "StringLiteral",
       "offset": 328,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
       "kind": "IntegerLiteral",
       "offset": 368,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
       "kind": "Array",
       "offset": 408,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
       "kind": "BooleanLiteral",
       "offset": 445,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
       "kind": "StringLiteral",
       "offset": 487,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
       "kind": "StringLiteral",
       "offset": 535,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
       "kind": "StringLiteral",
       "offset": 582,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
       "kind": "IntegerLiteral",
       "offset": 619,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
       "kind": "StringLiteral",
       "offset": 658,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
       "kind": "StringLiteral",
       "offset": 697,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
       "kind": "StringLiteral",
       "offset": 733,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
       "kind": "IntegerLiteral",
       "offset": 769,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
       "kind": "StringLiteral",
       "offset": 813,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
       "kind": "IntegerLiteral",
       "offset": 846,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
       "kind": "StringLiteral",
       "offset": 891,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
       "kind": "IntegerLiteral",
       "offset": 928,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
       "kind": "IntegerLiteral",
       "offset": 963,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
       "kind": "StringLiteral",
       "offset": 1012,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
       "kind": "StringLiteral",
       "offset": 1064,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
       "kind": "StringLiteral",
       "offset": 1102,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
       "kind": "StringLiteral",
       "offset": 1140,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
       "kind": "StringLiteral",
       "offset": 1184,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
       "kind": "StringLiteral",
       "offset": 3573,
       "length": 9,
       "value": "\"item_id\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
       "kind": "StringLiteral",
       "offset": 3607,
       "length": 11,
       "value": "\"item_type\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
       "kind": "StringLiteral",
       "offset": 3645,
       "length": 14,
       "value": "\"last_updated\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
       "kind": "StringLiteral",
       "offset": 3683,
       "length": 9,
       "value": "\"heading\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
       "kind": "StringLiteral",
       "offset": 3719,
       "length": 14,
       "value": "\"date_created\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
       "kind": "StringLiteral",
       "offset": 3758,
       "length": 11,
       "value": "\"image_url\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
       "kind": "StringLiteral",
       "offset": 3799,
       "length": 16,
       "value": "\"destination_id\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
       "kind": "StringLiteral",
       "offset": 3841,
       "length": 13,
       "value": "\"catalog_ids\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
       "kind": "StringLiteral",
       "offset": 3880,
       "length": 12,
       "value": "\"is_deleted\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
       "kind": "StringLiteral",
       "offset": 3919,
       "length": 13,
       "value": "\"expire_date\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
       "kind": "StringLiteral",
       "offset": 3957,
       "length": 12,
       "value": "\"launch_url\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
       "kind": "StringLiteral",
       "offset": 3992,
       "length": 9,
       "value": "\"web_url\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
       "kind": "StringLiteral",
       "offset": 4027,
       "length": 12,
       "value": "\"variant_id\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
       "kind": "StringLiteral",
       "offset": 4071,
       "length": 13,
       "value": "\"lookup_type\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
       "kind": "StringLiteral",
       "offset": 4111,
       "length": 13,
       "value": "\"template_id\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
       "kind": "StringLiteral",
       "offset": 4148,
       "length": 9,
       "value": "\"content\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
       "kind": "StringLiteral",
       "offset": 4184,
       "length": 13,
       "value": "\"campaign_id\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
       "kind": "StringLiteral",
       "offset": 4225,
       "length": 9,
       "value": "\"app_url\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
       "kind": "StringLiteral",
       "offset": 4257,
       "length": 8,
       "value": "\"status\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
       "kind": "StringLiteral",
       "offset": 4291,
       "length": 12,
       "value": "\"channel_id\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
       "kind": "StringLiteral",
       "offset": 4335,
       "length": 12,
       "value": "\"journey_id\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
       "kind": "StringLiteral",
       "offset": 4385,
       "length": 16,
       "value": "\"button_label_1\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
       "kind": "StringLiteral",
       "offset": 4435,
       "length": 16,
       "value": "\"button_label_2\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
       "kind": "StringLiteral",
       "offset": 4485,
       "length": 18,
       "value": "\"button_app_url_1\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
       "kind": "StringLiteral",
       "offset": 4538,
       "length": 18,
       "value": "\"button_app_url_2\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
       "kind": "StringLiteral",
       "offset": 4584,
       "length": 11,
       "value": "\"track_url\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
       "kind": "StringLiteral",
       "offset": 3573,
       "length": 9,
       "value": "\"item_id\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
       "kind": "StringLiteral",
       "offset": 3607,
       "length": 11,
       "value": "\"item_type\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
       "kind": "StringLiteral",
       "offset": 3645,
       "length": 14,
       "value": "\"last_updated\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
       "kind": "StringLiteral",
       "offset": 3683,
       "length": 9,
       "value": "\"heading\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
       "kind": "StringLiteral",
       "offset": 3719,
       "length": 14,
       "value": "\"date_created\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
       "kind": "StringLiteral",
       "offset": 3758,
       "length": 11,
       "value": "\"image_url\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
       "kind": "StringLiteral",
       "offset": 3799,
       "length": 16,
       "value": "\"destination_id\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
       "kind": "StringLiteral",
       "offset": 3841,
       "length": 13,
       "value": "\"catalog_ids\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
       "kind": "StringLiteral",
       "offset": 3880,
       "length": 12,
       "value": "\"is_deleted\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
       "kind": "StringLiteral",
       "offset": 3919,
       "length": 13,
       "value": "\"expire_date\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
       "kind": "StringLiteral",
       "offset": 3957,
       "length": 12,
       "value": "\"launch_url\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
       "kind": "StringLiteral",
       "offset": 3992,
       "length": 9,
       "value": "\"web_url\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
       "kind": "StringLiteral",
       "offset": 4027,
       "length": 12,
       "value": "\"variant_id\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
       "kind": "StringLiteral",
       "offset": 4071,
       "length": 13,
       "value": "\"lookup_type\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
       "kind": "StringLiteral",
       "offset": 4111,
       "length": 13,
       "value": "\"template_id\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
       "kind": "StringLiteral",
       "offset": 4148,
       "length": 9,
       "value": "\"content\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
       "kind": "StringLiteral",
       "offset": 4184,
       "length": 13,
       "value": "\"campaign_id\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
       "kind": "StringLiteral",
       "offset": 4225,
       "length": 9,
       "value": "\"app_url\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
       "kind": "StringLiteral",
       "offset": 4257,
       "length": 8,
       "value": "\"status\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
       "kind": "StringLiteral",
       "offset": 4291,
       "length": 12,
       "value": "\"channel_id\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
       "kind": "StringLiteral",
       "offset": 4335,
       "length": 12,
       "value": "\"journey_id\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
       "kind": "StringLiteral",
       "offset": 4385,
       "length": 16,
       "value": "\"button_label_1\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
       "kind": "StringLiteral",
       "offset": 4435,
       "length": 16,
       "value": "\"button_label_2\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
       "kind": "StringLiteral",
       "offset": 4485,
       "length": 18,
       "value": "\"button_app_url_1\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
       "kind": "StringLiteral",
       "offset": 4538,
       "length": 18,
       "value": "\"button_app_url_2\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/InboxItem.swift",
       "kind": "StringLiteral",
       "offset": 4584,
       "length": 11,
       "value": "\"track_url\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/BottomSheetView.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/BottomSheetView.swift",
       "kind": "StringLiteral",
       "offset": 374,
       "length": 749,
       "value": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sem fringilla ut morbi tincidunt augue interdum. \n\nUt morbi tincidunt augue interdum velit euismod in pellentesque massa. Pulvinar etiam non quam lacus suspendisse faucibus interdum posuere. Mi in nulla posuere sollicitudin aliquam ultrices sagittis orci a. Eget nullam non nisi est sit amet. Odio pellentesque diam volutpat commodo. Id eu nisl nunc mi ipsum faucibus vitae.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sem fringilla ut morbi tincidunt augue interdum. Ut morbi tincidunt augue interdum velit euismod in pellentesque massa.\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/BottomSheetView.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/BottomSheetView.swift",
       "kind": "IntegerLiteral",
       "offset": 1165,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/BottomSheetView.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/BottomSheetView.swift",
       "kind": "IntegerLiteral",
       "offset": 1235,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/BottomSheetView.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/BottomSheetView.swift",
       "kind": "StringLiteral",
       "offset": 1359,
       "length": 13,
       "value": "\"Get Started\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/BottomSheetView.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/BottomSheetView.swift",
       "kind": "IntegerLiteral",
       "offset": 1418,
       "length": 2,
       "value": "20"
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/BottomSheetView.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/BottomSheetView.swift",
       "kind": "FloatLiteral",
       "offset": 1684,
       "length": 4,
       "value": "12.0"
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/BottomSheetView.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/BottomSheetView.swift",
       "kind": "IntegerLiteral",
       "offset": 1866,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/BottomSheetView.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/BottomSheetView.swift",
       "kind": "BooleanLiteral",
       "offset": 1898,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/BottomSheetView.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/BottomSheetView.swift",
       "kind": "IntegerLiteral",
       "offset": 1986,
       "length": 3,
       "value": "300"
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/BottomSheetView.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/BottomSheetView.swift",
       "kind": "IntegerLiteral",
       "offset": 2027,
       "length": 3,
       "value": "200"
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/BottomSheetView.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/BottomSheetView.swift",
       "kind": "IntegerLiteral",
       "offset": 2103,
       "length": 2,
       "value": "64"
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/BottomSheetView.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/BottomSheetView.swift",
       "kind": "IntegerLiteral",
       "offset": 2206,
       "length": 3,
       "value": "300"
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/APIContants.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/APIContants.swift",
       "kind": "StringLiteral",
       "offset": 187,
       "length": 72,
       "value": "\"https:\/\/sandbox-api.ants.tech\/access\/api\/app-inbox\/message\/performance\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/APIContants.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/APIContants.swift",
       "kind": "StringLiteral",
       "offset": 297,
       "length": 60,
       "value": "\"https:\/\/sandbox-api.ants.tech\/access\/api\/app-inbox\/message\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/APIContants.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/APIContants.swift",
       "kind": "StringLiteral",
       "offset": 400,
       "length": 72,
       "value": "\"https:\/\/sandbox-api.ants.tech\/access\/api\/app-inbox\/catalog\/performance\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/APIContants.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/APIContants.swift",
       "kind": "StringLiteral",
       "offset": 520,
       "length": 73,
       "value": "\"https:\/\/sandbox-api.ants.tech\/access\/api\/app-inbox\/message\/count-unread\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/APIContants.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/APIContants.swift",
       "kind": "StringLiteral",
       "offset": 636,
       "length": 77,
       "value": "\"https:\/\/sandbox-api.ants.tech\/access\/api\/app-inbox\/message\/mark-all-as-read\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/APIContants.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/APIContants.swift",
       "kind": "StringLiteral",
       "offset": 758,
       "length": 61,
       "value": "\"https:\/\/sandbox-api.ants.tech\/access\/api\/app-inbox\/message\/\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/APIContants.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/APIContants.swift",
       "kind": "StringLiteral",
       "offset": 879,
       "length": 20,
       "value": "\"https:\/\/a.cdp.asia\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/APIContants.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/APIContants.swift",
       "kind": "StringLiteral",
       "offset": 936,
       "length": 48,
       "value": "\"https:\/\/delivery-cloud.cdp.asia\/interaction\/v3\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/APIContants.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/APIContants.swift",
       "kind": "StringLiteral",
       "offset": 1021,
       "length": 28,
       "value": "\"https:\/\/sandbox-a.cdp.asia\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/APIContants.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/APIContants.swift",
       "kind": "StringLiteral",
       "offset": 1095,
       "length": 42,
       "value": "\"https:\/\/delivery.cdp.asia\/interaction\/v2\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/APIContants.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/APIContants.swift",
       "kind": "StringLiteral",
       "offset": 1183,
       "length": 28,
       "value": "\"wss:\/\/sandbox-ws.ants.tech\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 387,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "IntegerLiteral",
       "offset": 479,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 777,
       "length": 9,
       "value": "\"iPod5,1\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 833,
       "length": 29,
       "value": "\"iPod touch (5th generation)\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 880,
       "length": 9,
       "value": "\"iPod7,1\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 936,
       "length": 29,
       "value": "\"iPod touch (6th generation)\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 983,
       "length": 9,
       "value": "\"iPod9,1\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 1039,
       "length": 29,
       "value": "\"iPod touch (7th generation)\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 1086,
       "length": 11,
       "value": "\"iPhone3,1\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 1099,
       "length": 11,
       "value": "\"iPhone3,2\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 1112,
       "length": 11,
       "value": "\"iPhone3,3\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 1142,
       "length": 10,
       "value": "\"iPhone 4\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 1170,
       "length": 11,
       "value": "\"iPhone4,1\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 1226,
       "length": 11,
       "value": "\"iPhone 4s\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 1255,
       "length": 11,
       "value": "\"iPhone5,1\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 1268,
       "length": 11,
       "value": "\"iPhone5,2\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 1311,
       "length": 10,
       "value": "\"iPhone 5\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 1339,
       "length": 11,
       "value": "\"iPhone5,3\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 1352,
       "length": 11,
       "value": "\"iPhone5,4\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 1395,
       "length": 11,
       "value": "\"iPhone 5c\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 1424,
       "length": 11,
       "value": "\"iPhone6,1\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 1437,
       "length": 11,
       "value": "\"iPhone6,2\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 1480,
       "length": 11,
       "value": "\"iPhone 5s\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 1509,
       "length": 11,
       "value": "\"iPhone7,2\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 1565,
       "length": 10,
       "value": "\"iPhone 6\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 1593,
       "length": 11,
       "value": "\"iPhone7,1\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 1649,
       "length": 15,
       "value": "\"iPhone 6 Plus\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 1682,
       "length": 11,
       "value": "\"iPhone8,1\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 1738,
       "length": 11,
       "value": "\"iPhone 6s\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 1767,
       "length": 11,
       "value": "\"iPhone8,2\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 1823,
       "length": 16,
       "value": "\"iPhone 6s Plus\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 1857,
       "length": 11,
       "value": "\"iPhone9,1\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 1870,
       "length": 11,
       "value": "\"iPhone9,3\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 1913,
       "length": 10,
       "value": "\"iPhone 7\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 1941,
       "length": 11,
       "value": "\"iPhone9,2\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 1954,
       "length": 11,
       "value": "\"iPhone9,4\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 1997,
       "length": 15,
       "value": "\"iPhone 7 Plus\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 2030,
       "length": 12,
       "value": "\"iPhone10,1\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 2044,
       "length": 12,
       "value": "\"iPhone10,4\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 2086,
       "length": 10,
       "value": "\"iPhone 8\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 2114,
       "length": 12,
       "value": "\"iPhone10,2\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 2128,
       "length": 12,
       "value": "\"iPhone10,5\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 2170,
       "length": 15,
       "value": "\"iPhone 8 Plus\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 2203,
       "length": 12,
       "value": "\"iPhone10,3\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 2217,
       "length": 12,
       "value": "\"iPhone10,6\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 2259,
       "length": 10,
       "value": "\"iPhone X\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 2287,
       "length": 12,
       "value": "\"iPhone11,2\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 2343,
       "length": 11,
       "value": "\"iPhone XS\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 2372,
       "length": 12,
       "value": "\"iPhone11,4\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 2386,
       "length": 12,
       "value": "\"iPhone11,6\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 2428,
       "length": 15,
       "value": "\"iPhone XS Max\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 2461,
       "length": 12,
       "value": "\"iPhone11,8\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 2517,
       "length": 11,
       "value": "\"iPhone XR\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 2546,
       "length": 12,
       "value": "\"iPhone12,1\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 2602,
       "length": 11,
       "value": "\"iPhone 11\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 2631,
       "length": 12,
       "value": "\"iPhone12,3\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 2687,
       "length": 15,
       "value": "\"iPhone 11 Pro\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 2720,
       "length": 12,
       "value": "\"iPhone12,5\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 2776,
       "length": 19,
       "value": "\"iPhone 11 Pro Max\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 2813,
       "length": 12,
       "value": "\"iPhone13,1\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 2869,
       "length": 16,
       "value": "\"iPhone 12 mini\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 2903,
       "length": 12,
       "value": "\"iPhone13,2\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 2959,
       "length": 11,
       "value": "\"iPhone 12\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 2988,
       "length": 12,
       "value": "\"iPhone13,3\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 3044,
       "length": 15,
       "value": "\"iPhone 12 Pro\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 3077,
       "length": 12,
       "value": "\"iPhone13,4\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 3133,
       "length": 19,
       "value": "\"iPhone 12 Pro Max\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 3170,
       "length": 12,
       "value": "\"iPhone14,4\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 3226,
       "length": 16,
       "value": "\"iPhone 13 mini\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 3260,
       "length": 12,
       "value": "\"iPhone14,5\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 3316,
       "length": 11,
       "value": "\"iPhone 13\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 3345,
       "length": 12,
       "value": "\"iPhone14,2\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 3401,
       "length": 15,
       "value": "\"iPhone 13 Pro\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 3434,
       "length": 12,
       "value": "\"iPhone14,3\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 3490,
       "length": 19,
       "value": "\"iPhone 13 Pro Max\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 3527,
       "length": 12,
       "value": "\"iPhone14,7\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 3583,
       "length": 11,
       "value": "\"iPhone 14\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 3612,
       "length": 12,
       "value": "\"iPhone14,8\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 3668,
       "length": 16,
       "value": "\"iPhone 14 Plus\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 3702,
       "length": 12,
       "value": "\"iPhone15,2\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 3758,
       "length": 15,
       "value": "\"iPhone 14 Pro\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 3791,
       "length": 12,
       "value": "\"iPhone15,3\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 3847,
       "length": 19,
       "value": "\"iPhone 14 Pro Max\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 3884,
       "length": 11,
       "value": "\"iPhone8,4\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 3940,
       "length": 11,
       "value": "\"iPhone SE\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 3969,
       "length": 12,
       "value": "\"iPhone12,8\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 4025,
       "length": 28,
       "value": "\"iPhone SE (2nd generation)\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 4071,
       "length": 12,
       "value": "\"iPhone14,6\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 4127,
       "length": 28,
       "value": "\"iPhone SE (3rd generation)\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 4173,
       "length": 9,
       "value": "\"iPad2,1\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 4184,
       "length": 9,
       "value": "\"iPad2,2\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 4195,
       "length": 9,
       "value": "\"iPad2,3\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 4206,
       "length": 9,
       "value": "\"iPad2,4\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 4229,
       "length": 8,
       "value": "\"iPad 2\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 4255,
       "length": 9,
       "value": "\"iPad3,1\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 4266,
       "length": 9,
       "value": "\"iPad3,2\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 4277,
       "length": 9,
       "value": "\"iPad3,3\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 4311,
       "length": 23,
       "value": "\"iPad (3rd generation)\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 4352,
       "length": 9,
       "value": "\"iPad3,4\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 4363,
       "length": 9,
       "value": "\"iPad3,5\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 4374,
       "length": 9,
       "value": "\"iPad3,6\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 4408,
       "length": 23,
       "value": "\"iPad (4th generation)\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 4449,
       "length": 10,
       "value": "\"iPad6,11\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 4461,
       "length": 10,
       "value": "\"iPad6,12\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 4505,
       "length": 23,
       "value": "\"iPad (5th generation)\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 4546,
       "length": 9,
       "value": "\"iPad7,5\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 4557,
       "length": 9,
       "value": "\"iPad7,6\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 4602,
       "length": 23,
       "value": "\"iPad (6th generation)\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 4643,
       "length": 10,
       "value": "\"iPad7,11\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 4655,
       "length": 10,
       "value": "\"iPad7,12\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 4699,
       "length": 23,
       "value": "\"iPad (7th generation)\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 4740,
       "length": 10,
       "value": "\"iPad11,6\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 4752,
       "length": 10,
       "value": "\"iPad11,7\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 4796,
       "length": 23,
       "value": "\"iPad (8th generation)\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 4837,
       "length": 10,
       "value": "\"iPad12,1\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 4849,
       "length": 10,
       "value": "\"iPad12,2\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 4893,
       "length": 23,
       "value": "\"iPad (9th generation)\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 4934,
       "length": 11,
       "value": "\"iPad13,18\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 4947,
       "length": 11,
       "value": "\"iPad13,19\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 4990,
       "length": 24,
       "value": "\"iPad (10th generation)\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 5032,
       "length": 9,
       "value": "\"iPad4,1\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 5043,
       "length": 9,
       "value": "\"iPad4,2\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 5054,
       "length": 9,
       "value": "\"iPad4,3\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 5088,
       "length": 10,
       "value": "\"iPad Air\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 5116,
       "length": 9,
       "value": "\"iPad5,3\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 5127,
       "length": 9,
       "value": "\"iPad5,4\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 5172,
       "length": 12,
       "value": "\"iPad Air 2\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 5202,
       "length": 10,
       "value": "\"iPad11,3\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 5214,
       "length": 10,
       "value": "\"iPad11,4\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 5258,
       "length": 27,
       "value": "\"iPad Air (3rd generation)\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 5303,
       "length": 10,
       "value": "\"iPad13,1\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 5315,
       "length": 10,
       "value": "\"iPad13,2\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 5359,
       "length": 27,
       "value": "\"iPad Air (4th generation)\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 5404,
       "length": 11,
       "value": "\"iPad13,16\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 5417,
       "length": 11,
       "value": "\"iPad13,17\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 5460,
       "length": 27,
       "value": "\"iPad Air (5th generation)\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 5505,
       "length": 9,
       "value": "\"iPad2,5\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 5516,
       "length": 9,
       "value": "\"iPad2,6\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 5527,
       "length": 9,
       "value": "\"iPad2,7\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 5561,
       "length": 11,
       "value": "\"iPad mini\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 5590,
       "length": 9,
       "value": "\"iPad4,4\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 5601,
       "length": 9,
       "value": "\"iPad4,5\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 5612,
       "length": 9,
       "value": "\"iPad4,6\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 5646,
       "length": 13,
       "value": "\"iPad mini 2\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 5677,
       "length": 9,
       "value": "\"iPad4,7\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 5688,
       "length": 9,
       "value": "\"iPad4,8\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 5699,
       "length": 9,
       "value": "\"iPad4,9\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 5733,
       "length": 13,
       "value": "\"iPad mini 3\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 5764,
       "length": 9,
       "value": "\"iPad5,1\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 5775,
       "length": 9,
       "value": "\"iPad5,2\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 5820,
       "length": 13,
       "value": "\"iPad mini 4\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 5851,
       "length": 10,
       "value": "\"iPad11,1\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 5863,
       "length": 10,
       "value": "\"iPad11,2\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 5907,
       "length": 28,
       "value": "\"iPad mini (5th generation)\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 5953,
       "length": 10,
       "value": "\"iPad14,1\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 5965,
       "length": 10,
       "value": "\"iPad14,2\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 6009,
       "length": 28,
       "value": "\"iPad mini (6th generation)\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 6055,
       "length": 9,
       "value": "\"iPad6,3\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 6066,
       "length": 9,
       "value": "\"iPad6,4\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 6111,
       "length": 21,
       "value": "\"iPad Pro (9.7-inch)\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 6150,
       "length": 9,
       "value": "\"iPad7,3\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 6161,
       "length": 9,
       "value": "\"iPad7,4\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 6206,
       "length": 22,
       "value": "\"iPad Pro (10.5-inch)\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 6246,
       "length": 9,
       "value": "\"iPad8,1\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 6257,
       "length": 9,
       "value": "\"iPad8,2\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 6268,
       "length": 9,
       "value": "\"iPad8,3\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 6279,
       "length": 9,
       "value": "\"iPad8,4\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 6302,
       "length": 37,
       "value": "\"iPad Pro (11-inch) (1st generation)\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 6357,
       "length": 9,
       "value": "\"iPad8,9\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 6368,
       "length": 10,
       "value": "\"iPad8,10\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 6413,
       "length": 37,
       "value": "\"iPad Pro (11-inch) (2nd generation)\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 6468,
       "length": 10,
       "value": "\"iPad13,4\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 6480,
       "length": 10,
       "value": "\"iPad13,5\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 6492,
       "length": 10,
       "value": "\"iPad13,6\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 6504,
       "length": 10,
       "value": "\"iPad13,7\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 6524,
       "length": 37,
       "value": "\"iPad Pro (11-inch) (3rd generation)\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 6579,
       "length": 10,
       "value": "\"iPad14,3\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 6591,
       "length": 10,
       "value": "\"iPad14,4\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 6635,
       "length": 37,
       "value": "\"iPad Pro (11-inch) (4th generation)\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 6690,
       "length": 9,
       "value": "\"iPad6,7\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 6701,
       "length": 9,
       "value": "\"iPad6,8\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 6746,
       "length": 39,
       "value": "\"iPad Pro (12.9-inch) (1st generation)\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 6803,
       "length": 9,
       "value": "\"iPad7,1\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 6814,
       "length": 9,
       "value": "\"iPad7,2\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 6859,
       "length": 39,
       "value": "\"iPad Pro (12.9-inch) (2nd generation)\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 6916,
       "length": 9,
       "value": "\"iPad8,5\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 6927,
       "length": 9,
       "value": "\"iPad8,6\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 6938,
       "length": 9,
       "value": "\"iPad8,7\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 6949,
       "length": 9,
       "value": "\"iPad8,8\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 6972,
       "length": 39,
       "value": "\"iPad Pro (12.9-inch) (3rd generation)\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 7029,
       "length": 10,
       "value": "\"iPad8,11\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 7041,
       "length": 10,
       "value": "\"iPad8,12\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 7085,
       "length": 39,
       "value": "\"iPad Pro (12.9-inch) (4th generation)\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 7142,
       "length": 10,
       "value": "\"iPad13,8\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 7154,
       "length": 10,
       "value": "\"iPad13,9\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 7166,
       "length": 11,
       "value": "\"iPad13,10\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 7179,
       "length": 11,
       "value": "\"iPad13,11\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 7198,
       "length": 39,
       "value": "\"iPad Pro (12.9-inch) (5th generation)\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 7255,
       "length": 10,
       "value": "\"iPad14,5\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 7267,
       "length": 10,
       "value": "\"iPad14,6\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 7311,
       "length": 39,
       "value": "\"iPad Pro (12.9-inch) (6th generation)\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 7368,
       "length": 12,
       "value": "\"AppleTV5,3\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 7424,
       "length": 10,
       "value": "\"Apple TV\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 7452,
       "length": 12,
       "value": "\"AppleTV6,2\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 7508,
       "length": 13,
       "value": "\"Apple TV 4K\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 7539,
       "length": 19,
       "value": "\"AudioAccessory1,1\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 7595,
       "length": 9,
       "value": "\"HomePod\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 7622,
       "length": 19,
       "value": "\"AudioAccessory5,1\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 7678,
       "length": 14,
       "value": "\"HomePod mini\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 7710,
       "length": 6,
       "value": "\"i386\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 7718,
       "length": 8,
       "value": "\"x86_64\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 7728,
       "length": 7,
       "value": "\"arm64\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 7766,
       "length": 104,
       "value": "\"Simulator \""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 7829,
       "length": 28,
       "value": "\"SIMULATOR_MODEL_IDENTIFIER\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 7862,
       "length": 5,
       "value": "\"iOS\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
       "kind": "StringLiteral",
       "offset": 7869,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
       "kind": "IntegerLiteral",
       "offset": 175,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
       "kind": "IntegerLiteral",
       "offset": 200,
       "length": 3,
       "value": "200"
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
       "kind": "IntegerLiteral",
       "offset": 224,
       "length": 3,
       "value": "404"
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
       "kind": "IntegerLiteral",
       "offset": 249,
       "length": 3,
       "value": "403"
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
       "kind": "IntegerLiteral",
       "offset": 283,
       "length": 3,
       "value": "101"
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
       "kind": "IntegerLiteral",
       "offset": 309,
       "length": 3,
       "value": "102"
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
       "kind": "IntegerLiteral",
       "offset": 332,
       "length": 3,
       "value": "201"
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
       "kind": "IntegerLiteral",
       "offset": 356,
       "length": 3,
       "value": "202"
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
       "kind": "IntegerLiteral",
       "offset": 399,
       "length": 3,
       "value": "203"
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
       "kind": "IntegerLiteral",
       "offset": 424,
       "length": 3,
       "value": "204"
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
       "kind": "IntegerLiteral",
       "offset": 455,
       "length": 3,
       "value": "208"
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
       "kind": "IntegerLiteral",
       "offset": 482,
       "length": 3,
       "value": "207"
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
       "kind": "IntegerLiteral",
       "offset": 175,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
       "kind": "IntegerLiteral",
       "offset": 200,
       "length": 3,
       "value": "200"
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
       "kind": "IntegerLiteral",
       "offset": 224,
       "length": 3,
       "value": "404"
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
       "kind": "IntegerLiteral",
       "offset": 249,
       "length": 3,
       "value": "403"
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
       "kind": "IntegerLiteral",
       "offset": 283,
       "length": 3,
       "value": "101"
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
       "kind": "IntegerLiteral",
       "offset": 309,
       "length": 3,
       "value": "102"
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
       "kind": "IntegerLiteral",
       "offset": 332,
       "length": 3,
       "value": "201"
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
       "kind": "IntegerLiteral",
       "offset": 356,
       "length": 3,
       "value": "202"
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
       "kind": "IntegerLiteral",
       "offset": 399,
       "length": 3,
       "value": "203"
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
       "kind": "IntegerLiteral",
       "offset": 424,
       "length": 3,
       "value": "204"
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
       "kind": "IntegerLiteral",
       "offset": 455,
       "length": 3,
       "value": "208"
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
       "kind": "IntegerLiteral",
       "offset": 482,
       "length": 3,
       "value": "207"
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
       "kind": "IntegerLiteral",
       "offset": 175,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
       "kind": "IntegerLiteral",
       "offset": 200,
       "length": 3,
       "value": "200"
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
       "kind": "IntegerLiteral",
       "offset": 224,
       "length": 3,
       "value": "404"
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
       "kind": "IntegerLiteral",
       "offset": 249,
       "length": 3,
       "value": "403"
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
       "kind": "IntegerLiteral",
       "offset": 283,
       "length": 3,
       "value": "101"
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
       "kind": "IntegerLiteral",
       "offset": 309,
       "length": 3,
       "value": "102"
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
       "kind": "IntegerLiteral",
       "offset": 332,
       "length": 3,
       "value": "201"
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
       "kind": "IntegerLiteral",
       "offset": 356,
       "length": 3,
       "value": "202"
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
       "kind": "IntegerLiteral",
       "offset": 399,
       "length": 3,
       "value": "203"
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
       "kind": "IntegerLiteral",
       "offset": 424,
       "length": 3,
       "value": "204"
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
       "kind": "IntegerLiteral",
       "offset": 455,
       "length": 3,
       "value": "208"
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPResponse.swift",
       "kind": "IntegerLiteral",
       "offset": 482,
       "length": 3,
       "value": "207"
     },
     {
-      "filePath": "\/Users\/khanhhv\/source-AT\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/Category.swift",
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/Category.swift",
       "kind": "StringLiteral",
       "offset": 147,
       "length": 18,
