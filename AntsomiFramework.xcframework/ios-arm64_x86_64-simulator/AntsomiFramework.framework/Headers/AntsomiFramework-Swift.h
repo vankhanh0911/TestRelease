@@ -280,15 +280,15 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) AppInbox * _Null_unspe
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) Antsomi * _Nonnull shared;)
 + (Antsomi * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
 + (void)setShared:(Antsomi * _Nonnull)value;
-- (void)setCustomerPropertiesWithCustomerID:(NSString * _Nonnull)customerID customerProperties:(NSDictionary<NSString *, id> * _Nonnull)customerProperties;
+- (void)setCustomerPropertiesWithCustomerId:(NSString * _Nonnull)customerId customerProperties:(NSDictionary<NSString *, id> * _Nonnull)customerProperties;
 - (void)setIsDeliveryWithNewValue:(BOOL)newValue;
 - (void)resetCustomer;
-- (NSString * _Nonnull)getCustomerID SWIFT_WARN_UNUSED_RESULT;
-- (NSString * _Nonnull)getPropsID SWIFT_WARN_UNUSED_RESULT;
+- (NSString * _Nonnull)getCustomerId SWIFT_WARN_UNUSED_RESULT;
+- (NSString * _Nonnull)getPropsId SWIFT_WARN_UNUSED_RESULT;
 - (NSDictionary<NSString *, id> * _Nullable)getCustomerProperties SWIFT_WARN_UNUSED_RESULT;
-- (NSString * _Nonnull)getDeviceID SWIFT_WARN_UNUSED_RESULT;
-- (NSString * _Nullable)getPortalID SWIFT_WARN_UNUSED_RESULT;
-- (void)appInboxInitWithDestinationID:(NSInteger)destinationID audienceType:(NSString * _Nonnull)audienceType;
+- (NSString * _Nonnull)getDeviceId SWIFT_WARN_UNUSED_RESULT;
+- (NSString * _Nullable)getPortalId SWIFT_WARN_UNUSED_RESULT;
+- (void)appInboxInitWithDestinationId:(NSString * _Nonnull)destinationId audienceType:(NSString * _Nonnull)audienceType;
 - (void)handleDeeplinkURL:(NSURL * _Nonnull)url;
 - (NSString * _Nullable)getUid SWIFT_WARN_UNUSED_RESULT;
 - (void)trackAppLaunch;
@@ -633,15 +633,15 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) AppInbox * _Null_unspe
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) Antsomi * _Nonnull shared;)
 + (Antsomi * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
 + (void)setShared:(Antsomi * _Nonnull)value;
-- (void)setCustomerPropertiesWithCustomerID:(NSString * _Nonnull)customerID customerProperties:(NSDictionary<NSString *, id> * _Nonnull)customerProperties;
+- (void)setCustomerPropertiesWithCustomerId:(NSString * _Nonnull)customerId customerProperties:(NSDictionary<NSString *, id> * _Nonnull)customerProperties;
 - (void)setIsDeliveryWithNewValue:(BOOL)newValue;
 - (void)resetCustomer;
-- (NSString * _Nonnull)getCustomerID SWIFT_WARN_UNUSED_RESULT;
-- (NSString * _Nonnull)getPropsID SWIFT_WARN_UNUSED_RESULT;
+- (NSString * _Nonnull)getCustomerId SWIFT_WARN_UNUSED_RESULT;
+- (NSString * _Nonnull)getPropsId SWIFT_WARN_UNUSED_RESULT;
 - (NSDictionary<NSString *, id> * _Nullable)getCustomerProperties SWIFT_WARN_UNUSED_RESULT;
-- (NSString * _Nonnull)getDeviceID SWIFT_WARN_UNUSED_RESULT;
-- (NSString * _Nullable)getPortalID SWIFT_WARN_UNUSED_RESULT;
-- (void)appInboxInitWithDestinationID:(NSInteger)destinationID audienceType:(NSString * _Nonnull)audienceType;
+- (NSString * _Nonnull)getDeviceId SWIFT_WARN_UNUSED_RESULT;
+- (NSString * _Nullable)getPortalId SWIFT_WARN_UNUSED_RESULT;
+- (void)appInboxInitWithDestinationId:(NSString * _Nonnull)destinationId audienceType:(NSString * _Nonnull)audienceType;
 - (void)handleDeeplinkURL:(NSURL * _Nonnull)url;
 - (NSString * _Nullable)getUid SWIFT_WARN_UNUSED_RESULT;
 - (void)trackAppLaunch;

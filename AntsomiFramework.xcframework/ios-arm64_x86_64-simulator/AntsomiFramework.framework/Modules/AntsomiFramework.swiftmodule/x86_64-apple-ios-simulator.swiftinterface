@@ -41,22 +41,22 @@ public protocol AppInboxDelegate : AnyObject {
 }
 @objc public class AppInbox : ObjectiveC.NSObject {
   weak public var delegate: AppInboxDelegate?
-  public var lookUpID: Swift.String
+  public var lookupId: Swift.String
   public var lookupType: Swift.String
   public static var pageLimit: Swift.Int
   public static func setPageLimit(pageLimit: Swift.Int)
-  public init(destinationID: Swift.Int, audienceType: Swift.String, log: Swift.Bool = false)
+  public init(destinationId: Swift.String, audienceType: Swift.String, log: Swift.Bool = false)
   public func getMessage() -> [InboxItem]
-  public func getCatalog() -> [Catalog]
   public func countUnreadMessage(completion: @escaping ((Swift.Int) -> Swift.Void))
-  public func getMessageByID(messageID: Swift.String, completion: @escaping ((InboxItem) -> Swift.Void))
-  public func forceFetchInboxItem(catalogID: [Swift.String] = [], page: Swift.Int, completion: @escaping (([InboxItem]) -> Swift.Void))
+  public func getMessageById(messageId: Swift.String, completion: @escaping ((InboxItem) -> Swift.Void))
+  public func forceFetchInboxItem(catalogId: [Swift.String] = [], page: Swift.Int, completion: @escaping (([InboxItem]) -> Swift.Void))
   public func markAllAsRead()
-  public func modifyMessageStatus(_ messageID: [Swift.String], action: ModifyAction)
+  public func modifyMessageStatus(_ messageId: [Swift.String], action: ModifyAction)
+  public func fetchAllCatalog(completion: @escaping (([Catalog]) -> Swift.Void))
   @objc deinit
 }
 public struct Catalog : Swift.Codable {
-  public var catalogID: Swift.String
+  public var catalogId: Swift.String
   public var catalogName: Swift.String
   public init(from decoder: Swift.Decoder) throws
   public func encode(to encoder: Swift.Encoder) throws
@@ -85,15 +85,15 @@ extension Catalog {
   @objc public var logger: ((Swift.String) -> Swift.Void)?
   @objc public func log(_ str: Swift.String)
   @objc public static var shared: Antsomi
-  @objc public func setCustomerProperties(customerID: Swift.String, customerProperties: [Swift.String : Any] = [:])
+  @objc public func setCustomerProperties(customerId: Swift.String, customerProperties: [Swift.String : Any] = [:])
   @objc public func setIsDelivery(newValue: Swift.Bool)
   @objc public func resetCustomer()
-  @objc public func getCustomerID() -> Swift.String
-  @objc public func getPropsID() -> Swift.String
+  @objc public func getCustomerId() -> Swift.String
+  @objc public func getPropsId() -> Swift.String
   @objc public func getCustomerProperties() -> [Swift.String : Any]?
-  @objc public func getDeviceID() -> Swift.String
-  @objc public func getPortalID() -> Swift.String?
-  @objc public func appInboxInit(destinationID: Swift.Int, audienceType: Swift.String)
+  @objc public func getDeviceId() -> Swift.String
+  @objc public func getPortalId() -> Swift.String?
+  @objc public func appInboxInit(destinationId: Swift.String, audienceType: Swift.String)
   public func track(event: CDPEvent)
   @objc public func handleDeeplinkURL(_ url: Foundation.URL)
   public func activate(with config: Antsomi.Configuration)
@@ -110,8 +110,9 @@ extension Catalog {
   @objc deinit
 }
 public enum ModifyAction : Swift.Int, Swift.CaseIterable, Swift.Codable {
-  case unread
   case read
+  case unread
+  case remove
   public init?(rawValue: Swift.Int)
   public typealias AllCases = [ModifyAction]
   public typealias RawValue = Swift.Int
@@ -150,31 +151,24 @@ public struct CDPEvent : Swift.Encodable {
 }
 public struct InboxItem : Swift.Codable {
   public var itemId: Swift.String
-  public var itemType: Swift.String
-  public var lastUpdate: Swift.String
+  public var lastUpdated: Swift.String
   public var heading: Swift.String
-  public var dateCreate: Swift.String
-  public var destinationID: Swift.Int
-  public var catalogID: [Swift.String]
-  public var isDeleted: Swift.Bool
-  public var expireDate: Swift.String
-  public var lauchURL: Foundation.URL?
-  public var webURL: Foundation.URL?
-  public var variantID: Swift.Int
+  public var dateCreated: Swift.String
+  public var catalogId: [Swift.String]
+  public var lauchUrl: Foundation.URL?
   public var lookupType: Swift.String
-  public var templateID: Swift.String
+  public var templateId: Swift.String
   public var content: Swift.String
-  public var campaignId: Swift.Int
-  public var appURL: Foundation.URL?
+  public var appUrl: Foundation.URL?
   public var status: Swift.Int
-  public var imageURL: Foundation.URL?
-  public var channelID: Swift.Int
-  public var journeyID: Swift.Int
-  public var firstAppButtonURL: Foundation.URL?
-  public var secondAppButtonURL: Foundation.URL?
-  public var firstButtonLabel: Swift.String
-  public var secondButtonLabel: Swift.String
-  public var trackingURL: Foundation.URL?
+  public var imageUrl: Foundation.URL?
+  public var buttonAppUrl1: Foundation.URL?
+  public var buttonAppUrl2: Foundation.URL?
+  public var buttonLaunchUrl1: Foundation.URL?
+  public var buttonLaunchUrl2: Foundation.URL?
+  public var buttonLabel1: Swift.String?
+  public var buttonLabel2: Swift.String?
+  public var trackingUrl: Foundation.URL?
   public init(from decoder: Swift.Decoder) throws
   public func encode(to encoder: Swift.Encoder) throws
 }
