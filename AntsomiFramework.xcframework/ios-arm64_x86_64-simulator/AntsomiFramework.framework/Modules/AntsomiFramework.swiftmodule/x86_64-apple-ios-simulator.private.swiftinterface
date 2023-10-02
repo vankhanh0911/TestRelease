@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
 // swift-module-flags: -target x86_64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name AntsomiFramework
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 @_exported import AntsomiFramework
@@ -16,6 +16,7 @@ import UserNotifications
 import WebKit
 import _Concurrency
 import _StringProcessing
+import _SwiftConcurrencyShims
 @objc @_inheritsConvenienceInitializers open class AntsomiNotificationService : UserNotifications.UNNotificationServiceExtension, UserNotifications.UNUserNotificationCenterDelegate {
   open var appGroupsId: Swift.String? {
     get
@@ -40,7 +41,7 @@ public protocol AppInboxDelegate : AnyObject {
   func onNewMessage(_ newMessageReceived: InboxItem)
 }
 @objc public class AppInbox : ObjectiveC.NSObject {
-  weak public var delegate: AppInboxDelegate?
+  weak public var delegate: (any AppInboxDelegate)?
   public var lookupId: Swift.String
   public var lookupType: Swift.String
   public static var pageLimit: Swift.Int
@@ -58,8 +59,8 @@ public protocol AppInboxDelegate : AnyObject {
 public struct Catalog : Swift.Codable {
   public var catalogId: Swift.String
   public var catalogName: Swift.String
-  public init(from decoder: Swift.Decoder) throws
-  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
 }
 extension Catalog {
   public func jsonData() throws -> Foundation.Data
@@ -147,7 +148,7 @@ public struct CDPEvent : Swift.Encodable {
   public mutating func setUserPropperties(userPropperties: [Swift.String : Any])
   public mutating func setScreenName(screenName: Swift.String)
   public init(en: Swift.String = "", items: [[Swift.String : Any]] = [], userProps: [Swift.String : Any] = [:], customerProps: [Swift.String : Any] = [:], objectProps: [Swift.String : Any] = [:], evetProps: [Swift.String : Any] = [:], screenType: Swift.String = "", screenLabel: Swift.String = "", screenName: Swift.String = "")
-  public func encode(to encoder: Swift.Encoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
 }
 public struct InboxItem : Swift.Codable {
   public var itemId: Swift.String
@@ -169,8 +170,8 @@ public struct InboxItem : Swift.Codable {
   public var buttonLabel1: Swift.String?
   public var buttonLabel2: Swift.String?
   public var trackingUrl: Foundation.URL?
-  public init(from decoder: Swift.Decoder) throws
-  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
 }
 extension InboxItem {
   public func jsonData() throws -> Foundation.Data

@@ -1,7 +1,7 @@
 framework module AntsomiFramework {
   umbrella header "AntsomiFramework.h"
-
   export *
+
   module * { export * }
 }
 
