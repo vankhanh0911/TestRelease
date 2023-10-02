@@ -110,8 +110,8 @@ extension AntsomiFramework.Catalog {
   @objc deinit
 }
 public enum ModifyAction : Swift.Int, Swift.CaseIterable, Swift.Codable {
-  case read
   case unread
+  case read
   case remove
   public init?(rawValue: Swift.Int)
   public typealias AllCases = [AntsomiFramework.ModifyAction]

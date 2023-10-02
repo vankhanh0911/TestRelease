@@ -3935,43 +3935,6 @@
         "children": [
           {
             "kind": "Var",
-            "name": "read",
-            "printedName": "read",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(AntsomiFramework.ModifyAction.Type) -> AntsomiFramework.ModifyAction",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ModifyAction",
-                    "printedName": "AntsomiFramework.ModifyAction",
-                    "usr": "s:16AntsomiFramework12ModifyActionO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "AntsomiFramework.ModifyAction.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ModifyAction",
-                        "printedName": "AntsomiFramework.ModifyAction",
-                        "usr": "s:16AntsomiFramework12ModifyActionO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:16AntsomiFramework12ModifyActionO4readyA2CmF",
-            "mangledName": "$s16AntsomiFramework12ModifyActionO4readyA2CmF",
-            "moduleName": "AntsomiFramework"
-          },
-          {
-            "kind": "Var",
             "name": "unread",
             "printedName": "unread",
             "children": [
@@ -4005,6 +3968,43 @@
             "declKind": "EnumElement",
             "usr": "s:16AntsomiFramework12ModifyActionO6unreadyA2CmF",
             "mangledName": "$s16AntsomiFramework12ModifyActionO6unreadyA2CmF",
+            "moduleName": "AntsomiFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "read",
+            "printedName": "read",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AntsomiFramework.ModifyAction.Type) -> AntsomiFramework.ModifyAction",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ModifyAction",
+                    "printedName": "AntsomiFramework.ModifyAction",
+                    "usr": "s:16AntsomiFramework12ModifyActionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AntsomiFramework.ModifyAction.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ModifyAction",
+                        "printedName": "AntsomiFramework.ModifyAction",
+                        "usr": "s:16AntsomiFramework12ModifyActionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16AntsomiFramework12ModifyActionO4readyA2CmF",
+            "mangledName": "$s16AntsomiFramework12ModifyActionO4readyA2CmF",
             "moduleName": "AntsomiFramework"
           },
           {
@@ -8010,14 +8010,14 @@
     {
       "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "StringLiteral",
-      "offset": 15769,
+      "offset": 15473,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "StringLiteral",
-      "offset": 15789,
+      "offset": 15493,
       "length": 2,
       "value": "\"\""
     },
@@ -8038,7 +8038,7 @@
     {
       "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/ModifyActionEnum.swift",
       "kind": "IntegerLiteral",
-      "offset": 213,
+      "offset": 215,
       "length": 1,
       "value": "1"
     },
@@ -8059,7 +8059,7 @@
     {
       "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/ModifyActionEnum.swift",
       "kind": "IntegerLiteral",
-      "offset": 213,
+      "offset": 215,
       "length": 1,
       "value": "1"
     },
@@ -8080,7 +8080,7 @@
     {
       "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/AppInbox\/ModifyActionEnum.swift",
       "kind": "IntegerLiteral",
-      "offset": 213,
+      "offset": 215,
       "length": 1,
       "value": "1"
     },
@@ -8256,27 +8256,27 @@
       "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPClient.swift",
       "kind": "StringLiteral",
       "offset": 149,
-      "length": 51,
-      "value": "\"https:\/\/sandbox-antalyser.antsomi.com\/webpush\/api\""
+      "length": 30,
+      "value": "\"https:\/\/push.antsomi.com\/api\""
     },
     {
       "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPClient.swift",
       "kind": "StringLiteral",
-      "offset": 243,
+      "offset": 222,
       "length": 20,
       "value": "\"https:\/\/a.cdp.asia\""
     },
     {
       "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 307,
+      "offset": 286,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/HTTP\/HTTPClient.swift",
       "kind": "StringLiteral",
-      "offset": 359,
+      "offset": 338,
       "length": 9,
       "value": "\"Antsomi\""
     },
@@ -8788,78 +8788,120 @@
       "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/APIContants.swift",
       "kind": "StringLiteral",
       "offset": 187,
-      "length": 72,
-      "value": "\"https:\/\/sandbox-api.ants.tech\/access\/api\/app-inbox\/message\/performance\""
+      "length": 64,
+      "value": "\"https:\/\/api.ants.tech\/access\/api\/app-inbox\/message\/performance\""
     },
     {
       "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/APIContants.swift",
       "kind": "StringLiteral",
-      "offset": 297,
-      "length": 60,
-      "value": "\"https:\/\/sandbox-api.ants.tech\/access\/api\/app-inbox\/message\""
+      "offset": 289,
+      "length": 52,
+      "value": "\"https:\/\/api.ants.tech\/access\/api\/app-inbox\/message\""
     },
     {
       "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/APIContants.swift",
       "kind": "StringLiteral",
-      "offset": 400,
-      "length": 72,
-      "value": "\"https:\/\/sandbox-api.ants.tech\/access\/api\/app-inbox\/catalog\/performance\""
+      "offset": 384,
+      "length": 64,
+      "value": "\"https:\/\/api.ants.tech\/access\/api\/app-inbox\/catalog\/performance\""
     },
     {
       "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/APIContants.swift",
       "kind": "StringLiteral",
-      "offset": 520,
-      "length": 73,
-      "value": "\"https:\/\/sandbox-api.ants.tech\/access\/api\/app-inbox\/message\/count-unread\""
+      "offset": 496,
+      "length": 65,
+      "value": "\"https:\/\/api.ants.tech\/access\/api\/app-inbox\/message\/count-unread\""
     },
     {
       "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/APIContants.swift",
       "kind": "StringLiteral",
-      "offset": 636,
-      "length": 77,
-      "value": "\"https:\/\/sandbox-api.ants.tech\/access\/api\/app-inbox\/message\/mark-all-as-read\""
+      "offset": 604,
+      "length": 69,
+      "value": "\"https:\/\/api.ants.tech\/access\/api\/app-inbox\/message\/mark-all-as-read\""
     },
     {
       "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/APIContants.swift",
       "kind": "StringLiteral",
-      "offset": 758,
-      "length": 61,
-      "value": "\"https:\/\/sandbox-api.ants.tech\/access\/api\/app-inbox\/message\/\""
+      "offset": 718,
+      "length": 53,
+      "value": "\"https:\/\/api.ants.tech\/access\/api\/app-inbox\/message\/\""
     },
     {
       "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/APIContants.swift",
       "kind": "StringLiteral",
-      "offset": 879,
+      "offset": 828,
+      "length": 64,
+      "value": "\"https:\/\/api.ants.tech\/access\/api\/app-inbox\/message\/performance\""
+    },
+    {
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/APIContants.swift",
+      "kind": "StringLiteral",
+      "offset": 937,
+      "length": 52,
+      "value": "\"https:\/\/api.ants.tech\/access\/api\/app-inbox\/message\""
+    },
+    {
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/APIContants.swift",
+      "kind": "StringLiteral",
+      "offset": 1039,
+      "length": 64,
+      "value": "\"https:\/\/api.ants.tech\/access\/api\/app-inbox\/catalog\/performance\""
+    },
+    {
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/APIContants.swift",
+      "kind": "StringLiteral",
+      "offset": 1158,
+      "length": 65,
+      "value": "\"https:\/\/api.ants.tech\/access\/api\/app-inbox\/message\/count-unread\""
+    },
+    {
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/APIContants.swift",
+      "kind": "StringLiteral",
+      "offset": 1273,
+      "length": 69,
+      "value": "\"https:\/\/api.ants.tech\/access\/api\/app-inbox\/message\/mark-all-as-read\""
+    },
+    {
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/APIContants.swift",
+      "kind": "StringLiteral",
+      "offset": 1394,
+      "length": 53,
+      "value": "\"https:\/\/api.ants.tech\/access\/api\/app-inbox\/message\/\""
+    },
+    {
+      "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/APIContants.swift",
+      "kind": "StringLiteral",
+      "offset": 1507,
       "length": 20,
       "value": "\"https:\/\/a.cdp.asia\""
     },
     {
       "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/APIContants.swift",
       "kind": "StringLiteral",
-      "offset": 936,
+      "offset": 1564,
       "length": 48,
       "value": "\"https:\/\/delivery-cloud.cdp.asia\/interaction\/v3\""
     },
     {
       "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/APIContants.swift",
       "kind": "StringLiteral",
-      "offset": 1021,
+      "offset": 1649,
       "length": 28,
       "value": "\"https:\/\/sandbox-a.cdp.asia\""
     },
     {
       "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/APIContants.swift",
       "kind": "StringLiteral",
-      "offset": 1095,
-      "length": 42,
-      "value": "\"https:\/\/delivery.cdp.asia\/interaction\/v2\""
+      "offset": 1723,
+      "length": 48,
+      "value": "\"https:\/\/delivery-cloud.cdp.asia\/interaction\/v3\""
     },
     {
       "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/APIContants.swift",
       "kind": "StringLiteral",
-      "offset": 1183,
-      "length": 28,
-      "value": "\"wss:\/\/sandbox-ws.ants.tech\""
+      "offset": 1817,
+      "length": 22,
+      "value": "\"wss:\/\/ws.antsomi.com\""
     },
     {
       "filePath": "\/Users\/khanhhv\/code\/flutter\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Extensions\/UIDeviceExtension.swift",
