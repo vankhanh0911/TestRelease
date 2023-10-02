@@ -11917,118 +11917,118 @@
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/APIContants.swift",
       "kind": "StringLiteral",
       "offset": 187,
-      "length": 72,
-      "value": "\"https:\/\/sandbox-api.ants.tech\/access\/api\/app-inbox\/message\/performance\""
-    },
-    {
-      "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/APIContants.swift",
-      "kind": "StringLiteral",
-      "offset": 297,
-      "length": 52,
-      "value": "\"https:\/\/api.ants.tech\/access\/api\/app-inbox\/message\""
-    },
-    {
-      "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/APIContants.swift",
-      "kind": "StringLiteral",
-      "offset": 392,
-      "length": 64,
-      "value": "\"https:\/\/api.ants.tech\/access\/api\/app-inbox\/catalog\/performance\""
-    },
-    {
-      "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/APIContants.swift",
-      "kind": "StringLiteral",
-      "offset": 504,
-      "length": 65,
-      "value": "\"https:\/\/api.ants.tech\/access\/api\/app-inbox\/message\/count-unread\""
-    },
-    {
-      "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/APIContants.swift",
-      "kind": "StringLiteral",
-      "offset": 612,
-      "length": 69,
-      "value": "\"https:\/\/api.ants.tech\/access\/api\/app-inbox\/message\/mark-all-as-read\""
-    },
-    {
-      "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/APIContants.swift",
-      "kind": "StringLiteral",
-      "offset": 726,
-      "length": 53,
-      "value": "\"https:\/\/api.ants.tech\/access\/api\/app-inbox\/message\/\""
-    },
-    {
-      "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/APIContants.swift",
-      "kind": "StringLiteral",
-      "offset": 836,
       "length": 64,
       "value": "\"https:\/\/api.ants.tech\/access\/api\/app-inbox\/message\/performance\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/APIContants.swift",
       "kind": "StringLiteral",
-      "offset": 945,
+      "offset": 289,
       "length": 52,
       "value": "\"https:\/\/api.ants.tech\/access\/api\/app-inbox\/message\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/APIContants.swift",
       "kind": "StringLiteral",
-      "offset": 1047,
+      "offset": 384,
       "length": 64,
       "value": "\"https:\/\/api.ants.tech\/access\/api\/app-inbox\/catalog\/performance\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/APIContants.swift",
       "kind": "StringLiteral",
-      "offset": 1166,
+      "offset": 496,
       "length": 65,
       "value": "\"https:\/\/api.ants.tech\/access\/api\/app-inbox\/message\/count-unread\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/APIContants.swift",
       "kind": "StringLiteral",
-      "offset": 1281,
+      "offset": 604,
       "length": 69,
       "value": "\"https:\/\/api.ants.tech\/access\/api\/app-inbox\/message\/mark-all-as-read\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/APIContants.swift",
       "kind": "StringLiteral",
-      "offset": 1402,
+      "offset": 718,
       "length": 53,
       "value": "\"https:\/\/api.ants.tech\/access\/api\/app-inbox\/message\/\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/APIContants.swift",
       "kind": "StringLiteral",
-      "offset": 1515,
+      "offset": 828,
+      "length": 64,
+      "value": "\"https:\/\/api.ants.tech\/access\/api\/app-inbox\/message\/performance\""
+    },
+    {
+      "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/APIContants.swift",
+      "kind": "StringLiteral",
+      "offset": 937,
+      "length": 52,
+      "value": "\"https:\/\/api.ants.tech\/access\/api\/app-inbox\/message\""
+    },
+    {
+      "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/APIContants.swift",
+      "kind": "StringLiteral",
+      "offset": 1039,
+      "length": 64,
+      "value": "\"https:\/\/api.ants.tech\/access\/api\/app-inbox\/catalog\/performance\""
+    },
+    {
+      "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/APIContants.swift",
+      "kind": "StringLiteral",
+      "offset": 1158,
+      "length": 65,
+      "value": "\"https:\/\/api.ants.tech\/access\/api\/app-inbox\/message\/count-unread\""
+    },
+    {
+      "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/APIContants.swift",
+      "kind": "StringLiteral",
+      "offset": 1273,
+      "length": 69,
+      "value": "\"https:\/\/api.ants.tech\/access\/api\/app-inbox\/message\/mark-all-as-read\""
+    },
+    {
+      "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/APIContants.swift",
+      "kind": "StringLiteral",
+      "offset": 1394,
+      "length": 53,
+      "value": "\"https:\/\/api.ants.tech\/access\/api\/app-inbox\/message\/\""
+    },
+    {
+      "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/APIContants.swift",
+      "kind": "StringLiteral",
+      "offset": 1507,
       "length": 20,
       "value": "\"https:\/\/a.cdp.asia\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/APIContants.swift",
       "kind": "StringLiteral",
-      "offset": 1572,
+      "offset": 1564,
       "length": 48,
       "value": "\"https:\/\/delivery-cloud.cdp.asia\/interaction\/v3\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/APIContants.swift",
       "kind": "StringLiteral",
-      "offset": 1657,
+      "offset": 1649,
       "length": 28,
       "value": "\"https:\/\/sandbox-a.cdp.asia\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/APIContants.swift",
       "kind": "StringLiteral",
-      "offset": 1731,
+      "offset": 1723,
       "length": 48,
       "value": "\"https:\/\/delivery-cloud.cdp.asia\/interaction\/v3\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/APIContants.swift",
       "kind": "StringLiteral",
-      "offset": 1825,
+      "offset": 1817,
       "length": 22,
       "value": "\"wss:\/\/ws.antsomi.com\""
     },
