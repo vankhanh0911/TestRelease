@@ -96,6 +96,7 @@ extension Catalog {
   @objc public func getPortalId() -> Swift.String?
   @objc public func appInboxInit(destinationId: Swift.String, audienceType: Swift.String)
   public func track(event: CDPEvent)
+  @objc public func handleTrackingURL(_ url: Foundation.URL, completion: @escaping (() -> ()))
   @objc public func handleDeeplinkURL(_ url: Foundation.URL)
   public func activate(with config: Antsomi.Configuration)
   @objc public func getUid() -> Swift.String?

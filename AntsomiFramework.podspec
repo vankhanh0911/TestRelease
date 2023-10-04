@@ -3,7 +3,7 @@ Pod::Spec.new do |spec|
 
 
   spec.name         = "AntsomiFramework"
-  spec.version      = "0.0.20-beta"
+  spec.version      = "0.0.21-beta"
   spec.summary      = "A short description of AntsomiFramework."
 
   spec.description  = <<-DESC
