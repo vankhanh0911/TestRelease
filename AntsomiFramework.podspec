@@ -3,8 +3,8 @@ Pod::Spec.new do |spec|
 
 
   spec.name         = "AntsomiFramework"
-  spec.version      = "0.0.21-beta"
-  spec.summary      = "A short description of AntsomiFramework."
+  spec.version      = "0.0.22-beta"
+  spec.summary      = "Antsomi SDK for IOS"
 
   spec.description  = <<-DESC
               This is a framework created by Antsomi for using Antsomi CDP in app development

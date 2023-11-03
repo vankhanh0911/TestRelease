@@ -75,6 +75,11 @@ extension AntsomiFramework.Catalog {
     @objc set
     _modify
   }
+  @objc @AntsomiFramework.Atomic public var isShowingTemplate: Swift.Bool {
+    @objc get
+    @objc set
+    _modify
+  }
   public struct Configuration {
     public let portalId: Swift.String
     public let propsId: Swift.String

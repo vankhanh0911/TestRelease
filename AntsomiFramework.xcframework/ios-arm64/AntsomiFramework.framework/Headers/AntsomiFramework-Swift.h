@@ -319,6 +319,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) AppInbox * _Null_unspe
 + (void)setAppInbox:(AppInbox * _Null_unspecified)value;
 /// delivery url ?
 @property (nonatomic) BOOL isDelivery;
+@property (nonatomic) BOOL isShowingTemplate;
 /// FOR DEBUGGING AND LOGGING INFORMATION
 @property (nonatomic) BOOL debug;
 @property (nonatomic, copy) void (^ _Nullable logger)(NSString * _Nonnull);
