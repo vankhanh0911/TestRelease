@@ -38,22 +38,22 @@ import _SwiftConcurrencyShims
   @objc deinit
 }
 public protocol AppInboxDelegate : AnyObject {
-  func onNewMessage(_ newMessageReceived: InboxItem)
+  func onNewMessage(_ newMessageReceived: AntsomiFramework.InboxItem)
 }
 @objc public class AppInbox : ObjectiveC.NSObject {
-  weak public var delegate: (any AppInboxDelegate)?
+  weak public var delegate: (any AntsomiFramework.AppInboxDelegate)?
   public var lookupId: Swift.String
   public var lookupType: Swift.String
   public static var pageLimit: Swift.Int
   public static func setPageLimit(pageLimit: Swift.Int)
   public init(destinationId: Swift.String, audienceType: Swift.String, log: Swift.Bool = false)
-  public func getMessage() -> [InboxItem]
+  public func getMessage() -> [AntsomiFramework.InboxItem]
   public func countUnreadMessage(completion: @escaping ((Swift.Int) -> Swift.Void))
-  public func getMessageById(messageId: Swift.String, completion: @escaping ((InboxItem) -> Swift.Void))
-  public func forceFetchInboxItem(catalogId: [Swift.String] = [], page: Swift.Int, completion: @escaping (([InboxItem]) -> Swift.Void))
+  public func getMessageById(messageId: Swift.String, completion: @escaping ((AntsomiFramework.InboxItem) -> Swift.Void))
+  public func forceFetchInboxItem(catalogId: [Swift.String] = [], page: Swift.Int, completion: @escaping (([AntsomiFramework.InboxItem]) -> Swift.Void))
   public func markAllAsRead()
-  public func modifyMessageStatus(_ messageId: [Swift.String], action: ModifyAction)
-  public func fetchAllCatalog(completion: @escaping (([Catalog]) -> Swift.Void))
+  public func modifyMessageStatus(_ messageId: [Swift.String], action: AntsomiFramework.ModifyAction)
+  public func fetchAllCatalog(completion: @escaping (([AntsomiFramework.Catalog]) -> Swift.Void))
   @objc deinit
 }
 public struct Catalog : Swift.Codable {
@@ -62,20 +62,20 @@ public struct Catalog : Swift.Codable {
   public init(from decoder: any Swift.Decoder) throws
   public func encode(to encoder: any Swift.Encoder) throws
 }
-extension Catalog {
+extension AntsomiFramework.Catalog {
   public func jsonData() throws -> Foundation.Data
   public func jsonString(encoding: Swift.String.Encoding = .utf8) throws -> Swift.String?
 }
 @objc @_inheritsConvenienceInitializers @objcMembers public class Antsomi : ObjectiveC.NSObject {
   @objc public static let SDK_VERSION: Swift.String
   @objc public var isAssociatedUTM: Swift.Bool
-  @objc public static var appInbox: AppInbox!
-  @objc @Atomic public var isDelivery: Swift.Bool {
+  @objc public static var appInbox: AntsomiFramework.AppInbox!
+  @objc @AntsomiFramework.Atomic public var isDelivery: Swift.Bool {
     @objc get
     @objc set
     _modify
   }
-  @objc @Atomic public var isShowingTemplate: Swift.Bool {
+  @objc @AntsomiFramework.Atomic public var isShowingTemplate: Swift.Bool {
     @objc get
     @objc set
     _modify
@@ -90,7 +90,7 @@ extension Catalog {
   @objc public var debug: Swift.Bool
   @objc public var logger: ((Swift.String) -> Swift.Void)?
   @objc public func log(_ str: Swift.String)
-  @objc public static var shared: Antsomi
+  @objc public static var shared: AntsomiFramework.Antsomi
   @objc public func setCustomerProperties(customerId: Swift.String, customerProperties: [Swift.String : Any] = [:])
   @objc public func setIsDelivery(newValue: Swift.Bool)
   @objc public func resetCustomer()
@@ -100,10 +100,10 @@ extension Catalog {
   @objc public func getDeviceId() -> Swift.String
   @objc public func getPortalId() -> Swift.String?
   @objc public func appInboxInit(destinationId: Swift.String, audienceType: Swift.String)
-  public func track(event: CDPEvent)
+  public func track(event: AntsomiFramework.CDPEvent)
   @objc public func handleTrackingURL(_ url: Foundation.URL, completion: @escaping (() -> ()))
   @objc public func handleDeeplinkURL(_ url: Foundation.URL)
-  public func activate(with config: Antsomi.Configuration)
+  public func activate(with config: AntsomiFramework.Antsomi.Configuration)
   @objc public func getUid() -> Swift.String?
   @objc public func trackAppLaunch()
   @objc public func registerForNotification(_ deviceToken: Foundation.Data)
@@ -121,9 +121,9 @@ public enum ModifyAction : Swift.Int, Swift.CaseIterable, Swift.Codable {
   case read
   case remove
   public init?(rawValue: Swift.Int)
-  public typealias AllCases = [ModifyAction]
+  public typealias AllCases = [AntsomiFramework.ModifyAction]
   public typealias RawValue = Swift.Int
-  public static var allCases: [ModifyAction] {
+  public static var allCases: [AntsomiFramework.ModifyAction] {
     get
   }
   public var rawValue: Swift.Int {
@@ -179,13 +179,13 @@ public struct InboxItem : Swift.Codable {
   public init(from decoder: any Swift.Decoder) throws
   public func encode(to encoder: any Swift.Encoder) throws
 }
-extension InboxItem {
+extension AntsomiFramework.InboxItem {
   public func jsonData() throws -> Foundation.Data
   public func jsonString(encoding: Swift.String.Encoding = .utf8) throws -> Swift.String?
 }
 extension UIKit.UIDevice {
   @_Concurrency.MainActor(unsafe) public static let modelName: Swift.String
 }
-extension ModifyAction : Swift.Equatable {}
-extension ModifyAction : Swift.Hashable {}
-extension ModifyAction : Swift.RawRepresentable {}
+extension AntsomiFramework.ModifyAction : Swift.Equatable {}
+extension AntsomiFramework.ModifyAction : Swift.Hashable {}
+extension AntsomiFramework.ModifyAction : Swift.RawRepresentable {}
