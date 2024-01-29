@@ -281,7 +281,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @import ObjectiveC;
 @import UIKit;
 @import UserNotifications;
-@import WebKit;
 #endif
 
 #endif
@@ -391,11 +390,6 @@ SWIFT_CLASS("_TtC16AntsomiFramework7Context")
 SWIFT_CLASS("_TtC16AntsomiFramework19UserDefaultsManager")
 @interface UserDefaultsManager : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-@interface WKWebView (SWIFT_EXTENSION(AntsomiFramework))
-@property (nonatomic, readonly) UIEdgeInsets safeAreaInsets;
 @end
 
 #endif
@@ -689,7 +683,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @import ObjectiveC;
 @import UIKit;
 @import UserNotifications;
-@import WebKit;
 #endif
 
 #endif
@@ -799,11 +792,6 @@ SWIFT_CLASS("_TtC16AntsomiFramework7Context")
 SWIFT_CLASS("_TtC16AntsomiFramework19UserDefaultsManager")
 @interface UserDefaultsManager : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-@interface WKWebView (SWIFT_EXTENSION(AntsomiFramework))
-@property (nonatomic, readonly) UIEdgeInsets safeAreaInsets;
 @end
 
 #endif

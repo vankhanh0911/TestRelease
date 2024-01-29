@@ -130,11 +130,6 @@ public enum ModifyAction : Swift.Int, Swift.CaseIterable, Swift.Codable {
     get
   }
 }
-extension WebKit.WKWebView {
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open var safeAreaInsets: UIKit.UIEdgeInsets {
-    @objc get
-  }
-}
 @objc @_inheritsConvenienceInitializers public class Context : ObjectiveC.NSObject {
   public var deviceID: Swift.String?
   public func execute() -> [Swift.String : Any]
