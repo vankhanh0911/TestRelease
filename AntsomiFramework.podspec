@@ -75,6 +75,8 @@ Pod::Spec.new do |spec|
   # spec.requires_arc = true
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  spec.dependency 'Socket.IO-Client-Swift', '~> 15.2.0'
+  spec.dependency 'Socket.IO-Client-Swift', '~> 16.0.1'
+  spec.dependency 'Starscream','4.0.4'
+
 
 end

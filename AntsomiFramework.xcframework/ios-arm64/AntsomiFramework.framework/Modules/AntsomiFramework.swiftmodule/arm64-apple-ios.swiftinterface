@@ -45,7 +45,9 @@ public protocol AppInboxDelegate : AnyObject {
   public var lookupId: Swift.String
   public var lookupType: Swift.String
   public static var pageLimit: Swift.Int
+  public static var enableSocket: Swift.Bool
   public static func setPageLimit(pageLimit: Swift.Int)
+  public static func enableSocket(isEnable: Swift.Bool)
   public init(destinationId: Swift.String, audienceType: Swift.String, log: Swift.Bool = false)
   public func getMessage() -> [InboxItem]
   public func countUnreadMessage(completion: @escaping ((Swift.Int) -> Swift.Void))
