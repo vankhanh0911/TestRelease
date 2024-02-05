@@ -3,7 +3,7 @@ Pod::Spec.new do |spec|
 
 
   spec.name         = "AntsomiFramework"
-  spec.version      = "0.0.33-beta"
+  spec.version      = "0.0.34-beta"
   spec.summary      = "Antsomi SDK for IOS"
 
   spec.description  = <<-DESC
@@ -75,7 +75,6 @@ Pod::Spec.new do |spec|
   # spec.requires_arc = true
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  spec.dependency 'Socket.IO-Client-Swift', '~> 16.0.1'
-  spec.dependency 'Starscream','4.0.4'
+  spec.dependency 'Socket.IO-Client-Swift', '~> 15.2.0'
 
 end
