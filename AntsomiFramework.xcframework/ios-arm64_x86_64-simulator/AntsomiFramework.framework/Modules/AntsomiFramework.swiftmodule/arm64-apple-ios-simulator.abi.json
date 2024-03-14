@@ -24454,13 +24454,6 @@
         ]
       },
       {
-        "kind": "Import",
-        "name": "CoreLocation",
-        "printedName": "CoreLocation",
-        "declKind": "Import",
-        "moduleName": "AntsomiFramework"
-      },
-      {
         "kind": "TypeDecl",
         "name": "Context",
         "printedName": "Context",
@@ -30794,23 +30787,6 @@
             "mangledName": "$ss23CustomStringConvertibleP"
           }
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "AntsomiFramework",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "CoreLocation",
-        "printedName": "CoreLocation",
-        "declKind": "Import",
-        "moduleName": "AntsomiFramework"
       },
       {
         "kind": "Import",
@@ -51533,59 +51509,73 @@
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Context.swift",
-      "kind": "BooleanLiteral",
-      "offset": 369,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Context.swift",
       "kind": "StringLiteral",
-      "offset": 731,
+      "offset": 663,
       "length": 12,
       "value": "\"instanceId\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Context.swift",
       "kind": "StringLiteral",
-      "offset": 955,
+      "offset": 887,
       "length": 9,
       "value": "\"library\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Context.swift",
       "kind": "StringLiteral",
-      "offset": 1016,
+      "offset": 948,
       "length": 9,
       "value": "\"version\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Context.swift",
       "kind": "IntegerLiteral",
-      "offset": 1456,
+      "offset": 1388,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Context.swift",
       "kind": "StringLiteral",
-      "offset": 1486,
+      "offset": 1418,
       "length": 5,
       "value": "\"app\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Context.swift",
       "kind": "StringLiteral",
-      "offset": 1513,
+      "offset": 1445,
       "length": 6,
       "value": "\"name\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Context.swift",
       "kind": "StringLiteral",
-      "offset": 1525,
+      "offset": 1457,
       "length": 21,
       "value": "\"CFBundleDisplayName\""
+    },
+    {
+      "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Context.swift",
+      "kind": "StringLiteral",
+      "offset": 1483,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Context.swift",
+      "kind": "StringLiteral",
+      "offset": 1503,
+      "length": 9,
+      "value": "\"version\""
+    },
+    {
+      "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Context.swift",
+      "kind": "StringLiteral",
+      "offset": 1518,
+      "length": 28,
+      "value": "\"CFBundleShortVersionString\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Context.swift",
@@ -51598,323 +51588,281 @@
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Context.swift",
       "kind": "StringLiteral",
       "offset": 1571,
-      "length": 9,
-      "value": "\"version\""
-    },
-    {
-      "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Context.swift",
-      "kind": "StringLiteral",
-      "offset": 1586,
-      "length": 28,
-      "value": "\"CFBundleShortVersionString\""
-    },
-    {
-      "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Context.swift",
-      "kind": "StringLiteral",
-      "offset": 1619,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Context.swift",
-      "kind": "StringLiteral",
-      "offset": 1639,
       "length": 7,
       "value": "\"build\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Context.swift",
       "kind": "StringLiteral",
-      "offset": 1652,
+      "offset": 1584,
       "length": 17,
       "value": "\"CFBundleVersion\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Context.swift",
       "kind": "StringLiteral",
-      "offset": 1674,
+      "offset": 1606,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Context.swift",
       "kind": "StringLiteral",
-      "offset": 1694,
+      "offset": 1626,
       "length": 11,
       "value": "\"namespace\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Context.swift",
       "kind": "StringLiteral",
-      "offset": 1739,
+      "offset": 1671,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Context.swift",
       "kind": "StringLiteral",
-      "offset": 2213,
+      "offset": 2043,
       "length": 8,
       "value": "\"device\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Context.swift",
       "kind": "StringLiteral",
-      "offset": 2239,
+      "offset": 2069,
       "length": 14,
       "value": "\"manufacturer\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Context.swift",
       "kind": "StringLiteral",
-      "offset": 2288,
+      "offset": 2118,
       "length": 6,
       "value": "\"type\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Context.swift",
       "kind": "StringLiteral",
-      "offset": 2321,
+      "offset": 2151,
       "length": 7,
       "value": "\"model\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Context.swift",
       "kind": "StringLiteral",
-      "offset": 2364,
+      "offset": 2194,
       "length": 6,
       "value": "\"name\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Context.swift",
       "kind": "StringLiteral",
-      "offset": 2397,
+      "offset": 2227,
       "length": 4,
       "value": "\"id\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Context.swift",
       "kind": "StringLiteral",
-      "offset": 2433,
+      "offset": 2263,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Context.swift",
       "kind": "StringLiteral",
-      "offset": 2476,
+      "offset": 2306,
       "length": 4,
       "value": "\"os\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Context.swift",
       "kind": "StringLiteral",
-      "offset": 2498,
+      "offset": 2328,
       "length": 6,
       "value": "\"name\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Context.swift",
       "kind": "StringLiteral",
-      "offset": 2537,
+      "offset": 2367,
       "length": 9,
       "value": "\"version\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Context.swift",
       "kind": "StringLiteral",
-      "offset": 2652,
+      "offset": 2482,
       "length": 8,
       "value": "\"screen\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Context.swift",
       "kind": "StringLiteral",
-      "offset": 2678,
+      "offset": 2508,
       "length": 7,
       "value": "\"width\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Context.swift",
       "kind": "StringLiteral",
-      "offset": 2713,
+      "offset": 2543,
       "length": 8,
       "value": "\"height\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Context.swift",
       "kind": "IntegerLiteral",
-      "offset": 2810,
+      "offset": 2640,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Context.swift",
       "kind": "StringLiteral",
-      "offset": 2834,
+      "offset": 2664,
       "length": 8,
       "value": "\"locale\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Context.swift",
       "kind": "IntegerLiteral",
-      "offset": 2872,
+      "offset": 2702,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Context.swift",
       "kind": "StringLiteral",
-      "offset": 2921,
+      "offset": 2751,
       "length": 10,
       "value": "\"timezone\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Context.swift",
       "kind": "StringLiteral",
-      "offset": 3254,
+      "offset": 2855,
       "length": 10,
       "value": "\"location\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Context.swift",
       "kind": "StringLiteral",
-      "offset": 3290,
+      "offset": 2883,
       "length": 5,
       "value": "\"lat\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Context.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2891,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Context.swift",
       "kind": "StringLiteral",
-      "offset": 3323,
+      "offset": 2906,
       "length": 6,
       "value": "\"long\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Context.swift",
-      "kind": "StringLiteral",
-      "offset": 3474,
-      "length": 10,
-      "value": "\"location\""
-    },
-    {
-      "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Context.swift",
-      "kind": "Dictionary",
-      "offset": 3488,
-      "length": 97,
-      "value": "[(\"lat\", \"unknown\"), (\"long\", \"unknown\")]"
+      "kind": "IntegerLiteral",
+      "offset": 2914,
+      "length": 1,
+      "value": "0"
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Context.swift",
       "kind": "StringLiteral",
-      "offset": 3691,
-      "length": 10,
-      "value": "\"location\""
+      "offset": 2929,
+      "length": 6,
+      "value": "\"type\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Context.swift",
-      "kind": "Dictionary",
-      "offset": 3705,
-      "length": 85,
-      "value": "[(\"lat\", \"unknown\"), (\"long\", \"unknown\")]"
+      "kind": "StringLiteral",
+      "offset": 2937,
+      "length": 9,
+      "value": "\"Unknown\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Context.swift",
       "kind": "BooleanLiteral",
-      "offset": 4054,
+      "offset": 3210,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Context.swift",
       "kind": "BooleanLiteral",
-      "offset": 4079,
+      "offset": 3235,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Context.swift",
       "kind": "BooleanLiteral",
-      "offset": 4109,
+      "offset": 3265,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Context.swift",
       "kind": "BooleanLiteral",
-      "offset": 4204,
+      "offset": 3360,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Context.swift",
       "kind": "BooleanLiteral",
-      "offset": 4257,
+      "offset": 3413,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Context.swift",
       "kind": "BooleanLiteral",
-      "offset": 4320,
+      "offset": 3476,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Context.swift",
       "kind": "StringLiteral",
-      "offset": 4427,
+      "offset": 3583,
       "length": 9,
       "value": "\"network\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Context.swift",
       "kind": "StringLiteral",
-      "offset": 4454,
+      "offset": 3610,
       "length": 11,
       "value": "\"bluetooth\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Context.swift",
       "kind": "StringLiteral",
-      "offset": 4545,
+      "offset": 3701,
       "length": 10,
       "value": "\"cellular\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Context.swift",
       "kind": "StringLiteral",
-      "offset": 4579,
+      "offset": 3735,
       "length": 6,
       "value": "\"wifi\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Context.swift",
       "kind": "StringLiteral",
-      "offset": 4952,
+      "offset": 4108,
       "length": 11,
       "value": "\"userAgent\""
-    },
-    {
-      "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Context.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5386,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Context.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5468,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Context.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5526,
-      "length": 5,
-      "value": "false"
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/StarScream\/Starscream\/WebSocket.swift",
@@ -53756,153 +53704,6 @@
       "offset": 7134,
       "length": 5,
       "value": "\"num\""
-    },
-    {
-      "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/LocationManager.swift",
-      "kind": "Array",
-      "offset": 363,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/LocationManager.swift",
-      "kind": "StringLiteral",
-      "offset": 2483,
-      "length": 4,
-      "value": "\"[]\""
-    },
-    {
-      "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/LocationManager.swift",
-      "kind": "Array",
-      "offset": 2665,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/LocationManager.swift",
-      "kind": "StringLiteral",
-      "offset": 2828,
-      "length": 6,
-      "value": "\"name\""
-    },
-    {
-      "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/LocationManager.swift",
-      "kind": "StringLiteral",
-      "offset": 2898,
-      "length": 10,
-      "value": "\"latitude\""
-    },
-    {
-      "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/LocationManager.swift",
-      "kind": "StringLiteral",
-      "offset": 3036,
-      "length": 11,
-      "value": "\"longitude\""
-    },
-    {
-      "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/LocationManager.swift",
-      "kind": "StringLiteral",
-      "offset": 3174,
-      "length": 8,
-      "value": "\"radius\""
-    },
-    {
-      "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/LocationManager.swift",
-      "kind": "StringLiteral",
-      "offset": 3361,
-      "length": 82,
-      "value": "\"Name: \""
-    },
-    {
-      "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/LocationManager.swift",
-      "kind": "StringLiteral",
-      "offset": 3375,
-      "length": 1,
-      "value": "\", Latitude: \""
-    },
-    {
-      "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/LocationManager.swift",
-      "kind": "StringLiteral",
-      "offset": 3398,
-      "length": 1,
-      "value": "\", Longitude: \""
-    },
-    {
-      "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/LocationManager.swift",
-      "kind": "StringLiteral",
-      "offset": 3423,
-      "length": 1,
-      "value": "\", Radius: \""
-    },
-    {
-      "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/LocationManager.swift",
-      "kind": "StringLiteral",
-      "offset": 3442,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/LocationManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3706,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/LocationManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3769,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/LocationManager.swift",
-      "kind": "StringLiteral",
-      "offset": 4144,
-      "length": 28,
-      "value": "\"[GEOFENCE] parse json fail\""
-    },
-    {
-      "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/LocationManager.swift",
-      "kind": "StringLiteral",
-      "offset": 4196,
-      "length": 51,
-      "value": "\"Error parsing JSON: \""
-    },
-    {
-      "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/LocationManager.swift",
-      "kind": "StringLiteral",
-      "offset": 4246,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/LocationManager.swift",
-      "kind": "StringLiteral",
-      "offset": 4298,
-      "length": 30,
-      "value": "\"[GEOFENCE] convert json fail\""
-    },
-    {
-      "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/LocationManager.swift",
-      "kind": "StringLiteral",
-      "offset": 4348,
-      "length": 34,
-      "value": "\"Failed to convert string to data\""
-    },
-    {
-      "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/LocationManager.swift",
-      "kind": "StringLiteral",
-      "offset": 5025,
-      "length": 29,
-      "value": "\"[GEOFENCE] Entered geofence\""
-    },
-    {
-      "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/LocationManager.swift",
-      "kind": "StringLiteral",
-      "offset": 5225,
-      "length": 28,
-      "value": "\"[GEOFENCE] Exited geofence\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/code\/swift\/socket.io-client-swift\/Source\/SocketIO\/Client\/SocketAnyEvent.swift",
