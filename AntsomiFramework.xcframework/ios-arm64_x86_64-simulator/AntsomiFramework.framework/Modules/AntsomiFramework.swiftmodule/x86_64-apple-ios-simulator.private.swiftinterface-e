@@ -685,6 +685,8 @@ public protocol Server {
   @objc public func appInboxInit(destinationId: Swift.String, audienceType: Swift.String)
   public func track(event: AntsomiFramework.CDPEvent)
   public func getMediaJson(event: AntsomiFramework.CDPEvent, completion: @escaping ((AntsomiFramework.MediaJson) -> Swift.Void))
+  public func getMediaJson(event: AntsomiFramework.CDPEvent, storyId: Swift.String, completion: @escaping ((AntsomiFramework.MediaJson) -> Swift.Void))
+  public func processGetMediaJson(eventBody: [Swift.String : Any], completion: @escaping ((AntsomiFramework.MediaJson) -> Swift.Void))
   @objc public func handleTrackingURL(_ url: Foundation.URL, completion: @escaping (() -> ()))
   @objc public func handleDeeplinkURL(_ url: Foundation.URL)
   public func activate(with config: AntsomiFramework.Antsomi.Configuration)
