@@ -336,6 +336,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) Antsomi * _Nonnull sha
 - (NSDictionary<NSString *, id> * _Nullable)getCustomerProperties SWIFT_WARN_UNUSED_RESULT;
 - (NSString * _Nonnull)getDeviceId SWIFT_WARN_UNUSED_RESULT;
 - (NSString * _Nullable)getPortalId SWIFT_WARN_UNUSED_RESULT;
+- (NSString * _Nullable)getAppGroupId SWIFT_WARN_UNUSED_RESULT;
 - (void)appInboxInitWithDestinationId:(NSString * _Nonnull)destinationId audienceType:(NSString * _Nonnull)audienceType;
 - (void)handleTrackingURL:(NSURL * _Nonnull)url completion:(void (^ _Nonnull)(void))completion;
 - (void)handleDeeplinkURL:(NSURL * _Nonnull)url;
@@ -343,6 +344,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) Antsomi * _Nonnull sha
 - (void)trackAppLaunch;
 - (void)registerForNotification:(NSData * _Nonnull)deviceToken;
 - (void)trackScreenWithName:(NSString * _Nonnull)name title:(NSString * _Nonnull)title type:(NSString * _Nonnull)type;
++ (NSString * _Nonnull)getBundleId SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -368,12 +370,32 @@ SWIFT_CLASS("_TtC16AntsomiFramework31AntsomiUNUserNotificationCenter")
 @end
 
 
+SWIFT_CLASS("_TtC16AntsomiFramework14AntsomiUtiltiy")
+@interface AntsomiUtiltiy : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
 SWIFT_CLASS("_TtC16AntsomiFramework8AppInbox")
 @interface AppInbox : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
+
+@class NSBundle;
+@class NSCoder;
+
+SWIFT_CLASS("_TtC16AntsomiFramework18CarouselController")
+@interface CarouselController : UIViewController
+@property (nonatomic, copy) NSString * _Nonnull data;
+@property (nonatomic, copy) NSString * _Nonnull titleNoti;
+@property (nonatomic, copy) NSString * _Nonnull subTitleNoti;
+@property (nonatomic, copy) NSString * _Nonnull bodyNoti;
+- (void)viewDidLoad;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
 
 
 SWIFT_CLASS("_TtC16AntsomiFramework7Context")
@@ -428,6 +450,37 @@ SWIFT_CLASS("_TtC16AntsomiFramework13OnAckCallback")
 - (void)timingOutAfter:(double)seconds callback:(void (^ _Nonnull)(NSArray * _Nonnull))callback;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+SWIFT_CLASS("_TtC16AntsomiFramework26PushTemplateBaseController")
+@interface PushTemplateBaseController : NSObject
++ (void)handleNotificationWithController:(UIViewController * _Nonnull)controller withNotification:(UNNotification * _Nonnull)notification;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC16AntsomiFramework16RatingController")
+@interface RatingController : UIViewController <UIGestureRecognizerDelegate>
+@property (nonatomic, copy) NSString * _Nonnull data;
+@property (nonatomic, copy) NSString * _Nonnull titleNoti;
+@property (nonatomic, copy) NSString * _Nonnull subTitleNoti;
+@property (nonatomic, copy) NSString * _Nonnull bodyNoti;
+- (void)viewDidLoad;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC16AntsomiFramework20SmallImageController")
+@interface SmallImageController : UIViewController
+@property (nonatomic, copy) NSString * _Nonnull data;
+@property (nonatomic, copy) NSString * _Nonnull titleNoti;
+@property (nonatomic, copy) NSString * _Nonnull subTitleNoti;
+@property (nonatomic, copy) NSString * _Nonnull bodyNoti;
+- (void)viewDidLoad;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
 @class SocketRawAckView;
@@ -674,6 +727,19 @@ SWIFT_CLASS("_TtC16AntsomiFramework13SocketRawView")
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
+
+
+SWIFT_CLASS("_TtC16AntsomiFramework20StyleBasicController")
+@interface StyleBasicController : UIViewController
+@property (nonatomic, copy) NSString * _Nonnull data;
+@property (nonatomic, copy) NSString * _Nonnull titleNoti;
+@property (nonatomic, copy) NSString * _Nonnull subTitleNoti;
+@property (nonatomic, copy) NSString * _Nonnull bodyNoti;
+- (void)viewDidLoad;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
 
 
 
@@ -1032,6 +1098,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) Antsomi * _Nonnull sha
 - (NSDictionary<NSString *, id> * _Nullable)getCustomerProperties SWIFT_WARN_UNUSED_RESULT;
 - (NSString * _Nonnull)getDeviceId SWIFT_WARN_UNUSED_RESULT;
 - (NSString * _Nullable)getPortalId SWIFT_WARN_UNUSED_RESULT;
+- (NSString * _Nullable)getAppGroupId SWIFT_WARN_UNUSED_RESULT;
 - (void)appInboxInitWithDestinationId:(NSString * _Nonnull)destinationId audienceType:(NSString * _Nonnull)audienceType;
 - (void)handleTrackingURL:(NSURL * _Nonnull)url completion:(void (^ _Nonnull)(void))completion;
 - (void)handleDeeplinkURL:(NSURL * _Nonnull)url;
@@ -1039,6 +1106,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) Antsomi * _Nonnull sha
 - (void)trackAppLaunch;
 - (void)registerForNotification:(NSData * _Nonnull)deviceToken;
 - (void)trackScreenWithName:(NSString * _Nonnull)name title:(NSString * _Nonnull)title type:(NSString * _Nonnull)type;
++ (NSString * _Nonnull)getBundleId SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -1064,12 +1132,32 @@ SWIFT_CLASS("_TtC16AntsomiFramework31AntsomiUNUserNotificationCenter")
 @end
 
 
+SWIFT_CLASS("_TtC16AntsomiFramework14AntsomiUtiltiy")
+@interface AntsomiUtiltiy : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
 SWIFT_CLASS("_TtC16AntsomiFramework8AppInbox")
 @interface AppInbox : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
+
+@class NSBundle;
+@class NSCoder;
+
+SWIFT_CLASS("_TtC16AntsomiFramework18CarouselController")
+@interface CarouselController : UIViewController
+@property (nonatomic, copy) NSString * _Nonnull data;
+@property (nonatomic, copy) NSString * _Nonnull titleNoti;
+@property (nonatomic, copy) NSString * _Nonnull subTitleNoti;
+@property (nonatomic, copy) NSString * _Nonnull bodyNoti;
+- (void)viewDidLoad;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
 
 
 SWIFT_CLASS("_TtC16AntsomiFramework7Context")
@@ -1124,6 +1212,37 @@ SWIFT_CLASS("_TtC16AntsomiFramework13OnAckCallback")
 - (void)timingOutAfter:(double)seconds callback:(void (^ _Nonnull)(NSArray * _Nonnull))callback;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+SWIFT_CLASS("_TtC16AntsomiFramework26PushTemplateBaseController")
+@interface PushTemplateBaseController : NSObject
++ (void)handleNotificationWithController:(UIViewController * _Nonnull)controller withNotification:(UNNotification * _Nonnull)notification;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC16AntsomiFramework16RatingController")
+@interface RatingController : UIViewController <UIGestureRecognizerDelegate>
+@property (nonatomic, copy) NSString * _Nonnull data;
+@property (nonatomic, copy) NSString * _Nonnull titleNoti;
+@property (nonatomic, copy) NSString * _Nonnull subTitleNoti;
+@property (nonatomic, copy) NSString * _Nonnull bodyNoti;
+- (void)viewDidLoad;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC16AntsomiFramework20SmallImageController")
+@interface SmallImageController : UIViewController
+@property (nonatomic, copy) NSString * _Nonnull data;
+@property (nonatomic, copy) NSString * _Nonnull titleNoti;
+@property (nonatomic, copy) NSString * _Nonnull subTitleNoti;
+@property (nonatomic, copy) NSString * _Nonnull bodyNoti;
+- (void)viewDidLoad;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
 @class SocketRawAckView;
@@ -1370,6 +1489,19 @@ SWIFT_CLASS("_TtC16AntsomiFramework13SocketRawView")
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
+
+
+SWIFT_CLASS("_TtC16AntsomiFramework20StyleBasicController")
+@interface StyleBasicController : UIViewController
+@property (nonatomic, copy) NSString * _Nonnull data;
+@property (nonatomic, copy) NSString * _Nonnull titleNoti;
+@property (nonatomic, copy) NSString * _Nonnull subTitleNoti;
+@property (nonatomic, copy) NSString * _Nonnull bodyNoti;
+- (void)viewDidLoad;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
 
 
 

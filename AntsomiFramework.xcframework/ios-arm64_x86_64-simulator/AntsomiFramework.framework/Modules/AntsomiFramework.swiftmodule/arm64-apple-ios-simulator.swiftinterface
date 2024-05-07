@@ -14,6 +14,7 @@ import Swift
 import SystemConfiguration
 import UIKit
 import UserNotifications
+import UserNotificationsUI
 import WebKit
 import _Concurrency
 import _StringProcessing
@@ -486,6 +487,16 @@ public protocol SocketManagerSpec : SocketEngineClient {
   func removeSocket(_ socket: SocketIOClient) -> SocketIOClient?
   func socket(forNamespace nsp: Swift.String) -> SocketIOClient
 }
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor(unsafe) public class CarouselController : UIKit.UIViewController {
+  @objc @_Concurrency.MainActor(unsafe) public var data: Swift.String
+  @objc @_Concurrency.MainActor(unsafe) public var titleNoti: Swift.String
+  @objc @_Concurrency.MainActor(unsafe) public var subTitleNoti: Swift.String
+  @objc @_Concurrency.MainActor(unsafe) public var bodyNoti: Swift.String
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
 public protocol EngineDelegate : AnyObject {
   func didReceive(event: WebSocketEvent)
 }
@@ -532,6 +543,10 @@ extension Foundation.URL {
     get
   }
   public func getParts() -> URLParts?
+}
+@_inheritsConvenienceInitializers @objc public class AntsomiUtiltiy : ObjectiveC.NSObject {
+  @objc override dynamic public init()
+  @objc deinit
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class AntsomiUNUserNotificationCenter : UIKit.UIResponder, UIKit.UIApplicationDelegate, UserNotifications.UNUserNotificationCenterDelegate {
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init()
@@ -666,8 +681,10 @@ public protocol Server {
   @objc public func getCustomerProperties() -> [Swift.String : Any]?
   @objc public func getDeviceId() -> Swift.String
   @objc public func getPortalId() -> Swift.String?
+  @objc public func getAppGroupId() -> Swift.String?
   @objc public func appInboxInit(destinationId: Swift.String, audienceType: Swift.String)
   public func track(event: CDPEvent)
+  public func getMediaJson(event: CDPEvent, completion: @escaping ((MediaJson) -> Swift.Void))
   @objc public func handleTrackingURL(_ url: Foundation.URL, completion: @escaping (() -> ()))
   @objc public func handleDeeplinkURL(_ url: Foundation.URL)
   public func activate(with config: Antsomi.Configuration)
@@ -675,6 +692,7 @@ public protocol Server {
   @objc public func trackAppLaunch()
   @objc public func registerForNotification(_ deviceToken: Foundation.Data)
   @objc public func trackScreen(name: Swift.String, title: Swift.String = "", type: Swift.String = "")
+  @objc public static func getBundleId() -> Swift.String
   @objc override dynamic public init()
   @objc deinit
 }
@@ -703,6 +721,21 @@ public protocol SocketDataBufferable : AnyObject {
 extension SocketParsable where Self : SocketDataBufferable, Self : SocketManagerSpec {
   public func parseSocketMessage(_ message: Swift.String) -> SocketPacket?
   public func parseBinaryData(_ data: Foundation.Data) -> SocketPacket?
+}
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor(unsafe) public class SmallImageController : UIKit.UIViewController {
+  @objc @_Concurrency.MainActor(unsafe) public var data: Swift.String
+  @objc @_Concurrency.MainActor(unsafe) public var titleNoti: Swift.String
+  @objc @_Concurrency.MainActor(unsafe) public var subTitleNoti: Swift.String
+  @objc @_Concurrency.MainActor(unsafe) public var bodyNoti: Swift.String
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class PushTemplateBaseController : ObjectiveC.NSObject {
+  @objc public static func handleNotification(withController controller: UIKit.UIViewController, withNotification notification: UserNotifications.UNNotification)
+  @objc override dynamic public init()
+  @objc deinit
 }
 public enum ConnectionState {
   case connected
@@ -924,6 +957,7 @@ public struct CDPEvent : Swift.Encodable {
   public mutating func setCustomerProperties(customerProperties: [Swift.String : Any])
   public mutating func setUserPropperties(userPropperties: [Swift.String : Any])
   public mutating func setScreenName(screenName: Swift.String)
+  public mutating func setPropsId(propId: Swift.String)
   public init(en: Swift.String = "", items: [[Swift.String : Any]] = [], userProps: [Swift.String : Any] = [:], customerProps: [Swift.String : Any] = [:], objectProps: [Swift.String : Any] = [:], evetProps: [Swift.String : Any] = [:], screenType: Swift.String = "", screenLabel: Swift.String = "", screenName: Swift.String = "")
   public func encode(to encoder: any Swift.Encoder) throws
 }
@@ -957,6 +991,14 @@ public struct CDPEvent : Swift.Encodable {
   public var rawValue: Swift.Int {
     get
   }
+}
+public struct MediaJson : Swift.Codable {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct WebContents : Swift.Codable {
+  public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
 }
 public class WSCompression : CompressionHandler {
   public init()
@@ -1152,6 +1194,26 @@ public protocol SocketEngineSpec : AnyObject {
 }
 extension UIKit.UIDevice {
   @_Concurrency.MainActor(unsafe) public static let modelName: Swift.String
+}
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor(unsafe) public class RatingController : UIKit.UIViewController, UIKit.UIGestureRecognizerDelegate {
+  @objc @_Concurrency.MainActor(unsafe) public var data: Swift.String
+  @objc @_Concurrency.MainActor(unsafe) public var titleNoti: Swift.String
+  @objc @_Concurrency.MainActor(unsafe) public var subTitleNoti: Swift.String
+  @objc @_Concurrency.MainActor(unsafe) public var bodyNoti: Swift.String
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor(unsafe) public class StyleBasicController : UIKit.UIViewController {
+  @objc @_Concurrency.MainActor(unsafe) public var data: Swift.String
+  @objc @_Concurrency.MainActor(unsafe) public var titleNoti: Swift.String
+  @objc @_Concurrency.MainActor(unsafe) public var subTitleNoti: Swift.String
+  @objc @_Concurrency.MainActor(unsafe) public var bodyNoti: Swift.String
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
 }
 @objc open class SocketIOClient : ObjectiveC.NSObject, SocketIOClientSpec {
   final public let nsp: Swift.String
