@@ -338,6 +338,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) Antsomi * _Nonnull sha
 - (NSString * _Nullable)getPortalId SWIFT_WARN_UNUSED_RESULT;
 - (NSString * _Nullable)getAppGroupId SWIFT_WARN_UNUSED_RESULT;
 - (void)appInboxInitWithDestinationId:(NSString * _Nonnull)destinationId audienceType:(NSString * _Nonnull)audienceType;
+- (void)processGetMediaJsonWithEventBody:(NSDictionary<NSString *, id> * _Nonnull)eventBody completion:(void (^ _Nonnull)(NSDictionary<NSString *, id> * _Nonnull))completion;
 - (void)handleTrackingURL:(NSURL * _Nonnull)url completion:(void (^ _Nonnull)(void))completion;
 - (void)handleDeeplinkURL:(NSURL * _Nonnull)url;
 - (NSString * _Nullable)getUid SWIFT_WARN_UNUSED_RESULT;
