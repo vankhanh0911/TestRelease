@@ -343,6 +343,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) Antsomi * _Nonnull sha
 - (void)handleDeeplinkURL:(NSURL * _Nonnull)url;
 - (NSString * _Nullable)getUid SWIFT_WARN_UNUSED_RESULT;
 - (void)trackAppLaunch;
+- (void)requestNotificationPermission;
 - (void)registerForNotification:(NSData * _Nonnull)deviceToken;
 - (void)trackScreenWithName:(NSString * _Nonnull)name title:(NSString * _Nonnull)title type:(NSString * _Nonnull)type;
 + (NSString * _Nonnull)getBundleId SWIFT_WARN_UNUSED_RESULT;
@@ -1106,6 +1107,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) Antsomi * _Nonnull sha
 - (void)handleDeeplinkURL:(NSURL * _Nonnull)url;
 - (NSString * _Nullable)getUid SWIFT_WARN_UNUSED_RESULT;
 - (void)trackAppLaunch;
+- (void)requestNotificationPermission;
 - (void)registerForNotification:(NSData * _Nonnull)deviceToken;
 - (void)trackScreenWithName:(NSString * _Nonnull)name title:(NSString * _Nonnull)title type:(NSString * _Nonnull)type;
 + (NSString * _Nonnull)getBundleId SWIFT_WARN_UNUSED_RESULT;
