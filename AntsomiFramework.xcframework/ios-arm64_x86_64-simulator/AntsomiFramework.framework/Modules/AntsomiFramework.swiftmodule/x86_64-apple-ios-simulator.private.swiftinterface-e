@@ -487,11 +487,16 @@ public protocol SocketManagerSpec : AntsomiFramework.SocketEngineClient {
   func removeSocket(_ socket: AntsomiFramework.SocketIOClient) -> AntsomiFramework.SocketIOClient?
   func socket(forNamespace nsp: Swift.String) -> AntsomiFramework.SocketIOClient
 }
-@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor(unsafe) public class CarouselController : UIKit.UIViewController {
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor(unsafe) public class CarouselController : UIKit.UIViewController, UIKit.UIGestureRecognizerDelegate {
   @objc @_Concurrency.MainActor(unsafe) public var data: Swift.String
   @objc @_Concurrency.MainActor(unsafe) public var titleNoti: Swift.String
   @objc @_Concurrency.MainActor(unsafe) public var subTitleNoti: Swift.String
   @objc @_Concurrency.MainActor(unsafe) public var bodyNoti: Swift.String
+  @objc @_Concurrency.MainActor(unsafe) public var titleHeight: CoreFoundation.CGFloat
+  @objc @_Concurrency.MainActor(unsafe) public var subtitleHeight: CoreFoundation.CGFloat
+  @objc @_Concurrency.MainActor(unsafe) public var bodyHeight: CoreFoundation.CGFloat
+  @objc @_Concurrency.MainActor(unsafe) public var viewHeight: CoreFoundation.CGFloat
+  @objc @_Concurrency.MainActor(unsafe) public var isContainActionButton: Swift.Bool
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
@@ -725,11 +730,12 @@ extension AntsomiFramework.SocketParsable where Self : AntsomiFramework.SocketDa
   public func parseSocketMessage(_ message: Swift.String) -> AntsomiFramework.SocketPacket?
   public func parseBinaryData(_ data: Foundation.Data) -> AntsomiFramework.SocketPacket?
 }
-@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor(unsafe) public class SmallImageController : UIKit.UIViewController {
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor(unsafe) public class SmallImageController : UIKit.UIViewController, UIKit.UIGestureRecognizerDelegate {
   @objc @_Concurrency.MainActor(unsafe) public var data: Swift.String
   @objc @_Concurrency.MainActor(unsafe) public var titleNoti: Swift.String
   @objc @_Concurrency.MainActor(unsafe) public var subTitleNoti: Swift.String
   @objc @_Concurrency.MainActor(unsafe) public var bodyNoti: Swift.String
+  @objc @_Concurrency.MainActor(unsafe) public var isContainActionButton: Swift.Bool
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
@@ -1190,21 +1196,46 @@ public protocol SocketEngineSpec : AnyObject {
 extension UIKit.UIDevice {
   @_Concurrency.MainActor(unsafe) public static let modelName: Swift.String
 }
-@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor(unsafe) public class RatingController : UIKit.UIViewController, UIKit.UIGestureRecognizerDelegate {
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor(unsafe) public class TextOverlayController : UIKit.UIViewController, UIKit.UIGestureRecognizerDelegate {
   @objc @_Concurrency.MainActor(unsafe) public var data: Swift.String
   @objc @_Concurrency.MainActor(unsafe) public var titleNoti: Swift.String
   @objc @_Concurrency.MainActor(unsafe) public var subTitleNoti: Swift.String
   @objc @_Concurrency.MainActor(unsafe) public var bodyNoti: Swift.String
+  @objc @_Concurrency.MainActor(unsafe) public var titleHeight: CoreFoundation.CGFloat
+  @objc @_Concurrency.MainActor(unsafe) public var subtitleHeight: CoreFoundation.CGFloat
+  @objc @_Concurrency.MainActor(unsafe) public var bodyHeight: CoreFoundation.CGFloat
+  @objc @_Concurrency.MainActor(unsafe) public var viewHeight: CoreFoundation.CGFloat
+  @objc @_Concurrency.MainActor(unsafe) public var topAnchorTitle: CoreFoundation.CGFloat
+  @objc @_Concurrency.MainActor(unsafe) public var isContainActionButton: Swift.Bool
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
 }
-@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor(unsafe) public class StyleBasicController : UIKit.UIViewController {
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor(unsafe) public class RatingController : UIKit.UIViewController, UIKit.UIGestureRecognizerDelegate {
   @objc @_Concurrency.MainActor(unsafe) public var data: Swift.String
   @objc @_Concurrency.MainActor(unsafe) public var titleNoti: Swift.String
   @objc @_Concurrency.MainActor(unsafe) public var subTitleNoti: Swift.String
   @objc @_Concurrency.MainActor(unsafe) public var bodyNoti: Swift.String
+  @objc @_Concurrency.MainActor(unsafe) public var titleHeight: CoreFoundation.CGFloat
+  @objc @_Concurrency.MainActor(unsafe) public var subtitleHeight: CoreFoundation.CGFloat
+  @objc @_Concurrency.MainActor(unsafe) public var bodyHeight: CoreFoundation.CGFloat
+  @objc @_Concurrency.MainActor(unsafe) public var viewHeight: CoreFoundation.CGFloat
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor(unsafe) public class StyleBasicController : UIKit.UIViewController, UIKit.UIGestureRecognizerDelegate {
+  @objc @_Concurrency.MainActor(unsafe) public var data: Swift.String
+  @objc @_Concurrency.MainActor(unsafe) public var titleNoti: Swift.String
+  @objc @_Concurrency.MainActor(unsafe) public var subTitleNoti: Swift.String
+  @objc @_Concurrency.MainActor(unsafe) public var bodyNoti: Swift.String
+  @objc @_Concurrency.MainActor(unsafe) public var titleHeight: CoreFoundation.CGFloat
+  @objc @_Concurrency.MainActor(unsafe) public var subtitleHeight: CoreFoundation.CGFloat
+  @objc @_Concurrency.MainActor(unsafe) public var bodyHeight: CoreFoundation.CGFloat
+  @objc @_Concurrency.MainActor(unsafe) public var viewHeight: CoreFoundation.CGFloat
+  @objc @_Concurrency.MainActor(unsafe) public var isContainActionButton: Swift.Bool
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)

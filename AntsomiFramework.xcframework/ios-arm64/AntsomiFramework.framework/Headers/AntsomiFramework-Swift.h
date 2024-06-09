@@ -277,6 +277,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import CoreFoundation;
 @import Foundation;
 @import ObjectiveC;
 @import UIKit;
@@ -389,11 +390,16 @@ SWIFT_CLASS("_TtC16AntsomiFramework8AppInbox")
 @class NSCoder;
 
 SWIFT_CLASS("_TtC16AntsomiFramework18CarouselController")
-@interface CarouselController : UIViewController
+@interface CarouselController : UIViewController <UIGestureRecognizerDelegate>
 @property (nonatomic, copy) NSString * _Nonnull data;
 @property (nonatomic, copy) NSString * _Nonnull titleNoti;
 @property (nonatomic, copy) NSString * _Nonnull subTitleNoti;
 @property (nonatomic, copy) NSString * _Nonnull bodyNoti;
+@property (nonatomic) CGFloat titleHeight;
+@property (nonatomic) CGFloat subtitleHeight;
+@property (nonatomic) CGFloat bodyHeight;
+@property (nonatomic) CGFloat viewHeight;
+@property (nonatomic) BOOL isContainActionButton;
 - (void)viewDidLoad;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
@@ -468,6 +474,10 @@ SWIFT_CLASS("_TtC16AntsomiFramework16RatingController")
 @property (nonatomic, copy) NSString * _Nonnull titleNoti;
 @property (nonatomic, copy) NSString * _Nonnull subTitleNoti;
 @property (nonatomic, copy) NSString * _Nonnull bodyNoti;
+@property (nonatomic) CGFloat titleHeight;
+@property (nonatomic) CGFloat subtitleHeight;
+@property (nonatomic) CGFloat bodyHeight;
+@property (nonatomic) CGFloat viewHeight;
 - (void)viewDidLoad;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
@@ -475,11 +485,12 @@ SWIFT_CLASS("_TtC16AntsomiFramework16RatingController")
 
 
 SWIFT_CLASS("_TtC16AntsomiFramework20SmallImageController")
-@interface SmallImageController : UIViewController
+@interface SmallImageController : UIViewController <UIGestureRecognizerDelegate>
 @property (nonatomic, copy) NSString * _Nonnull data;
 @property (nonatomic, copy) NSString * _Nonnull titleNoti;
 @property (nonatomic, copy) NSString * _Nonnull subTitleNoti;
 @property (nonatomic, copy) NSString * _Nonnull bodyNoti;
+@property (nonatomic) BOOL isContainActionButton;
 - (void)viewDidLoad;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
@@ -732,11 +743,34 @@ SWIFT_CLASS("_TtC16AntsomiFramework13SocketRawView")
 
 
 SWIFT_CLASS("_TtC16AntsomiFramework20StyleBasicController")
-@interface StyleBasicController : UIViewController
+@interface StyleBasicController : UIViewController <UIGestureRecognizerDelegate>
 @property (nonatomic, copy) NSString * _Nonnull data;
 @property (nonatomic, copy) NSString * _Nonnull titleNoti;
 @property (nonatomic, copy) NSString * _Nonnull subTitleNoti;
 @property (nonatomic, copy) NSString * _Nonnull bodyNoti;
+@property (nonatomic) CGFloat titleHeight;
+@property (nonatomic) CGFloat subtitleHeight;
+@property (nonatomic) CGFloat bodyHeight;
+@property (nonatomic) CGFloat viewHeight;
+@property (nonatomic) BOOL isContainActionButton;
+- (void)viewDidLoad;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC16AntsomiFramework21TextOverlayController")
+@interface TextOverlayController : UIViewController <UIGestureRecognizerDelegate>
+@property (nonatomic, copy) NSString * _Nonnull data;
+@property (nonatomic, copy) NSString * _Nonnull titleNoti;
+@property (nonatomic, copy) NSString * _Nonnull subTitleNoti;
+@property (nonatomic, copy) NSString * _Nonnull bodyNoti;
+@property (nonatomic) CGFloat titleHeight;
+@property (nonatomic) CGFloat subtitleHeight;
+@property (nonatomic) CGFloat bodyHeight;
+@property (nonatomic) CGFloat viewHeight;
+@property (nonatomic) CGFloat topAnchorTitle;
+@property (nonatomic) BOOL isContainActionButton;
 - (void)viewDidLoad;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
