@@ -330,6 +330,9 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) Antsomi * _Nonnull sha
 + (Antsomi * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
 + (void)setShared:(Antsomi * _Nonnull)value;
 - (void)setCustomerPropertiesWithCustomerId:(NSString * _Nonnull)customerId customerProperties:(NSDictionary<NSString *, id> * _Nonnull)customerProperties;
+- (void)setUidWithUid:(NSString * _Nonnull)uid;
+- (void)resetUid;
+- (NSString * _Nonnull)getUid SWIFT_WARN_UNUSED_RESULT;
 - (void)setIsDeliveryWithNewValue:(BOOL)newValue;
 - (void)resetCustomer;
 - (NSString * _Nonnull)getCustomerId SWIFT_WARN_UNUSED_RESULT;
@@ -342,7 +345,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) Antsomi * _Nonnull sha
 - (void)processGetMediaJsonWithEventBody:(NSDictionary<NSString *, id> * _Nonnull)eventBody completion:(void (^ _Nonnull)(NSDictionary<NSString *, id> * _Nonnull))completion;
 - (void)handleTrackingURL:(NSURL * _Nonnull)url completion:(void (^ _Nonnull)(void))completion;
 - (void)handleDeeplinkURL:(NSURL * _Nonnull)url;
-- (NSString * _Nullable)getUid SWIFT_WARN_UNUSED_RESULT;
+- (NSString * _Nullable)getPushUid SWIFT_WARN_UNUSED_RESULT;
 - (void)trackAppLaunch;
 - (void)requestNotificationPermission;
 - (void)registerForNotification:(NSData * _Nonnull)deviceToken;
@@ -1128,6 +1131,9 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) Antsomi * _Nonnull sha
 + (Antsomi * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
 + (void)setShared:(Antsomi * _Nonnull)value;
 - (void)setCustomerPropertiesWithCustomerId:(NSString * _Nonnull)customerId customerProperties:(NSDictionary<NSString *, id> * _Nonnull)customerProperties;
+- (void)setUidWithUid:(NSString * _Nonnull)uid;
+- (void)resetUid;
+- (NSString * _Nonnull)getUid SWIFT_WARN_UNUSED_RESULT;
 - (void)setIsDeliveryWithNewValue:(BOOL)newValue;
 - (void)resetCustomer;
 - (NSString * _Nonnull)getCustomerId SWIFT_WARN_UNUSED_RESULT;
@@ -1140,7 +1146,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) Antsomi * _Nonnull sha
 - (void)processGetMediaJsonWithEventBody:(NSDictionary<NSString *, id> * _Nonnull)eventBody completion:(void (^ _Nonnull)(NSDictionary<NSString *, id> * _Nonnull))completion;
 - (void)handleTrackingURL:(NSURL * _Nonnull)url completion:(void (^ _Nonnull)(void))completion;
 - (void)handleDeeplinkURL:(NSURL * _Nonnull)url;
-- (NSString * _Nullable)getUid SWIFT_WARN_UNUSED_RESULT;
+- (NSString * _Nullable)getPushUid SWIFT_WARN_UNUSED_RESULT;
 - (void)trackAppLaunch;
 - (void)requestNotificationPermission;
 - (void)registerForNotification:(NSData * _Nonnull)deviceToken;

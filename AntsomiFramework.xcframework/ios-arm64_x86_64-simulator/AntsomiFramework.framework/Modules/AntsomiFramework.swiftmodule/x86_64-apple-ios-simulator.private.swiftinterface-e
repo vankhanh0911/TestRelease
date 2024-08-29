@@ -679,6 +679,9 @@ public protocol Server {
   @objc public func log(_ str: Swift.String)
   @objc public static var shared: AntsomiFramework.Antsomi
   @objc public func setCustomerProperties(customerId: Swift.String, customerProperties: [Swift.String : Any] = [:])
+  @objc public func setUid(uid: Swift.String)
+  @objc public func resetUid()
+  @objc public func getUid() -> Swift.String
   @objc public func setIsDelivery(newValue: Swift.Bool)
   @objc public func resetCustomer()
   @objc public func getCustomerId() -> Swift.String
@@ -695,7 +698,7 @@ public protocol Server {
   @objc public func handleTrackingURL(_ url: Foundation.URL, completion: @escaping (() -> ()))
   @objc public func handleDeeplinkURL(_ url: Foundation.URL)
   public func activate(with config: AntsomiFramework.Antsomi.Configuration)
-  @objc public func getUid() -> Swift.String?
+  @objc public func getPushUid() -> Swift.String?
   @objc public func trackAppLaunch()
   @objc public func requestNotificationPermission()
   @objc public func registerForNotification(_ deviceToken: Foundation.Data)
