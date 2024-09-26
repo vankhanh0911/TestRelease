@@ -667,6 +667,7 @@ public protocol Server {
     @objc set
     _modify
   }
+  @objc public var callbackHandleRedirectTemplate: ((Swift.String) -> Swift.Void)?
   public struct Configuration {
     public let portalId: Swift.String
     public let propsId: Swift.String
@@ -703,6 +704,7 @@ public protocol Server {
   @objc public func requestNotificationPermission()
   @objc public func registerForNotification(_ deviceToken: Foundation.Data)
   @objc public func trackScreen(name: Swift.String, title: Swift.String = "", type: Swift.String = "")
+  @objc public func setHandleChangeRouteTemplate(_ callback: @escaping (Swift.String) -> Swift.Void)
   @objc public static func getBundleId() -> Swift.String
   @objc override dynamic public init()
   @objc deinit

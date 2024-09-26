@@ -321,6 +321,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) AppInbox * _Null_unspe
 /// delivery url ?
 @property (nonatomic) BOOL isDelivery;
 @property (nonatomic) BOOL isShowingTemplate;
+@property (nonatomic, copy) void (^ _Nullable callbackHandleRedirectTemplate)(NSString * _Nonnull);
 /// FOR DEBUGGING AND LOGGING INFORMATION
 @property (nonatomic) BOOL debug;
 @property (nonatomic, copy) void (^ _Nullable logger)(NSString * _Nonnull);
@@ -350,6 +351,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) Antsomi * _Nonnull sha
 - (void)requestNotificationPermission;
 - (void)registerForNotification:(NSData * _Nonnull)deviceToken;
 - (void)trackScreenWithName:(NSString * _Nonnull)name title:(NSString * _Nonnull)title type:(NSString * _Nonnull)type;
+- (void)setHandleChangeRouteTemplate:(void (^ _Nonnull)(NSString * _Nonnull))callback;
 + (NSString * _Nonnull)getBundleId SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -1122,6 +1124,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) AppInbox * _Null_unspe
 /// delivery url ?
 @property (nonatomic) BOOL isDelivery;
 @property (nonatomic) BOOL isShowingTemplate;
+@property (nonatomic, copy) void (^ _Nullable callbackHandleRedirectTemplate)(NSString * _Nonnull);
 /// FOR DEBUGGING AND LOGGING INFORMATION
 @property (nonatomic) BOOL debug;
 @property (nonatomic, copy) void (^ _Nullable logger)(NSString * _Nonnull);
@@ -1151,6 +1154,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) Antsomi * _Nonnull sha
 - (void)requestNotificationPermission;
 - (void)registerForNotification:(NSData * _Nonnull)deviceToken;
 - (void)trackScreenWithName:(NSString * _Nonnull)name title:(NSString * _Nonnull)title type:(NSString * _Nonnull)type;
+- (void)setHandleChangeRouteTemplate:(void (^ _Nonnull)(NSString * _Nonnull))callback;
 + (NSString * _Nonnull)getBundleId SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
