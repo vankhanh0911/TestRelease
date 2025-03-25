@@ -52834,7 +52834,7 @@
       "kind": "StringLiteral",
       "offset": 431,
       "length": 8,
-      "value": "\"1.1.51\""
+      "value": "\"1.1.52\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
@@ -53126,14 +53126,14 @@
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "StringLiteral",
-      "offset": 20168,
+      "offset": 20392,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "StringLiteral",
-      "offset": 20188,
+      "offset": 20412,
       "length": 2,
       "value": "\"\""
     },
