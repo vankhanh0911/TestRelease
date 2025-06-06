@@ -697,6 +697,7 @@ public protocol Server {
   public func getMediaJson(event: CDPEvent, completion: @escaping (([Swift.String : Any]) -> Swift.Void))
   public func getMediaJson(event: CDPEvent, storyId: Swift.String, completion: @escaping (([Swift.String : Any]) -> Swift.Void))
   @objc public func processGetMediaJson(eventBody: [Swift.String : Any], completion: @escaping (([Swift.String : Any]) -> Swift.Void))
+  @objc public func handleViewTrackingUrl(_ url: Foundation.URL)
   @objc public func handleTrackingURL(_ url: Foundation.URL, completion: @escaping (() -> ()))
   @objc public func handleDeeplinkURL(_ url: Foundation.URL)
   public func activate(with config: Antsomi.Configuration)

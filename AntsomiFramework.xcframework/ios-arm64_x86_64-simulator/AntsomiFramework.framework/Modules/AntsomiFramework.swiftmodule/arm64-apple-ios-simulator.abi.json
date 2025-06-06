@@ -22437,6 +22437,33 @@
           },
           {
             "kind": "Function",
+            "name": "handleViewTrackingUrl",
+            "printedName": "handleViewTrackingUrl(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AntsomiFramework@objc(cs)Antsomi(im)handleViewTrackingUrl:",
+            "mangledName": "$s16AntsomiFramework0A0C21handleViewTrackingUrlyy10Foundation3URLVF",
+            "moduleName": "AntsomiFramework",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "handleTrackingURL",
             "printedName": "handleTrackingURL(_:completion:)",
             "children": [
@@ -59754,7 +59781,7 @@
       "kind": "StringLiteral",
       "offset": 431,
       "length": 8,
-      "value": "\"1.1.53\""
+      "value": "\"1.1.54\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
@@ -60046,14 +60073,14 @@
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "StringLiteral",
-      "offset": 21047,
+      "offset": 21279,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "StringLiteral",
-      "offset": 21067,
+      "offset": 21299,
       "length": 2,
       "value": "\"\""
     },
