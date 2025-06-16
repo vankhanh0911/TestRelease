@@ -59781,7 +59781,7 @@
       "kind": "StringLiteral",
       "offset": 431,
       "length": 8,
-      "value": "\"1.1.54\""
+      "value": "\"1.1.56\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
@@ -61840,6 +61840,13 @@
       "offset": 419,
       "length": 7,
       "value": "\"click\""
+    },
+    {
+      "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Ultis\/Frequency.swift",
+      "kind": "StringLiteral",
+      "offset": 455,
+      "length": 14,
+      "value": "\"submit_optin\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/PushTemplate\/Carousel\/Controller\/AntsomiImageView.swift",
