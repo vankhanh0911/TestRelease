@@ -359,6 +359,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) Antsomi * _Nonnull sha
 - (void)trackScreenWithName:(NSString * _Nonnull)name title:(NSString * _Nonnull)title type:(NSString * _Nonnull)type;
 - (void)setHandleChangeRouteTemplate:(void (^ _Nonnull)(NSString * _Nonnull))callback;
 + (NSString * _Nonnull)getBundleId SWIFT_WARN_UNUSED_RESULT;
+- (NSString * _Nonnull)md5WithString:(NSString * _Nonnull)string SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 

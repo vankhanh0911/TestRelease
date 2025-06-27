@@ -22763,6 +22763,78 @@
             "funcSelfKind": "NonMutating"
           },
           {
+            "kind": "Function",
+            "name": "md5",
+            "printedName": "md5(string:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AntsomiFramework@objc(cs)Antsomi(im)md5WithString:",
+            "mangledName": "$s16AntsomiFramework0A0C3md56stringS2S_tF",
+            "moduleName": "AntsomiFramework",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getReaderSegment",
+            "printedName": "getReaderSegment(email:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AntsomiFramework.ReaderSegment) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ReaderSegment",
+                    "printedName": "AntsomiFramework.ReaderSegment",
+                    "usr": "s:16AntsomiFramework13ReaderSegmentV"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16AntsomiFramework0A0C16getReaderSegment5email10completionySS_yAA0dE0VctF",
+            "mangledName": "$s16AntsomiFramework0A0C16getReaderSegment5email10completionySS_yAA0dE0VctF",
+            "moduleName": "AntsomiFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init()",
@@ -37996,6 +38068,357 @@
             "printedName": "EngineDelegate",
             "usr": "s:16AntsomiFramework14EngineDelegateP",
             "mangledName": "$s16AntsomiFramework14EngineDelegateP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ReaderSegment",
+        "printedName": "ReaderSegment",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "customerId",
+            "printedName": "customerId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16AntsomiFramework13ReaderSegmentV10customerIdSSvp",
+            "mangledName": "$s16AntsomiFramework13ReaderSegmentV10customerIdSSvp",
+            "moduleName": "AntsomiFramework",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16AntsomiFramework13ReaderSegmentV10customerIdSSvg",
+                "mangledName": "$s16AntsomiFramework13ReaderSegmentV10customerIdSSvg",
+                "moduleName": "AntsomiFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16AntsomiFramework13ReaderSegmentV10customerIdSSvs",
+                "mangledName": "$s16AntsomiFramework13ReaderSegmentV10customerIdSSvs",
+                "moduleName": "AntsomiFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16AntsomiFramework13ReaderSegmentV10customerIdSSvM",
+                "mangledName": "$s16AntsomiFramework13ReaderSegmentV10customerIdSSvM",
+                "moduleName": "AntsomiFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "segmentName",
+            "printedName": "segmentName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16AntsomiFramework13ReaderSegmentV11segmentNameSSvp",
+            "mangledName": "$s16AntsomiFramework13ReaderSegmentV11segmentNameSSvp",
+            "moduleName": "AntsomiFramework",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16AntsomiFramework13ReaderSegmentV11segmentNameSSvg",
+                "mangledName": "$s16AntsomiFramework13ReaderSegmentV11segmentNameSSvg",
+                "moduleName": "AntsomiFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16AntsomiFramework13ReaderSegmentV11segmentNameSSvs",
+                "mangledName": "$s16AntsomiFramework13ReaderSegmentV11segmentNameSSvs",
+                "moduleName": "AntsomiFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16AntsomiFramework13ReaderSegmentV11segmentNameSSvM",
+                "mangledName": "$s16AntsomiFramework13ReaderSegmentV11segmentNameSSvM",
+                "moduleName": "AntsomiFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "totalReadToday",
+            "printedName": "totalReadToday",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16AntsomiFramework13ReaderSegmentV14totalReadTodaySivp",
+            "mangledName": "$s16AntsomiFramework13ReaderSegmentV14totalReadTodaySivp",
+            "moduleName": "AntsomiFramework",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16AntsomiFramework13ReaderSegmentV14totalReadTodaySivg",
+                "mangledName": "$s16AntsomiFramework13ReaderSegmentV14totalReadTodaySivg",
+                "moduleName": "AntsomiFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16AntsomiFramework13ReaderSegmentV14totalReadTodaySivs",
+                "mangledName": "$s16AntsomiFramework13ReaderSegmentV14totalReadTodaySivs",
+                "moduleName": "AntsomiFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16AntsomiFramework13ReaderSegmentV14totalReadTodaySivM",
+                "mangledName": "$s16AntsomiFramework13ReaderSegmentV14totalReadTodaySivM",
+                "moduleName": "AntsomiFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ReaderSegment",
+                "printedName": "AntsomiFramework.ReaderSegment",
+                "usr": "s:16AntsomiFramework13ReaderSegmentV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16AntsomiFramework13ReaderSegmentV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s16AntsomiFramework13ReaderSegmentV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "AntsomiFramework",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16AntsomiFramework13ReaderSegmentV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s16AntsomiFramework13ReaderSegmentV6encode2toys7Encoder_p_tKF",
+            "moduleName": "AntsomiFramework",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:16AntsomiFramework13ReaderSegmentV",
+        "mangledName": "$s16AntsomiFramework13ReaderSegmentV",
+        "moduleName": "AntsomiFramework",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
           }
         ]
       },
@@ -59905,182 +60328,182 @@
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "StringLiteral",
-      "offset": 1663,
+      "offset": 1727,
       "length": 28,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "StringLiteral",
-      "offset": 1677,
+      "offset": 1741,
       "length": 13,
       "value": "\"operationTime\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "IntegerLiteral",
-      "offset": 1731,
+      "offset": 1795,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "FloatLiteral",
-      "offset": 1733,
+      "offset": 1797,
       "length": 4,
       "value": "60.0"
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "StringLiteral",
-      "offset": 1858,
+      "offset": 1922,
       "length": 24,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "StringLiteral",
-      "offset": 1872,
+      "offset": 1936,
       "length": 9,
       "value": "\"sessionId\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "StringLiteral",
-      "offset": 1921,
+      "offset": 1985,
       "length": 34,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "StringLiteral",
-      "offset": 1943,
+      "offset": 2007,
       "length": 11,
       "value": "\"visitorType\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "StringLiteral",
-      "offset": 1996,
+      "offset": 2060,
       "length": 32,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "StringLiteral",
-      "offset": 2010,
+      "offset": 2074,
       "length": 17,
       "value": "\"AntsomiCustomerId\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "StringLiteral",
-      "offset": 2068,
+      "offset": 2132,
       "length": 31,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "StringLiteral",
-      "offset": 2082,
+      "offset": 2146,
       "length": 16,
       "value": "\"AntsomiVisitorId\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "StringLiteral",
-      "offset": 2145,
+      "offset": 2209,
       "length": 40,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "StringLiteral",
-      "offset": 2159,
+      "offset": 2223,
       "length": 25,
       "value": "\"AntsomiCustomerProperties\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "StringLiteral",
-      "offset": 2219,
+      "offset": 2283,
       "length": 18,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "StringLiteral",
-      "offset": 2233,
+      "offset": 2297,
       "length": 3,
       "value": "\"utm\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "StringLiteral",
-      "offset": 2271,
+      "offset": 2335,
       "length": 18,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "StringLiteral",
-      "offset": 2285,
+      "offset": 2349,
       "length": 3,
       "value": "\"atm\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "StringLiteral",
-      "offset": 2322,
+      "offset": 2386,
       "length": 20,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "StringLiteral",
-      "offset": 2336,
+      "offset": 2400,
       "length": 5,
       "value": "\"clkBc\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "StringLiteral",
-      "offset": 2523,
+      "offset": 2587,
       "length": 8,
       "value": "\".badge\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "StringLiteral",
-      "offset": 2576,
+      "offset": 2640,
       "length": 18,
       "value": "\"AntsomiSDK.badge\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "BooleanLiteral",
-      "offset": 3199,
+      "offset": 3263,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "Dictionary",
-      "offset": 3668,
+      "offset": 3732,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "StringLiteral",
-      "offset": 21279,
+      "offset": 21343,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "StringLiteral",
-      "offset": 21299,
+      "offset": 21363,
       "length": 2,
       "value": "\"\""
     },
@@ -61767,42 +62190,49 @@
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/APIContants.swift",
       "kind": "StringLiteral",
-      "offset": 1507,
+      "offset": 1501,
+      "length": 53,
+      "value": "\"https:\/\/api-analytics.antsomi.com\/thestar\/customer\/\""
+    },
+    {
+      "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/APIContants.swift",
+      "kind": "StringLiteral",
+      "offset": 1604,
       "length": 20,
       "value": "\"https:\/\/a.cdp.asia\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/APIContants.swift",
       "kind": "StringLiteral",
-      "offset": 1564,
+      "offset": 1661,
       "length": 48,
       "value": "\"https:\/\/delivery-cloud.cdp.asia\/interaction\/v2\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/APIContants.swift",
       "kind": "StringLiteral",
-      "offset": 1656,
+      "offset": 1753,
       "length": 50,
       "value": "\"https:\/\/sandbox-delivery.cdp.asia\/interaction\/v2\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/APIContants.swift",
       "kind": "StringLiteral",
-      "offset": 1747,
+      "offset": 1844,
       "length": 49,
       "value": "\"https:\/\/delivery-cloud.cdp.asia\/interaction\/app\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/APIContants.swift",
       "kind": "StringLiteral",
-      "offset": 1833,
+      "offset": 1930,
       "length": 28,
       "value": "\"https:\/\/sandbox-a.cdp.asia\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Struct\/APIContants.swift",
       "kind": "StringLiteral",
-      "offset": 1907,
+      "offset": 2004,
       "length": 22,
       "value": "\"wss:\/\/ws.antsomi.com\""
     },

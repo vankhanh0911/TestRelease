@@ -708,6 +708,8 @@ public protocol Server {
   @objc public func trackScreen(name: Swift.String, title: Swift.String = "", type: Swift.String = "")
   @objc public func setHandleChangeRouteTemplate(_ callback: @escaping (Swift.String) -> Swift.Void)
   @objc public static func getBundleId() -> Swift.String
+  @objc public func md5(string: Swift.String) -> Swift.String
+  public func getReaderSegment(email: Swift.String, completion: @escaping ((ReaderSegment) -> Swift.Void))
   @objc override dynamic public init()
   @objc deinit
 }
@@ -1172,6 +1174,13 @@ open class WebSocket : WebSocketClient, EngineDelegate {
   public func write(pong: Foundation.Data, completion: (() -> ())?)
   public func didReceive(event: WebSocketEvent)
   @objc deinit
+}
+public struct ReaderSegment : Swift.Codable {
+  public var customerId: Swift.String
+  public var segmentName: Swift.String
+  public var totalReadToday: Swift.Int
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 @objc public protocol SocketEngineClient {
   @objc func engineDidError(reason: Swift.String)
