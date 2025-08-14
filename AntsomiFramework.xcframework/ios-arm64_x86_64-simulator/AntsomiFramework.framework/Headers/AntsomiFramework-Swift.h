@@ -352,6 +352,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) Antsomi * _Nonnull sha
 - (void)handleViewTrackingUrl:(NSURL * _Nonnull)url;
 - (void)handleTrackingURL:(NSURL * _Nonnull)url completion:(void (^ _Nonnull)(void))completion;
 - (void)handleDeeplinkURL:(NSURL * _Nonnull)url;
++ (void)start;
 - (NSString * _Nullable)getPushUid SWIFT_WARN_UNUSED_RESULT;
 - (void)trackAppLaunch;
 - (void)requestNotificationPermission;
@@ -787,6 +788,7 @@ SWIFT_CLASS("_TtC16AntsomiFramework21TextOverlayController")
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
+
 
 
 
@@ -1276,6 +1278,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) Antsomi * _Nonnull sha
 - (void)handleViewTrackingUrl:(NSURL * _Nonnull)url;
 - (void)handleTrackingURL:(NSURL * _Nonnull)url completion:(void (^ _Nonnull)(void))completion;
 - (void)handleDeeplinkURL:(NSURL * _Nonnull)url;
++ (void)start;
 - (NSString * _Nullable)getPushUid SWIFT_WARN_UNUSED_RESULT;
 - (void)trackAppLaunch;
 - (void)requestNotificationPermission;
@@ -1711,6 +1714,7 @@ SWIFT_CLASS("_TtC16AntsomiFramework21TextOverlayController")
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
+
 
 
 
