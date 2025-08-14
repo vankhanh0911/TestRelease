@@ -21,6 +21,7 @@ import WebKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+import ObjectiveC.runtime
 import zlib
 public protocol SocketIOClientSpec : AnyObject {
   var anyHandler: ((AntsomiFramework.SocketAnyEvent) -> ())? { get }

@@ -796,7 +796,6 @@ SWIFT_CLASS("_TtC16AntsomiFramework21TextOverlayController")
 
 
 
-
 SWIFT_CLASS("_TtC16AntsomiFramework19UserDefaultsManager")
 @interface UserDefaultsManager : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
@@ -1714,7 +1713,6 @@ SWIFT_CLASS("_TtC16AntsomiFramework21TextOverlayController")
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
-
 
 
 
