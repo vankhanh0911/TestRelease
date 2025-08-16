@@ -352,7 +352,6 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) Antsomi * _Nonnull sha
 - (void)handleViewTrackingUrl:(NSURL * _Nonnull)url;
 - (void)handleTrackingURL:(NSURL * _Nonnull)url completion:(void (^ _Nonnull)(void))completion;
 - (void)handleDeeplinkURL:(NSURL * _Nonnull)url;
-+ (void)start;
 - (NSString * _Nullable)getPushUid SWIFT_WARN_UNUSED_RESULT;
 - (void)trackAppLaunch;
 - (void)requestNotificationPermission;
@@ -373,6 +372,9 @@ SWIFT_CLASS("_TtC16AntsomiFramework26AntsomiNotificationService")
 - (void)serviceExtensionTimeWillExpire;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
+
+
+SWIFT_EXTERN void AntsomiRegisterForRemoteNotifications(NSData * _Nonnull deviceToken) SWIFT_NOEXCEPT;
 
 @class UNUserNotificationCenter;
 @class UNNotification;
@@ -914,6 +916,9 @@ SWIFT_CLASS_NAMED("_objc_VerificationResult")
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
+
+
+SWIFT_EXTERN void ensureNotificationCenterDelegateInstalled(void) SWIFT_NOEXCEPT;
 
 #endif
 #if __has_attribute(external_source_symbol)
@@ -1277,7 +1282,6 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) Antsomi * _Nonnull sha
 - (void)handleViewTrackingUrl:(NSURL * _Nonnull)url;
 - (void)handleTrackingURL:(NSURL * _Nonnull)url completion:(void (^ _Nonnull)(void))completion;
 - (void)handleDeeplinkURL:(NSURL * _Nonnull)url;
-+ (void)start;
 - (NSString * _Nullable)getPushUid SWIFT_WARN_UNUSED_RESULT;
 - (void)trackAppLaunch;
 - (void)requestNotificationPermission;
@@ -1298,6 +1302,9 @@ SWIFT_CLASS("_TtC16AntsomiFramework26AntsomiNotificationService")
 - (void)serviceExtensionTimeWillExpire;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
+
+
+SWIFT_EXTERN void AntsomiRegisterForRemoteNotifications(NSData * _Nonnull deviceToken) SWIFT_NOEXCEPT;
 
 @class UNUserNotificationCenter;
 @class UNNotification;
@@ -1839,6 +1846,9 @@ SWIFT_CLASS_NAMED("_objc_VerificationResult")
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
+
+
+SWIFT_EXTERN void ensureNotificationCenterDelegateInstalled(void) SWIFT_NOEXCEPT;
 
 #endif
 #if __has_attribute(external_source_symbol)

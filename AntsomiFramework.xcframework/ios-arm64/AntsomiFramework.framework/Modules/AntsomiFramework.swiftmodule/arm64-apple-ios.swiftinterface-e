@@ -656,6 +656,10 @@ public enum ServerEvent {
 public protocol Server {
   func start(address: Swift.String, port: Swift.UInt16) -> (any Swift.Error)?
 }
+@_cdecl("AntsomiRegisterForRemoteNotifications")
+public func AntsomiRegisterForRemoteNotifications(_ deviceToken: Foundation.Data)
+@_cdecl("ensureNotificationCenterDelegateInstalled")
+public func ensureNotificationCenterDelegateInstalled()
 @objc @_inheritsConvenienceInitializers @objcMembers public class Antsomi : ObjectiveC.NSObject {
   @objc public static let SDK_VERSION: Swift.String
   @objc public var isAssociatedUTM: Swift.Bool
@@ -702,7 +706,6 @@ public protocol Server {
   @objc public func handleViewTrackingUrl(_ url: Foundation.URL)
   @objc public func handleTrackingURL(_ url: Foundation.URL, completion: @escaping (() -> ()))
   @objc public func handleDeeplinkURL(_ url: Foundation.URL)
-  @objc public static func start()
   public func activate(with config: AntsomiFramework.Antsomi.Configuration)
   @objc public func getPushUid() -> Swift.String?
   @objc public func trackAppLaunch()
