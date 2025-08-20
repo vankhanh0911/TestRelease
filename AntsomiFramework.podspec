@@ -3,7 +3,7 @@ Pod::Spec.new do |spec|
 
 
   spec.name         = "AntsomiFramework"
-  spec.version      = "1.1.67"
+  spec.version      = "1.1.68"
   spec.summary      = "Antsomi SDK for IOS"
 
   spec.description  = <<-DESC
@@ -18,7 +18,7 @@ Pod::Spec.new do |spec|
 
   spec.author             = { "KhanhHV" => "khanhhv@antsomi.com" }
 
-   spec.platform     = :ios, "10.0"
+  spec.platform     = :ios, "10.0"
   # spec.platform     = :ios, "5.0"
 
   #  When using multiple platforms
