@@ -7,6 +7,7 @@
 
 #import <Foundation/Foundation.h>
 #import <CommonCrypto/CommonCrypto.h>
+#import <AntsomiFramework/AntsomiDeeplinkGate.h>
 
 //! Project version number for AntsomiFramework.
 FOUNDATION_EXPORT double AntsomiFrameworkVersionNumber;
