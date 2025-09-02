@@ -3,7 +3,7 @@ Pod::Spec.new do |spec|
 
 
   spec.name         = "AntsomiFramework"
-  spec.version      = "1.1.74"
+  spec.version      = "1.1.75"
   spec.summary      = "Antsomi SDK for IOS"
 
   spec.description  = <<-DESC
