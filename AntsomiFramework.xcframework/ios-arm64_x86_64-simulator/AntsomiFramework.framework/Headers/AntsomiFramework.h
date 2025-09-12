@@ -7,7 +7,6 @@
 
 #import <Foundation/Foundation.h>
 #import <CommonCrypto/CommonCrypto.h>
-#import <AntsomiFramework/SDKBootstrap.h>
 #import <AntsomiFramework/AntsomiDeeplinkGate.h>
 
 //! Project version number for AntsomiFramework.

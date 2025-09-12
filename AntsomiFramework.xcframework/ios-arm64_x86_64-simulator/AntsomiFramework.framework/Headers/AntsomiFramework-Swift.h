@@ -327,6 +327,8 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) AppInbox * _Null_unspe
 @property (nonatomic) BOOL isDelivery;
 @property (nonatomic) BOOL isShowingTemplate;
 @property (nonatomic, copy) void (^ _Nullable callbackHandleRedirectTemplate)(NSString * _Nonnull);
+@property (nonatomic, readonly) BOOL hasDeeplinkCallback;
+@property (nonatomic, readonly) BOOL hasNotificationCallback;
 /// FOR DEBUGGING AND LOGGING INFORMATION
 @property (nonatomic) BOOL debug;
 @property (nonatomic, copy) void (^ _Nullable logger)(NSString * _Nonnull);
@@ -349,6 +351,10 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) Antsomi * _Nonnull sha
 - (NSString * _Nullable)getAppGroupId SWIFT_WARN_UNUSED_RESULT;
 - (void)appInboxInitWithDestinationId:(NSString * _Nonnull)destinationId audienceType:(NSString * _Nonnull)audienceType;
 - (void)processGetMediaJsonWithEventBody:(NSDictionary<NSString *, id> * _Nonnull)eventBody completion:(void (^ _Nonnull)(NSDictionary<NSString *, id> * _Nonnull))completion;
+- (void)setDeeplinkCallback:(void (^ _Nonnull)(NSString * _Nonnull))cb;
+- (void)setNotificationCallback:(void (^ _Nonnull)(NSDictionary<NSString *, id> * _Nonnull))cb;
+- (void)storeLastLink:(NSString * _Nonnull)link;
+- (void)storeLastNotification:(NSDictionary<NSString *, id> * _Nonnull)userInfo;
 - (void)handleViewTrackingUrl:(NSURL * _Nonnull)url;
 - (void)handleTrackingURL:(NSURL * _Nonnull)url completion:(void (^ _Nonnull)(void))completion;
 - (void)handleDeeplinkURL:(NSURL * _Nonnull)url;
@@ -375,6 +381,12 @@ SWIFT_CLASS("_TtC16AntsomiFramework26AntsomiNotificationService")
 
 
 SWIFT_EXTERN void AntsomiRegisterForRemoteNotifications(NSData * _Nonnull deviceToken) SWIFT_NOEXCEPT;
+
+
+SWIFT_EXTERN void AntsomiStoreLastDeeplink(char const * _Nonnull cstr) SWIFT_NOEXCEPT;
+
+
+SWIFT_EXTERN void AntsomiStoreLastNotificationJSON(char const * _Nonnull cstr) SWIFT_NOEXCEPT;
 
 @class UNUserNotificationCenter;
 @class UNNotification;
@@ -1257,6 +1269,8 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) AppInbox * _Null_unspe
 @property (nonatomic) BOOL isDelivery;
 @property (nonatomic) BOOL isShowingTemplate;
 @property (nonatomic, copy) void (^ _Nullable callbackHandleRedirectTemplate)(NSString * _Nonnull);
+@property (nonatomic, readonly) BOOL hasDeeplinkCallback;
+@property (nonatomic, readonly) BOOL hasNotificationCallback;
 /// FOR DEBUGGING AND LOGGING INFORMATION
 @property (nonatomic) BOOL debug;
 @property (nonatomic, copy) void (^ _Nullable logger)(NSString * _Nonnull);
@@ -1279,6 +1293,10 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) Antsomi * _Nonnull sha
 - (NSString * _Nullable)getAppGroupId SWIFT_WARN_UNUSED_RESULT;
 - (void)appInboxInitWithDestinationId:(NSString * _Nonnull)destinationId audienceType:(NSString * _Nonnull)audienceType;
 - (void)processGetMediaJsonWithEventBody:(NSDictionary<NSString *, id> * _Nonnull)eventBody completion:(void (^ _Nonnull)(NSDictionary<NSString *, id> * _Nonnull))completion;
+- (void)setDeeplinkCallback:(void (^ _Nonnull)(NSString * _Nonnull))cb;
+- (void)setNotificationCallback:(void (^ _Nonnull)(NSDictionary<NSString *, id> * _Nonnull))cb;
+- (void)storeLastLink:(NSString * _Nonnull)link;
+- (void)storeLastNotification:(NSDictionary<NSString *, id> * _Nonnull)userInfo;
 - (void)handleViewTrackingUrl:(NSURL * _Nonnull)url;
 - (void)handleTrackingURL:(NSURL * _Nonnull)url completion:(void (^ _Nonnull)(void))completion;
 - (void)handleDeeplinkURL:(NSURL * _Nonnull)url;
@@ -1305,6 +1323,12 @@ SWIFT_CLASS("_TtC16AntsomiFramework26AntsomiNotificationService")
 
 
 SWIFT_EXTERN void AntsomiRegisterForRemoteNotifications(NSData * _Nonnull deviceToken) SWIFT_NOEXCEPT;
+
+
+SWIFT_EXTERN void AntsomiStoreLastDeeplink(char const * _Nonnull cstr) SWIFT_NOEXCEPT;
+
+
+SWIFT_EXTERN void AntsomiStoreLastNotificationJSON(char const * _Nonnull cstr) SWIFT_NOEXCEPT;
 
 @class UNUserNotificationCenter;
 @class UNNotification;
