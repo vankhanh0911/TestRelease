@@ -662,6 +662,8 @@ public func AntsomiRegisterForRemoteNotifications(_ deviceToken: Foundation.Data
 public func ensureNotificationCenterDelegateInstalled()
 @_cdecl("AntsomiStoreLastDeeplink")
 public func AntsomiStoreLastDeeplink(_ cstr: Swift.UnsafePointer<Swift.CChar>)
+@_cdecl("AntsomiDebugLog")
+public func AntsomiDebugLog(_ cstr: Swift.UnsafePointer<Swift.CChar>)
 @_cdecl("AntsomiStoreLastNotificationJSON")
 public func AntsomiStoreLastNotificationJSON(_ cstr: Swift.UnsafePointer<Swift.CChar>)
 @objc @_inheritsConvenienceInitializers @objcMembers public class Antsomi : ObjectiveC.NSObject {
@@ -717,6 +719,9 @@ public func AntsomiStoreLastNotificationJSON(_ cstr: Swift.UnsafePointer<Swift.C
   @objc public func setNotificationCallback(_ cb: @escaping ([Swift.String : Any]) -> Swift.Void)
   @objc public func storeLastLink(_ link: Swift.String)
   @objc public func storeLastNotification(_ userInfo: [Swift.String : Any])
+  @objc public func debugPersistLog(_ message: Swift.String)
+  @objc public func getDebugLogs() -> [Swift.String]
+  @objc public func clearDebugLogs()
   @objc public func handleViewTrackingUrl(_ url: Foundation.URL)
   @objc public func handleTrackingURL(_ url: Foundation.URL, completion: @escaping (() -> ()))
   @objc public func handleDeeplinkURL(_ url: Foundation.URL)
