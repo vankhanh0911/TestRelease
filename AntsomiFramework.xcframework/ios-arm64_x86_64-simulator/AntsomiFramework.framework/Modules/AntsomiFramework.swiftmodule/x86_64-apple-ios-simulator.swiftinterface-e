@@ -902,7 +902,7 @@ public class AntsomiPublicKey : AntsomiFramework.AntsomiKey {
   @objc override dynamic public init()
   @objc deinit
 }
-@objc(PublicKey) public class _objc_PublicKey : ObjectiveC.NSObject, AntsomiFramework.AntsomiKey {
+@objc(AntsomiPublicKey) public class _objc_PublicKey : ObjectiveC.NSObject, AntsomiFramework.AntsomiKey {
   @objc public var reference: Security.SecKey {
     @objc get
   }
@@ -922,7 +922,7 @@ public class AntsomiPublicKey : AntsomiFramework.AntsomiKey {
   @objc public static func publicKeys(pemEncoded pemString: Swift.String) -> [AntsomiFramework._objc_PublicKey]
   @objc deinit
 }
-@objc(PrivateKey) public class _objc_PrivateKey : ObjectiveC.NSObject, AntsomiFramework.AntsomiKey {
+@objc(AntsomiPrivateKey) public class _objc_PrivateKey : ObjectiveC.NSObject, AntsomiFramework.AntsomiKey {
   @objc public var reference: Security.SecKey {
     @objc get
   }

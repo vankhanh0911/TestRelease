@@ -28506,7 +28506,7 @@
                 "kind": "TypeNominal",
                 "name": "_objc_PrivateKey",
                 "printedName": "AntsomiFramework._objc_PrivateKey",
-                "usr": "c:@M@AntsomiFramework@objc(cs)PrivateKey"
+                "usr": "c:@M@AntsomiFramework@objc(cs)AntsomiPrivateKey"
               }
             ],
             "declKind": "Var",
@@ -28532,7 +28532,7 @@
                     "kind": "TypeNominal",
                     "name": "_objc_PrivateKey",
                     "printedName": "AntsomiFramework._objc_PrivateKey",
-                    "usr": "c:@M@AntsomiFramework@objc(cs)PrivateKey"
+                    "usr": "c:@M@AntsomiFramework@objc(cs)AntsomiPrivateKey"
                   }
                 ],
                 "declKind": "Accessor",
@@ -28557,7 +28557,7 @@
                 "kind": "TypeNominal",
                 "name": "_objc_PublicKey",
                 "printedName": "AntsomiFramework._objc_PublicKey",
-                "usr": "c:@M@AntsomiFramework@objc(cs)PublicKey"
+                "usr": "c:@M@AntsomiFramework@objc(cs)AntsomiPublicKey"
               }
             ],
             "declKind": "Var",
@@ -28582,7 +28582,7 @@
                     "kind": "TypeNominal",
                     "name": "_objc_PublicKey",
                     "printedName": "AntsomiFramework._objc_PublicKey",
-                    "usr": "c:@M@AntsomiFramework@objc(cs)PublicKey"
+                    "usr": "c:@M@AntsomiFramework@objc(cs)AntsomiPublicKey"
                   }
                 ],
                 "declKind": "Accessor",
@@ -28874,7 +28874,7 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@AntsomiFramework@objc(cs)PublicKey(py)reference",
+            "usr": "c:@M@AntsomiFramework@objc(cs)AntsomiPublicKey(py)reference",
             "mangledName": "$s16AntsomiFramework15_objc_PublicKeyC9referenceSo03SecE3Refavp",
             "moduleName": "AntsomiFramework",
             "declAttributes": [
@@ -28895,7 +28895,7 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@AntsomiFramework@objc(cs)PublicKey(im)reference",
+                "usr": "c:@M@AntsomiFramework@objc(cs)AntsomiPublicKey(im)reference",
                 "mangledName": "$s16AntsomiFramework15_objc_PublicKeyC9referenceSo03SecE3Refavg",
                 "moduleName": "AntsomiFramework",
                 "declAttributes": [
@@ -28926,7 +28926,7 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@AntsomiFramework@objc(cs)PublicKey(py)originalData",
+            "usr": "c:@M@AntsomiFramework@objc(cs)AntsomiPublicKey(py)originalData",
             "mangledName": "$s16AntsomiFramework15_objc_PublicKeyC12originalData10Foundation0G0VSgvp",
             "moduleName": "AntsomiFramework",
             "declAttributes": [
@@ -28955,7 +28955,7 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@AntsomiFramework@objc(cs)PublicKey(im)originalData",
+                "usr": "c:@M@AntsomiFramework@objc(cs)AntsomiPublicKey(im)originalData",
                 "mangledName": "$s16AntsomiFramework15_objc_PublicKeyC12originalData10Foundation0G0VSgvg",
                 "moduleName": "AntsomiFramework",
                 "declAttributes": [
@@ -28978,7 +28978,7 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@AntsomiFramework@objc(cs)PublicKey(im)pemStringAndReturnError:",
+            "usr": "c:@M@AntsomiFramework@objc(cs)AntsomiPublicKey(im)pemStringAndReturnError:",
             "mangledName": "$s16AntsomiFramework15_objc_PublicKeyC9pemStringSSyKF",
             "moduleName": "AntsomiFramework",
             "objc_name": "pemStringAndReturnError:",
@@ -29002,7 +29002,7 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@AntsomiFramework@objc(cs)PublicKey(im)dataAndReturnError:",
+            "usr": "c:@M@AntsomiFramework@objc(cs)AntsomiPublicKey(im)dataAndReturnError:",
             "mangledName": "$s16AntsomiFramework15_objc_PublicKeyC4data10Foundation4DataVyKF",
             "moduleName": "AntsomiFramework",
             "objc_name": "dataAndReturnError:",
@@ -29026,7 +29026,7 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@AntsomiFramework@objc(cs)PublicKey(im)base64StringAndReturnError:",
+            "usr": "c:@M@AntsomiFramework@objc(cs)AntsomiPublicKey(im)base64StringAndReturnError:",
             "mangledName": "$s16AntsomiFramework15_objc_PublicKeyC12base64StringSSyKF",
             "moduleName": "AntsomiFramework",
             "objc_name": "base64StringAndReturnError:",
@@ -29046,7 +29046,7 @@
                 "kind": "TypeNominal",
                 "name": "_objc_PublicKey",
                 "printedName": "AntsomiFramework._objc_PublicKey",
-                "usr": "c:@M@AntsomiFramework@objc(cs)PublicKey"
+                "usr": "c:@M@AntsomiFramework@objc(cs)AntsomiPublicKey"
               },
               {
                 "kind": "TypeNominal",
@@ -29074,7 +29074,7 @@
                 "kind": "TypeNominal",
                 "name": "_objc_PublicKey",
                 "printedName": "AntsomiFramework._objc_PublicKey",
-                "usr": "c:@M@AntsomiFramework@objc(cs)PublicKey"
+                "usr": "c:@M@AntsomiFramework@objc(cs)AntsomiPublicKey"
               },
               {
                 "kind": "TypeNominal",
@@ -29084,7 +29084,7 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@AntsomiFramework@objc(cs)PublicKey(im)initWithData:error:",
+            "usr": "c:@M@AntsomiFramework@objc(cs)AntsomiPublicKey(im)initWithData:error:",
             "mangledName": "$s16AntsomiFramework15_objc_PublicKeyC4dataAC10Foundation4DataV_tKcfc",
             "moduleName": "AntsomiFramework",
             "objc_name": "initWithData:error:",
@@ -29105,7 +29105,7 @@
                 "kind": "TypeNominal",
                 "name": "_objc_PublicKey",
                 "printedName": "AntsomiFramework._objc_PublicKey",
-                "usr": "c:@M@AntsomiFramework@objc(cs)PublicKey"
+                "usr": "c:@M@AntsomiFramework@objc(cs)AntsomiPublicKey"
               },
               {
                 "kind": "TypeNominal",
@@ -29115,7 +29115,7 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@AntsomiFramework@objc(cs)PublicKey(im)initWithReference:error:",
+            "usr": "c:@M@AntsomiFramework@objc(cs)AntsomiPublicKey(im)initWithReference:error:",
             "mangledName": "$s16AntsomiFramework15_objc_PublicKeyC9referenceACSo03SecE3Refa_tKcfc",
             "moduleName": "AntsomiFramework",
             "objc_name": "initWithReference:error:",
@@ -29136,7 +29136,7 @@
                 "kind": "TypeNominal",
                 "name": "_objc_PublicKey",
                 "printedName": "AntsomiFramework._objc_PublicKey",
-                "usr": "c:@M@AntsomiFramework@objc(cs)PublicKey"
+                "usr": "c:@M@AntsomiFramework@objc(cs)AntsomiPublicKey"
               },
               {
                 "kind": "TypeNominal",
@@ -29146,7 +29146,7 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@AntsomiFramework@objc(cs)PublicKey(im)initWithBase64Encoded:error:",
+            "usr": "c:@M@AntsomiFramework@objc(cs)AntsomiPublicKey(im)initWithBase64Encoded:error:",
             "mangledName": "$s16AntsomiFramework15_objc_PublicKeyC13base64EncodedACSS_tKcfc",
             "moduleName": "AntsomiFramework",
             "objc_name": "initWithBase64Encoded:error:",
@@ -29167,7 +29167,7 @@
                 "kind": "TypeNominal",
                 "name": "_objc_PublicKey",
                 "printedName": "AntsomiFramework._objc_PublicKey",
-                "usr": "c:@M@AntsomiFramework@objc(cs)PublicKey"
+                "usr": "c:@M@AntsomiFramework@objc(cs)AntsomiPublicKey"
               },
               {
                 "kind": "TypeNominal",
@@ -29177,7 +29177,7 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@AntsomiFramework@objc(cs)PublicKey(im)initWithPemEncoded:error:",
+            "usr": "c:@M@AntsomiFramework@objc(cs)AntsomiPublicKey(im)initWithPemEncoded:error:",
             "mangledName": "$s16AntsomiFramework15_objc_PublicKeyC10pemEncodedACSS_tKcfc",
             "moduleName": "AntsomiFramework",
             "objc_name": "initWithPemEncoded:error:",
@@ -29198,7 +29198,7 @@
                 "kind": "TypeNominal",
                 "name": "_objc_PublicKey",
                 "printedName": "AntsomiFramework._objc_PublicKey",
-                "usr": "c:@M@AntsomiFramework@objc(cs)PublicKey"
+                "usr": "c:@M@AntsomiFramework@objc(cs)AntsomiPublicKey"
               },
               {
                 "kind": "TypeNominal",
@@ -29214,7 +29214,7 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@AntsomiFramework@objc(cs)PublicKey(im)initWithPemNamed:in:error:",
+            "usr": "c:@M@AntsomiFramework@objc(cs)AntsomiPublicKey(im)initWithPemNamed:in:error:",
             "mangledName": "$s16AntsomiFramework15_objc_PublicKeyC8pemNamed2inACSS_So8NSBundleCtKcfc",
             "moduleName": "AntsomiFramework",
             "objc_name": "initWithPemNamed:in:error:",
@@ -29235,7 +29235,7 @@
                 "kind": "TypeNominal",
                 "name": "_objc_PublicKey",
                 "printedName": "AntsomiFramework._objc_PublicKey",
-                "usr": "c:@M@AntsomiFramework@objc(cs)PublicKey"
+                "usr": "c:@M@AntsomiFramework@objc(cs)AntsomiPublicKey"
               },
               {
                 "kind": "TypeNominal",
@@ -29251,7 +29251,7 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@AntsomiFramework@objc(cs)PublicKey(im)initWithDerNamed:in:error:",
+            "usr": "c:@M@AntsomiFramework@objc(cs)AntsomiPublicKey(im)initWithDerNamed:in:error:",
             "mangledName": "$s16AntsomiFramework15_objc_PublicKeyC8derNamed2inACSS_So8NSBundleCtKcfc",
             "moduleName": "AntsomiFramework",
             "objc_name": "initWithDerNamed:in:error:",
@@ -29277,7 +29277,7 @@
                     "kind": "TypeNominal",
                     "name": "_objc_PublicKey",
                     "printedName": "AntsomiFramework._objc_PublicKey",
-                    "usr": "c:@M@AntsomiFramework@objc(cs)PublicKey"
+                    "usr": "c:@M@AntsomiFramework@objc(cs)AntsomiPublicKey"
                   }
                 ],
                 "usr": "s:Sa"
@@ -29290,7 +29290,7 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@AntsomiFramework@objc(cs)PublicKey(cm)publicKeysWithPemEncoded:",
+            "usr": "c:@M@AntsomiFramework@objc(cs)AntsomiPublicKey(cm)publicKeysWithPemEncoded:",
             "mangledName": "$s16AntsomiFramework15_objc_PublicKeyC10publicKeys10pemEncodedSayACGSS_tFZ",
             "moduleName": "AntsomiFramework",
             "static": true,
@@ -29311,11 +29311,11 @@
                 "kind": "TypeNominal",
                 "name": "_objc_PublicKey",
                 "printedName": "AntsomiFramework._objc_PublicKey",
-                "usr": "c:@M@AntsomiFramework@objc(cs)PublicKey"
+                "usr": "c:@M@AntsomiFramework@objc(cs)AntsomiPublicKey"
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@AntsomiFramework@objc(cs)PublicKey(im)init",
+            "usr": "c:@M@AntsomiFramework@objc(cs)AntsomiPublicKey(im)init",
             "mangledName": "$s16AntsomiFramework15_objc_PublicKeyCACycfc",
             "moduleName": "AntsomiFramework",
             "overriding": true,
@@ -29330,10 +29330,10 @@
           }
         ],
         "declKind": "Class",
-        "usr": "c:@M@AntsomiFramework@objc(cs)PublicKey",
+        "usr": "c:@M@AntsomiFramework@objc(cs)AntsomiPublicKey",
         "mangledName": "$s16AntsomiFramework15_objc_PublicKeyC",
         "moduleName": "AntsomiFramework",
-        "objc_name": "PublicKey",
+        "objc_name": "AntsomiPublicKey",
         "declAttributes": [
           "AccessControl",
           "ObjC",
@@ -29434,7 +29434,7 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@AntsomiFramework@objc(cs)PrivateKey(py)reference",
+            "usr": "c:@M@AntsomiFramework@objc(cs)AntsomiPrivateKey(py)reference",
             "mangledName": "$s16AntsomiFramework16_objc_PrivateKeyC9referenceSo03SecE3Refavp",
             "moduleName": "AntsomiFramework",
             "declAttributes": [
@@ -29455,7 +29455,7 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@AntsomiFramework@objc(cs)PrivateKey(im)reference",
+                "usr": "c:@M@AntsomiFramework@objc(cs)AntsomiPrivateKey(im)reference",
                 "mangledName": "$s16AntsomiFramework16_objc_PrivateKeyC9referenceSo03SecE3Refavg",
                 "moduleName": "AntsomiFramework",
                 "declAttributes": [
@@ -29486,7 +29486,7 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@AntsomiFramework@objc(cs)PrivateKey(py)originalData",
+            "usr": "c:@M@AntsomiFramework@objc(cs)AntsomiPrivateKey(py)originalData",
             "mangledName": "$s16AntsomiFramework16_objc_PrivateKeyC12originalData10Foundation0G0VSgvp",
             "moduleName": "AntsomiFramework",
             "declAttributes": [
@@ -29515,7 +29515,7 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@AntsomiFramework@objc(cs)PrivateKey(im)originalData",
+                "usr": "c:@M@AntsomiFramework@objc(cs)AntsomiPrivateKey(im)originalData",
                 "mangledName": "$s16AntsomiFramework16_objc_PrivateKeyC12originalData10Foundation0G0VSgvg",
                 "moduleName": "AntsomiFramework",
                 "declAttributes": [
@@ -29538,7 +29538,7 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@AntsomiFramework@objc(cs)PrivateKey(im)pemStringAndReturnError:",
+            "usr": "c:@M@AntsomiFramework@objc(cs)AntsomiPrivateKey(im)pemStringAndReturnError:",
             "mangledName": "$s16AntsomiFramework16_objc_PrivateKeyC9pemStringSSyKF",
             "moduleName": "AntsomiFramework",
             "objc_name": "pemStringAndReturnError:",
@@ -29562,7 +29562,7 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@AntsomiFramework@objc(cs)PrivateKey(im)dataAndReturnError:",
+            "usr": "c:@M@AntsomiFramework@objc(cs)AntsomiPrivateKey(im)dataAndReturnError:",
             "mangledName": "$s16AntsomiFramework16_objc_PrivateKeyC4data10Foundation4DataVyKF",
             "moduleName": "AntsomiFramework",
             "objc_name": "dataAndReturnError:",
@@ -29586,7 +29586,7 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@AntsomiFramework@objc(cs)PrivateKey(im)base64StringAndReturnError:",
+            "usr": "c:@M@AntsomiFramework@objc(cs)AntsomiPrivateKey(im)base64StringAndReturnError:",
             "mangledName": "$s16AntsomiFramework16_objc_PrivateKeyC12base64StringSSyKF",
             "moduleName": "AntsomiFramework",
             "objc_name": "base64StringAndReturnError:",
@@ -29606,7 +29606,7 @@
                 "kind": "TypeNominal",
                 "name": "_objc_PrivateKey",
                 "printedName": "AntsomiFramework._objc_PrivateKey",
-                "usr": "c:@M@AntsomiFramework@objc(cs)PrivateKey"
+                "usr": "c:@M@AntsomiFramework@objc(cs)AntsomiPrivateKey"
               },
               {
                 "kind": "TypeNominal",
@@ -29634,7 +29634,7 @@
                 "kind": "TypeNominal",
                 "name": "_objc_PrivateKey",
                 "printedName": "AntsomiFramework._objc_PrivateKey",
-                "usr": "c:@M@AntsomiFramework@objc(cs)PrivateKey"
+                "usr": "c:@M@AntsomiFramework@objc(cs)AntsomiPrivateKey"
               },
               {
                 "kind": "TypeNominal",
@@ -29644,7 +29644,7 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@AntsomiFramework@objc(cs)PrivateKey(im)initWithData:error:",
+            "usr": "c:@M@AntsomiFramework@objc(cs)AntsomiPrivateKey(im)initWithData:error:",
             "mangledName": "$s16AntsomiFramework16_objc_PrivateKeyC4dataAC10Foundation4DataV_tKcfc",
             "moduleName": "AntsomiFramework",
             "objc_name": "initWithData:error:",
@@ -29665,7 +29665,7 @@
                 "kind": "TypeNominal",
                 "name": "_objc_PrivateKey",
                 "printedName": "AntsomiFramework._objc_PrivateKey",
-                "usr": "c:@M@AntsomiFramework@objc(cs)PrivateKey"
+                "usr": "c:@M@AntsomiFramework@objc(cs)AntsomiPrivateKey"
               },
               {
                 "kind": "TypeNominal",
@@ -29675,7 +29675,7 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@AntsomiFramework@objc(cs)PrivateKey(im)initWithReference:error:",
+            "usr": "c:@M@AntsomiFramework@objc(cs)AntsomiPrivateKey(im)initWithReference:error:",
             "mangledName": "$s16AntsomiFramework16_objc_PrivateKeyC9referenceACSo03SecE3Refa_tKcfc",
             "moduleName": "AntsomiFramework",
             "objc_name": "initWithReference:error:",
@@ -29696,7 +29696,7 @@
                 "kind": "TypeNominal",
                 "name": "_objc_PrivateKey",
                 "printedName": "AntsomiFramework._objc_PrivateKey",
-                "usr": "c:@M@AntsomiFramework@objc(cs)PrivateKey"
+                "usr": "c:@M@AntsomiFramework@objc(cs)AntsomiPrivateKey"
               },
               {
                 "kind": "TypeNominal",
@@ -29706,7 +29706,7 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@AntsomiFramework@objc(cs)PrivateKey(im)initWithBase64Encoded:error:",
+            "usr": "c:@M@AntsomiFramework@objc(cs)AntsomiPrivateKey(im)initWithBase64Encoded:error:",
             "mangledName": "$s16AntsomiFramework16_objc_PrivateKeyC13base64EncodedACSS_tKcfc",
             "moduleName": "AntsomiFramework",
             "objc_name": "initWithBase64Encoded:error:",
@@ -29727,7 +29727,7 @@
                 "kind": "TypeNominal",
                 "name": "_objc_PrivateKey",
                 "printedName": "AntsomiFramework._objc_PrivateKey",
-                "usr": "c:@M@AntsomiFramework@objc(cs)PrivateKey"
+                "usr": "c:@M@AntsomiFramework@objc(cs)AntsomiPrivateKey"
               },
               {
                 "kind": "TypeNominal",
@@ -29737,7 +29737,7 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@AntsomiFramework@objc(cs)PrivateKey(im)initWithPemEncoded:error:",
+            "usr": "c:@M@AntsomiFramework@objc(cs)AntsomiPrivateKey(im)initWithPemEncoded:error:",
             "mangledName": "$s16AntsomiFramework16_objc_PrivateKeyC10pemEncodedACSS_tKcfc",
             "moduleName": "AntsomiFramework",
             "objc_name": "initWithPemEncoded:error:",
@@ -29758,7 +29758,7 @@
                 "kind": "TypeNominal",
                 "name": "_objc_PrivateKey",
                 "printedName": "AntsomiFramework._objc_PrivateKey",
-                "usr": "c:@M@AntsomiFramework@objc(cs)PrivateKey"
+                "usr": "c:@M@AntsomiFramework@objc(cs)AntsomiPrivateKey"
               },
               {
                 "kind": "TypeNominal",
@@ -29774,7 +29774,7 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@AntsomiFramework@objc(cs)PrivateKey(im)initWithPemNamed:in:error:",
+            "usr": "c:@M@AntsomiFramework@objc(cs)AntsomiPrivateKey(im)initWithPemNamed:in:error:",
             "mangledName": "$s16AntsomiFramework16_objc_PrivateKeyC8pemNamed2inACSS_So8NSBundleCtKcfc",
             "moduleName": "AntsomiFramework",
             "objc_name": "initWithPemNamed:in:error:",
@@ -29795,7 +29795,7 @@
                 "kind": "TypeNominal",
                 "name": "_objc_PrivateKey",
                 "printedName": "AntsomiFramework._objc_PrivateKey",
-                "usr": "c:@M@AntsomiFramework@objc(cs)PrivateKey"
+                "usr": "c:@M@AntsomiFramework@objc(cs)AntsomiPrivateKey"
               },
               {
                 "kind": "TypeNominal",
@@ -29811,7 +29811,7 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@AntsomiFramework@objc(cs)PrivateKey(im)initWithDerNamed:in:error:",
+            "usr": "c:@M@AntsomiFramework@objc(cs)AntsomiPrivateKey(im)initWithDerNamed:in:error:",
             "mangledName": "$s16AntsomiFramework16_objc_PrivateKeyC8derNamed2inACSS_So8NSBundleCtKcfc",
             "moduleName": "AntsomiFramework",
             "objc_name": "initWithDerNamed:in:error:",
@@ -29832,11 +29832,11 @@
                 "kind": "TypeNominal",
                 "name": "_objc_PrivateKey",
                 "printedName": "AntsomiFramework._objc_PrivateKey",
-                "usr": "c:@M@AntsomiFramework@objc(cs)PrivateKey"
+                "usr": "c:@M@AntsomiFramework@objc(cs)AntsomiPrivateKey"
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@AntsomiFramework@objc(cs)PrivateKey(im)init",
+            "usr": "c:@M@AntsomiFramework@objc(cs)AntsomiPrivateKey(im)init",
             "mangledName": "$s16AntsomiFramework16_objc_PrivateKeyCACycfc",
             "moduleName": "AntsomiFramework",
             "overriding": true,
@@ -29851,10 +29851,10 @@
           }
         ],
         "declKind": "Class",
-        "usr": "c:@M@AntsomiFramework@objc(cs)PrivateKey",
+        "usr": "c:@M@AntsomiFramework@objc(cs)AntsomiPrivateKey",
         "mangledName": "$s16AntsomiFramework16_objc_PrivateKeyC",
         "moduleName": "AntsomiFramework",
-        "objc_name": "PrivateKey",
+        "objc_name": "AntsomiPrivateKey",
         "declAttributes": [
           "AccessControl",
           "ObjC",
@@ -30365,7 +30365,7 @@
                 "kind": "TypeNominal",
                 "name": "_objc_PublicKey",
                 "printedName": "AntsomiFramework._objc_PublicKey",
-                "usr": "c:@M@AntsomiFramework@objc(cs)PublicKey"
+                "usr": "c:@M@AntsomiFramework@objc(cs)AntsomiPublicKey"
               },
               {
                 "kind": "TypeNominal",
@@ -30401,7 +30401,7 @@
                 "kind": "TypeNominal",
                 "name": "_objc_PrivateKey",
                 "printedName": "AntsomiFramework._objc_PrivateKey",
-                "usr": "c:@M@AntsomiFramework@objc(cs)PrivateKey"
+                "usr": "c:@M@AntsomiFramework@objc(cs)AntsomiPrivateKey"
               },
               {
                 "kind": "TypeNominal",
@@ -30437,7 +30437,7 @@
                 "kind": "TypeNominal",
                 "name": "_objc_PublicKey",
                 "printedName": "AntsomiFramework._objc_PublicKey",
-                "usr": "c:@M@AntsomiFramework@objc(cs)PublicKey"
+                "usr": "c:@M@AntsomiFramework@objc(cs)AntsomiPublicKey"
               },
               {
                 "kind": "TypeNominal",
@@ -30775,7 +30775,7 @@
                 "kind": "TypeNominal",
                 "name": "_objc_PrivateKey",
                 "printedName": "AntsomiFramework._objc_PrivateKey",
-                "usr": "c:@M@AntsomiFramework@objc(cs)PrivateKey"
+                "usr": "c:@M@AntsomiFramework@objc(cs)AntsomiPrivateKey"
               },
               {
                 "kind": "TypeNominal",
@@ -61275,28 +61275,28 @@
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/SwiftyRSA\/SwiftyRSA+ObjC.swift",
       "kind": "IntegerLiteral",
-      "offset": 8979,
+      "offset": 8993,
       "length": 6,
       "value": "1"
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/SwiftyRSA\/SwiftyRSA+ObjC.swift",
       "kind": "IntegerLiteral",
-      "offset": 8999,
+      "offset": 9013,
       "length": 6,
       "value": "2"
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/SwiftyRSA\/SwiftyRSA+ObjC.swift",
       "kind": "IntegerLiteral",
-      "offset": 9019,
+      "offset": 9033,
       "length": 6,
       "value": "3"
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/SwiftyRSA\/SwiftyRSA+ObjC.swift",
       "kind": "IntegerLiteral",
-      "offset": 9039,
+      "offset": 9053,
       "length": 6,
       "value": "4"
     },

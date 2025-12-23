@@ -815,9 +815,9 @@ SWIFT_CLASS("_TtC16AntsomiFramework19UserDefaultsManager")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class PublicKey;
+@class AntsomiPublicKey;
 @class EncryptedMessage;
-@class PrivateKey;
+@class AntsomiPrivateKey;
 enum DigestType : NSInteger;
 @class Signature;
 @class VerificationResult;
@@ -830,9 +830,9 @@ SWIFT_CLASS_NAMED("_objc_ClearMessage")
 - (nullable instancetype)initWithString:(NSString * _Nonnull)string using:(NSUInteger)rawEncoding error:(NSError * _Nullable * _Nullable)error OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithBase64Encoded:(NSString * _Nonnull)base64String error:(NSError * _Nullable * _Nullable)error OBJC_DESIGNATED_INITIALIZER;
 - (NSString * _Nullable)stringWithEncoding:(NSUInteger)rawEncoding error:(NSError * _Nullable * _Nullable)error SWIFT_WARN_UNUSED_RESULT;
-- (EncryptedMessage * _Nullable)encryptedWith:(PublicKey * _Nonnull)key padding:(SecPadding)padding error:(NSError * _Nullable * _Nullable)error SWIFT_WARN_UNUSED_RESULT;
-- (Signature * _Nullable)signedWith:(PrivateKey * _Nonnull)key digestType:(enum DigestType)digestType error:(NSError * _Nullable * _Nullable)error SWIFT_WARN_UNUSED_RESULT;
-- (VerificationResult * _Nullable)verifyWith:(PublicKey * _Nonnull)key signature:(Signature * _Nonnull)signature digestType:(enum DigestType)digestType error:(NSError * _Nullable * _Nullable)error SWIFT_WARN_UNUSED_RESULT;
+- (EncryptedMessage * _Nullable)encryptedWith:(AntsomiPublicKey * _Nonnull)key padding:(SecPadding)padding error:(NSError * _Nullable * _Nullable)error SWIFT_WARN_UNUSED_RESULT;
+- (Signature * _Nullable)signedWith:(AntsomiPrivateKey * _Nonnull)key digestType:(enum DigestType)digestType error:(NSError * _Nullable * _Nullable)error SWIFT_WARN_UNUSED_RESULT;
+- (VerificationResult * _Nullable)verifyWith:(AntsomiPublicKey * _Nonnull)key signature:(Signature * _Nonnull)signature digestType:(enum DigestType)digestType error:(NSError * _Nullable * _Nullable)error SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
@@ -844,7 +844,7 @@ SWIFT_CLASS_NAMED("_objc_EncryptedMessage")
 @property (nonatomic, readonly, copy) NSData * _Nonnull data;
 - (nonnull instancetype)initWithData:(NSData * _Nonnull)data OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithBase64Encoded:(NSString * _Nonnull)base64String error:(NSError * _Nullable * _Nullable)error OBJC_DESIGNATED_INITIALIZER;
-- (ClearMessage * _Nullable)decryptedWith:(PrivateKey * _Nonnull)key padding:(SecPadding)padding error:(NSError * _Nullable * _Nullable)error SWIFT_WARN_UNUSED_RESULT;
+- (ClearMessage * _Nullable)decryptedWith:(AntsomiPrivateKey * _Nonnull)key padding:(SecPadding)padding error:(NSError * _Nullable * _Nullable)error SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
@@ -852,15 +852,15 @@ SWIFT_CLASS_NAMED("_objc_EncryptedMessage")
 
 SWIFT_CLASS_NAMED("_objc_KeyPair")
 @interface KeyPair : NSObject
-@property (nonatomic, readonly, strong) PrivateKey * _Nonnull privateKey;
-@property (nonatomic, readonly, strong) PublicKey * _Nonnull publicKey;
+@property (nonatomic, readonly, strong) AntsomiPrivateKey * _Nonnull privateKey;
+@property (nonatomic, readonly, strong) AntsomiPublicKey * _Nonnull publicKey;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
 
 SWIFT_CLASS_NAMED("_objc_PrivateKey")
-@interface PrivateKey : NSObject
+@interface AntsomiPrivateKey : NSObject
 @property (nonatomic, readonly) SecKeyRef _Nonnull reference;
 @property (nonatomic, readonly, copy) NSData * _Nullable originalData;
 - (NSString * _Nullable)pemStringAndReturnError:(NSError * _Nullable * _Nullable)error SWIFT_WARN_UNUSED_RESULT;
@@ -878,7 +878,7 @@ SWIFT_CLASS_NAMED("_objc_PrivateKey")
 
 
 SWIFT_CLASS_NAMED("_objc_PublicKey")
-@interface PublicKey : NSObject
+@interface AntsomiPublicKey : NSObject
 @property (nonatomic, readonly) SecKeyRef _Nonnull reference;
 @property (nonatomic, readonly, copy) NSData * _Nullable originalData;
 - (NSString * _Nullable)pemStringAndReturnError:(NSError * _Nullable * _Nullable)error SWIFT_WARN_UNUSED_RESULT;
@@ -890,7 +890,7 @@ SWIFT_CLASS_NAMED("_objc_PublicKey")
 - (nullable instancetype)initWithPemEncoded:(NSString * _Nonnull)pemString error:(NSError * _Nullable * _Nullable)error OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithPemNamed:(NSString * _Nonnull)pemName in:(NSBundle * _Nonnull)bundle error:(NSError * _Nullable * _Nullable)error OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithDerNamed:(NSString * _Nonnull)derName in:(NSBundle * _Nonnull)bundle error:(NSError * _Nullable * _Nullable)error OBJC_DESIGNATED_INITIALIZER;
-+ (NSArray<PublicKey *> * _Nonnull)publicKeysWithPemEncoded:(NSString * _Nonnull)pemString SWIFT_WARN_UNUSED_RESULT;
++ (NSArray<AntsomiPublicKey *> * _Nonnull)publicKeysWithPemEncoded:(NSString * _Nonnull)pemString SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
