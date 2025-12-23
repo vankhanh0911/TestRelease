@@ -355,9 +355,6 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) Antsomi * _Nonnull sha
 - (void)setNotificationCallback:(void (^ _Nonnull)(NSDictionary<NSString *, id> * _Nonnull))cb;
 - (void)storeLastLink:(NSString * _Nonnull)link;
 - (void)storeLastNotification:(NSDictionary<NSString *, id> * _Nonnull)userInfo;
-- (void)debugPersistLog:(NSString * _Nonnull)message;
-- (NSArray<NSString *> * _Nonnull)getDebugLogs SWIFT_WARN_UNUSED_RESULT;
-- (void)clearDebugLogs;
 - (void)handleViewTrackingUrl:(NSURL * _Nonnull)url;
 - (void)handleTrackingURL:(NSURL * _Nonnull)url completion:(void (^ _Nonnull)(void))completion;
 - (void)handleDeeplinkURL:(NSURL * _Nonnull)url;
@@ -371,9 +368,6 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) Antsomi * _Nonnull sha
 - (NSString * _Nonnull)md5WithString:(NSString * _Nonnull)string SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
-
-
-SWIFT_EXTERN void AntsomiDebugLog(char const * _Nonnull cstr) SWIFT_NOEXCEPT;
 
 @class UNNotificationRequest;
 @class UNNotificationContent;
@@ -1303,9 +1297,6 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) Antsomi * _Nonnull sha
 - (void)setNotificationCallback:(void (^ _Nonnull)(NSDictionary<NSString *, id> * _Nonnull))cb;
 - (void)storeLastLink:(NSString * _Nonnull)link;
 - (void)storeLastNotification:(NSDictionary<NSString *, id> * _Nonnull)userInfo;
-- (void)debugPersistLog:(NSString * _Nonnull)message;
-- (NSArray<NSString *> * _Nonnull)getDebugLogs SWIFT_WARN_UNUSED_RESULT;
-- (void)clearDebugLogs;
 - (void)handleViewTrackingUrl:(NSURL * _Nonnull)url;
 - (void)handleTrackingURL:(NSURL * _Nonnull)url completion:(void (^ _Nonnull)(void))completion;
 - (void)handleDeeplinkURL:(NSURL * _Nonnull)url;
@@ -1319,9 +1310,6 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) Antsomi * _Nonnull sha
 - (NSString * _Nonnull)md5WithString:(NSString * _Nonnull)string SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
-
-
-SWIFT_EXTERN void AntsomiDebugLog(char const * _Nonnull cstr) SWIFT_NOEXCEPT;
 
 @class UNNotificationRequest;
 @class UNNotificationContent;

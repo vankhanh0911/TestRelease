@@ -662,8 +662,6 @@ public func AntsomiRegisterForRemoteNotifications(_ deviceToken: Foundation.Data
 public func ensureNotificationCenterDelegateInstalled()
 @_cdecl("AntsomiStoreLastDeeplink")
 public func AntsomiStoreLastDeeplink(_ cstr: Swift.UnsafePointer<Swift.CChar>)
-@_cdecl("AntsomiDebugLog")
-public func AntsomiDebugLog(_ cstr: Swift.UnsafePointer<Swift.CChar>)
 @_cdecl("AntsomiStoreLastNotificationJSON")
 public func AntsomiStoreLastNotificationJSON(_ cstr: Swift.UnsafePointer<Swift.CChar>)
 @objc @_inheritsConvenienceInitializers @objcMembers public class Antsomi : ObjectiveC.NSObject {
@@ -719,9 +717,6 @@ public func AntsomiStoreLastNotificationJSON(_ cstr: Swift.UnsafePointer<Swift.C
   @objc public func setNotificationCallback(_ cb: @escaping ([Swift.String : Any]) -> Swift.Void)
   @objc public func storeLastLink(_ link: Swift.String)
   @objc public func storeLastNotification(_ userInfo: [Swift.String : Any])
-  @objc public func debugPersistLog(_ message: Swift.String)
-  @objc public func getDebugLogs() -> [Swift.String]
-  @objc public func clearDebugLogs()
   @objc public func handleViewTrackingUrl(_ url: Foundation.URL)
   @objc public func handleTrackingURL(_ url: Foundation.URL, completion: @escaping (() -> ()))
   @objc public func handleDeeplinkURL(_ url: Foundation.URL)
@@ -780,7 +775,7 @@ extension Foundation.Data {
   public func hasX509Header() throws -> Swift.Bool
   public func isAnHeaderlessKey() throws -> Swift.Bool
 }
-public class PrivateKey : Key {
+public class AntsomiPrivateKey : AntsomiKey {
   final public let reference: Security.SecKey
   final public let originalData: Foundation.Data?
   public func pemString() throws -> Swift.String
@@ -788,14 +783,14 @@ public class PrivateKey : Key {
   required public init(data: Foundation.Data) throws
   @objc deinit
 }
-public class Signature {
+public class AntsomiSignature {
   public enum DigestType {
     case sha1
     case sha224
     case sha256
     case sha384
     case sha512
-    public static func == (a: Signature.DigestType, b: Signature.DigestType) -> Swift.Bool
+    public static func == (a: AntsomiSignature.DigestType, b: AntsomiSignature.DigestType) -> Swift.Bool
     public func hash(into hasher: inout Swift.Hasher)
     public var hashValue: Swift.Int {
       get
@@ -809,7 +804,7 @@ public class Signature {
   }
   @objc deinit
 }
-public protocol Key : AnyObject {
+public protocol AntsomiKey : AnyObject {
   var reference: Security.SecKey { get }
   var originalData: Foundation.Data? { get }
   init(data: Foundation.Data) throws
@@ -822,7 +817,7 @@ public protocol Key : AnyObject {
   func data() throws -> Foundation.Data
   func base64String() throws -> Swift.String
 }
-extension Key {
+extension AntsomiKey {
   public func base64String() throws -> Swift.String
   public func data() throws -> Foundation.Data
   public init(base64Encoded base64String: Swift.String) throws
@@ -860,40 +855,40 @@ extension SwiftyRSAError : Foundation.LocalizedError {
     get
   }
 }
-public protocol Message {
+public protocol AntsomiMessage {
   var data: Foundation.Data { get }
   var base64String: Swift.String { get }
   init(data: Foundation.Data)
   init(base64Encoded base64String: Swift.String) throws
 }
-extension Message {
+extension AntsomiMessage {
   public var base64String: Swift.String {
     get
   }
   public init(base64Encoded base64String: Swift.String) throws
 }
-public class ClearMessage : Message {
+public class ClearMessage : AntsomiMessage {
   final public let data: Foundation.Data
   required public init(data: Foundation.Data)
   convenience public init(string: Swift.String, using encoding: Swift.String.Encoding) throws
   public func string(encoding: Swift.String.Encoding) throws -> Swift.String
-  public func encrypted(with key: PublicKey, padding: Padding) throws -> EncryptedMessage
-  public func signed(with key: PrivateKey, digestType: Signature.DigestType) throws -> Signature
-  public func verify(with key: PublicKey, signature: Signature, digestType: Signature.DigestType) throws -> Swift.Bool
+  public func encrypted(with key: AntsomiPublicKey, padding: Padding) throws -> EncryptedMessage
+  public func signed(with key: AntsomiPrivateKey, digestType: AntsomiSignature.DigestType) throws -> AntsomiSignature
+  public func verify(with key: AntsomiPublicKey, signature: AntsomiSignature, digestType: AntsomiSignature.DigestType) throws -> Swift.Bool
   @objc deinit
 }
 public typealias Padding = Security.SecPadding
 public enum SwiftyRSA {
   @available(iOS 10.0, watchOS 3.0, tvOS 10.0, *)
-  public static func generateRSAKeyPair(sizeInBits size: Swift.Int) throws -> (privateKey: PrivateKey, publicKey: PublicKey)
+  public static func generateRSAKeyPair(sizeInBits size: Swift.Int) throws -> (privateKey: AntsomiPrivateKey, publicKey: AntsomiPublicKey)
 }
-public class PublicKey : Key {
+public class AntsomiPublicKey : AntsomiKey {
   final public let reference: Security.SecKey
   final public let originalData: Foundation.Data?
   public func pemString() throws -> Swift.String
   required public init(reference: Security.SecKey) throws
   required public init(data: Foundation.Data) throws
-  public static func publicKeys(pemEncoded pemString: Swift.String) -> [PublicKey]
+  public static func publicKeys(pemEncoded pemString: Swift.String) -> [AntsomiPublicKey]
   @objc deinit
 }
 @_hasMissingDesignatedInitializers @objc(KeyPair) public class _objc_KeyPair : ObjectiveC.NSObject {
@@ -907,7 +902,7 @@ public class PublicKey : Key {
   @objc override dynamic public init()
   @objc deinit
 }
-@objc(PublicKey) public class _objc_PublicKey : ObjectiveC.NSObject, Key {
+@objc(PublicKey) public class _objc_PublicKey : ObjectiveC.NSObject, AntsomiKey {
   @objc public var reference: Security.SecKey {
     @objc get
   }
@@ -917,7 +912,7 @@ public class PublicKey : Key {
   @objc public func pemString() throws -> Swift.String
   @objc public func data() throws -> Foundation.Data
   @objc public func base64String() throws -> Swift.String
-  required public init(swiftValue: PublicKey)
+  required public init(swiftValue: AntsomiPublicKey)
   @objc required public init(data: Foundation.Data) throws
   @objc required public init(reference: Security.SecKey) throws
   @objc required public init(base64Encoded base64String: Swift.String) throws
@@ -927,7 +922,7 @@ public class PublicKey : Key {
   @objc public static func publicKeys(pemEncoded pemString: Swift.String) -> [_objc_PublicKey]
   @objc deinit
 }
-@objc(PrivateKey) public class _objc_PrivateKey : ObjectiveC.NSObject, Key {
+@objc(PrivateKey) public class _objc_PrivateKey : ObjectiveC.NSObject, AntsomiKey {
   @objc public var reference: Security.SecKey {
     @objc get
   }
@@ -937,7 +932,7 @@ public class PublicKey : Key {
   @objc public func pemString() throws -> Swift.String
   @objc public func data() throws -> Foundation.Data
   @objc public func base64String() throws -> Swift.String
-  required public init(swiftValue: PrivateKey)
+  required public init(swiftValue: AntsomiPrivateKey)
   @objc required public init(data: Foundation.Data) throws
   @objc required public init(reference: Security.SecKey) throws
   @objc required public init(base64Encoded base64String: Swift.String) throws
@@ -950,7 +945,7 @@ public class PublicKey : Key {
   @objc final public let isSuccessful: Swift.Bool
   @objc deinit
 }
-@objc(ClearMessage) public class _objc_ClearMessage : ObjectiveC.NSObject, Message {
+@objc(ClearMessage) public class _objc_ClearMessage : ObjectiveC.NSObject, AntsomiMessage {
   @objc public var base64String: Swift.String {
     @objc get
   }
@@ -967,7 +962,7 @@ public class PublicKey : Key {
   @objc public func verify(with key: _objc_PublicKey, signature: _objc_Signature, digestType: _objc_Signature.DigestType) throws -> _objc_VerificationResult
   @objc deinit
 }
-@objc(EncryptedMessage) public class _objc_EncryptedMessage : ObjectiveC.NSObject, Message {
+@objc(EncryptedMessage) public class _objc_EncryptedMessage : ObjectiveC.NSObject, AntsomiMessage {
   @objc public var base64String: Swift.String {
     @objc get
   }
@@ -999,15 +994,15 @@ public class PublicKey : Key {
   @objc public var data: Foundation.Data {
     @objc get
   }
-  required public init(swiftValue: Signature)
+  required public init(swiftValue: AntsomiSignature)
   @objc public init(data: Foundation.Data)
   @objc required public init(base64Encoded base64String: Swift.String) throws
   @objc deinit
 }
-public class EncryptedMessage : Message {
+public class EncryptedMessage : AntsomiMessage {
   final public let data: Foundation.Data
   required public init(data: Foundation.Data)
-  public func decrypted(with key: PrivateKey, padding: Padding) throws -> ClearMessage
+  public func decrypted(with key: AntsomiPrivateKey, padding: Padding) throws -> ClearMessage
   @objc deinit
 }
 @_inheritsConvenienceInitializers @objc public class PushTemplateBaseController : ObjectiveC.NSObject {
@@ -1589,8 +1584,8 @@ extension FoundationSecurityError : Swift.Equatable {}
 extension FoundationSecurityError : Swift.Hashable {}
 extension SocketParsableError : Swift.Equatable {}
 extension SocketParsableError : Swift.Hashable {}
-extension Signature.DigestType : Swift.Equatable {}
-extension Signature.DigestType : Swift.Hashable {}
+extension AntsomiSignature.DigestType : Swift.Equatable {}
+extension AntsomiSignature.DigestType : Swift.Hashable {}
 extension _objc_Signature.DigestType : Swift.Equatable {}
 extension _objc_Signature.DigestType : Swift.Hashable {}
 extension _objc_Signature.DigestType : Swift.RawRepresentable {}

@@ -20717,42 +20717,6 @@
       },
       {
         "kind": "Function",
-        "name": "AntsomiDebugLog",
-        "printedName": "AntsomiDebugLog(_:)",
-        "children": [
-          {
-            "kind": "TypeNominal",
-            "name": "Void",
-            "printedName": "()"
-          },
-          {
-            "kind": "TypeNominal",
-            "name": "UnsafePointer",
-            "printedName": "Swift.UnsafePointer<Swift.Int8>",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Int8",
-                "printedName": "Swift.Int8",
-                "usr": "s:s4Int8V"
-              }
-            ],
-            "usr": "s:SP"
-          }
-        ],
-        "declKind": "Func",
-        "usr": "c:(cm)AntsomiDebugLog:",
-        "mangledName": "$s16AntsomiFramework0A8DebugLogyySPys4Int8VGF",
-        "moduleName": "AntsomiFramework",
-        "declAttributes": [
-          "AccessControl",
-          "CDecl",
-          "RawDocComment"
-        ],
-        "funcSelfKind": "NonMutating"
-      },
-      {
-        "kind": "Function",
         "name": "AntsomiStoreLastNotificationJSON",
         "printedName": "AntsomiStoreLastNotificationJSON(_:)",
         "children": [
@@ -22858,84 +22822,6 @@
             "declKind": "Func",
             "usr": "c:@M@AntsomiFramework@objc(cs)Antsomi(im)storeLastNotification:",
             "mangledName": "$s16AntsomiFramework0A0C21storeLastNotificationyySDySSypGF",
-            "moduleName": "AntsomiFramework",
-            "declAttributes": [
-              "AccessControl",
-              "ObjC"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "debugPersistLog",
-            "printedName": "debugPersistLog(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@AntsomiFramework@objc(cs)Antsomi(im)debugPersistLog:",
-            "mangledName": "$s16AntsomiFramework0A0C15debugPersistLogyySSF",
-            "moduleName": "AntsomiFramework",
-            "declAttributes": [
-              "AccessControl",
-              "ObjC"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "getDebugLogs",
-            "printedName": "getDebugLogs()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[Swift.String]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sa"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@AntsomiFramework@objc(cs)Antsomi(im)getDebugLogs",
-            "mangledName": "$s16AntsomiFramework0A0C12getDebugLogsSaySSGyF",
-            "moduleName": "AntsomiFramework",
-            "declAttributes": [
-              "AccessControl",
-              "ObjC"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "clearDebugLogs",
-            "printedName": "clearDebugLogs()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@AntsomiFramework@objc(cs)Antsomi(im)clearDebugLogs",
-            "mangledName": "$s16AntsomiFramework0A0C14clearDebugLogsyyF",
             "moduleName": "AntsomiFramework",
             "declAttributes": [
               "AccessControl",
@@ -25090,8 +24976,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "PrivateKey",
-        "printedName": "PrivateKey",
+        "name": "AntsomiPrivateKey",
+        "printedName": "AntsomiPrivateKey",
         "children": [
           {
             "kind": "Var",
@@ -25106,8 +24992,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:16AntsomiFramework10PrivateKeyC9referenceSo03SecD3Refavp",
-            "mangledName": "$s16AntsomiFramework10PrivateKeyC9referenceSo03SecD3Refavp",
+            "usr": "s:16AntsomiFramework0A10PrivateKeyC9referenceSo03SecD3Refavp",
+            "mangledName": "$s16AntsomiFramework0A10PrivateKeyC9referenceSo03SecD3Refavp",
             "moduleName": "AntsomiFramework",
             "declAttributes": [
               "Final",
@@ -25131,8 +25017,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16AntsomiFramework10PrivateKeyC9referenceSo03SecD3Refavg",
-                "mangledName": "$s16AntsomiFramework10PrivateKeyC9referenceSo03SecD3Refavg",
+                "usr": "s:16AntsomiFramework0A10PrivateKeyC9referenceSo03SecD3Refavg",
+                "mangledName": "$s16AntsomiFramework0A10PrivateKeyC9referenceSo03SecD3Refavg",
                 "moduleName": "AntsomiFramework",
                 "implicit": true,
                 "declAttributes": [
@@ -25163,8 +25049,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:16AntsomiFramework10PrivateKeyC12originalData10Foundation0F0VSgvp",
-            "mangledName": "$s16AntsomiFramework10PrivateKeyC12originalData10Foundation0F0VSgvp",
+            "usr": "s:16AntsomiFramework0A10PrivateKeyC12originalData10Foundation0F0VSgvp",
+            "mangledName": "$s16AntsomiFramework0A10PrivateKeyC12originalData10Foundation0F0VSgvp",
             "moduleName": "AntsomiFramework",
             "declAttributes": [
               "Final",
@@ -25196,8 +25082,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16AntsomiFramework10PrivateKeyC12originalData10Foundation0F0VSgvg",
-                "mangledName": "$s16AntsomiFramework10PrivateKeyC12originalData10Foundation0F0VSgvg",
+                "usr": "s:16AntsomiFramework0A10PrivateKeyC12originalData10Foundation0F0VSgvg",
+                "mangledName": "$s16AntsomiFramework0A10PrivateKeyC12originalData10Foundation0F0VSgvg",
                 "moduleName": "AntsomiFramework",
                 "implicit": true,
                 "declAttributes": [
@@ -25220,8 +25106,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:16AntsomiFramework10PrivateKeyC9pemStringSSyKF",
-            "mangledName": "$s16AntsomiFramework10PrivateKeyC9pemStringSSyKF",
+            "usr": "s:16AntsomiFramework0A10PrivateKeyC9pemStringSSyKF",
+            "mangledName": "$s16AntsomiFramework0A10PrivateKeyC9pemStringSSyKF",
             "moduleName": "AntsomiFramework",
             "declAttributes": [
               "AccessControl",
@@ -25237,9 +25123,9 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "PrivateKey",
-                "printedName": "AntsomiFramework.PrivateKey",
-                "usr": "s:16AntsomiFramework10PrivateKeyC"
+                "name": "AntsomiPrivateKey",
+                "printedName": "AntsomiFramework.AntsomiPrivateKey",
+                "usr": "s:16AntsomiFramework0A10PrivateKeyC"
               },
               {
                 "kind": "TypeNominal",
@@ -25249,8 +25135,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:16AntsomiFramework10PrivateKeyC9referenceACSo03SecD3Refa_tKcfc",
-            "mangledName": "$s16AntsomiFramework10PrivateKeyC9referenceACSo03SecD3Refa_tKcfc",
+            "usr": "s:16AntsomiFramework0A10PrivateKeyC9referenceACSo03SecD3Refa_tKcfc",
+            "mangledName": "$s16AntsomiFramework0A10PrivateKeyC9referenceACSo03SecD3Refa_tKcfc",
             "moduleName": "AntsomiFramework",
             "declAttributes": [
               "Required",
@@ -25267,9 +25153,9 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "PrivateKey",
-                "printedName": "AntsomiFramework.PrivateKey",
-                "usr": "s:16AntsomiFramework10PrivateKeyC"
+                "name": "AntsomiPrivateKey",
+                "printedName": "AntsomiFramework.AntsomiPrivateKey",
+                "usr": "s:16AntsomiFramework0A10PrivateKeyC"
               },
               {
                 "kind": "TypeNominal",
@@ -25279,8 +25165,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:16AntsomiFramework10PrivateKeyC4dataAC10Foundation4DataV_tKcfc",
-            "mangledName": "$s16AntsomiFramework10PrivateKeyC4dataAC10Foundation4DataV_tKcfc",
+            "usr": "s:16AntsomiFramework0A10PrivateKeyC4dataAC10Foundation4DataV_tKcfc",
+            "mangledName": "$s16AntsomiFramework0A10PrivateKeyC4dataAC10Foundation4DataV_tKcfc",
             "moduleName": "AntsomiFramework",
             "declAttributes": [
               "AccessControl",
@@ -25292,8 +25178,8 @@
           }
         ],
         "declKind": "Class",
-        "usr": "s:16AntsomiFramework10PrivateKeyC",
-        "mangledName": "$s16AntsomiFramework10PrivateKeyC",
+        "usr": "s:16AntsomiFramework0A10PrivateKeyC",
+        "mangledName": "$s16AntsomiFramework0A10PrivateKeyC",
         "moduleName": "AntsomiFramework",
         "declAttributes": [
           "AccessControl"
@@ -25315,10 +25201,10 @@
           },
           {
             "kind": "Conformance",
-            "name": "Key",
-            "printedName": "Key",
-            "usr": "s:16AntsomiFramework3KeyP",
-            "mangledName": "$s16AntsomiFramework3KeyP"
+            "name": "AntsomiKey",
+            "printedName": "AntsomiKey",
+            "usr": "s:16AntsomiFramework0A3KeyP",
+            "mangledName": "$s16AntsomiFramework0A3KeyP"
           }
         ]
       },
@@ -25334,8 +25220,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "Signature",
-        "printedName": "Signature",
+        "name": "AntsomiSignature",
+        "printedName": "AntsomiSignature",
         "children": [
           {
             "kind": "TypeDecl",
@@ -25350,24 +25236,24 @@
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(AntsomiFramework.Signature.DigestType.Type) -> AntsomiFramework.Signature.DigestType",
+                    "printedName": "(AntsomiFramework.AntsomiSignature.DigestType.Type) -> AntsomiFramework.AntsomiSignature.DigestType",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "DigestType",
-                        "printedName": "AntsomiFramework.Signature.DigestType",
-                        "usr": "s:16AntsomiFramework9SignatureC10DigestTypeO"
+                        "printedName": "AntsomiFramework.AntsomiSignature.DigestType",
+                        "usr": "s:16AntsomiFramework0A9SignatureC10DigestTypeO"
                       },
                       {
                         "kind": "TypeNominal",
                         "name": "Metatype",
-                        "printedName": "AntsomiFramework.Signature.DigestType.Type",
+                        "printedName": "AntsomiFramework.AntsomiSignature.DigestType.Type",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "DigestType",
-                            "printedName": "AntsomiFramework.Signature.DigestType",
-                            "usr": "s:16AntsomiFramework9SignatureC10DigestTypeO"
+                            "printedName": "AntsomiFramework.AntsomiSignature.DigestType",
+                            "usr": "s:16AntsomiFramework0A9SignatureC10DigestTypeO"
                           }
                         ]
                       }
@@ -25375,8 +25261,8 @@
                   }
                 ],
                 "declKind": "EnumElement",
-                "usr": "s:16AntsomiFramework9SignatureC10DigestTypeO4sha1yA2EmF",
-                "mangledName": "$s16AntsomiFramework9SignatureC10DigestTypeO4sha1yA2EmF",
+                "usr": "s:16AntsomiFramework0A9SignatureC10DigestTypeO4sha1yA2EmF",
+                "mangledName": "$s16AntsomiFramework0A9SignatureC10DigestTypeO4sha1yA2EmF",
                 "moduleName": "AntsomiFramework"
               },
               {
@@ -25387,24 +25273,24 @@
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(AntsomiFramework.Signature.DigestType.Type) -> AntsomiFramework.Signature.DigestType",
+                    "printedName": "(AntsomiFramework.AntsomiSignature.DigestType.Type) -> AntsomiFramework.AntsomiSignature.DigestType",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "DigestType",
-                        "printedName": "AntsomiFramework.Signature.DigestType",
-                        "usr": "s:16AntsomiFramework9SignatureC10DigestTypeO"
+                        "printedName": "AntsomiFramework.AntsomiSignature.DigestType",
+                        "usr": "s:16AntsomiFramework0A9SignatureC10DigestTypeO"
                       },
                       {
                         "kind": "TypeNominal",
                         "name": "Metatype",
-                        "printedName": "AntsomiFramework.Signature.DigestType.Type",
+                        "printedName": "AntsomiFramework.AntsomiSignature.DigestType.Type",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "DigestType",
-                            "printedName": "AntsomiFramework.Signature.DigestType",
-                            "usr": "s:16AntsomiFramework9SignatureC10DigestTypeO"
+                            "printedName": "AntsomiFramework.AntsomiSignature.DigestType",
+                            "usr": "s:16AntsomiFramework0A9SignatureC10DigestTypeO"
                           }
                         ]
                       }
@@ -25412,8 +25298,8 @@
                   }
                 ],
                 "declKind": "EnumElement",
-                "usr": "s:16AntsomiFramework9SignatureC10DigestTypeO6sha224yA2EmF",
-                "mangledName": "$s16AntsomiFramework9SignatureC10DigestTypeO6sha224yA2EmF",
+                "usr": "s:16AntsomiFramework0A9SignatureC10DigestTypeO6sha224yA2EmF",
+                "mangledName": "$s16AntsomiFramework0A9SignatureC10DigestTypeO6sha224yA2EmF",
                 "moduleName": "AntsomiFramework"
               },
               {
@@ -25424,24 +25310,24 @@
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(AntsomiFramework.Signature.DigestType.Type) -> AntsomiFramework.Signature.DigestType",
+                    "printedName": "(AntsomiFramework.AntsomiSignature.DigestType.Type) -> AntsomiFramework.AntsomiSignature.DigestType",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "DigestType",
-                        "printedName": "AntsomiFramework.Signature.DigestType",
-                        "usr": "s:16AntsomiFramework9SignatureC10DigestTypeO"
+                        "printedName": "AntsomiFramework.AntsomiSignature.DigestType",
+                        "usr": "s:16AntsomiFramework0A9SignatureC10DigestTypeO"
                       },
                       {
                         "kind": "TypeNominal",
                         "name": "Metatype",
-                        "printedName": "AntsomiFramework.Signature.DigestType.Type",
+                        "printedName": "AntsomiFramework.AntsomiSignature.DigestType.Type",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "DigestType",
-                            "printedName": "AntsomiFramework.Signature.DigestType",
-                            "usr": "s:16AntsomiFramework9SignatureC10DigestTypeO"
+                            "printedName": "AntsomiFramework.AntsomiSignature.DigestType",
+                            "usr": "s:16AntsomiFramework0A9SignatureC10DigestTypeO"
                           }
                         ]
                       }
@@ -25449,8 +25335,8 @@
                   }
                 ],
                 "declKind": "EnumElement",
-                "usr": "s:16AntsomiFramework9SignatureC10DigestTypeO6sha256yA2EmF",
-                "mangledName": "$s16AntsomiFramework9SignatureC10DigestTypeO6sha256yA2EmF",
+                "usr": "s:16AntsomiFramework0A9SignatureC10DigestTypeO6sha256yA2EmF",
+                "mangledName": "$s16AntsomiFramework0A9SignatureC10DigestTypeO6sha256yA2EmF",
                 "moduleName": "AntsomiFramework"
               },
               {
@@ -25461,24 +25347,24 @@
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(AntsomiFramework.Signature.DigestType.Type) -> AntsomiFramework.Signature.DigestType",
+                    "printedName": "(AntsomiFramework.AntsomiSignature.DigestType.Type) -> AntsomiFramework.AntsomiSignature.DigestType",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "DigestType",
-                        "printedName": "AntsomiFramework.Signature.DigestType",
-                        "usr": "s:16AntsomiFramework9SignatureC10DigestTypeO"
+                        "printedName": "AntsomiFramework.AntsomiSignature.DigestType",
+                        "usr": "s:16AntsomiFramework0A9SignatureC10DigestTypeO"
                       },
                       {
                         "kind": "TypeNominal",
                         "name": "Metatype",
-                        "printedName": "AntsomiFramework.Signature.DigestType.Type",
+                        "printedName": "AntsomiFramework.AntsomiSignature.DigestType.Type",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "DigestType",
-                            "printedName": "AntsomiFramework.Signature.DigestType",
-                            "usr": "s:16AntsomiFramework9SignatureC10DigestTypeO"
+                            "printedName": "AntsomiFramework.AntsomiSignature.DigestType",
+                            "usr": "s:16AntsomiFramework0A9SignatureC10DigestTypeO"
                           }
                         ]
                       }
@@ -25486,8 +25372,8 @@
                   }
                 ],
                 "declKind": "EnumElement",
-                "usr": "s:16AntsomiFramework9SignatureC10DigestTypeO6sha384yA2EmF",
-                "mangledName": "$s16AntsomiFramework9SignatureC10DigestTypeO6sha384yA2EmF",
+                "usr": "s:16AntsomiFramework0A9SignatureC10DigestTypeO6sha384yA2EmF",
+                "mangledName": "$s16AntsomiFramework0A9SignatureC10DigestTypeO6sha384yA2EmF",
                 "moduleName": "AntsomiFramework"
               },
               {
@@ -25498,24 +25384,24 @@
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(AntsomiFramework.Signature.DigestType.Type) -> AntsomiFramework.Signature.DigestType",
+                    "printedName": "(AntsomiFramework.AntsomiSignature.DigestType.Type) -> AntsomiFramework.AntsomiSignature.DigestType",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "DigestType",
-                        "printedName": "AntsomiFramework.Signature.DigestType",
-                        "usr": "s:16AntsomiFramework9SignatureC10DigestTypeO"
+                        "printedName": "AntsomiFramework.AntsomiSignature.DigestType",
+                        "usr": "s:16AntsomiFramework0A9SignatureC10DigestTypeO"
                       },
                       {
                         "kind": "TypeNominal",
                         "name": "Metatype",
-                        "printedName": "AntsomiFramework.Signature.DigestType.Type",
+                        "printedName": "AntsomiFramework.AntsomiSignature.DigestType.Type",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "DigestType",
-                            "printedName": "AntsomiFramework.Signature.DigestType",
-                            "usr": "s:16AntsomiFramework9SignatureC10DigestTypeO"
+                            "printedName": "AntsomiFramework.AntsomiSignature.DigestType",
+                            "usr": "s:16AntsomiFramework0A9SignatureC10DigestTypeO"
                           }
                         ]
                       }
@@ -25523,8 +25409,8 @@
                   }
                 ],
                 "declKind": "EnumElement",
-                "usr": "s:16AntsomiFramework9SignatureC10DigestTypeO6sha512yA2EmF",
-                "mangledName": "$s16AntsomiFramework9SignatureC10DigestTypeO6sha512yA2EmF",
+                "usr": "s:16AntsomiFramework0A9SignatureC10DigestTypeO6sha512yA2EmF",
+                "mangledName": "$s16AntsomiFramework0A9SignatureC10DigestTypeO6sha512yA2EmF",
                 "moduleName": "AntsomiFramework"
               },
               {
@@ -25541,19 +25427,19 @@
                   {
                     "kind": "TypeNominal",
                     "name": "DigestType",
-                    "printedName": "AntsomiFramework.Signature.DigestType",
-                    "usr": "s:16AntsomiFramework9SignatureC10DigestTypeO"
+                    "printedName": "AntsomiFramework.AntsomiSignature.DigestType",
+                    "usr": "s:16AntsomiFramework0A9SignatureC10DigestTypeO"
                   },
                   {
                     "kind": "TypeNominal",
                     "name": "DigestType",
-                    "printedName": "AntsomiFramework.Signature.DigestType",
-                    "usr": "s:16AntsomiFramework9SignatureC10DigestTypeO"
+                    "printedName": "AntsomiFramework.AntsomiSignature.DigestType",
+                    "usr": "s:16AntsomiFramework0A9SignatureC10DigestTypeO"
                   }
                 ],
                 "declKind": "Func",
-                "usr": "s:16AntsomiFramework9SignatureC10DigestTypeO2eeoiySbAE_AEtFZ",
-                "mangledName": "$s16AntsomiFramework9SignatureC10DigestTypeO2eeoiySbAE_AEtFZ",
+                "usr": "s:16AntsomiFramework0A9SignatureC10DigestTypeO2eeoiySbAE_AEtFZ",
+                "mangledName": "$s16AntsomiFramework0A9SignatureC10DigestTypeO2eeoiySbAE_AEtFZ",
                 "moduleName": "AntsomiFramework",
                 "static": true,
                 "implicit": true,
@@ -25572,8 +25458,8 @@
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:16AntsomiFramework9SignatureC10DigestTypeO9hashValueSivp",
-                "mangledName": "$s16AntsomiFramework9SignatureC10DigestTypeO9hashValueSivp",
+                "usr": "s:16AntsomiFramework0A9SignatureC10DigestTypeO9hashValueSivp",
+                "mangledName": "$s16AntsomiFramework0A9SignatureC10DigestTypeO9hashValueSivp",
                 "moduleName": "AntsomiFramework",
                 "implicit": true,
                 "accessors": [
@@ -25590,8 +25476,8 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:16AntsomiFramework9SignatureC10DigestTypeO9hashValueSivg",
-                    "mangledName": "$s16AntsomiFramework9SignatureC10DigestTypeO9hashValueSivg",
+                    "usr": "s:16AntsomiFramework0A9SignatureC10DigestTypeO9hashValueSivg",
+                    "mangledName": "$s16AntsomiFramework0A9SignatureC10DigestTypeO9hashValueSivg",
                     "moduleName": "AntsomiFramework",
                     "implicit": true,
                     "accessorKind": "get"
@@ -25617,16 +25503,16 @@
                   }
                 ],
                 "declKind": "Func",
-                "usr": "s:16AntsomiFramework9SignatureC10DigestTypeO4hash4intoys6HasherVz_tF",
-                "mangledName": "$s16AntsomiFramework9SignatureC10DigestTypeO4hash4intoys6HasherVz_tF",
+                "usr": "s:16AntsomiFramework0A9SignatureC10DigestTypeO4hash4intoys6HasherVz_tF",
+                "mangledName": "$s16AntsomiFramework0A9SignatureC10DigestTypeO4hash4intoys6HasherVz_tF",
                 "moduleName": "AntsomiFramework",
                 "implicit": true,
                 "funcSelfKind": "NonMutating"
               }
             ],
             "declKind": "Enum",
-            "usr": "s:16AntsomiFramework9SignatureC10DigestTypeO",
-            "mangledName": "$s16AntsomiFramework9SignatureC10DigestTypeO",
+            "usr": "s:16AntsomiFramework0A9SignatureC10DigestTypeO",
+            "mangledName": "$s16AntsomiFramework0A9SignatureC10DigestTypeO",
             "moduleName": "AntsomiFramework",
             "declAttributes": [
               "AccessControl"
@@ -25675,8 +25561,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:16AntsomiFramework9SignatureC4data10Foundation4DataVvp",
-            "mangledName": "$s16AntsomiFramework9SignatureC4data10Foundation4DataVvp",
+            "usr": "s:16AntsomiFramework0A9SignatureC4data10Foundation4DataVvp",
+            "mangledName": "$s16AntsomiFramework0A9SignatureC4data10Foundation4DataVvp",
             "moduleName": "AntsomiFramework",
             "declAttributes": [
               "Final",
@@ -25700,8 +25586,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16AntsomiFramework9SignatureC4data10Foundation4DataVvg",
-                "mangledName": "$s16AntsomiFramework9SignatureC4data10Foundation4DataVvg",
+                "usr": "s:16AntsomiFramework0A9SignatureC4data10Foundation4DataVvg",
+                "mangledName": "$s16AntsomiFramework0A9SignatureC4data10Foundation4DataVvg",
                 "moduleName": "AntsomiFramework",
                 "implicit": true,
                 "declAttributes": [
@@ -25718,9 +25604,9 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Signature",
-                "printedName": "AntsomiFramework.Signature",
-                "usr": "s:16AntsomiFramework9SignatureC"
+                "name": "AntsomiSignature",
+                "printedName": "AntsomiFramework.AntsomiSignature",
+                "usr": "s:16AntsomiFramework0A9SignatureC"
               },
               {
                 "kind": "TypeNominal",
@@ -25730,8 +25616,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:16AntsomiFramework9SignatureC4dataAC10Foundation4DataV_tcfc",
-            "mangledName": "$s16AntsomiFramework9SignatureC4dataAC10Foundation4DataV_tcfc",
+            "usr": "s:16AntsomiFramework0A9SignatureC4dataAC10Foundation4DataV_tcfc",
+            "mangledName": "$s16AntsomiFramework0A9SignatureC4dataAC10Foundation4DataV_tcfc",
             "moduleName": "AntsomiFramework",
             "declAttributes": [
               "AccessControl",
@@ -25746,9 +25632,9 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Signature",
-                "printedName": "AntsomiFramework.Signature",
-                "usr": "s:16AntsomiFramework9SignatureC"
+                "name": "AntsomiSignature",
+                "printedName": "AntsomiFramework.AntsomiSignature",
+                "usr": "s:16AntsomiFramework0A9SignatureC"
               },
               {
                 "kind": "TypeNominal",
@@ -25758,8 +25644,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:16AntsomiFramework9SignatureC13base64EncodedACSS_tKcfc",
-            "mangledName": "$s16AntsomiFramework9SignatureC13base64EncodedACSS_tKcfc",
+            "usr": "s:16AntsomiFramework0A9SignatureC13base64EncodedACSS_tKcfc",
+            "mangledName": "$s16AntsomiFramework0A9SignatureC13base64EncodedACSS_tKcfc",
             "moduleName": "AntsomiFramework",
             "declAttributes": [
               "Convenience",
@@ -25782,8 +25668,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:16AntsomiFramework9SignatureC12base64StringSSvp",
-            "mangledName": "$s16AntsomiFramework9SignatureC12base64StringSSvp",
+            "usr": "s:16AntsomiFramework0A9SignatureC12base64StringSSvp",
+            "mangledName": "$s16AntsomiFramework0A9SignatureC12base64StringSSvp",
             "moduleName": "AntsomiFramework",
             "declAttributes": [
               "AccessControl",
@@ -25803,8 +25689,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16AntsomiFramework9SignatureC12base64StringSSvg",
-                "mangledName": "$s16AntsomiFramework9SignatureC12base64StringSSvg",
+                "usr": "s:16AntsomiFramework0A9SignatureC12base64StringSSvg",
+                "mangledName": "$s16AntsomiFramework0A9SignatureC12base64StringSSvg",
                 "moduleName": "AntsomiFramework",
                 "accessorKind": "get"
               }
@@ -25812,8 +25698,8 @@
           }
         ],
         "declKind": "Class",
-        "usr": "s:16AntsomiFramework9SignatureC",
-        "mangledName": "$s16AntsomiFramework9SignatureC",
+        "usr": "s:16AntsomiFramework0A9SignatureC",
+        "mangledName": "$s16AntsomiFramework0A9SignatureC",
         "moduleName": "AntsomiFramework",
         "declAttributes": [
           "AccessControl"
@@ -25854,8 +25740,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "Key",
-        "printedName": "Key",
+        "name": "AntsomiKey",
+        "printedName": "AntsomiKey",
         "children": [
           {
             "kind": "Var",
@@ -25870,8 +25756,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:16AntsomiFramework3KeyP9referenceSo03SecC3Refavp",
-            "mangledName": "$s16AntsomiFramework3KeyP9referenceSo03SecC3Refavp",
+            "usr": "s:16AntsomiFramework0A3KeyP9referenceSo03SecC3Refavp",
+            "mangledName": "$s16AntsomiFramework0A3KeyP9referenceSo03SecC3Refavp",
             "moduleName": "AntsomiFramework",
             "protocolReq": true,
             "accessors": [
@@ -25888,11 +25774,11 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16AntsomiFramework3KeyP9referenceSo03SecC3Refavg",
-                "mangledName": "$s16AntsomiFramework3KeyP9referenceSo03SecC3Refavg",
+                "usr": "s:16AntsomiFramework0A3KeyP9referenceSo03SecC3Refavg",
+                "mangledName": "$s16AntsomiFramework0A3KeyP9referenceSo03SecC3Refavg",
                 "moduleName": "AntsomiFramework",
-                "genericSig": "<τ_0_0 where τ_0_0 : AntsomiFramework.Key>",
-                "sugared_genericSig": "<Self where Self : AntsomiFramework.Key>",
+                "genericSig": "<τ_0_0 where τ_0_0 : AntsomiFramework.AntsomiKey>",
+                "sugared_genericSig": "<Self where Self : AntsomiFramework.AntsomiKey>",
                 "protocolReq": true,
                 "reqNewWitnessTableEntry": true,
                 "accessorKind": "get"
@@ -25920,8 +25806,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:16AntsomiFramework3KeyP12originalData10Foundation0E0VSgvp",
-            "mangledName": "$s16AntsomiFramework3KeyP12originalData10Foundation0E0VSgvp",
+            "usr": "s:16AntsomiFramework0A3KeyP12originalData10Foundation0E0VSgvp",
+            "mangledName": "$s16AntsomiFramework0A3KeyP12originalData10Foundation0E0VSgvp",
             "moduleName": "AntsomiFramework",
             "protocolReq": true,
             "accessors": [
@@ -25946,11 +25832,11 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16AntsomiFramework3KeyP12originalData10Foundation0E0VSgvg",
-                "mangledName": "$s16AntsomiFramework3KeyP12originalData10Foundation0E0VSgvg",
+                "usr": "s:16AntsomiFramework0A3KeyP12originalData10Foundation0E0VSgvg",
+                "mangledName": "$s16AntsomiFramework0A3KeyP12originalData10Foundation0E0VSgvg",
                 "moduleName": "AntsomiFramework",
-                "genericSig": "<τ_0_0 where τ_0_0 : AntsomiFramework.Key>",
-                "sugared_genericSig": "<Self where Self : AntsomiFramework.Key>",
+                "genericSig": "<τ_0_0 where τ_0_0 : AntsomiFramework.AntsomiKey>",
+                "sugared_genericSig": "<Self where Self : AntsomiFramework.AntsomiKey>",
                 "protocolReq": true,
                 "reqNewWitnessTableEntry": true,
                 "accessorKind": "get"
@@ -25975,11 +25861,11 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:16AntsomiFramework3KeyP4datax10Foundation4DataV_tKcfc",
-            "mangledName": "$s16AntsomiFramework3KeyP4datax10Foundation4DataV_tKcfc",
+            "usr": "s:16AntsomiFramework0A3KeyP4datax10Foundation4DataV_tKcfc",
+            "mangledName": "$s16AntsomiFramework0A3KeyP4datax10Foundation4DataV_tKcfc",
             "moduleName": "AntsomiFramework",
-            "genericSig": "<τ_0_0 where τ_0_0 : AntsomiFramework.Key>",
-            "sugared_genericSig": "<Self where Self : AntsomiFramework.Key>",
+            "genericSig": "<τ_0_0 where τ_0_0 : AntsomiFramework.AntsomiKey>",
+            "sugared_genericSig": "<Self where Self : AntsomiFramework.AntsomiKey>",
             "protocolReq": true,
             "throwing": true,
             "reqNewWitnessTableEntry": true,
@@ -26003,11 +25889,11 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:16AntsomiFramework3KeyP9referencexSo03SecC3Refa_tKcfc",
-            "mangledName": "$s16AntsomiFramework3KeyP9referencexSo03SecC3Refa_tKcfc",
+            "usr": "s:16AntsomiFramework0A3KeyP9referencexSo03SecC3Refa_tKcfc",
+            "mangledName": "$s16AntsomiFramework0A3KeyP9referencexSo03SecC3Refa_tKcfc",
             "moduleName": "AntsomiFramework",
-            "genericSig": "<τ_0_0 where τ_0_0 : AntsomiFramework.Key>",
-            "sugared_genericSig": "<Self where Self : AntsomiFramework.Key>",
+            "genericSig": "<τ_0_0 where τ_0_0 : AntsomiFramework.AntsomiKey>",
+            "sugared_genericSig": "<Self where Self : AntsomiFramework.AntsomiKey>",
             "protocolReq": true,
             "throwing": true,
             "reqNewWitnessTableEntry": true,
@@ -26031,11 +25917,11 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:16AntsomiFramework3KeyP13base64EncodedxSS_tKcfc",
-            "mangledName": "$s16AntsomiFramework3KeyP13base64EncodedxSS_tKcfc",
+            "usr": "s:16AntsomiFramework0A3KeyP13base64EncodedxSS_tKcfc",
+            "mangledName": "$s16AntsomiFramework0A3KeyP13base64EncodedxSS_tKcfc",
             "moduleName": "AntsomiFramework",
-            "genericSig": "<τ_0_0 where τ_0_0 : AntsomiFramework.Key>",
-            "sugared_genericSig": "<Self where Self : AntsomiFramework.Key>",
+            "genericSig": "<τ_0_0 where τ_0_0 : AntsomiFramework.AntsomiKey>",
+            "sugared_genericSig": "<Self where Self : AntsomiFramework.AntsomiKey>",
             "protocolReq": true,
             "throwing": true,
             "reqNewWitnessTableEntry": true,
@@ -26059,11 +25945,11 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:16AntsomiFramework3KeyP10pemEncodedxSS_tKcfc",
-            "mangledName": "$s16AntsomiFramework3KeyP10pemEncodedxSS_tKcfc",
+            "usr": "s:16AntsomiFramework0A3KeyP10pemEncodedxSS_tKcfc",
+            "mangledName": "$s16AntsomiFramework0A3KeyP10pemEncodedxSS_tKcfc",
             "moduleName": "AntsomiFramework",
-            "genericSig": "<τ_0_0 where τ_0_0 : AntsomiFramework.Key>",
-            "sugared_genericSig": "<Self where Self : AntsomiFramework.Key>",
+            "genericSig": "<τ_0_0 where τ_0_0 : AntsomiFramework.AntsomiKey>",
+            "sugared_genericSig": "<Self where Self : AntsomiFramework.AntsomiKey>",
             "protocolReq": true,
             "throwing": true,
             "reqNewWitnessTableEntry": true,
@@ -26093,11 +25979,11 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:16AntsomiFramework3KeyP8pemNamed2inxSS_So8NSBundleCtKcfc",
-            "mangledName": "$s16AntsomiFramework3KeyP8pemNamed2inxSS_So8NSBundleCtKcfc",
+            "usr": "s:16AntsomiFramework0A3KeyP8pemNamed2inxSS_So8NSBundleCtKcfc",
+            "mangledName": "$s16AntsomiFramework0A3KeyP8pemNamed2inxSS_So8NSBundleCtKcfc",
             "moduleName": "AntsomiFramework",
-            "genericSig": "<τ_0_0 where τ_0_0 : AntsomiFramework.Key>",
-            "sugared_genericSig": "<Self where Self : AntsomiFramework.Key>",
+            "genericSig": "<τ_0_0 where τ_0_0 : AntsomiFramework.AntsomiKey>",
+            "sugared_genericSig": "<Self where Self : AntsomiFramework.AntsomiKey>",
             "protocolReq": true,
             "throwing": true,
             "reqNewWitnessTableEntry": true,
@@ -26127,11 +26013,11 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:16AntsomiFramework3KeyP8derNamed2inxSS_So8NSBundleCtKcfc",
-            "mangledName": "$s16AntsomiFramework3KeyP8derNamed2inxSS_So8NSBundleCtKcfc",
+            "usr": "s:16AntsomiFramework0A3KeyP8derNamed2inxSS_So8NSBundleCtKcfc",
+            "mangledName": "$s16AntsomiFramework0A3KeyP8derNamed2inxSS_So8NSBundleCtKcfc",
             "moduleName": "AntsomiFramework",
-            "genericSig": "<τ_0_0 where τ_0_0 : AntsomiFramework.Key>",
-            "sugared_genericSig": "<Self where Self : AntsomiFramework.Key>",
+            "genericSig": "<τ_0_0 where τ_0_0 : AntsomiFramework.AntsomiKey>",
+            "sugared_genericSig": "<Self where Self : AntsomiFramework.AntsomiKey>",
             "protocolReq": true,
             "throwing": true,
             "reqNewWitnessTableEntry": true,
@@ -26150,11 +26036,11 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:16AntsomiFramework3KeyP9pemStringSSyKF",
-            "mangledName": "$s16AntsomiFramework3KeyP9pemStringSSyKF",
+            "usr": "s:16AntsomiFramework0A3KeyP9pemStringSSyKF",
+            "mangledName": "$s16AntsomiFramework0A3KeyP9pemStringSSyKF",
             "moduleName": "AntsomiFramework",
-            "genericSig": "<τ_0_0 where τ_0_0 : AntsomiFramework.Key>",
-            "sugared_genericSig": "<Self where Self : AntsomiFramework.Key>",
+            "genericSig": "<τ_0_0 where τ_0_0 : AntsomiFramework.AntsomiKey>",
+            "sugared_genericSig": "<Self where Self : AntsomiFramework.AntsomiKey>",
             "protocolReq": true,
             "throwing": true,
             "reqNewWitnessTableEntry": true,
@@ -26173,11 +26059,11 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:16AntsomiFramework3KeyP4data10Foundation4DataVyKF",
-            "mangledName": "$s16AntsomiFramework3KeyP4data10Foundation4DataVyKF",
+            "usr": "s:16AntsomiFramework0A3KeyP4data10Foundation4DataVyKF",
+            "mangledName": "$s16AntsomiFramework0A3KeyP4data10Foundation4DataVyKF",
             "moduleName": "AntsomiFramework",
-            "genericSig": "<τ_0_0 where τ_0_0 : AntsomiFramework.Key>",
-            "sugared_genericSig": "<Self where Self : AntsomiFramework.Key>",
+            "genericSig": "<τ_0_0 where τ_0_0 : AntsomiFramework.AntsomiKey>",
+            "sugared_genericSig": "<Self where Self : AntsomiFramework.AntsomiKey>",
             "protocolReq": true,
             "throwing": true,
             "reqNewWitnessTableEntry": true,
@@ -26196,11 +26082,11 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:16AntsomiFramework3KeyP12base64StringSSyKF",
-            "mangledName": "$s16AntsomiFramework3KeyP12base64StringSSyKF",
+            "usr": "s:16AntsomiFramework0A3KeyP12base64StringSSyKF",
+            "mangledName": "$s16AntsomiFramework0A3KeyP12base64StringSSyKF",
             "moduleName": "AntsomiFramework",
-            "genericSig": "<τ_0_0 where τ_0_0 : AntsomiFramework.Key>",
-            "sugared_genericSig": "<Self where Self : AntsomiFramework.Key>",
+            "genericSig": "<τ_0_0 where τ_0_0 : AntsomiFramework.AntsomiKey>",
+            "sugared_genericSig": "<Self where Self : AntsomiFramework.AntsomiKey>",
             "protocolReq": true,
             "throwing": true,
             "reqNewWitnessTableEntry": true,
@@ -26219,11 +26105,11 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:16AntsomiFramework3KeyPAAE12base64StringSSyKF",
-            "mangledName": "$s16AntsomiFramework3KeyPAAE12base64StringSSyKF",
+            "usr": "s:16AntsomiFramework0A3KeyPAAE12base64StringSSyKF",
+            "mangledName": "$s16AntsomiFramework0A3KeyPAAE12base64StringSSyKF",
             "moduleName": "AntsomiFramework",
-            "genericSig": "<τ_0_0 where τ_0_0 : AntsomiFramework.Key>",
-            "sugared_genericSig": "<Self where Self : AntsomiFramework.Key>",
+            "genericSig": "<τ_0_0 where τ_0_0 : AntsomiFramework.AntsomiKey>",
+            "sugared_genericSig": "<Self where Self : AntsomiFramework.AntsomiKey>",
             "declAttributes": [
               "RawDocComment"
             ],
@@ -26244,11 +26130,11 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:16AntsomiFramework3KeyPAAE4data10Foundation4DataVyKF",
-            "mangledName": "$s16AntsomiFramework3KeyPAAE4data10Foundation4DataVyKF",
+            "usr": "s:16AntsomiFramework0A3KeyPAAE4data10Foundation4DataVyKF",
+            "mangledName": "$s16AntsomiFramework0A3KeyPAAE4data10Foundation4DataVyKF",
             "moduleName": "AntsomiFramework",
-            "genericSig": "<τ_0_0 where τ_0_0 : AntsomiFramework.Key>",
-            "sugared_genericSig": "<Self where Self : AntsomiFramework.Key>",
+            "genericSig": "<τ_0_0 where τ_0_0 : AntsomiFramework.AntsomiKey>",
+            "sugared_genericSig": "<Self where Self : AntsomiFramework.AntsomiKey>",
             "isFromExtension": true,
             "throwing": true,
             "funcSelfKind": "NonMutating"
@@ -26271,11 +26157,11 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:16AntsomiFramework3KeyPAAE13base64EncodedxSS_tKcfc",
-            "mangledName": "$s16AntsomiFramework3KeyPAAE13base64EncodedxSS_tKcfc",
+            "usr": "s:16AntsomiFramework0A3KeyPAAE13base64EncodedxSS_tKcfc",
+            "mangledName": "$s16AntsomiFramework0A3KeyPAAE13base64EncodedxSS_tKcfc",
             "moduleName": "AntsomiFramework",
-            "genericSig": "<τ_0_0 where τ_0_0 : AntsomiFramework.Key>",
-            "sugared_genericSig": "<Self where Self : AntsomiFramework.Key>",
+            "genericSig": "<τ_0_0 where τ_0_0 : AntsomiFramework.AntsomiKey>",
+            "sugared_genericSig": "<Self where Self : AntsomiFramework.AntsomiKey>",
             "declAttributes": [
               "RawDocComment"
             ],
@@ -26301,11 +26187,11 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:16AntsomiFramework3KeyPAAE10pemEncodedxSS_tKcfc",
-            "mangledName": "$s16AntsomiFramework3KeyPAAE10pemEncodedxSS_tKcfc",
+            "usr": "s:16AntsomiFramework0A3KeyPAAE10pemEncodedxSS_tKcfc",
+            "mangledName": "$s16AntsomiFramework0A3KeyPAAE10pemEncodedxSS_tKcfc",
             "moduleName": "AntsomiFramework",
-            "genericSig": "<τ_0_0 where τ_0_0 : AntsomiFramework.Key>",
-            "sugared_genericSig": "<Self where Self : AntsomiFramework.Key>",
+            "genericSig": "<τ_0_0 where τ_0_0 : AntsomiFramework.AntsomiKey>",
+            "sugared_genericSig": "<Self where Self : AntsomiFramework.AntsomiKey>",
             "declAttributes": [
               "RawDocComment"
             ],
@@ -26338,11 +26224,11 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:16AntsomiFramework3KeyPAAE8pemNamed2inxSS_So8NSBundleCtKcfc",
-            "mangledName": "$s16AntsomiFramework3KeyPAAE8pemNamed2inxSS_So8NSBundleCtKcfc",
+            "usr": "s:16AntsomiFramework0A3KeyPAAE8pemNamed2inxSS_So8NSBundleCtKcfc",
+            "mangledName": "$s16AntsomiFramework0A3KeyPAAE8pemNamed2inxSS_So8NSBundleCtKcfc",
             "moduleName": "AntsomiFramework",
-            "genericSig": "<τ_0_0 where τ_0_0 : AntsomiFramework.Key>",
-            "sugared_genericSig": "<Self where Self : AntsomiFramework.Key>",
+            "genericSig": "<τ_0_0 where τ_0_0 : AntsomiFramework.AntsomiKey>",
+            "sugared_genericSig": "<Self where Self : AntsomiFramework.AntsomiKey>",
             "declAttributes": [
               "RawDocComment"
             ],
@@ -26375,11 +26261,11 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:16AntsomiFramework3KeyPAAE8derNamed2inxSS_So8NSBundleCtKcfc",
-            "mangledName": "$s16AntsomiFramework3KeyPAAE8derNamed2inxSS_So8NSBundleCtKcfc",
+            "usr": "s:16AntsomiFramework0A3KeyPAAE8derNamed2inxSS_So8NSBundleCtKcfc",
+            "mangledName": "$s16AntsomiFramework0A3KeyPAAE8derNamed2inxSS_So8NSBundleCtKcfc",
             "moduleName": "AntsomiFramework",
-            "genericSig": "<τ_0_0 where τ_0_0 : AntsomiFramework.Key>",
-            "sugared_genericSig": "<Self where Self : AntsomiFramework.Key>",
+            "genericSig": "<τ_0_0 where τ_0_0 : AntsomiFramework.AntsomiKey>",
+            "sugared_genericSig": "<Self where Self : AntsomiFramework.AntsomiKey>",
             "declAttributes": [
               "RawDocComment"
             ],
@@ -26389,8 +26275,8 @@
           }
         ],
         "declKind": "Protocol",
-        "usr": "s:16AntsomiFramework3KeyP",
-        "mangledName": "$s16AntsomiFramework3KeyP",
+        "usr": "s:16AntsomiFramework0A3KeyP",
+        "mangledName": "$s16AntsomiFramework0A3KeyP",
         "moduleName": "AntsomiFramework",
         "genericSig": "<τ_0_0 : AnyObject>",
         "sugared_genericSig": "<Self : AnyObject>",
@@ -27666,8 +27552,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "Message",
-        "printedName": "Message",
+        "name": "AntsomiMessage",
+        "printedName": "AntsomiMessage",
         "children": [
           {
             "kind": "Var",
@@ -27682,8 +27568,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:16AntsomiFramework7MessageP4data10Foundation4DataVvp",
-            "mangledName": "$s16AntsomiFramework7MessageP4data10Foundation4DataVvp",
+            "usr": "s:16AntsomiFramework0A7MessageP4data10Foundation4DataVvp",
+            "mangledName": "$s16AntsomiFramework0A7MessageP4data10Foundation4DataVvp",
             "moduleName": "AntsomiFramework",
             "protocolReq": true,
             "accessors": [
@@ -27700,11 +27586,11 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16AntsomiFramework7MessageP4data10Foundation4DataVvg",
-                "mangledName": "$s16AntsomiFramework7MessageP4data10Foundation4DataVvg",
+                "usr": "s:16AntsomiFramework0A7MessageP4data10Foundation4DataVvg",
+                "mangledName": "$s16AntsomiFramework0A7MessageP4data10Foundation4DataVvg",
                 "moduleName": "AntsomiFramework",
-                "genericSig": "<τ_0_0 where τ_0_0 : AntsomiFramework.Message>",
-                "sugared_genericSig": "<Self where Self : AntsomiFramework.Message>",
+                "genericSig": "<τ_0_0 where τ_0_0 : AntsomiFramework.AntsomiMessage>",
+                "sugared_genericSig": "<Self where Self : AntsomiFramework.AntsomiMessage>",
                 "protocolReq": true,
                 "reqNewWitnessTableEntry": true,
                 "accessorKind": "get"
@@ -27724,8 +27610,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:16AntsomiFramework7MessageP12base64StringSSvp",
-            "mangledName": "$s16AntsomiFramework7MessageP12base64StringSSvp",
+            "usr": "s:16AntsomiFramework0A7MessageP12base64StringSSvp",
+            "mangledName": "$s16AntsomiFramework0A7MessageP12base64StringSSvp",
             "moduleName": "AntsomiFramework",
             "protocolReq": true,
             "accessors": [
@@ -27742,11 +27628,11 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16AntsomiFramework7MessageP12base64StringSSvg",
-                "mangledName": "$s16AntsomiFramework7MessageP12base64StringSSvg",
+                "usr": "s:16AntsomiFramework0A7MessageP12base64StringSSvg",
+                "mangledName": "$s16AntsomiFramework0A7MessageP12base64StringSSvg",
                 "moduleName": "AntsomiFramework",
-                "genericSig": "<τ_0_0 where τ_0_0 : AntsomiFramework.Message>",
-                "sugared_genericSig": "<Self where Self : AntsomiFramework.Message>",
+                "genericSig": "<τ_0_0 where τ_0_0 : AntsomiFramework.AntsomiMessage>",
+                "sugared_genericSig": "<Self where Self : AntsomiFramework.AntsomiMessage>",
                 "protocolReq": true,
                 "reqNewWitnessTableEntry": true,
                 "accessorKind": "get"
@@ -27771,11 +27657,11 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:16AntsomiFramework7MessageP4datax10Foundation4DataV_tcfc",
-            "mangledName": "$s16AntsomiFramework7MessageP4datax10Foundation4DataV_tcfc",
+            "usr": "s:16AntsomiFramework0A7MessageP4datax10Foundation4DataV_tcfc",
+            "mangledName": "$s16AntsomiFramework0A7MessageP4datax10Foundation4DataV_tcfc",
             "moduleName": "AntsomiFramework",
-            "genericSig": "<τ_0_0 where τ_0_0 : AntsomiFramework.Message>",
-            "sugared_genericSig": "<Self where Self : AntsomiFramework.Message>",
+            "genericSig": "<τ_0_0 where τ_0_0 : AntsomiFramework.AntsomiMessage>",
+            "sugared_genericSig": "<Self where Self : AntsomiFramework.AntsomiMessage>",
             "protocolReq": true,
             "reqNewWitnessTableEntry": true,
             "init_kind": "Designated"
@@ -27798,11 +27684,11 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:16AntsomiFramework7MessageP13base64EncodedxSS_tKcfc",
-            "mangledName": "$s16AntsomiFramework7MessageP13base64EncodedxSS_tKcfc",
+            "usr": "s:16AntsomiFramework0A7MessageP13base64EncodedxSS_tKcfc",
+            "mangledName": "$s16AntsomiFramework0A7MessageP13base64EncodedxSS_tKcfc",
             "moduleName": "AntsomiFramework",
-            "genericSig": "<τ_0_0 where τ_0_0 : AntsomiFramework.Message>",
-            "sugared_genericSig": "<Self where Self : AntsomiFramework.Message>",
+            "genericSig": "<τ_0_0 where τ_0_0 : AntsomiFramework.AntsomiMessage>",
+            "sugared_genericSig": "<Self where Self : AntsomiFramework.AntsomiMessage>",
             "protocolReq": true,
             "throwing": true,
             "reqNewWitnessTableEntry": true,
@@ -27821,8 +27707,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:16AntsomiFramework7MessagePAAE12base64StringSSvp",
-            "mangledName": "$s16AntsomiFramework7MessagePAAE12base64StringSSvp",
+            "usr": "s:16AntsomiFramework0A7MessagePAAE12base64StringSSvp",
+            "mangledName": "$s16AntsomiFramework0A7MessagePAAE12base64StringSSvp",
             "moduleName": "AntsomiFramework",
             "declAttributes": [
               "RawDocComment"
@@ -27842,11 +27728,11 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16AntsomiFramework7MessagePAAE12base64StringSSvg",
-                "mangledName": "$s16AntsomiFramework7MessagePAAE12base64StringSSvg",
+                "usr": "s:16AntsomiFramework0A7MessagePAAE12base64StringSSvg",
+                "mangledName": "$s16AntsomiFramework0A7MessagePAAE12base64StringSSvg",
                 "moduleName": "AntsomiFramework",
-                "genericSig": "<τ_0_0 where τ_0_0 : AntsomiFramework.Message>",
-                "sugared_genericSig": "<Self where Self : AntsomiFramework.Message>",
+                "genericSig": "<τ_0_0 where τ_0_0 : AntsomiFramework.AntsomiMessage>",
+                "sugared_genericSig": "<Self where Self : AntsomiFramework.AntsomiMessage>",
                 "isFromExtension": true,
                 "accessorKind": "get"
               }
@@ -27870,11 +27756,11 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:16AntsomiFramework7MessagePAAE13base64EncodedxSS_tKcfc",
-            "mangledName": "$s16AntsomiFramework7MessagePAAE13base64EncodedxSS_tKcfc",
+            "usr": "s:16AntsomiFramework0A7MessagePAAE13base64EncodedxSS_tKcfc",
+            "mangledName": "$s16AntsomiFramework0A7MessagePAAE13base64EncodedxSS_tKcfc",
             "moduleName": "AntsomiFramework",
-            "genericSig": "<τ_0_0 where τ_0_0 : AntsomiFramework.Message>",
-            "sugared_genericSig": "<Self where Self : AntsomiFramework.Message>",
+            "genericSig": "<τ_0_0 where τ_0_0 : AntsomiFramework.AntsomiMessage>",
+            "sugared_genericSig": "<Self where Self : AntsomiFramework.AntsomiMessage>",
             "declAttributes": [
               "RawDocComment"
             ],
@@ -27884,8 +27770,8 @@
           }
         ],
         "declKind": "Protocol",
-        "usr": "s:16AntsomiFramework7MessageP",
-        "mangledName": "$s16AntsomiFramework7MessageP",
+        "usr": "s:16AntsomiFramework0A7MessageP",
+        "mangledName": "$s16AntsomiFramework0A7MessageP",
         "moduleName": "AntsomiFramework",
         "declAttributes": [
           "AccessControl"
@@ -28078,9 +27964,9 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "PublicKey",
-                "printedName": "AntsomiFramework.PublicKey",
-                "usr": "s:16AntsomiFramework9PublicKeyC"
+                "name": "AntsomiPublicKey",
+                "printedName": "AntsomiFramework.AntsomiPublicKey",
+                "usr": "s:16AntsomiFramework0A9PublicKeyC"
               },
               {
                 "kind": "TypeNominal",
@@ -28090,8 +27976,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:16AntsomiFramework12ClearMessageC9encrypted4with7paddingAA09EncryptedD0CAA9PublicKeyC_So10SecPaddingVtKF",
-            "mangledName": "$s16AntsomiFramework12ClearMessageC9encrypted4with7paddingAA09EncryptedD0CAA9PublicKeyC_So10SecPaddingVtKF",
+            "usr": "s:16AntsomiFramework12ClearMessageC9encrypted4with7paddingAA09EncryptedD0CAA0A9PublicKeyC_So10SecPaddingVtKF",
+            "mangledName": "$s16AntsomiFramework12ClearMessageC9encrypted4with7paddingAA09EncryptedD0CAA0A9PublicKeyC_So10SecPaddingVtKF",
             "moduleName": "AntsomiFramework",
             "declAttributes": [
               "AccessControl",
@@ -28107,26 +27993,26 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Signature",
-                "printedName": "AntsomiFramework.Signature",
-                "usr": "s:16AntsomiFramework9SignatureC"
+                "name": "AntsomiSignature",
+                "printedName": "AntsomiFramework.AntsomiSignature",
+                "usr": "s:16AntsomiFramework0A9SignatureC"
               },
               {
                 "kind": "TypeNominal",
-                "name": "PrivateKey",
-                "printedName": "AntsomiFramework.PrivateKey",
-                "usr": "s:16AntsomiFramework10PrivateKeyC"
+                "name": "AntsomiPrivateKey",
+                "printedName": "AntsomiFramework.AntsomiPrivateKey",
+                "usr": "s:16AntsomiFramework0A10PrivateKeyC"
               },
               {
                 "kind": "TypeNominal",
                 "name": "DigestType",
-                "printedName": "AntsomiFramework.Signature.DigestType",
-                "usr": "s:16AntsomiFramework9SignatureC10DigestTypeO"
+                "printedName": "AntsomiFramework.AntsomiSignature.DigestType",
+                "usr": "s:16AntsomiFramework0A9SignatureC10DigestTypeO"
               }
             ],
             "declKind": "Func",
-            "usr": "s:16AntsomiFramework12ClearMessageC6signed4with10digestTypeAA9SignatureCAA10PrivateKeyC_AH06DigestH0OtKF",
-            "mangledName": "$s16AntsomiFramework12ClearMessageC6signed4with10digestTypeAA9SignatureCAA10PrivateKeyC_AH06DigestH0OtKF",
+            "usr": "s:16AntsomiFramework12ClearMessageC6signed4with10digestTypeAA0A9SignatureCAA0A10PrivateKeyC_AH06DigestH0OtKF",
+            "mangledName": "$s16AntsomiFramework12ClearMessageC6signed4with10digestTypeAA0A9SignatureCAA0A10PrivateKeyC_AH06DigestH0OtKF",
             "moduleName": "AntsomiFramework",
             "declAttributes": [
               "AccessControl",
@@ -28148,26 +28034,26 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "PublicKey",
-                "printedName": "AntsomiFramework.PublicKey",
-                "usr": "s:16AntsomiFramework9PublicKeyC"
+                "name": "AntsomiPublicKey",
+                "printedName": "AntsomiFramework.AntsomiPublicKey",
+                "usr": "s:16AntsomiFramework0A9PublicKeyC"
               },
               {
                 "kind": "TypeNominal",
-                "name": "Signature",
-                "printedName": "AntsomiFramework.Signature",
-                "usr": "s:16AntsomiFramework9SignatureC"
+                "name": "AntsomiSignature",
+                "printedName": "AntsomiFramework.AntsomiSignature",
+                "usr": "s:16AntsomiFramework0A9SignatureC"
               },
               {
                 "kind": "TypeNominal",
                 "name": "DigestType",
-                "printedName": "AntsomiFramework.Signature.DigestType",
-                "usr": "s:16AntsomiFramework9SignatureC10DigestTypeO"
+                "printedName": "AntsomiFramework.AntsomiSignature.DigestType",
+                "usr": "s:16AntsomiFramework0A9SignatureC10DigestTypeO"
               }
             ],
             "declKind": "Func",
-            "usr": "s:16AntsomiFramework12ClearMessageC6verify4with9signature10digestTypeSbAA9PublicKeyC_AA9SignatureCAK06DigestI0OtKF",
-            "mangledName": "$s16AntsomiFramework12ClearMessageC6verify4with9signature10digestTypeSbAA9PublicKeyC_AA9SignatureCAK06DigestI0OtKF",
+            "usr": "s:16AntsomiFramework12ClearMessageC6verify4with9signature10digestTypeSbAA0A9PublicKeyC_AA0A9SignatureCAK06DigestI0OtKF",
+            "mangledName": "$s16AntsomiFramework12ClearMessageC6verify4with9signature10digestTypeSbAA0A9PublicKeyC_AA0A9SignatureCAK06DigestI0OtKF",
             "moduleName": "AntsomiFramework",
             "declAttributes": [
               "AccessControl",
@@ -28201,10 +28087,10 @@
           },
           {
             "kind": "Conformance",
-            "name": "Message",
-            "printedName": "Message",
-            "usr": "s:16AntsomiFramework7MessageP",
-            "mangledName": "$s16AntsomiFramework7MessageP"
+            "name": "AntsomiMessage",
+            "printedName": "AntsomiMessage",
+            "usr": "s:16AntsomiFramework0A7MessageP",
+            "mangledName": "$s16AntsomiFramework0A7MessageP"
           }
         ]
       },
@@ -28238,19 +28124,19 @@
               {
                 "kind": "TypeNominal",
                 "name": "Tuple",
-                "printedName": "(privateKey: AntsomiFramework.PrivateKey, publicKey: AntsomiFramework.PublicKey)",
+                "printedName": "(privateKey: AntsomiFramework.AntsomiPrivateKey, publicKey: AntsomiFramework.AntsomiPublicKey)",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "PrivateKey",
-                    "printedName": "AntsomiFramework.PrivateKey",
-                    "usr": "s:16AntsomiFramework10PrivateKeyC"
+                    "name": "AntsomiPrivateKey",
+                    "printedName": "AntsomiFramework.AntsomiPrivateKey",
+                    "usr": "s:16AntsomiFramework0A10PrivateKeyC"
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "PublicKey",
-                    "printedName": "AntsomiFramework.PublicKey",
-                    "usr": "s:16AntsomiFramework9PublicKeyC"
+                    "name": "AntsomiPublicKey",
+                    "printedName": "AntsomiFramework.AntsomiPublicKey",
+                    "usr": "s:16AntsomiFramework0A9PublicKeyC"
                   }
                 ]
               },
@@ -28262,8 +28148,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:16AntsomiFramework9SwiftyRSAO18generateRSAKeyPair10sizeInBitsAA10PrivateKeyC07privateL0_AA06PublicL0C06publicL0tSi_tKFZ",
-            "mangledName": "$s16AntsomiFramework9SwiftyRSAO18generateRSAKeyPair10sizeInBitsAA10PrivateKeyC07privateL0_AA06PublicL0C06publicL0tSi_tKFZ",
+            "usr": "s:16AntsomiFramework9SwiftyRSAO18generateRSAKeyPair10sizeInBitsAA0A10PrivateKeyC07privateL0_AA0a6PublicL0C06publicL0tSi_tKFZ",
+            "mangledName": "$s16AntsomiFramework9SwiftyRSAO18generateRSAKeyPair10sizeInBitsAA0A10PrivateKeyC07privateL0_AA0a6PublicL0C06publicL0tSi_tKFZ",
             "moduleName": "AntsomiFramework",
             "static": true,
             "intro_iOS": "10.0",
@@ -28326,8 +28212,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "PublicKey",
-        "printedName": "PublicKey",
+        "name": "AntsomiPublicKey",
+        "printedName": "AntsomiPublicKey",
         "children": [
           {
             "kind": "Var",
@@ -28342,8 +28228,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:16AntsomiFramework9PublicKeyC9referenceSo03SecD3Refavp",
-            "mangledName": "$s16AntsomiFramework9PublicKeyC9referenceSo03SecD3Refavp",
+            "usr": "s:16AntsomiFramework0A9PublicKeyC9referenceSo03SecD3Refavp",
+            "mangledName": "$s16AntsomiFramework0A9PublicKeyC9referenceSo03SecD3Refavp",
             "moduleName": "AntsomiFramework",
             "declAttributes": [
               "Final",
@@ -28367,8 +28253,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16AntsomiFramework9PublicKeyC9referenceSo03SecD3Refavg",
-                "mangledName": "$s16AntsomiFramework9PublicKeyC9referenceSo03SecD3Refavg",
+                "usr": "s:16AntsomiFramework0A9PublicKeyC9referenceSo03SecD3Refavg",
+                "mangledName": "$s16AntsomiFramework0A9PublicKeyC9referenceSo03SecD3Refavg",
                 "moduleName": "AntsomiFramework",
                 "implicit": true,
                 "declAttributes": [
@@ -28399,8 +28285,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:16AntsomiFramework9PublicKeyC12originalData10Foundation0F0VSgvp",
-            "mangledName": "$s16AntsomiFramework9PublicKeyC12originalData10Foundation0F0VSgvp",
+            "usr": "s:16AntsomiFramework0A9PublicKeyC12originalData10Foundation0F0VSgvp",
+            "mangledName": "$s16AntsomiFramework0A9PublicKeyC12originalData10Foundation0F0VSgvp",
             "moduleName": "AntsomiFramework",
             "declAttributes": [
               "Final",
@@ -28432,8 +28318,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16AntsomiFramework9PublicKeyC12originalData10Foundation0F0VSgvg",
-                "mangledName": "$s16AntsomiFramework9PublicKeyC12originalData10Foundation0F0VSgvg",
+                "usr": "s:16AntsomiFramework0A9PublicKeyC12originalData10Foundation0F0VSgvg",
+                "mangledName": "$s16AntsomiFramework0A9PublicKeyC12originalData10Foundation0F0VSgvg",
                 "moduleName": "AntsomiFramework",
                 "implicit": true,
                 "declAttributes": [
@@ -28456,8 +28342,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:16AntsomiFramework9PublicKeyC9pemStringSSyKF",
-            "mangledName": "$s16AntsomiFramework9PublicKeyC9pemStringSSyKF",
+            "usr": "s:16AntsomiFramework0A9PublicKeyC9pemStringSSyKF",
+            "mangledName": "$s16AntsomiFramework0A9PublicKeyC9pemStringSSyKF",
             "moduleName": "AntsomiFramework",
             "declAttributes": [
               "AccessControl",
@@ -28473,9 +28359,9 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "PublicKey",
-                "printedName": "AntsomiFramework.PublicKey",
-                "usr": "s:16AntsomiFramework9PublicKeyC"
+                "name": "AntsomiPublicKey",
+                "printedName": "AntsomiFramework.AntsomiPublicKey",
+                "usr": "s:16AntsomiFramework0A9PublicKeyC"
               },
               {
                 "kind": "TypeNominal",
@@ -28485,8 +28371,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:16AntsomiFramework9PublicKeyC9referenceACSo03SecD3Refa_tKcfc",
-            "mangledName": "$s16AntsomiFramework9PublicKeyC9referenceACSo03SecD3Refa_tKcfc",
+            "usr": "s:16AntsomiFramework0A9PublicKeyC9referenceACSo03SecD3Refa_tKcfc",
+            "mangledName": "$s16AntsomiFramework0A9PublicKeyC9referenceACSo03SecD3Refa_tKcfc",
             "moduleName": "AntsomiFramework",
             "declAttributes": [
               "Required",
@@ -28503,9 +28389,9 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "PublicKey",
-                "printedName": "AntsomiFramework.PublicKey",
-                "usr": "s:16AntsomiFramework9PublicKeyC"
+                "name": "AntsomiPublicKey",
+                "printedName": "AntsomiFramework.AntsomiPublicKey",
+                "usr": "s:16AntsomiFramework0A9PublicKeyC"
               },
               {
                 "kind": "TypeNominal",
@@ -28515,8 +28401,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:16AntsomiFramework9PublicKeyC4dataAC10Foundation4DataV_tKcfc",
-            "mangledName": "$s16AntsomiFramework9PublicKeyC4dataAC10Foundation4DataV_tKcfc",
+            "usr": "s:16AntsomiFramework0A9PublicKeyC4dataAC10Foundation4DataV_tKcfc",
+            "mangledName": "$s16AntsomiFramework0A9PublicKeyC4dataAC10Foundation4DataV_tKcfc",
             "moduleName": "AntsomiFramework",
             "declAttributes": [
               "AccessControl",
@@ -28534,13 +28420,13 @@
               {
                 "kind": "TypeNominal",
                 "name": "Array",
-                "printedName": "[AntsomiFramework.PublicKey]",
+                "printedName": "[AntsomiFramework.AntsomiPublicKey]",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "PublicKey",
-                    "printedName": "AntsomiFramework.PublicKey",
-                    "usr": "s:16AntsomiFramework9PublicKeyC"
+                    "name": "AntsomiPublicKey",
+                    "printedName": "AntsomiFramework.AntsomiPublicKey",
+                    "usr": "s:16AntsomiFramework0A9PublicKeyC"
                   }
                 ],
                 "usr": "s:Sa"
@@ -28553,8 +28439,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:16AntsomiFramework9PublicKeyC10publicKeys10pemEncodedSayACGSS_tFZ",
-            "mangledName": "$s16AntsomiFramework9PublicKeyC10publicKeys10pemEncodedSayACGSS_tFZ",
+            "usr": "s:16AntsomiFramework0A9PublicKeyC10publicKeys10pemEncodedSayACGSS_tFZ",
+            "mangledName": "$s16AntsomiFramework0A9PublicKeyC10publicKeys10pemEncodedSayACGSS_tFZ",
             "moduleName": "AntsomiFramework",
             "static": true,
             "declAttributes": [
@@ -28566,8 +28452,8 @@
           }
         ],
         "declKind": "Class",
-        "usr": "s:16AntsomiFramework9PublicKeyC",
-        "mangledName": "$s16AntsomiFramework9PublicKeyC",
+        "usr": "s:16AntsomiFramework0A9PublicKeyC",
+        "mangledName": "$s16AntsomiFramework0A9PublicKeyC",
         "moduleName": "AntsomiFramework",
         "declAttributes": [
           "AccessControl"
@@ -28589,10 +28475,10 @@
           },
           {
             "kind": "Conformance",
-            "name": "Key",
-            "printedName": "Key",
-            "usr": "s:16AntsomiFramework3KeyP",
-            "mangledName": "$s16AntsomiFramework3KeyP"
+            "name": "AntsomiKey",
+            "printedName": "AntsomiKey",
+            "usr": "s:16AntsomiFramework0A3KeyP",
+            "mangledName": "$s16AntsomiFramework0A3KeyP"
           }
         ]
       },
@@ -29164,14 +29050,14 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "PublicKey",
-                "printedName": "AntsomiFramework.PublicKey",
-                "usr": "s:16AntsomiFramework9PublicKeyC"
+                "name": "AntsomiPublicKey",
+                "printedName": "AntsomiFramework.AntsomiPublicKey",
+                "usr": "s:16AntsomiFramework0A9PublicKeyC"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:16AntsomiFramework15_objc_PublicKeyC10swiftValueAcA0dE0C_tcfc",
-            "mangledName": "$s16AntsomiFramework15_objc_PublicKeyC10swiftValueAcA0dE0C_tcfc",
+            "usr": "s:16AntsomiFramework15_objc_PublicKeyC10swiftValueAcA0adE0C_tcfc",
+            "mangledName": "$s16AntsomiFramework15_objc_PublicKeyC10swiftValueAcA0adE0C_tcfc",
             "moduleName": "AntsomiFramework",
             "declAttributes": [
               "AccessControl",
@@ -29460,10 +29346,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Key",
-            "printedName": "Key",
-            "usr": "s:16AntsomiFramework3KeyP",
-            "mangledName": "$s16AntsomiFramework3KeyP"
+            "name": "AntsomiKey",
+            "printedName": "AntsomiKey",
+            "usr": "s:16AntsomiFramework0A3KeyP",
+            "mangledName": "$s16AntsomiFramework0A3KeyP"
           },
           {
             "kind": "Conformance",
@@ -29724,14 +29610,14 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "PrivateKey",
-                "printedName": "AntsomiFramework.PrivateKey",
-                "usr": "s:16AntsomiFramework10PrivateKeyC"
+                "name": "AntsomiPrivateKey",
+                "printedName": "AntsomiFramework.AntsomiPrivateKey",
+                "usr": "s:16AntsomiFramework0A10PrivateKeyC"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:16AntsomiFramework16_objc_PrivateKeyC10swiftValueAcA0dE0C_tcfc",
-            "mangledName": "$s16AntsomiFramework16_objc_PrivateKeyC10swiftValueAcA0dE0C_tcfc",
+            "usr": "s:16AntsomiFramework16_objc_PrivateKeyC10swiftValueAcA0adE0C_tcfc",
+            "mangledName": "$s16AntsomiFramework16_objc_PrivateKeyC10swiftValueAcA0adE0C_tcfc",
             "moduleName": "AntsomiFramework",
             "declAttributes": [
               "Required",
@@ -29981,10 +29867,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Key",
-            "printedName": "Key",
-            "usr": "s:16AntsomiFramework3KeyP",
-            "mangledName": "$s16AntsomiFramework3KeyP"
+            "name": "AntsomiKey",
+            "printedName": "AntsomiKey",
+            "usr": "s:16AntsomiFramework0A3KeyP",
+            "mangledName": "$s16AntsomiFramework0A3KeyP"
           },
           {
             "kind": "Conformance",
@@ -30622,10 +30508,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Message",
-            "printedName": "Message",
-            "usr": "s:16AntsomiFramework7MessageP",
-            "mangledName": "$s16AntsomiFramework7MessageP"
+            "name": "AntsomiMessage",
+            "printedName": "AntsomiMessage",
+            "usr": "s:16AntsomiFramework0A7MessageP",
+            "mangledName": "$s16AntsomiFramework0A7MessageP"
           },
           {
             "kind": "Conformance",
@@ -30954,10 +30840,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Message",
-            "printedName": "Message",
-            "usr": "s:16AntsomiFramework7MessageP",
-            "mangledName": "$s16AntsomiFramework7MessageP"
+            "name": "AntsomiMessage",
+            "printedName": "AntsomiMessage",
+            "usr": "s:16AntsomiFramework0A7MessageP",
+            "mangledName": "$s16AntsomiFramework0A7MessageP"
           },
           {
             "kind": "Conformance",
@@ -31476,14 +31362,14 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "Signature",
-                "printedName": "AntsomiFramework.Signature",
-                "usr": "s:16AntsomiFramework9SignatureC"
+                "name": "AntsomiSignature",
+                "printedName": "AntsomiFramework.AntsomiSignature",
+                "usr": "s:16AntsomiFramework0A9SignatureC"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:16AntsomiFramework15_objc_SignatureC10swiftValueAcA0D0C_tcfc",
-            "mangledName": "$s16AntsomiFramework15_objc_SignatureC10swiftValueAcA0D0C_tcfc",
+            "usr": "s:16AntsomiFramework15_objc_SignatureC10swiftValueAcA0aD0C_tcfc",
+            "mangledName": "$s16AntsomiFramework15_objc_SignatureC10swiftValueAcA0aD0C_tcfc",
             "moduleName": "AntsomiFramework",
             "declAttributes": [
               "Required",
@@ -31764,9 +31650,9 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "PrivateKey",
-                "printedName": "AntsomiFramework.PrivateKey",
-                "usr": "s:16AntsomiFramework10PrivateKeyC"
+                "name": "AntsomiPrivateKey",
+                "printedName": "AntsomiFramework.AntsomiPrivateKey",
+                "usr": "s:16AntsomiFramework0A10PrivateKeyC"
               },
               {
                 "kind": "TypeNominal",
@@ -31776,8 +31662,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:16AntsomiFramework16EncryptedMessageC9decrypted4with7paddingAA05ClearD0CAA10PrivateKeyC_So10SecPaddingVtKF",
-            "mangledName": "$s16AntsomiFramework16EncryptedMessageC9decrypted4with7paddingAA05ClearD0CAA10PrivateKeyC_So10SecPaddingVtKF",
+            "usr": "s:16AntsomiFramework16EncryptedMessageC9decrypted4with7paddingAA05ClearD0CAA0A10PrivateKeyC_So10SecPaddingVtKF",
+            "mangledName": "$s16AntsomiFramework16EncryptedMessageC9decrypted4with7paddingAA05ClearD0CAA0A10PrivateKeyC_So10SecPaddingVtKF",
             "moduleName": "AntsomiFramework",
             "declAttributes": [
               "AccessControl",
@@ -31811,10 +31697,10 @@
           },
           {
             "kind": "Conformance",
-            "name": "Message",
-            "printedName": "Message",
-            "usr": "s:16AntsomiFramework7MessageP",
-            "mangledName": "$s16AntsomiFramework7MessageP"
+            "name": "AntsomiMessage",
+            "printedName": "AntsomiMessage",
+            "usr": "s:16AntsomiFramework0A7MessageP",
+            "mangledName": "$s16AntsomiFramework0A7MessageP"
           }
         ]
       },
@@ -60689,343 +60575,329 @@
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "StringLiteral",
-      "offset": 1821,
+      "offset": 1586,
       "length": 8,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "StringLiteral",
-      "offset": 1827,
+      "offset": 1592,
       "length": 1,
       "value": "\".\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "StringLiteral",
-      "offset": 1874,
+      "offset": 1639,
       "length": 10,
       "value": "\"default.\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "StringLiteral",
-      "offset": 1964,
+      "offset": 1729,
       "length": 8,
-      "value": "\"1.1.78\""
+      "value": "\"1.1.79\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "BooleanLiteral",
-      "offset": 2066,
+      "offset": 1831,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "BooleanLiteral",
-      "offset": 2213,
+      "offset": 1978,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "BooleanLiteral",
-      "offset": 2266,
+      "offset": 2031,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "StringLiteral",
-      "offset": 2318,
+      "offset": 2083,
       "length": 37,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "StringLiteral",
-      "offset": 2332,
+      "offset": 2097,
       "length": 22,
       "value": "\"AnstomiDeviceTokenFlag\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "StringLiteral",
-      "offset": 2398,
+      "offset": 2163,
       "length": 38,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "StringLiteral",
-      "offset": 2412,
+      "offset": 2177,
       "length": 23,
       "value": "\"AnstomiIsSubscribedFlag\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "StringLiteral",
-      "offset": 2478,
+      "offset": 2243,
       "length": 31,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "StringLiteral",
-      "offset": 2492,
+      "offset": 2257,
       "length": 16,
       "value": "\"AnstomiPortalKey\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "StringLiteral",
-      "offset": 2550,
+      "offset": 2315,
       "length": 30,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "StringLiteral",
-      "offset": 2564,
+      "offset": 2329,
       "length": 15,
       "value": "\"AnstomiPropsKey\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "StringLiteral",
-      "offset": 2614,
+      "offset": 2379,
       "length": 25,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "StringLiteral",
-      "offset": 2628,
+      "offset": 2393,
       "length": 10,
       "value": "\"AntsomiUid\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "StringLiteral",
-      "offset": 2686,
+      "offset": 2451,
       "length": 26,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "StringLiteral",
-      "offset": 2700,
+      "offset": 2465,
       "length": 11,
       "value": "\"app_install\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "StringLiteral",
-      "offset": 2748,
+      "offset": 2513,
       "length": 28,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "StringLiteral",
-      "offset": 2762,
+      "offset": 2527,
       "length": 13,
       "value": "\"applicationId\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "StringLiteral",
-      "offset": 3260,
+      "offset": 3025,
       "length": 28,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "StringLiteral",
-      "offset": 3274,
+      "offset": 3039,
       "length": 13,
       "value": "\"operationTime\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "IntegerLiteral",
-      "offset": 3328,
+      "offset": 3093,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "FloatLiteral",
-      "offset": 3330,
+      "offset": 3095,
       "length": 4,
       "value": "60.0"
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "StringLiteral",
-      "offset": 3900,
+      "offset": 3665,
       "length": 24,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "StringLiteral",
-      "offset": 3914,
+      "offset": 3679,
       "length": 9,
       "value": "\"sessionId\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "StringLiteral",
-      "offset": 3963,
+      "offset": 3728,
       "length": 34,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "StringLiteral",
-      "offset": 3985,
+      "offset": 3750,
       "length": 11,
       "value": "\"visitorType\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "StringLiteral",
-      "offset": 4038,
+      "offset": 3803,
       "length": 32,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "StringLiteral",
-      "offset": 4052,
+      "offset": 3817,
       "length": 17,
       "value": "\"AntsomiCustomerId\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "StringLiteral",
-      "offset": 4110,
+      "offset": 3875,
       "length": 31,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "StringLiteral",
-      "offset": 4124,
+      "offset": 3889,
       "length": 16,
       "value": "\"AntsomiVisitorId\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "StringLiteral",
-      "offset": 4187,
+      "offset": 3952,
       "length": 40,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "StringLiteral",
-      "offset": 4201,
+      "offset": 3966,
       "length": 25,
       "value": "\"AntsomiCustomerProperties\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "StringLiteral",
-      "offset": 4261,
+      "offset": 4026,
       "length": 18,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "StringLiteral",
-      "offset": 4275,
+      "offset": 4040,
       "length": 3,
       "value": "\"utm\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "StringLiteral",
-      "offset": 4313,
+      "offset": 4078,
       "length": 18,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "StringLiteral",
-      "offset": 4327,
+      "offset": 4092,
       "length": 3,
       "value": "\"atm\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "StringLiteral",
-      "offset": 4364,
+      "offset": 4129,
       "length": 20,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "StringLiteral",
-      "offset": 4378,
+      "offset": 4143,
       "length": 5,
       "value": "\"clkBc\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "StringLiteral",
-      "offset": 4565,
+      "offset": 4330,
       "length": 8,
       "value": "\".badge\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "StringLiteral",
-      "offset": 4618,
+      "offset": 4383,
       "length": 18,
       "value": "\"AntsomiSDK.badge\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "BooleanLiteral",
-      "offset": 5241,
+      "offset": 5006,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "Dictionary",
-      "offset": 5710,
+      "offset": 5475,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "StringLiteral",
-      "offset": 13990,
-      "length": 20,
-      "value": "\"antsomi_debug_logs\""
-    },
-    {
-      "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
-      "kind": "IntegerLiteral",
-      "offset": 14041,
-      "length": 3,
-      "value": "200"
-    },
-    {
-      "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
-      "kind": "StringLiteral",
-      "offset": 25496,
+      "offset": 24144,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
       "kind": "StringLiteral",
-      "offset": 25516,
+      "offset": 24164,
       "length": 2,
       "value": "\"\""
     },
@@ -61382,7 +61254,7 @@
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/SwiftyRSA\/SwiftyRSA.swift",
       "kind": "BooleanLiteral",
-      "offset": 4747,
+      "offset": 4761,
       "length": 5,
       "value": "false"
     },
@@ -61394,37 +61266,37 @@
       "value": "0"
     },
     {
-      "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/SwiftyRSA\/PublicKey.swift",
+      "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/SwiftyRSA\/AntsomiPublicKey.swift",
       "kind": "StringLiteral",
-      "offset": 2255,
+      "offset": 2269,
       "length": 57,
       "value": "\"(-----BEGIN PUBLIC KEY-----.+?-----END PUBLIC KEY-----)\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/SwiftyRSA\/SwiftyRSA+ObjC.swift",
       "kind": "IntegerLiteral",
-      "offset": 8832,
+      "offset": 8979,
       "length": 6,
       "value": "1"
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/SwiftyRSA\/SwiftyRSA+ObjC.swift",
       "kind": "IntegerLiteral",
-      "offset": 8852,
+      "offset": 8999,
       "length": 6,
       "value": "2"
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/SwiftyRSA\/SwiftyRSA+ObjC.swift",
       "kind": "IntegerLiteral",
-      "offset": 8872,
+      "offset": 9019,
       "length": 6,
       "value": "3"
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/SwiftyRSA\/SwiftyRSA+ObjC.swift",
       "kind": "IntegerLiteral",
-      "offset": 8892,
+      "offset": 9039,
       "length": 6,
       "value": "4"
     },
