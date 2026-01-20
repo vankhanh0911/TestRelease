@@ -342,6 +342,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) Antsomi * _Nonnull sha
 - (void)resetUid;
 - (NSString * _Nonnull)getUid SWIFT_WARN_UNUSED_RESULT;
 - (void)setIsDeliveryWithNewValue:(BOOL)newValue;
+- (void)shouldOpenUrlOnNotificationWithIsOpen:(BOOL)isOpen;
 - (void)resetCustomer;
 - (NSString * _Nonnull)getCustomerId SWIFT_WARN_UNUSED_RESULT;
 - (NSString * _Nonnull)getPropsId SWIFT_WARN_UNUSED_RESULT;
@@ -353,6 +354,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) Antsomi * _Nonnull sha
 - (void)processGetMediaJsonWithEventBody:(NSDictionary<NSString *, id> * _Nonnull)eventBody completion:(void (^ _Nonnull)(NSDictionary<NSString *, id> * _Nonnull))completion;
 - (void)setDeeplinkCallback:(void (^ _Nonnull)(NSString * _Nonnull))cb;
 - (void)setNotificationCallback:(void (^ _Nonnull)(NSDictionary<NSString *, id> * _Nonnull))cb;
+- (void)setPushUrlCallback:(void (^ _Nonnull)(NSString * _Nonnull))cb;
 - (void)storeLastLink:(NSString * _Nonnull)link;
 - (void)storeLastNotification:(NSDictionary<NSString *, id> * _Nonnull)userInfo;
 - (void)handleViewTrackingUrl:(NSURL * _Nonnull)url;

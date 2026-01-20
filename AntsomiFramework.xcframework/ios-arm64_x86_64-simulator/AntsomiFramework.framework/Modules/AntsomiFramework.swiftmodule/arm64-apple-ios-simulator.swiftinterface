@@ -701,6 +701,7 @@ public func AntsomiStoreLastNotificationJSON(_ cstr: Swift.UnsafePointer<Swift.C
   @objc public func resetUid()
   @objc public func getUid() -> Swift.String
   @objc public func setIsDelivery(newValue: Swift.Bool)
+  @objc public func shouldOpenUrlOnNotification(isOpen: Swift.Bool)
   @objc public func resetCustomer()
   @objc public func getCustomerId() -> Swift.String
   @objc public func getPropsId() -> Swift.String
@@ -715,6 +716,7 @@ public func AntsomiStoreLastNotificationJSON(_ cstr: Swift.UnsafePointer<Swift.C
   @objc public func processGetMediaJson(eventBody: [Swift.String : Any], completion: @escaping (([Swift.String : Any]) -> Swift.Void))
   @objc public func setDeeplinkCallback(_ cb: @escaping (Swift.String) -> Swift.Void)
   @objc public func setNotificationCallback(_ cb: @escaping ([Swift.String : Any]) -> Swift.Void)
+  @objc public func setPushUrlCallback(_ cb: @escaping (Swift.String) -> Swift.Void)
   @objc public func storeLastLink(_ link: Swift.String)
   @objc public func storeLastNotification(_ userInfo: [Swift.String : Any])
   @objc public func handleViewTrackingUrl(_ url: Foundation.URL)
