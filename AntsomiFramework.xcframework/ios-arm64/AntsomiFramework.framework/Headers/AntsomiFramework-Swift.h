@@ -286,6 +286,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @import Security;
 @import UIKit;
 @import UserNotifications;
+@import WebKit;
 #endif
 
 #endif
@@ -368,6 +369,20 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) Antsomi * _Nonnull sha
 - (void)setHandleChangeRouteTemplate:(void (^ _Nonnull)(NSString * _Nonnull))callback;
 + (NSString * _Nonnull)getBundleId SWIFT_WARN_UNUSED_RESULT;
 - (NSString * _Nonnull)md5WithString:(NSString * _Nonnull)string SWIFT_WARN_UNUSED_RESULT;
+/// Initialize Gamification with access token and environment
+/// \param accessToken JWT access token for authentication
+///
+/// \param env Environment - “sandbox” or “production”
+///
+- (void)initGamificationWithAccessToken:(NSString * _Nonnull)accessToken env:(NSString * _Nonnull)env SWIFT_METHOD_FAMILY(none);
+/// Play game by game ID
+/// \param gameId Game ID to fetch and play
+///
+- (void)playGameWithGameId:(NSString * _Nonnull)gameId;
+/// Play game by game code (primary method - matches Android SDK)
+/// \param gameCode Game code to fetch and play
+///
+- (void)playGameWithGameCode:(NSString * _Nonnull)gameCode;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -447,6 +462,44 @@ SWIFT_CLASS("_TtC16AntsomiFramework19FoundationTransport")
 - (void)stream:(NSStream * _Nonnull)aStream handleEvent:(NSStreamEvent)eventCode;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+SWIFT_CLASS("_TtC16AntsomiFramework26GamificationViewController")
+@interface GamificationViewController : UIViewController
+- (void)viewDidLoad;
+- (void)viewWillAppear:(BOOL)animated;
+- (void)viewDidLayoutSubviews;
+@property (nonatomic, readonly) BOOL prefersStatusBarHidden;
+@property (nonatomic, readonly) BOOL prefersHomeIndicatorAutoHidden;
+@property (nonatomic, readonly) UIStatusBarAnimation preferredStatusBarUpdateAnimation;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class WKUserContentController;
+@class WKScriptMessage;
+
+@interface GamificationViewController (SWIFT_EXTENSION(AntsomiFramework)) <WKScriptMessageHandler>
+- (void)userContentController:(WKUserContentController * _Nonnull)userContentController didReceiveScriptMessage:(WKScriptMessage * _Nonnull)message;
+@end
+
+@class WKWebView;
+@class WKSecurityOrigin;
+@class WKFrameInfo;
+
+@interface GamificationViewController (SWIFT_EXTENSION(AntsomiFramework)) <WKUIDelegate>
+- (void)webView:(WKWebView * _Nonnull)webView requestMediaCapturePermissionForOrigin:(WKSecurityOrigin * _Nonnull)origin initiatedByFrame:(WKFrameInfo * _Nonnull)frame type:(WKMediaCaptureType)type decisionHandler:(void (^ _Nonnull)(WKPermissionDecision))decisionHandler SWIFT_AVAILABILITY(ios,introduced=15.0);
+- (void)webView:(WKWebView * _Nonnull)webView runJavaScriptAlertPanelWithMessage:(NSString * _Nonnull)message initiatedByFrame:(WKFrameInfo * _Nonnull)frame completionHandler:(void (^ _Nonnull)(void))completionHandler;
+- (void)webView:(WKWebView * _Nonnull)webView runJavaScriptConfirmPanelWithMessage:(NSString * _Nonnull)message initiatedByFrame:(WKFrameInfo * _Nonnull)frame completionHandler:(void (^ _Nonnull)(BOOL))completionHandler;
+@end
+
+@class WKNavigation;
+
+@interface GamificationViewController (SWIFT_EXTENSION(AntsomiFramework)) <WKNavigationDelegate>
+- (void)webView:(WKWebView * _Nonnull)webView didFinishNavigation:(WKNavigation * _Null_unspecified)navigation;
+- (void)webView:(WKWebView * _Nonnull)webView didFailNavigation:(WKNavigation * _Null_unspecified)navigation withError:(NSError * _Nonnull)error;
+- (void)webView:(WKWebView * _Nonnull)webView didFailProvisionalNavigation:(WKNavigation * _Null_unspecified)navigation withError:(NSError * _Nonnull)error;
 @end
 
 

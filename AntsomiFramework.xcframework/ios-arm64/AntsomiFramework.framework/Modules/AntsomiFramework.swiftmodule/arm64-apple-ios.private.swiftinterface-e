@@ -2,6 +2,7 @@
 // swift-compiler-version: Apple Swift version 6.0.2 effective-5.10 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)
 // swift-module-flags: -target arm64-apple-ios10.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name AntsomiFramework
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface
+import AVFoundation
 @_exported import AntsomiFramework
 import CommonCrypto
 import CommonCrypto/*.CC_LONG*/
@@ -378,6 +379,40 @@ extension Swift.String : AntsomiFramework.SocketData {
 public typealias AckCallback = ([Any]) -> ()
 public typealias NormalCallback = ([Any], AntsomiFramework.SocketAckEmitter) -> ()
 public typealias Post = (msg: Swift.String, completion: (() -> ())?)
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class GamificationViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor @preconcurrency public static func create(gameUrl: Swift.String) -> AntsomiFramework.GamificationViewController
+  @_Concurrency.MainActor @preconcurrency public static func create(gameId: Swift.String, accessToken: Swift.String, env: Swift.String) -> AntsomiFramework.GamificationViewController
+  @_Concurrency.MainActor @preconcurrency public static func create(gameCode: Swift.String, accessToken: Swift.String, env: Swift.String) -> AntsomiFramework.GamificationViewController
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLayoutSubviews()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public var prefersStatusBarHidden: Swift.Bool {
+    @objc get
+  }
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public var prefersHomeIndicatorAutoHidden: Swift.Bool {
+    @objc get
+  }
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public var preferredStatusBarUpdateAnimation: UIKit.UIStatusBarAnimation {
+    @objc get
+  }
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+extension AntsomiFramework.GamificationViewController : WebKit.WKUIDelegate {
+  @available(iOS 15.0, *)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func webView(_ webView: WebKit.WKWebView, requestMediaCapturePermissionFor origin: WebKit.WKSecurityOrigin, initiatedByFrame frame: WebKit.WKFrameInfo, type: WebKit.WKMediaCaptureType, decisionHandler: @escaping (WebKit.WKPermissionDecision) -> Swift.Void)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func webView(_ webView: WebKit.WKWebView, runJavaScriptAlertPanelWithMessage message: Swift.String, initiatedByFrame frame: WebKit.WKFrameInfo, completionHandler: @escaping () -> Swift.Void)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func webView(_ webView: WebKit.WKWebView, runJavaScriptConfirmPanelWithMessage message: Swift.String, initiatedByFrame frame: WebKit.WKFrameInfo, completionHandler: @escaping (Swift.Bool) -> Swift.Void)
+}
+extension AntsomiFramework.GamificationViewController : WebKit.WKNavigationDelegate {
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func webView(_ webView: WebKit.WKWebView, didFinish navigation: WebKit.WKNavigation!)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func webView(_ webView: WebKit.WKWebView, didFail navigation: WebKit.WKNavigation!, withError error: any Swift.Error)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func webView(_ webView: WebKit.WKWebView, didFailProvisionalNavigation navigation: WebKit.WKNavigation!, withError error: any Swift.Error)
+}
+extension AntsomiFramework.GamificationViewController : WebKit.WKScriptMessageHandler {
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func userContentController(_ userContentController: WebKit.WKUserContentController, didReceive message: WebKit.WKScriptMessage)
+}
 @objc @_inheritsConvenienceInitializers @available(macOS 10.15, iOS 13.0, watchOS 6.0, tvOS 13.0, *)
 public class NativeEngine : ObjectiveC.NSObject, AntsomiFramework.Engine, Foundation.URLSessionDataDelegate, Foundation.URLSessionWebSocketDelegate {
   public func register(delegate: any AntsomiFramework.EngineDelegate)
@@ -732,6 +767,12 @@ public func AntsomiStoreLastNotificationJSON(_ cstr: Swift.UnsafePointer<Swift.C
   @objc public static func getBundleId() -> Swift.String
   @objc public func md5(string: Swift.String) -> Swift.String
   public func getReaderSegment(email: Swift.String, completion: @escaping ((AntsomiFramework.ReaderSegment) -> Swift.Void))
+  @objc public func initGamification(accessToken: Swift.String, env: Swift.String = "production")
+  public func getListGame(completion: @escaping (Swift.Result<[AntsomiFramework.GamificationGame], any Swift.Error>) -> Swift.Void)
+  public func getGameDetail(gameId: Swift.String, completion: @escaping (Swift.Result<AntsomiFramework.GamificationGame, any Swift.Error>) -> Swift.Void)
+  public func getGameByCode(gameCode: Swift.String, completion: @escaping (Swift.Result<AntsomiFramework.GamificationGame, any Swift.Error>) -> Swift.Void)
+  @objc public func playGame(gameId: Swift.String)
+  @objc public func playGame(gameCode: Swift.String)
   @objc override dynamic public init()
   @objc deinit
 }
@@ -1469,6 +1510,31 @@ public protocol SocketEngineSpec : AnyObject {
 }
 extension UIKit.UIDevice {
   @_Concurrency.MainActor @preconcurrency public static let modelName: Swift.String
+}
+public struct GamificationGame : Swift.Codable {
+  public let gameId: Swift.String?
+  public let gameCode: Swift.String?
+  public let name: Swift.String?
+  public let iconUrl: Swift.String?
+  public let templateUrl: Swift.String?
+  public let startAt: Swift.String?
+  public let endAt: Swift.String?
+  public let status: Swift.String?
+  public let metadata: [Swift.String : Swift.String]?
+  public var gameUrl: Swift.String? {
+    get
+  }
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public enum GamificationError : Swift.Error, Foundation.LocalizedError {
+  case notInitialized
+  case invalidResponse
+  case apiError(Swift.String)
+  case networkError(any Swift.Error)
+  public var errorDescription: Swift.String? {
+    get
+  }
 }
 @_inheritsConvenienceInitializers @objc @_Concurrency.MainActor @preconcurrency public class TextOverlayController : UIKit.UIViewController, UIKit.UIGestureRecognizerDelegate {
   @objc @_Concurrency.MainActor @preconcurrency public var data: Swift.String
