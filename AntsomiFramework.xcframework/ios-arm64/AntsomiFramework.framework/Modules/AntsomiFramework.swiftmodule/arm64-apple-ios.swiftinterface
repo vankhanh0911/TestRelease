@@ -1511,6 +1511,17 @@ public protocol SocketEngineSpec : AnyObject {
 extension UIKit.UIDevice {
   @_Concurrency.MainActor @preconcurrency public static let modelName: Swift.String
 }
+public enum JSONValue : Swift.Codable {
+  case string(Swift.String)
+  case int(Swift.Int)
+  case double(Swift.Double)
+  case bool(Swift.Bool)
+  case object([Swift.String : JSONValue])
+  case array([JSONValue])
+  case null
+  public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+}
 public struct GamificationGame : Swift.Codable {
   public let gameId: Swift.String?
   public let gameCode: Swift.String?
@@ -1520,7 +1531,7 @@ public struct GamificationGame : Swift.Codable {
   public let startAt: Swift.String?
   public let endAt: Swift.String?
   public let status: Swift.String?
-  public let metadata: [Swift.String : Swift.String]?
+  public let metadata: [Swift.String : JSONValue]?
   public var gameUrl: Swift.String? {
     get
   }

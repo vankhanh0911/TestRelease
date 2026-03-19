@@ -50590,6 +50590,464 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "JSONValue",
+        "printedName": "JSONValue",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "string",
+            "printedName": "string",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AntsomiFramework.JSONValue.Type) -> (Swift.String) -> AntsomiFramework.JSONValue",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> AntsomiFramework.JSONValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "JSONValue",
+                        "printedName": "AntsomiFramework.JSONValue",
+                        "usr": "s:16AntsomiFramework9JSONValueO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AntsomiFramework.JSONValue.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "JSONValue",
+                        "printedName": "AntsomiFramework.JSONValue",
+                        "usr": "s:16AntsomiFramework9JSONValueO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16AntsomiFramework9JSONValueO6stringyACSScACmF",
+            "mangledName": "$s16AntsomiFramework9JSONValueO6stringyACSScACmF",
+            "moduleName": "AntsomiFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "int",
+            "printedName": "int",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AntsomiFramework.JSONValue.Type) -> (Swift.Int) -> AntsomiFramework.JSONValue",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Int) -> AntsomiFramework.JSONValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "JSONValue",
+                        "printedName": "AntsomiFramework.JSONValue",
+                        "usr": "s:16AntsomiFramework9JSONValueO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AntsomiFramework.JSONValue.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "JSONValue",
+                        "printedName": "AntsomiFramework.JSONValue",
+                        "usr": "s:16AntsomiFramework9JSONValueO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16AntsomiFramework9JSONValueO3intyACSicACmF",
+            "mangledName": "$s16AntsomiFramework9JSONValueO3intyACSicACmF",
+            "moduleName": "AntsomiFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "double",
+            "printedName": "double",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AntsomiFramework.JSONValue.Type) -> (Swift.Double) -> AntsomiFramework.JSONValue",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Double) -> AntsomiFramework.JSONValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "JSONValue",
+                        "printedName": "AntsomiFramework.JSONValue",
+                        "usr": "s:16AntsomiFramework9JSONValueO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AntsomiFramework.JSONValue.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "JSONValue",
+                        "printedName": "AntsomiFramework.JSONValue",
+                        "usr": "s:16AntsomiFramework9JSONValueO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16AntsomiFramework9JSONValueO6doubleyACSdcACmF",
+            "mangledName": "$s16AntsomiFramework9JSONValueO6doubleyACSdcACmF",
+            "moduleName": "AntsomiFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "bool",
+            "printedName": "bool",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AntsomiFramework.JSONValue.Type) -> (Swift.Bool) -> AntsomiFramework.JSONValue",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Bool) -> AntsomiFramework.JSONValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "JSONValue",
+                        "printedName": "AntsomiFramework.JSONValue",
+                        "usr": "s:16AntsomiFramework9JSONValueO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AntsomiFramework.JSONValue.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "JSONValue",
+                        "printedName": "AntsomiFramework.JSONValue",
+                        "usr": "s:16AntsomiFramework9JSONValueO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16AntsomiFramework9JSONValueO4boolyACSbcACmF",
+            "mangledName": "$s16AntsomiFramework9JSONValueO4boolyACSbcACmF",
+            "moduleName": "AntsomiFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "object",
+            "printedName": "object",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AntsomiFramework.JSONValue.Type) -> ([Swift.String : AntsomiFramework.JSONValue]) -> AntsomiFramework.JSONValue",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "([Swift.String : AntsomiFramework.JSONValue]) -> AntsomiFramework.JSONValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "JSONValue",
+                        "printedName": "AntsomiFramework.JSONValue",
+                        "usr": "s:16AntsomiFramework9JSONValueO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : AntsomiFramework.JSONValue]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "JSONValue",
+                            "printedName": "AntsomiFramework.JSONValue",
+                            "usr": "s:16AntsomiFramework9JSONValueO"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AntsomiFramework.JSONValue.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "JSONValue",
+                        "printedName": "AntsomiFramework.JSONValue",
+                        "usr": "s:16AntsomiFramework9JSONValueO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16AntsomiFramework9JSONValueO6objectyACSDySSACGcACmF",
+            "mangledName": "$s16AntsomiFramework9JSONValueO6objectyACSDySSACGcACmF",
+            "moduleName": "AntsomiFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "array",
+            "printedName": "array",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AntsomiFramework.JSONValue.Type) -> ([AntsomiFramework.JSONValue]) -> AntsomiFramework.JSONValue",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "([AntsomiFramework.JSONValue]) -> AntsomiFramework.JSONValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "JSONValue",
+                        "printedName": "AntsomiFramework.JSONValue",
+                        "usr": "s:16AntsomiFramework9JSONValueO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[AntsomiFramework.JSONValue]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "JSONValue",
+                            "printedName": "AntsomiFramework.JSONValue",
+                            "usr": "s:16AntsomiFramework9JSONValueO"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AntsomiFramework.JSONValue.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "JSONValue",
+                        "printedName": "AntsomiFramework.JSONValue",
+                        "usr": "s:16AntsomiFramework9JSONValueO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16AntsomiFramework9JSONValueO5arrayyACSayACGcACmF",
+            "mangledName": "$s16AntsomiFramework9JSONValueO5arrayyACSayACGcACmF",
+            "moduleName": "AntsomiFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "null",
+            "printedName": "null",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AntsomiFramework.JSONValue.Type) -> AntsomiFramework.JSONValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "JSONValue",
+                    "printedName": "AntsomiFramework.JSONValue",
+                    "usr": "s:16AntsomiFramework9JSONValueO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AntsomiFramework.JSONValue.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "JSONValue",
+                        "printedName": "AntsomiFramework.JSONValue",
+                        "usr": "s:16AntsomiFramework9JSONValueO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16AntsomiFramework9JSONValueO4nullyA2CmF",
+            "mangledName": "$s16AntsomiFramework9JSONValueO4nullyA2CmF",
+            "moduleName": "AntsomiFramework"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "JSONValue",
+                "printedName": "AntsomiFramework.JSONValue",
+                "usr": "s:16AntsomiFramework9JSONValueO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16AntsomiFramework9JSONValueO4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s16AntsomiFramework9JSONValueO4fromACs7Decoder_p_tKcfc",
+            "moduleName": "AntsomiFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16AntsomiFramework9JSONValueO6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s16AntsomiFramework9JSONValueO6encode2toys7Encoder_p_tKF",
+            "moduleName": "AntsomiFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:16AntsomiFramework9JSONValueO",
+        "mangledName": "$s16AntsomiFramework9JSONValueO",
+        "moduleName": "AntsomiFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "GamificationGame",
         "printedName": "GamificationGame",
         "children": [
@@ -51082,12 +51540,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "[Swift.String : Swift.String]?",
+                "printedName": "[Swift.String : AntsomiFramework.JSONValue]?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Dictionary",
-                    "printedName": "[Swift.String : Swift.String]",
+                    "printedName": "[Swift.String : AntsomiFramework.JSONValue]",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -51097,9 +51555,9 @@
                       },
                       {
                         "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
+                        "name": "JSONValue",
+                        "printedName": "AntsomiFramework.JSONValue",
+                        "usr": "s:16AntsomiFramework9JSONValueO"
                       }
                     ],
                     "usr": "s:SD"
@@ -51109,8 +51567,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:16AntsomiFramework16GamificationGameV8metadataSDyS2SGSgvp",
-            "mangledName": "$s16AntsomiFramework16GamificationGameV8metadataSDyS2SGSgvp",
+            "usr": "s:16AntsomiFramework16GamificationGameV8metadataSDySSAA9JSONValueOGSgvp",
+            "mangledName": "$s16AntsomiFramework16GamificationGameV8metadataSDySSAA9JSONValueOGSgvp",
             "moduleName": "AntsomiFramework",
             "declAttributes": [
               "HasStorage",
@@ -51127,12 +51585,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "[Swift.String : Swift.String]?",
+                    "printedName": "[Swift.String : AntsomiFramework.JSONValue]?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "Dictionary",
-                        "printedName": "[Swift.String : Swift.String]",
+                        "printedName": "[Swift.String : AntsomiFramework.JSONValue]",
                         "children": [
                           {
                             "kind": "TypeNominal",
@@ -51142,9 +51600,9 @@
                           },
                           {
                             "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
+                            "name": "JSONValue",
+                            "printedName": "AntsomiFramework.JSONValue",
+                            "usr": "s:16AntsomiFramework9JSONValueO"
                           }
                         ],
                         "usr": "s:SD"
@@ -51154,8 +51612,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16AntsomiFramework16GamificationGameV8metadataSDyS2SGSgvg",
-                "mangledName": "$s16AntsomiFramework16GamificationGameV8metadataSDyS2SGSgvg",
+                "usr": "s:16AntsomiFramework16GamificationGameV8metadataSDySSAA9JSONValueOGSgvg",
+                "mangledName": "$s16AntsomiFramework16GamificationGameV8metadataSDySSAA9JSONValueOGSgvg",
                 "moduleName": "AntsomiFramework",
                 "implicit": true,
                 "accessorKind": "get"
