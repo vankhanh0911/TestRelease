@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0.2 effective-5.10 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)
-// swift-module-flags: -target arm64-apple-ios10.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name AntsomiFramework
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+// swift-compiler-version: Apple Swift version 6.2.4 effective-5.10 (swiftlang-6.2.4.1.4 clang-1700.6.4.2)
+// swift-module-flags: -target arm64-apple-ios10.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name AntsomiFramework
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.4
 import AVFoundation
 @_exported import AntsomiFramework
 import CommonCrypto
@@ -25,21 +25,37 @@ import _SwiftConcurrencyShims
 import ObjectiveC.runtime
 import zlib
 public protocol SocketIOClientSpec : AnyObject {
+  #if compiler(>=5.3) && $NonescapableTypes
   var anyHandler: ((AntsomiFramework.SocketAnyEvent) -> ())? { get }
+  #endif
   var handlers: [AntsomiFramework.SocketEventHandler] { get }
+  #if compiler(>=5.3) && $NonescapableTypes
   var manager: (any AntsomiFramework.SocketManagerSpec)? { get }
+  #endif
   var nsp: Swift.String { get }
   var rawEmitView: AntsomiFramework.SocketRawView { get }
+  #if compiler(>=5.3) && $NonescapableTypes
   var sid: Swift.String? { get }
+  #endif
   var status: AntsomiFramework.SocketIOStatus { get }
+  #if compiler(>=5.3) && $NonescapableTypes
   func connect(withPayload payload: [Swift.String : Any]?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   func connect(withPayload payload: [Swift.String : Any]?, timeoutAfter: Swift.Double, withHandler handler: (() -> ())?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   func didConnect(toNamespace namespace: Swift.String, payload: [Swift.String : Any]?)
+  #endif
   func didDisconnect(reason: Swift.String)
   func didError(reason: Swift.String)
   func disconnect()
+  #if compiler(>=5.3) && $NonescapableTypes
   func emit(_ event: Swift.String, _ items: any AntsomiFramework.SocketData..., completion: (() -> ())?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   func emit(_ event: Swift.String, with items: [any AntsomiFramework.SocketData], completion: (() -> ())?)
+  #endif
   func emitAck(_ ack: Swift.Int, with items: [Any])
   func emitWithAck(_ event: Swift.String, _ items: any AntsomiFramework.SocketData...) -> AntsomiFramework.OnAckCallback
   func emitWithAck(_ event: Swift.String, with items: [any AntsomiFramework.SocketData]) -> AntsomiFramework.OnAckCallback
@@ -48,7 +64,9 @@ public protocol SocketIOClientSpec : AnyObject {
   func handleEvent(_ event: Swift.String, data: [Any], isInternalMessage: Swift.Bool, withAck ack: Swift.Int)
   func handlePacket(_ packet: AntsomiFramework.SocketPacket)
   func leaveNamespace()
+  #if compiler(>=5.3) && $NonescapableTypes
   func joinNamespace(withPayload payload: [Swift.String : Any]?)
+  #endif
   func off(clientEvent event: AntsomiFramework.SocketClientEvent)
   func off(_ event: Swift.String)
   func off(id: Foundation.UUID)
@@ -73,7 +91,9 @@ public enum SocketClientEvent : Swift.String {
   case reconnectAttempt
   case statusChange
   case websocketUpgrade
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -103,9 +123,11 @@ public class StringHTTPHandler : AntsomiFramework.HTTPHandler {
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers open class AntsomiNotificationService : UserNotifications.UNNotificationServiceExtension, UserNotifications.UNUserNotificationCenterDelegate {
+  #if compiler(>=5.3) && $NonescapableTypes
   open var appGroupsId: Swift.String? {
     get
   }
+  #endif
   @objc override dynamic open func didReceive(_ request: UserNotifications.UNNotificationRequest, withContentHandler contentHandler: @escaping (UserNotifications.UNNotificationContent) -> Swift.Void)
   @objc override dynamic open func serviceExtensionTimeWillExpire()
   @objc override dynamic public init()
@@ -113,17 +135,25 @@ public class StringHTTPHandler : AntsomiFramework.HTTPHandler {
 }
 public class WSEngine : AntsomiFramework.Engine, AntsomiFramework.TransportEventClient, AntsomiFramework.FramerEventClient, AntsomiFramework.FrameCollectorDelegate, AntsomiFramework.HTTPHandlerDelegate {
   public var respondToPingWithPong: Swift.Bool
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(transport: any AntsomiFramework.Transport, certPinner: (any AntsomiFramework.CertificatePinning)? = nil, headerValidator: any AntsomiFramework.HeaderValidator = FoundationSecurity(), httpHandler: any AntsomiFramework.HTTPHandler = FoundationHTTPHandler(), framer: any AntsomiFramework.Framer = WSFramer(), compressionHandler: (any AntsomiFramework.CompressionHandler)? = nil)
+  #endif
   public func register(delegate: any AntsomiFramework.EngineDelegate)
   public func start(request: Foundation.URLRequest)
   public func stop(closeCode: Swift.UInt16 = CloseCode.normal.rawValue)
   public func forceStop()
+  #if compiler(>=5.3) && $NonescapableTypes
   public func write(string: Swift.String, completion: (() -> ())?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func write(data: Foundation.Data, opcode: AntsomiFramework.FrameOpCode, completion: (() -> ())?)
+  #endif
   public func connectionChanged(state: AntsomiFramework.ConnectionState)
   public func didReceiveHTTP(event: AntsomiFramework.HTTPEvent)
   public func frameProcessed(event: AntsomiFramework.FrameEvent)
+  #if compiler(>=5.3) && $NonescapableTypes
   public func decompress(data: Foundation.Data, isFinal: Swift.Bool) -> Foundation.Data?
+  #endif
   public func didForm(event: AntsomiFramework.FrameCollector.Event)
   @objc deinit
 }
@@ -144,9 +174,11 @@ public struct SocketIOClientConfiguration : Swift.ExpressibleByArrayLiteral, Swi
   public var count: AntsomiFramework.SocketIOClientConfiguration.Index.Stride {
     get
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   public var first: AntsomiFramework.SocketIOClientConfiguration.Element? {
     get
   }
+  #endif
   public subscript(position: AntsomiFramework.SocketIOClientConfiguration.Index) -> AntsomiFramework.SocketIOClientConfiguration.Element {
     get
     set
@@ -241,7 +273,9 @@ public protocol ConfigSettable {
   }
   weak public var client: (any AntsomiFramework.SocketEngineClient)?
   public init(client: any AntsomiFramework.SocketEngineClient, url: Foundation.URL, config: AntsomiFramework.SocketIOClientConfiguration)
+  #if compiler(>=5.3) && $NonescapableTypes
   required convenience public init(client: any AntsomiFramework.SocketEngineClient, url: Foundation.URL, options: [Swift.String : Any]?)
+  #endif
   @objc deinit
   open func connect()
   open func didError(reason: Swift.String)
@@ -251,10 +285,14 @@ public protocol ConfigSettable {
   open func parseEngineData(_ data: Foundation.Data)
   open func parseEngineMessage(_ message: Swift.String)
   open func setConfigs(_ config: AntsomiFramework.SocketIOClientConfiguration)
+  #if compiler(>=5.3) && $NonescapableTypes
   open func write(_ msg: Swift.String, withType type: AntsomiFramework.SocketEnginePacketType, withData data: [Foundation.Data], completion: (() -> ())? = nil)
+  #endif
 }
 extension AntsomiFramework.SocketEngine {
+  #if compiler(>=5.3) && $NonescapableTypes
   public func URLSession(session: Foundation.URLSession, didBecomeInvalidWithError error: Foundation.NSError?)
+  #endif
 }
 extension AntsomiFramework.SocketEngine {
   public func didReceive(event: AntsomiFramework.WebSocketEvent, client: any AntsomiFramework.WebSocketClient)
@@ -264,7 +302,9 @@ extension AntsomiFramework.SocketEngine {
 public class WebSocketServer : AntsomiFramework.Server, AntsomiFramework.ConnectionDelegate {
   public var onEvent: ((AntsomiFramework.ServerEvent) -> Swift.Void)?
   public init()
+  #if compiler(>=5.3) && $NonescapableTypes
   public func start(address: Swift.String, port: Swift.UInt16) -> (any Swift.Error)?
+  #endif
   public func didReceive(event: AntsomiFramework.ServerEvent)
   @objc deinit
 }
@@ -277,7 +317,9 @@ public class ServerConnection : AntsomiFramework.Connection, AntsomiFramework.HT
   public func didReceive(event: AntsomiFramework.HTTPEvent)
   public func frameProcessed(event: AntsomiFramework.FrameEvent)
   public func didForm(event: AntsomiFramework.FrameCollector.Event)
+  #if compiler(>=5.3) && $NonescapableTypes
   public func decompress(data: Foundation.Data, isFinal: Swift.Bool) -> Foundation.Data?
+  #endif
   @objc deinit
 }
 @objc open class SocketManager : ObjectiveC.NSObject, AntsomiFramework.SocketManagerSpec, AntsomiFramework.SocketParsable, AntsomiFramework.SocketDataBufferable, AntsomiFramework.ConfigSettable {
@@ -305,10 +347,14 @@ public class ServerConnection : AntsomiFramework.Connection, AntsomiFramework.HT
   }
   public var waitingPackets: [AntsomiFramework.SocketPacket]
   public init(socketURL: Foundation.URL, config: AntsomiFramework.SocketIOClientConfiguration = [])
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc convenience public init(socketURL: Foundation.URL, config: [Swift.String : Any]?)
+  #endif
   @objc deinit
   open func connect()
+  #if compiler(>=5.3) && $NonescapableTypes
   open func connectSocket(_ socket: AntsomiFramework.SocketIOClient, withPayload payload: [Swift.String : Any]? = nil)
+  #endif
   open func didDisconnect(reason: Swift.String)
   open func disconnect()
   open func disconnectSocket(_ socket: AntsomiFramework.SocketIOClient)
@@ -326,8 +372,10 @@ public class ServerConnection : AntsomiFramework.Connection, AntsomiFramework.HT
   @objc open func parseEngineMessage(_ msg: Swift.String)
   @objc open func parseEngineBinaryData(_ data: Foundation.Data)
   open func reconnect()
+  #if compiler(>=5.3) && $NonescapableTypes
   @discardableResult
   open func removeSocket(_ socket: AntsomiFramework.SocketIOClient) -> AntsomiFramework.SocketIOClient?
+  #endif
   open func setConfigs(_ config: AntsomiFramework.SocketIOClientConfiguration)
   open func socket(forNamespace nsp: Swift.String) -> AntsomiFramework.SocketIOClient
 }
@@ -335,7 +383,9 @@ public enum SocketAckStatus : Swift.String {
   case noAck
   public static func == (lhs: Swift.String, rhs: AntsomiFramework.SocketAckStatus) -> Swift.Bool
   public static func == (lhs: AntsomiFramework.SocketAckStatus, rhs: Swift.String) -> Swift.Bool
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -343,8 +393,12 @@ public enum SocketAckStatus : Swift.String {
 }
 public protocol CompressionHandler {
   func load(headers: [Swift.String : Swift.String])
+  #if compiler(>=5.3) && $NonescapableTypes
   func decompress(data: Foundation.Data, isFinal: Swift.Bool) -> Foundation.Data?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   func compress(data: Foundation.Data) -> Foundation.Data?
+  #endif
 }
 public protocol SocketData {
   func socketRepresentation() throws -> any AntsomiFramework.SocketData
@@ -395,8 +449,12 @@ public typealias Post = (msg: Swift.String, completion: (() -> ())?)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public var preferredStatusBarUpdateAnimation: UIKit.UIStatusBarAnimation {
     @objc get
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  #endif
   @objc deinit
 }
 extension AntsomiFramework.GamificationViewController : WebKit.WKUIDelegate {
@@ -406,9 +464,15 @@ extension AntsomiFramework.GamificationViewController : WebKit.WKUIDelegate {
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func webView(_ webView: WebKit.WKWebView, runJavaScriptConfirmPanelWithMessage message: Swift.String, initiatedByFrame frame: WebKit.WKFrameInfo, completionHandler: @escaping (Swift.Bool) -> Swift.Void)
 }
 extension AntsomiFramework.GamificationViewController : WebKit.WKNavigationDelegate {
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func webView(_ webView: WebKit.WKWebView, didFinish navigation: WebKit.WKNavigation!)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func webView(_ webView: WebKit.WKWebView, didFail navigation: WebKit.WKNavigation!, withError error: any Swift.Error)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func webView(_ webView: WebKit.WKWebView, didFailProvisionalNavigation navigation: WebKit.WKNavigation!, withError error: any Swift.Error)
+  #endif
 }
 extension AntsomiFramework.GamificationViewController : WebKit.WKScriptMessageHandler {
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func userContentController(_ userContentController: WebKit.WKUserContentController, didReceive message: WebKit.WKScriptMessage)
@@ -419,11 +483,21 @@ public class NativeEngine : ObjectiveC.NSObject, AntsomiFramework.Engine, Founda
   public func start(request: Foundation.URLRequest)
   public func stop(closeCode: Swift.UInt16)
   public func forceStop()
+  #if compiler(>=5.3) && $NonescapableTypes
   public func write(string: Swift.String, completion: (() -> ())?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func write(data: Foundation.Data, opcode: AntsomiFramework.FrameOpCode, completion: (() -> ())?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public func urlSession(_ session: Foundation.URLSession, webSocketTask: Foundation.URLSessionWebSocketTask, didOpenWithProtocol protocol: Swift.String?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public func urlSession(_ session: Foundation.URLSession, webSocketTask: Foundation.URLSessionWebSocketTask, didCloseWith closeCode: Foundation.URLSessionWebSocketTask.CloseCode, reason: Foundation.Data?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public func urlSession(_ session: Foundation.URLSession, task: Foundation.URLSessionTask, didCompleteWithError error: (any Swift.Error)?)
+  #endif
   @objc override dynamic public init()
   @objc deinit
 }
@@ -436,7 +510,9 @@ public enum CloseCode : Swift.UInt16 {
   case encoding
   case policyViolated
   case messageTooBig
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.UInt16)
+  #endif
   public typealias RawValue = Swift.UInt16
   public var rawValue: Swift.UInt16 {
     get
@@ -450,7 +526,9 @@ public enum FrameOpCode : Swift.UInt8 {
   case ping
   case pong
   case unknown
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.UInt8)
+  #endif
   public typealias RawValue = Swift.UInt8
   public var rawValue: Swift.UInt8 {
     get
@@ -502,7 +580,9 @@ public func writeUint64(_ buffer: inout [Swift.UInt8], offset: Swift.Int, value:
 }
 public protocol SocketManagerSpec : AntsomiFramework.SocketEngineClient {
   var defaultSocket: AntsomiFramework.SocketIOClient { get }
+  #if compiler(>=5.3) && $NonescapableTypes
   var engine: (any AntsomiFramework.SocketEngineSpec)? { get set }
+  #endif
   var forceNew: Swift.Bool { get set }
   var handleQueue: Dispatch.DispatchQueue { get set }
   var nsps: [Swift.String : AntsomiFramework.SocketIOClient] { get set }
@@ -514,15 +594,19 @@ public protocol SocketManagerSpec : AntsomiFramework.SocketEngineClient {
   var status: AntsomiFramework.SocketIOStatus { get }
   var version: AntsomiFramework.SocketIOVersion { get }
   func connect()
+  #if compiler(>=5.3) && $NonescapableTypes
   func connectSocket(_ socket: AntsomiFramework.SocketIOClient, withPayload: [Swift.String : Any]?)
+  #endif
   func didDisconnect(reason: Swift.String)
   func disconnect()
   func disconnectSocket(_ socket: AntsomiFramework.SocketIOClient)
   func disconnectSocket(forNamespace nsp: Swift.String)
   func emitAll(_ event: Swift.String, _ items: any AntsomiFramework.SocketData...)
   func reconnect()
+  #if compiler(>=5.3) && $NonescapableTypes
   @discardableResult
   func removeSocket(_ socket: AntsomiFramework.SocketIOClient) -> AntsomiFramework.SocketIOClient?
+  #endif
   func socket(forNamespace nsp: Swift.String) -> AntsomiFramework.SocketIOClient
 }
 @_inheritsConvenienceInitializers @objc @_Concurrency.MainActor @preconcurrency public class CarouselController : UIKit.UIViewController, UIKit.UIGestureRecognizerDelegate {
@@ -536,8 +620,12 @@ public protocol SocketManagerSpec : AntsomiFramework.SocketEngineClient {
   @objc @_Concurrency.MainActor @preconcurrency public var viewHeight: CoreFoundation.CGFloat
   @objc @_Concurrency.MainActor @preconcurrency public var isContainActionButton: Swift.Bool
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  #endif
   @objc deinit
 }
 public protocol EngineDelegate : AnyObject {
@@ -548,8 +636,12 @@ public protocol Engine {
   func start(request: Foundation.URLRequest)
   func stop(closeCode: Swift.UInt16)
   func forceStop()
+  #if compiler(>=5.3) && $NonescapableTypes
   func write(data: Foundation.Data, opcode: AntsomiFramework.FrameOpCode, completion: (() -> ())?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   func write(string: Swift.String, completion: (() -> ())?)
+  #endif
 }
 public enum HTTPUpgradeError : Swift.Error {
   case notAnUpgrade(Swift.Int, [Swift.String : Swift.String])
@@ -585,7 +677,9 @@ extension Foundation.URL {
   public var isTLSScheme: Swift.Bool {
     get
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getParts() -> AntsomiFramework.URLParts?
+  #endif
 }
 @_inheritsConvenienceInitializers @objc public class AntsomiUtiltiy : ObjectiveC.NSObject {
   @objc override dynamic public init()
@@ -604,7 +698,9 @@ extension Foundation.URL {
 }
 public protocol FrameCollectorDelegate : AnyObject {
   func didForm(event: AntsomiFramework.FrameCollector.Event)
+  #if compiler(>=5.3) && $NonescapableTypes
   func decompress(data: Foundation.Data, isFinal: Swift.Bool) -> Foundation.Data?
+  #endif
 }
 @_hasMissingDesignatedInitializers public class FrameCollector {
   public enum Event {
@@ -631,10 +727,14 @@ public class FoundationSecurity {
   @objc deinit
 }
 extension AntsomiFramework.FoundationSecurity : AntsomiFramework.CertificatePinning {
-  public func evaluateTrust(trust: Security.SecTrust, domain: Swift.String?, completion: ((AntsomiFramework.PinningState) -> ()))
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func evaluateTrust(trust: Security.SecTrust, domain: Swift.String?, completion: (AntsomiFramework.PinningState) -> ())
+  #endif
 }
 extension AntsomiFramework.FoundationSecurity : AntsomiFramework.HeaderValidator {
+  #if compiler(>=5.3) && $NonescapableTypes
   public func validate(headers: [Swift.String : Swift.String], key: Swift.String) -> (any Swift.Error)?
+  #endif
 }
 public protocol AppInboxDelegate : AnyObject {
   func onNewMessage(_ newMessageReceived: AntsomiFramework.InboxItem)
@@ -647,12 +747,12 @@ public protocol AppInboxDelegate : AnyObject {
   public static func setPageLimit(pageLimit: Swift.Int)
   public init(destinationId: Swift.String, audienceType: Swift.String, log: Swift.Bool = false)
   public func getMessage() -> [AntsomiFramework.InboxItem]
-  public func countUnreadMessage(completion: @escaping ((Swift.Int) -> Swift.Void))
-  public func getMessageById(messageId: Swift.String, completion: @escaping ((AntsomiFramework.InboxItem) -> Swift.Void))
-  public func forceFetchInboxItem(catalogId: [Swift.String] = [], page: Swift.Int, completion: @escaping (([AntsomiFramework.InboxItem]) -> Swift.Void))
+  public func countUnreadMessage(completion: @escaping (Swift.Int) -> Swift.Void)
+  public func getMessageById(messageId: Swift.String, completion: @escaping (AntsomiFramework.InboxItem) -> Swift.Void)
+  public func forceFetchInboxItem(catalogId: [Swift.String] = [], page: Swift.Int, completion: @escaping ([AntsomiFramework.InboxItem]) -> Swift.Void)
   public func markAllAsRead()
   public func modifyMessageStatus(_ messageId: [Swift.String], action: AntsomiFramework.ModifyAction)
-  public func fetchAllCatalog(completion: @escaping (([AntsomiFramework.Catalog]) -> Swift.Void))
+  public func fetchAllCatalog(completion: @escaping ([AntsomiFramework.Catalog]) -> Swift.Void)
   @objc deinit
 }
 public struct Catalog : Swift.Codable {
@@ -663,7 +763,9 @@ public struct Catalog : Swift.Codable {
 }
 extension AntsomiFramework.Catalog {
   public func jsonData() throws -> Foundation.Data
+  #if compiler(>=5.3) && $NonescapableTypes
   public func jsonString(encoding: Swift.String.Encoding = .utf8) throws -> Swift.String?
+  #endif
 }
 public enum ConnectionEvent {
   case connected([Swift.String : Swift.String])
@@ -689,7 +791,9 @@ public enum ServerEvent {
   case ping(any AntsomiFramework.Connection, Foundation.Data?)
 }
 public protocol Server {
+  #if compiler(>=5.3) && $NonescapableTypes
   func start(address: Swift.String, port: Swift.UInt16) -> (any Swift.Error)?
+  #endif
 }
 @_cdecl("AntsomiRegisterForRemoteNotifications")
 public func AntsomiRegisterForRemoteNotifications(_ deviceToken: Foundation.Data)
@@ -740,25 +844,33 @@ public func AntsomiStoreLastNotificationJSON(_ cstr: Swift.UnsafePointer<Swift.C
   @objc public func resetCustomer()
   @objc public func getCustomerId() -> Swift.String
   @objc public func getPropsId() -> Swift.String
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public func getCustomerProperties() -> [Swift.String : Any]?
+  #endif
   @objc public func getDeviceId() -> Swift.String
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public func getPortalId() -> Swift.String?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public func getAppGroupId() -> Swift.String?
+  #endif
   @objc public func appInboxInit(destinationId: Swift.String, audienceType: Swift.String)
   public func track(event: AntsomiFramework.CDPEvent)
-  public func getMediaJson(event: AntsomiFramework.CDPEvent, completion: @escaping (([Swift.String : Any]) -> Swift.Void))
-  public func getMediaJson(event: AntsomiFramework.CDPEvent, storyId: Swift.String, completion: @escaping (([Swift.String : Any]) -> Swift.Void))
-  @objc public func processGetMediaJson(eventBody: [Swift.String : Any], completion: @escaping (([Swift.String : Any]) -> Swift.Void))
+  public func getMediaJson(event: AntsomiFramework.CDPEvent, completion: @escaping ([Swift.String : Any]) -> Swift.Void)
+  public func getMediaJson(event: AntsomiFramework.CDPEvent, storyId: Swift.String, completion: @escaping ([Swift.String : Any]) -> Swift.Void)
+  @objc public func processGetMediaJson(eventBody: [Swift.String : Any], completion: @escaping ([Swift.String : Any]) -> Swift.Void)
   @objc public func setDeeplinkCallback(_ cb: @escaping (Swift.String) -> Swift.Void)
   @objc public func setNotificationCallback(_ cb: @escaping ([Swift.String : Any]) -> Swift.Void)
   @objc public func setPushUrlCallback(_ cb: @escaping (Swift.String) -> Swift.Void)
   @objc public func storeLastLink(_ link: Swift.String)
   @objc public func storeLastNotification(_ userInfo: [Swift.String : Any])
   @objc public func handleViewTrackingUrl(_ url: Foundation.URL)
-  @objc public func handleTrackingURL(_ url: Foundation.URL, completion: @escaping (() -> ()))
+  @objc public func handleTrackingURL(_ url: Foundation.URL, completion: @escaping () -> ())
   @objc public func handleDeeplinkURL(_ url: Foundation.URL)
   public func activate(with config: AntsomiFramework.Antsomi.Configuration)
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public func getPushUid() -> Swift.String?
+  #endif
   @objc public func trackAppLaunch()
   @objc public func requestNotificationPermission()
   @objc public func registerForNotification(_ deviceToken: Foundation.Data)
@@ -766,11 +878,17 @@ public func AntsomiStoreLastNotificationJSON(_ cstr: Swift.UnsafePointer<Swift.C
   @objc public func setHandleChangeRouteTemplate(_ callback: @escaping (Swift.String) -> Swift.Void)
   @objc public static func getBundleId() -> Swift.String
   @objc public func md5(string: Swift.String) -> Swift.String
-  public func getReaderSegment(email: Swift.String, completion: @escaping ((AntsomiFramework.ReaderSegment) -> Swift.Void))
+  public func getReaderSegment(email: Swift.String, completion: @escaping (AntsomiFramework.ReaderSegment) -> Swift.Void)
   @objc public func initGamification(accessToken: Swift.String, env: Swift.String = "production")
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getListGame(completion: @escaping (Swift.Result<[AntsomiFramework.GamificationGame], any Swift.Error>) -> Swift.Void)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getGameDetail(gameId: Swift.String, completion: @escaping (Swift.Result<AntsomiFramework.GamificationGame, any Swift.Error>) -> Swift.Void)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getGameByCode(gameCode: Swift.String, completion: @escaping (Swift.Result<AntsomiFramework.GamificationGame, any Swift.Error>) -> Swift.Void)
+  #endif
   @objc public func playGame(gameId: Swift.String)
   @objc public func playGame(gameCode: Swift.String)
   @objc override dynamic public init()
@@ -782,8 +900,12 @@ public func AntsomiStoreLastNotificationJSON(_ cstr: Swift.UnsafePointer<Swift.C
   @objc deinit
 }
 public protocol SocketParsable : AnyObject {
+  #if compiler(>=5.3) && $NonescapableTypes
   func parseBinaryData(_ data: Foundation.Data) -> AntsomiFramework.SocketPacket?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   func parseSocketMessage(_ message: Swift.String) -> AntsomiFramework.SocketPacket?
+  #endif
 }
 public enum SocketParsableError : Swift.Error {
   case invalidDataArray
@@ -799,8 +921,12 @@ public protocol SocketDataBufferable : AnyObject {
   var waitingPackets: [AntsomiFramework.SocketPacket] { get set }
 }
 extension AntsomiFramework.SocketParsable where Self : AntsomiFramework.SocketDataBufferable, Self : AntsomiFramework.SocketManagerSpec {
+  #if compiler(>=5.3) && $NonescapableTypes
   public func parseSocketMessage(_ message: Swift.String) -> AntsomiFramework.SocketPacket?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func parseBinaryData(_ data: Foundation.Data) -> AntsomiFramework.SocketPacket?
+  #endif
 }
 @_inheritsConvenienceInitializers @objc @_Concurrency.MainActor @preconcurrency public class SmallImageController : UIKit.UIViewController, UIKit.UIGestureRecognizerDelegate {
   @objc @_Concurrency.MainActor @preconcurrency public var data: Swift.String
@@ -809,8 +935,12 @@ extension AntsomiFramework.SocketParsable where Self : AntsomiFramework.SocketDa
   @objc @_Concurrency.MainActor @preconcurrency public var bodyNoti: Swift.String
   @objc @_Concurrency.MainActor @preconcurrency public var isContainActionButton: Swift.Bool
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  #endif
   @objc deinit
 }
 extension Foundation.Data {
@@ -849,7 +979,9 @@ public class AntsomiSignature {
 }
 public protocol AntsomiKey : AnyObject {
   var reference: Security.SecKey { get }
+  #if compiler(>=5.3) && $NonescapableTypes
   var originalData: Foundation.Data? { get }
+  #endif
   init(data: Foundation.Data) throws
   init(reference: Security.SecKey) throws
   init(base64Encoded base64String: Swift.String) throws
@@ -894,9 +1026,11 @@ public enum SwiftyRSAError : Swift.Error {
   case x509CertificateFailed
 }
 extension AntsomiFramework.SwiftyRSAError : Foundation.LocalizedError {
+  #if compiler(>=5.3) && $NonescapableTypes
   public var errorDescription: Swift.String? {
     get
   }
+  #endif
 }
 public protocol AntsomiMessage {
   var data: Foundation.Data { get }
@@ -949,9 +1083,11 @@ public class AntsomiPublicKey : AntsomiFramework.AntsomiKey {
   @objc public var reference: Security.SecKey {
     @objc get
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public var originalData: Foundation.Data? {
     @objc get
   }
+  #endif
   @objc public func pemString() throws -> Swift.String
   @objc public func data() throws -> Foundation.Data
   @objc public func base64String() throws -> Swift.String
@@ -969,9 +1105,11 @@ public class AntsomiPublicKey : AntsomiFramework.AntsomiKey {
   @objc public var reference: Security.SecKey {
     @objc get
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public var originalData: Foundation.Data? {
     @objc get
   }
+  #endif
   @objc public func pemString() throws -> Swift.String
   @objc public func data() throws -> Foundation.Data
   @objc public func base64String() throws -> Swift.String
@@ -1025,7 +1163,9 @@ public class AntsomiPublicKey : AntsomiFramework.AntsomiKey {
     case sha256
     case sha384
     case sha512
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.Int)
+    #endif
     public typealias RawValue = Swift.Int
     public var rawValue: Swift.Int {
       get
@@ -1068,9 +1208,13 @@ public protocol TransportEventClient : AnyObject {
 }
 public protocol Transport : AnyObject {
   func register(delegate: any AntsomiFramework.TransportEventClient)
+  #if compiler(>=5.3) && $NonescapableTypes
   func connect(url: Foundation.URL, timeout: Swift.Double, certificatePinning: (any AntsomiFramework.CertificatePinning)?)
+  #endif
   func disconnect()
-  func write(data: Foundation.Data, completion: @escaping (((any Swift.Error)?) -> ()))
+  #if compiler(>=5.3) && $NonescapableTypes
+  func write(data: Foundation.Data, completion: @escaping ((any Swift.Error)?) -> ())
+  #endif
   var usingTLS: Swift.Bool { get }
 }
 @objc @_hasMissingDesignatedInitializers final public class SocketRawView : ObjectiveC.NSObject {
@@ -1101,16 +1245,22 @@ public class TCPTransport : AntsomiFramework.Transport {
   }
   public init(connection: Network.NWConnection)
   public init()
+  #if compiler(>=5.3) && $NonescapableTypes
   public func connect(url: Foundation.URL, timeout: Swift.Double = 10, certificatePinning: (any AntsomiFramework.CertificatePinning)? = nil)
+  #endif
   public func disconnect()
   public func register(delegate: any AntsomiFramework.TransportEventClient)
-  public func write(data: Foundation.Data, completion: @escaping (((any Swift.Error)?) -> ()))
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func write(data: Foundation.Data, completion: @escaping ((any Swift.Error)?) -> ())
+  #endif
 }
 public enum ModifyAction : Swift.Int, Swift.CaseIterable, Swift.Codable {
   case unread
   case read
   case remove
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
+  #endif
   public typealias AllCases = [AntsomiFramework.ModifyAction]
   public typealias RawValue = Swift.Int
   nonisolated public static var allCases: [AntsomiFramework.ModifyAction] {
@@ -1130,22 +1280,30 @@ public class FoundationHTTPHandler : AntsomiFramework.HTTPHandler {
 public protocol SocketEnginePollable : AntsomiFramework.SocketEngineSpec {
   var invalidated: Swift.Bool { get }
   var postWait: [AntsomiFramework.Post] { get set }
+  #if compiler(>=5.3) && $NonescapableTypes
   var session: Foundation.URLSession? { get }
+  #endif
   var waitingForPoll: Swift.Bool { get set }
   var waitingForPost: Swift.Bool { get set }
   func doPoll()
+  #if compiler(>=5.3) && $NonescapableTypes
   func sendPollMessage(_ message: Swift.String, withType type: AntsomiFramework.SocketEnginePacketType, withData datas: [Foundation.Data], completion: (() -> ())?)
+  #endif
   func stopPolling()
 }
 extension AntsomiFramework.SocketEnginePollable {
   public func doPoll()
+  #if compiler(>=5.3) && $NonescapableTypes
   public func sendPollMessage(_ message: Swift.String, withType type: AntsomiFramework.SocketEnginePacketType, withData datas: [Foundation.Data], completion: (() -> ())? = nil)
+  #endif
   public func stopPolling()
 }
 public enum SecurityErrorCode : Swift.UInt16 {
   case acceptFailed
   case pinningFailed
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.UInt16)
+  #endif
   public typealias RawValue = Swift.UInt16
   public var rawValue: Swift.UInt16 {
     get
@@ -1156,10 +1314,14 @@ public enum PinningState {
   case failed(CoreFoundation.CFError?)
 }
 public protocol CertificatePinning : AnyObject {
-  func evaluateTrust(trust: Security.SecTrust, domain: Swift.String?, completion: ((AntsomiFramework.PinningState) -> ()))
+  #if compiler(>=5.3) && $NonescapableTypes
+  func evaluateTrust(trust: Security.SecTrust, domain: Swift.String?, completion: (AntsomiFramework.PinningState) -> ())
+  #endif
 }
 public protocol HeaderValidator : AnyObject {
+  #if compiler(>=5.3) && $NonescapableTypes
   func validate(headers: [Swift.String : Swift.String], key: Swift.String) -> (any Swift.Error)?
+  #endif
 }
 @objc @_inheritsConvenienceInitializers public class Context : ObjectiveC.NSObject {
   public var deviceID: Swift.String?
@@ -1187,11 +1349,21 @@ public struct WSError : Swift.Error {
 public protocol WebSocketClient : AnyObject {
   func connect()
   func disconnect(closeCode: Swift.UInt16)
+  #if compiler(>=5.3) && $NonescapableTypes
   func write(string: Swift.String, completion: (() -> ())?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   func write(stringData: Foundation.Data, completion: (() -> ())?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   func write(data: Foundation.Data, completion: (() -> ())?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   func write(ping: Foundation.Data, completion: (() -> ())?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   func write(pong: Foundation.Data, completion: (() -> ())?)
+  #endif
 }
 extension AntsomiFramework.WebSocketClient {
   public func write(string: Swift.String)
@@ -1226,15 +1398,27 @@ open class WebSocket : AntsomiFramework.WebSocketClient, AntsomiFramework.Engine
     set
   }
   public init(request: Foundation.URLRequest, engine: any AntsomiFramework.Engine)
+  #if compiler(>=5.3) && $NonescapableTypes
   convenience public init(request: Foundation.URLRequest, certPinner: (any AntsomiFramework.CertificatePinning)? = FoundationSecurity(), compressionHandler: (any AntsomiFramework.CompressionHandler)? = nil, useCustomEngine: Swift.Bool = true)
+  #endif
   public func connect()
   public func disconnect(closeCode: Swift.UInt16 = CloseCode.normal.rawValue)
   public func forceDisconnect()
+  #if compiler(>=5.3) && $NonescapableTypes
   public func write(data: Foundation.Data, completion: (() -> ())?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func write(string: Swift.String, completion: (() -> ())?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func write(stringData: Foundation.Data, completion: (() -> ())?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func write(ping: Foundation.Data, completion: (() -> ())?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func write(pong: Foundation.Data, completion: (() -> ())?)
+  #endif
   public func didReceive(event: AntsomiFramework.WebSocketEvent)
   @objc deinit
 }
@@ -1296,7 +1480,9 @@ public struct CDPEvent : Swift.Encodable {
   public var description: Swift.String {
     get
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
+  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -1310,7 +1496,9 @@ public struct CDPEvent : Swift.Encodable {
   case message
   case upgrade
   case noop
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
+  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -1319,16 +1507,24 @@ public struct CDPEvent : Swift.Encodable {
 public class WSCompression : AntsomiFramework.CompressionHandler {
   public init()
   public func load(headers: [Swift.String : Swift.String])
+  #if compiler(>=5.3) && $NonescapableTypes
   public func decompress(data: Foundation.Data, isFinal: Swift.Bool) -> Foundation.Data?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func compress(data: Foundation.Data) -> Foundation.Data?
+  #endif
   @objc deinit
 }
 public protocol SocketEngineWebsocket : AntsomiFramework.SocketEngineSpec {
   var wsConnected: Swift.Bool { get }
+  #if compiler(>=5.3) && $NonescapableTypes
   func sendWebSocketMessage(_ str: Swift.String, withType type: AntsomiFramework.SocketEnginePacketType, withData datas: [Foundation.Data], completion: (() -> ())?)
+  #endif
 }
 extension AntsomiFramework.SocketEngineWebsocket {
+  #if compiler(>=5.3) && $NonescapableTypes
   public func sendWebSocketMessage(_ str: Swift.String, withType type: AntsomiFramework.SocketEnginePacketType, withData data: [Foundation.Data], completion: (() -> ())?)
+  #endif
 }
 public struct SocketPacket : Swift.CustomStringConvertible {
   public let nsp: Swift.String
@@ -1365,7 +1561,9 @@ extension AntsomiFramework.SocketPacket {
     public var isBinary: Swift.Bool {
       get
     }
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.Int)
+    #endif
     public typealias RawValue = Swift.Int
     public var rawValue: Swift.Int {
       get
@@ -1394,12 +1592,18 @@ public enum FoundationTransportError : Swift.Error {
   public var usingTLS: Swift.Bool {
     get
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(streamConfiguration: ((Foundation.InputStream, Foundation.OutputStream) -> Swift.Void)? = nil)
+  #endif
   @objc deinit
+  #if compiler(>=5.3) && $NonescapableTypes
   public func connect(url: Foundation.URL, timeout: Swift.Double = 10, certificatePinning: (any AntsomiFramework.CertificatePinning)? = nil)
+  #endif
   public func disconnect()
   public func register(delegate: any AntsomiFramework.TransportEventClient)
-  public func write(data: Foundation.Data, completion: @escaping (((any Swift.Error)?) -> ()))
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func write(data: Foundation.Data, completion: @escaping ((any Swift.Error)?) -> ())
+  #endif
   @objc open func stream(_ aStream: Foundation.Stream, handle eventCode: Foundation.Stream.Event)
 }
 public struct InboxItem : Swift.Codable {
@@ -1427,12 +1631,16 @@ public struct InboxItem : Swift.Codable {
 }
 extension AntsomiFramework.InboxItem {
   public func jsonData() throws -> Foundation.Data
+  #if compiler(>=5.3) && $NonescapableTypes
   public func jsonString(encoding: Swift.String.Encoding = .utf8) throws -> Swift.String?
+  #endif
 }
 public enum SocketIOVersion : Swift.Int {
   case two
   case three
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
+  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -1477,14 +1685,22 @@ extension AntsomiFramework.SocketLogger {
   public func error(_ message: @autoclosure () -> Swift.String, type: Swift.String)
 }
 public protocol SocketEngineSpec : AnyObject {
+  #if compiler(>=5.3) && $NonescapableTypes
   var client: (any AntsomiFramework.SocketEngineClient)? { get set }
+  #endif
   var closed: Swift.Bool { get }
   var compress: Swift.Bool { get }
   var connected: Swift.Bool { get }
+  #if compiler(>=5.3) && $NonescapableTypes
   var connectParams: [Swift.String : Any]? { get set }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   var cookies: [Foundation.HTTPCookie]? { get }
+  #endif
   var engineQueue: Dispatch.DispatchQueue { get }
+  #if compiler(>=5.3) && $NonescapableTypes
   var extraHeaders: [Swift.String : Swift.String]? { get set }
+  #endif
   var fastUpgrade: Swift.Bool { get }
   var forcePolling: Swift.Bool { get }
   var forceWebsockets: Swift.Bool { get }
@@ -1497,8 +1713,12 @@ public protocol SocketEngineSpec : AnyObject {
   var version: AntsomiFramework.SocketIOVersion { get }
   @available(*, deprecated, message: "No longer needed, if we're not polling, then we must be doing websockets")
   var websocket: Swift.Bool { get }
+  #if compiler(>=5.3) && $NonescapableTypes
   var ws: AntsomiFramework.WebSocket? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   init(client: any AntsomiFramework.SocketEngineClient, url: Foundation.URL, options: [Swift.String : Any]?)
+  #endif
   func connect()
   func didError(reason: Swift.String)
   func disconnect(reason: Swift.String)
@@ -1506,7 +1726,9 @@ public protocol SocketEngineSpec : AnyObject {
   func flushWaitingForPostToWebSocket()
   func parseEngineData(_ data: Foundation.Data)
   func parseEngineMessage(_ message: Swift.String)
+  #if compiler(>=5.3) && $NonescapableTypes
   func write(_ msg: Swift.String, withType type: AntsomiFramework.SocketEnginePacketType, withData data: [Foundation.Data], completion: (() -> ())?)
+  #endif
 }
 extension UIKit.UIDevice {
   @_Concurrency.MainActor @preconcurrency public static let modelName: Swift.String
@@ -1532,9 +1754,11 @@ public struct GamificationGame : Swift.Codable {
   public let endAt: Swift.String?
   public let status: Swift.String?
   public let metadata: [Swift.String : AntsomiFramework.JSONValue]?
+  #if compiler(>=5.3) && $NonescapableTypes
   public var gameUrl: Swift.String? {
     get
   }
+  #endif
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
@@ -1543,9 +1767,11 @@ public enum GamificationError : Swift.Error, Foundation.LocalizedError {
   case invalidResponse
   case apiError(Swift.String)
   case networkError(any Swift.Error)
+  #if compiler(>=5.3) && $NonescapableTypes
   public var errorDescription: Swift.String? {
     get
   }
+  #endif
 }
 @_inheritsConvenienceInitializers @objc @_Concurrency.MainActor @preconcurrency public class TextOverlayController : UIKit.UIViewController, UIKit.UIGestureRecognizerDelegate {
   @objc @_Concurrency.MainActor @preconcurrency public var data: Swift.String
@@ -1559,8 +1785,12 @@ public enum GamificationError : Swift.Error, Foundation.LocalizedError {
   @objc @_Concurrency.MainActor @preconcurrency public var topAnchorTitle: CoreFoundation.CGFloat
   @objc @_Concurrency.MainActor @preconcurrency public var isContainActionButton: Swift.Bool
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  #endif
   @objc deinit
 }
 @_inheritsConvenienceInitializers @objc @_Concurrency.MainActor @preconcurrency public class RatingController : UIKit.UIViewController, UIKit.UIGestureRecognizerDelegate {
@@ -1573,8 +1803,12 @@ public enum GamificationError : Swift.Error, Foundation.LocalizedError {
   @objc @_Concurrency.MainActor @preconcurrency public var bodyHeight: CoreFoundation.CGFloat
   @objc @_Concurrency.MainActor @preconcurrency public var viewHeight: CoreFoundation.CGFloat
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  #endif
   @objc deinit
 }
 @_inheritsConvenienceInitializers @objc @_Concurrency.MainActor @preconcurrency public class StyleBasicController : UIKit.UIViewController, UIKit.UIGestureRecognizerDelegate {
@@ -1588,8 +1822,12 @@ public enum GamificationError : Swift.Error, Foundation.LocalizedError {
   @objc @_Concurrency.MainActor @preconcurrency public var viewHeight: CoreFoundation.CGFloat
   @objc @_Concurrency.MainActor @preconcurrency public var isContainActionButton: Swift.Bool
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  #endif
   @objc deinit
 }
 @objc open class SocketIOClient : ObjectiveC.NSObject, AntsomiFramework.SocketIOClientSpec {
@@ -1614,13 +1852,23 @@ public enum GamificationError : Swift.Error, Foundation.LocalizedError {
   }
   public init(manager: any AntsomiFramework.SocketManagerSpec, nsp: Swift.String)
   @objc deinit
+  #if compiler(>=5.3) && $NonescapableTypes
   open func connect(withPayload payload: [Swift.String : Any]? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   open func connect(withPayload payload: [Swift.String : Any]? = nil, timeoutAfter: Swift.Double, withHandler handler: (() -> ())?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   open func didConnect(toNamespace namespace: Swift.String, payload: [Swift.String : Any]?)
+  #endif
   open func didDisconnect(reason: Swift.String)
   open func disconnect()
+  #if compiler(>=5.3) && $NonescapableTypes
   open func emit(_ event: Swift.String, _ items: any AntsomiFramework.SocketData..., completion: (() -> ())? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   open func emit(_ event: Swift.String, with items: [any AntsomiFramework.SocketData], completion: (() -> ())?)
+  #endif
   open func emitWithAck(_ event: Swift.String, _ items: any AntsomiFramework.SocketData...) -> AntsomiFramework.OnAckCallback
   open func emitWithAck(_ event: Swift.String, with items: [any AntsomiFramework.SocketData]) -> AntsomiFramework.OnAckCallback
   open func emitAck(_ ack: Swift.Int, with items: [Any])
@@ -1629,7 +1877,9 @@ public enum GamificationError : Swift.Error, Foundation.LocalizedError {
   open func handleEvent(_ event: Swift.String, data: [Any], isInternalMessage: Swift.Bool, withAck ack: Swift.Int = -1)
   open func handlePacket(_ packet: AntsomiFramework.SocketPacket)
   open func leaveNamespace()
+  #if compiler(>=5.3) && $NonescapableTypes
   open func joinNamespace(withPayload payload: [Swift.String : Any]? = nil)
+  #endif
   open func off(clientEvent event: AntsomiFramework.SocketClientEvent)
   open func off(_ event: Swift.String)
   open func off(id: Foundation.UUID)
