@@ -284,6 +284,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @import CoreFoundation;
 @import Foundation;
 @import ObjectiveC;
+@import ReplayKit;
 @import Security;
 @import UIKit;
 @import UserNotifications;
@@ -384,6 +385,12 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) Antsomi * _Nonnull sha
 /// \param gameCode Game code to fetch and play
 ///
 - (void)playGameWithGameCode:(NSString * _Nonnull)gameCode;
+/// Play game by game code with source URL (matches Android SDK)
+/// \param gameCode Game code to fetch and play
+///
+/// \param sourceUrl Current source URL to pass to the WebView runtime
+///
+- (void)playGameWithGameCode:(NSString * _Nonnull)gameCode sourceUrl:(NSString * _Nonnull)sourceUrl;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -458,6 +465,12 @@ SWIFT_CLASS("_TtC16AntsomiFramework26GamificationViewController")
 @property (nonatomic, readonly) UIStatusBarAnimation preferredStatusBarUpdateAnimation;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class RPPreviewViewController;
+SWIFT_AVAILABILITY(ios,introduced=11.0)
+@interface GamificationViewController (SWIFT_EXTENSION(AntsomiFramework)) <RPPreviewViewControllerDelegate>
+- (void)previewControllerDidFinish:(RPPreviewViewController * _Nonnull)previewController;
 @end
 
 @class WKUserContentController;
@@ -1229,6 +1242,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @import CoreFoundation;
 @import Foundation;
 @import ObjectiveC;
+@import ReplayKit;
 @import Security;
 @import UIKit;
 @import UserNotifications;
@@ -1329,6 +1343,12 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) Antsomi * _Nonnull sha
 /// \param gameCode Game code to fetch and play
 ///
 - (void)playGameWithGameCode:(NSString * _Nonnull)gameCode;
+/// Play game by game code with source URL (matches Android SDK)
+/// \param gameCode Game code to fetch and play
+///
+/// \param sourceUrl Current source URL to pass to the WebView runtime
+///
+- (void)playGameWithGameCode:(NSString * _Nonnull)gameCode sourceUrl:(NSString * _Nonnull)sourceUrl;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -1403,6 +1423,12 @@ SWIFT_CLASS("_TtC16AntsomiFramework26GamificationViewController")
 @property (nonatomic, readonly) UIStatusBarAnimation preferredStatusBarUpdateAnimation;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class RPPreviewViewController;
+SWIFT_AVAILABILITY(ios,introduced=11.0)
+@interface GamificationViewController (SWIFT_EXTENSION(AntsomiFramework)) <RPPreviewViewControllerDelegate>
+- (void)previewControllerDidFinish:(RPPreviewViewController * _Nonnull)previewController;
 @end
 
 @class WKUserContentController;

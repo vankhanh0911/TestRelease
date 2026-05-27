@@ -10789,6 +10789,34 @@
         "moduleName": "AntsomiFramework"
       },
       {
+        "kind": "Import",
+        "name": "Photos",
+        "printedName": "Photos",
+        "declKind": "Import",
+        "moduleName": "AntsomiFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "ReplayKit",
+        "printedName": "ReplayKit",
+        "declKind": "Import",
+        "moduleName": "AntsomiFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "UniformTypeIdentifiers",
+        "printedName": "UniformTypeIdentifiers",
+        "declKind": "Import",
+        "moduleName": "AntsomiFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "Speech",
+        "printedName": "Speech",
+        "declKind": "Import",
+        "moduleName": "AntsomiFramework"
+      },
+      {
         "kind": "TypeDecl",
         "name": "GamificationViewController",
         "printedName": "GamificationViewController",
@@ -10871,7 +10899,7 @@
           {
             "kind": "Function",
             "name": "create",
-            "printedName": "create(gameCode:accessToken:env:)",
+            "printedName": "create(gameCode:accessToken:env:sourceUrl:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -10896,17 +10924,32 @@
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Func",
-            "usr": "s:16AntsomiFramework26GamificationViewControllerC6create8gameCode11accessToken3envACSS_S2StFZ",
-            "mangledName": "$s16AntsomiFramework26GamificationViewControllerC6create8gameCode11accessToken3envACSS_S2StFZ",
+            "usr": "s:16AntsomiFramework26GamificationViewControllerC6create8gameCode11accessToken3env9sourceUrlACSS_S3SSgtFZ",
+            "mangledName": "$s16AntsomiFramework26GamificationViewControllerC6create8gameCode11accessToken3env9sourceUrlACSS_S3SSgtFZ",
             "moduleName": "AntsomiFramework",
             "static": true,
             "declAttributes": [
+              "Final",
               "Preconcurrency",
               "Custom",
-              "Final",
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
@@ -11636,6 +11679,38 @@
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "previewControllerDidFinish",
+            "printedName": "previewControllerDidFinish(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "RPPreviewViewController",
+                "printedName": "ReplayKit.RPPreviewViewController",
+                "usr": "c:objc(cs)RPPreviewViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AntsomiFramework@objc(cs)GamificationViewController(im)previewControllerDidFinish:",
+            "mangledName": "$s16AntsomiFramework26GamificationViewControllerC07previewE9DidFinishyySo09RPPreviewdE0CF",
+            "moduleName": "AntsomiFramework",
+            "objc_name": "previewControllerDidFinish:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -11741,6 +11816,23 @@
             "mangledName": "$ss16SendableMetatypeP"
           }
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "AntsomiFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AntsomiFramework"
       },
       {
         "kind": "Import",
@@ -24576,6 +24668,41 @@
             "declKind": "Func",
             "usr": "c:@M@AntsomiFramework@objc(cs)Antsomi(im)playGameWithGameCode:",
             "mangledName": "$s16AntsomiFramework0A0C8playGame8gameCodeySS_tF",
+            "moduleName": "AntsomiFramework",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "playGame",
+            "printedName": "playGame(gameCode:sourceUrl:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AntsomiFramework@objc(cs)Antsomi(im)playGameWithGameCode:sourceUrl:",
+            "mangledName": "$s16AntsomiFramework0A0C8playGame8gameCode9sourceUrlySS_SStF",
             "moduleName": "AntsomiFramework",
             "declAttributes": [
               "AccessControl",
@@ -63151,45 +63278,283 @@
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/GamificationViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 4238,
+      "length": 22,
+      "value": "\"startScreenRecording\""
+    },
+    {
+      "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/GamificationViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 4281,
+      "length": 21,
+      "value": "\"stopScreenRecording\""
+    },
+    {
+      "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/GamificationViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 4324,
+      "length": 22,
+      "value": "\"shareScreenRecording\""
+    },
+    {
+      "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/GamificationViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 4437,
+      "length": 17,
+      "value": "\"unsupported_api\""
+    },
+    {
+      "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/GamificationViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 4485,
+      "length": 17,
+      "value": "\"invalid_payload\""
+    },
+    {
+      "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/GamificationViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 4535,
+      "length": 19,
+      "value": "\"permission_prompt\""
+    },
+    {
+      "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/GamificationViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 4587,
+      "length": 19,
+      "value": "\"permission_denied\""
+    },
+    {
+      "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/GamificationViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 4645,
+      "length": 26,
+      "value": "\"recording_already_active\""
+    },
+    {
+      "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/GamificationViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 4704,
+      "length": 19,
+      "value": "\"recording_started\""
+    },
+    {
+      "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/GamificationViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 4754,
+      "length": 17,
+      "value": "\"recording_saved\""
+    },
+    {
+      "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/GamificationViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 4804,
+      "length": 19,
+      "value": "\"recording_missing\""
+    },
+    {
+      "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/GamificationViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 4852,
+      "length": 15,
+      "value": "\"not_recording\""
+    },
+    {
+      "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/GamificationViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 4895,
+      "length": 14,
+      "value": "\"share_opened\""
+    },
+    {
+      "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/GamificationViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 4937,
+      "length": 14,
+      "value": "\"share_failed\""
+    },
+    {
+      "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/GamificationViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 4973,
+      "length": 7,
+      "value": "\"error\""
+    },
+    {
+      "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/GamificationViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 5060,
+      "length": 24,
+      "value": "\"startSpeechRecognition\""
+    },
+    {
+      "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/GamificationViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 5105,
+      "length": 23,
+      "value": "\"stopSpeechRecognition\""
+    },
+    {
+      "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/GamificationViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 8562,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/GamificationViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 672,
+      "offset": 8699,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/GamificationViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 715,
+      "offset": 8742,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/GamificationViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 770,
+      "offset": 8797,
       "length": 3,
       "value": "0.2"
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/GamificationViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 818,
+      "offset": 8845,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/GamificationViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2672,
+      "offset": 9095,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/GamificationViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9205,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/GamificationViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9835,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/GamificationViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 9896,
+      "length": 41,
+      "value": "\"com.antsomi.gamification.recordingMerge\""
+    },
+    {
+      "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/GamificationViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 10011,
+      "length": 39,
+      "value": "\"com.antsomi.gamification.webShareFile\""
+    },
+    {
+      "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/GamificationViewController.swift",
+      "kind": "Dictionary",
+      "offset": 10137,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/GamificationViewController.swift",
+      "kind": "Dictionary",
+      "offset": 10214,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/GamificationViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10266,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/GamificationViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 10972,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/GamificationViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12904,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/GamificationViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2766,
+      "offset": 12998,
       "length": 4,
       "value": "true"
+    },
+    {
+      "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/GamificationViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 93720,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/GamificationMediaPermissions.swift",
+      "kind": "StringLiteral",
+      "offset": 253,
+      "length": 16,
+      "value": "\"not_determined\""
+    },
+    {
+      "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/GamificationMediaPermissions.swift",
+      "kind": "StringLiteral",
+      "offset": 1561,
+      "length": 19,
+      "value": "\"requires_settings\""
+    },
+    {
+      "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/GamificationMediaPermissions.swift",
+      "kind": "StringLiteral",
+      "offset": 1607,
+      "length": 17,
+      "value": "\"opened_settings\""
+    },
+    {
+      "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/GamificationMediaPermissions.swift",
+      "kind": "StringLiteral",
+      "offset": 7317,
+      "length": 22,
+      "value": "\"header_and_size_only\""
+    },
+    {
+      "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/GamificationMediaPermissions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7731,
+      "length": 4,
+      "value": "4096"
+    },
+    {
+      "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/GamificationMediaPermissions.swift",
+      "kind": "StringLiteral",
+      "offset": 10890,
+      "length": 15,
+      "value": "\"photo_library\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/StarScream\/Framer\/Framer.swift",
@@ -63917,7 +64282,7 @@
       "kind": "StringLiteral",
       "offset": 2276,
       "length": 8,
-      "value": "\"1.1.84\""
+      "value": "\"1.1.88\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
@@ -64240,6 +64605,13 @@
       "offset": 30597,
       "length": 12,
       "value": "\"production\""
+    },
+    {
+      "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
+      "kind": "StringLiteral",
+      "offset": 36600,
+      "length": 2,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/PushTemplate\/SmallImage\/Controller\/SmallImageController.swift",

@@ -12,10 +12,14 @@ import Dispatch
 import Foundation
 import Network
 import ObjectiveC
+import Photos
+import ReplayKit
 import Security
+import Speech
 import Swift
 import SystemConfiguration
 import UIKit
+import UniformTypeIdentifiers
 import UserNotifications
 import UserNotificationsUI
 import WebKit
@@ -436,8 +440,11 @@ public typealias Post = (msg: Swift.String, completion: (() -> ())?)
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class GamificationViewController : UIKit.UIViewController {
   @_Concurrency.MainActor @preconcurrency public static func create(gameUrl: Swift.String) -> GamificationViewController
   @_Concurrency.MainActor @preconcurrency public static func create(gameId: Swift.String, accessToken: Swift.String, env: Swift.String) -> GamificationViewController
-  @_Concurrency.MainActor @preconcurrency public static func create(gameCode: Swift.String, accessToken: Swift.String, env: Swift.String) -> GamificationViewController
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency public static func create(gameCode: Swift.String, accessToken: Swift.String, env: Swift.String, sourceUrl: Swift.String? = "") -> GamificationViewController
+  #endif
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
+  @objc deinit
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLayoutSubviews()
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public var prefersStatusBarHidden: Swift.Bool {
@@ -455,7 +462,6 @@ public typealias Post = (msg: Swift.String, completion: (() -> ())?)
   #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
   #endif
-  @objc deinit
 }
 extension GamificationViewController : WebKit.WKUIDelegate {
   @available(iOS 15.0, *)
@@ -476,6 +482,10 @@ extension GamificationViewController : WebKit.WKNavigationDelegate {
 }
 extension GamificationViewController : WebKit.WKScriptMessageHandler {
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func userContentController(_ userContentController: WebKit.WKUserContentController, didReceive message: WebKit.WKScriptMessage)
+}
+@available(iOS 11.0, *)
+extension GamificationViewController : ReplayKit.RPPreviewViewControllerDelegate {
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func previewControllerDidFinish(_ previewController: ReplayKit.RPPreviewViewController)
 }
 @objc @_inheritsConvenienceInitializers @available(macOS 10.15, iOS 13.0, watchOS 6.0, tvOS 13.0, *)
 public class NativeEngine : ObjectiveC.NSObject, Engine, Foundation.URLSessionDataDelegate, Foundation.URLSessionWebSocketDelegate {
@@ -891,6 +901,7 @@ public func AntsomiStoreLastNotificationJSON(_ cstr: Swift.UnsafePointer<Swift.C
   #endif
   @objc public func playGame(gameId: Swift.String)
   @objc public func playGame(gameCode: Swift.String)
+  @objc public func playGame(gameCode: Swift.String, sourceUrl: Swift.String = "")
   @objc override dynamic public init()
   @objc deinit
 }
