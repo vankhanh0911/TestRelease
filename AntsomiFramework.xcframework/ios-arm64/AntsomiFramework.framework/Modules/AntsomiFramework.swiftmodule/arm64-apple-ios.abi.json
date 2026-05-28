@@ -10810,13 +10810,6 @@
         "moduleName": "AntsomiFramework"
       },
       {
-        "kind": "Import",
-        "name": "Speech",
-        "printedName": "Speech",
-        "declKind": "Import",
-        "moduleName": "AntsomiFramework"
-      },
-      {
         "kind": "TypeDecl",
         "name": "GamificationViewController",
         "printedName": "GamificationViewController",
@@ -63279,238 +63272,224 @@
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/GamificationViewController.swift",
       "kind": "StringLiteral",
-      "offset": 4238,
+      "offset": 4165,
       "length": 22,
       "value": "\"startScreenRecording\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/GamificationViewController.swift",
       "kind": "StringLiteral",
-      "offset": 4281,
+      "offset": 4208,
       "length": 21,
       "value": "\"stopScreenRecording\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/GamificationViewController.swift",
       "kind": "StringLiteral",
-      "offset": 4324,
+      "offset": 4251,
       "length": 22,
       "value": "\"shareScreenRecording\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/GamificationViewController.swift",
       "kind": "StringLiteral",
-      "offset": 4437,
+      "offset": 4364,
       "length": 17,
       "value": "\"unsupported_api\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/GamificationViewController.swift",
       "kind": "StringLiteral",
-      "offset": 4485,
+      "offset": 4412,
       "length": 17,
       "value": "\"invalid_payload\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/GamificationViewController.swift",
       "kind": "StringLiteral",
-      "offset": 4535,
+      "offset": 4462,
       "length": 19,
       "value": "\"permission_prompt\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/GamificationViewController.swift",
       "kind": "StringLiteral",
-      "offset": 4587,
+      "offset": 4514,
       "length": 19,
       "value": "\"permission_denied\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/GamificationViewController.swift",
       "kind": "StringLiteral",
-      "offset": 4645,
+      "offset": 4572,
       "length": 26,
       "value": "\"recording_already_active\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/GamificationViewController.swift",
       "kind": "StringLiteral",
-      "offset": 4704,
+      "offset": 4631,
       "length": 19,
       "value": "\"recording_started\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/GamificationViewController.swift",
       "kind": "StringLiteral",
-      "offset": 4754,
+      "offset": 4681,
       "length": 17,
       "value": "\"recording_saved\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/GamificationViewController.swift",
       "kind": "StringLiteral",
-      "offset": 4804,
+      "offset": 4731,
       "length": 19,
       "value": "\"recording_missing\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/GamificationViewController.swift",
       "kind": "StringLiteral",
-      "offset": 4852,
+      "offset": 4779,
       "length": 15,
       "value": "\"not_recording\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/GamificationViewController.swift",
       "kind": "StringLiteral",
-      "offset": 4895,
+      "offset": 4822,
       "length": 14,
       "value": "\"share_opened\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/GamificationViewController.swift",
       "kind": "StringLiteral",
-      "offset": 4937,
+      "offset": 4864,
       "length": 14,
       "value": "\"share_failed\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/GamificationViewController.swift",
       "kind": "StringLiteral",
-      "offset": 4973,
+      "offset": 4900,
       "length": 7,
       "value": "\"error\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/GamificationViewController.swift",
       "kind": "StringLiteral",
-      "offset": 5060,
-      "length": 24,
-      "value": "\"startSpeechRecognition\""
-    },
-    {
-      "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/GamificationViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 5105,
-      "length": 23,
-      "value": "\"stopSpeechRecognition\""
-    },
-    {
-      "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/GamificationViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 8562,
+      "offset": 7500,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/GamificationViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 8699,
+      "offset": 7637,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/GamificationViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 8742,
+      "offset": 7680,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/GamificationViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 8797,
+      "offset": 7735,
       "length": 3,
       "value": "0.2"
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/GamificationViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8845,
+      "offset": 7783,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/GamificationViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 9095,
+      "offset": 8033,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/GamificationViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 9205,
+      "offset": 8143,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/GamificationViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 9835,
+      "offset": 8459,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/GamificationViewController.swift",
       "kind": "StringLiteral",
-      "offset": 9896,
+      "offset": 8520,
       "length": 41,
       "value": "\"com.antsomi.gamification.recordingMerge\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/GamificationViewController.swift",
       "kind": "StringLiteral",
-      "offset": 10011,
+      "offset": 8635,
       "length": 39,
       "value": "\"com.antsomi.gamification.webShareFile\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/GamificationViewController.swift",
       "kind": "Dictionary",
-      "offset": 10137,
+      "offset": 8761,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/GamificationViewController.swift",
       "kind": "Dictionary",
-      "offset": 10214,
+      "offset": 8838,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/GamificationViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 10266,
+      "offset": 8890,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/GamificationViewController.swift",
       "kind": "StringLiteral",
-      "offset": 10972,
+      "offset": 9596,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/GamificationViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 12904,
+      "offset": 11528,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/GamificationViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 12998,
+      "offset": 11622,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/GamificationViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 93720,
+      "offset": 84588,
       "length": 1,
       "value": "0"
     },
@@ -64282,7 +64261,7 @@
       "kind": "StringLiteral",
       "offset": 2276,
       "length": 8,
-      "value": "\"1.1.88\""
+      "value": "\"1.1.89\""
     },
     {
       "filePath": "\/Users\/khanhhuynhvan\/workspace\/source\/at.iossdkframework\/AntsomiFramework\/Antsomi\/Antsomi.swift",
